@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-28T00:31:00.455852Z",
+  "generated_at": "2026-04-28T03:02:21.724883Z",
   "totals": {
-    "total_entries": 653,
-    "resolved": 36,
+    "total_entries": 664,
+    "resolved": 37,
     "forward_singles": 27,
-    "backward_validation": 2,
+    "backward_validation": 3,
     "backward_logged": 2,
-    "open": 611,
+    "open": 621,
     "overdue": 114,
     "duplicates_tagged": 113,
     "from_v1": 476,
-    "from_v2": 176,
-    "ots_anchored": 477
+    "from_v2": 186,
+    "ots_anchored": 478
   },
   "headline_brier_FORWARD_ONLY": {
     "scope": "Forward, single-prediction, deduplicated, in-headline-domain only. Excludes pastcasting/cross-validation/aggregate batch claims and weak/exploratory domains.",
@@ -168,6 +168,13 @@
         "n_underlying": null,
         "brier": 0.2282,
         "notes": "n=206 monthly walk-forward resolutions, challenger Brier 0.2282 vs champion 0.2518 (delta 0.024, t=2.52, p=0.0126). Verdict: PROMOTE \u2014 challenger v3 passes monotonic-improvement gate."
+      },
+      {
+        "question": "Ghana cocoa direction (T+6mo > T?) walk-forward \u2014 does soil-moisture-anomaly feature improve over AR-momentum champion?",
+        "domain": "commodity_supply_forecasting",
+        "n_underlying": null,
+        "brier": 0.2463,
+        "notes": "Champion AR-momentum: Brier 0.2587, n=93 walk-forward (2018-01 \u2192 2025-09). Challenger B (multi-lag SM: T-3+T-6+T-9 weighted): Brier 0.2463, delta +0.0124, paired t=-2.29, p=0.024. No slice regression in any year 2018-2025. Verdict: PROMOTE."
       }
     ]
   },
@@ -294,7 +301,7 @@
   "audit_flag_counts": [
     [
       "no_ots_anchor",
-      176
+      186
     ],
     [
       "resolution_overdue",

@@ -13777,9 +13777,9 @@
     "temporal_class": "FWD"
   },
   {
-    "canonical_id": "v1_unknown_4347837504",
+    "canonical_id": "v1_unknown_4307123392",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4347837504",
+    "original_id": "v1_unknown_4307123392",
     "original_sha": null,
     "domain": "eia_gasoline",
     "question": "EIA gasoline inventories build (increase) for week ending 2026-04-20",
@@ -13809,9 +13809,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4347838400",
+    "canonical_id": "v1_unknown_4307136640",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4347838400",
+    "original_id": "v1_unknown_4307136640",
     "original_sha": null,
     "domain": "eia_distillate",
     "question": "EIA distillate inventories build (increase) for week ending 2026-04-20",
@@ -13841,9 +13841,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4347851008",
+    "canonical_id": "v1_unknown_4307136896",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4347851008",
+    "original_id": "v1_unknown_4307136896",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-04-24 than Monday open",
@@ -13873,9 +13873,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4347851200",
+    "canonical_id": "v1_unknown_4307137088",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4347851200",
+    "original_id": "v1_unknown_4307137088",
     "original_sha": null,
     "domain": "spr_level",
     "question": "SPR level higher in 4 weeks than current",
@@ -13905,9 +13905,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4347851776",
+    "canonical_id": "v1_unknown_4307137664",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4347851776",
+    "original_id": "v1_unknown_4307137664",
     "original_sha": null,
     "domain": "existing_home_sales",
     "question": "Existing home sales higher MoM for March",
@@ -13937,9 +13937,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4347851968",
+    "canonical_id": "v1_unknown_4307137856",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4347851968",
+    "original_id": "v1_unknown_4307137856",
     "original_sha": null,
     "domain": "fed_terminal",
     "question": "Fed funds upper above 4.00% at next FOMC decision",
@@ -13969,9 +13969,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4347852352",
+    "canonical_id": "v1_unknown_4307138240",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4347852352",
+    "original_id": "v1_unknown_4307138240",
     "original_sha": null,
     "domain": "boj_decision",
     "question": "Bank of Japan holds rates at next meeting",
@@ -14001,9 +14001,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4347852608",
+    "canonical_id": "v1_unknown_4307138496",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4347852608",
+    "original_id": "v1_unknown_4307138496",
     "original_sha": null,
     "domain": "ez_cpi",
     "question": "Eurozone CPI hotter than consensus for April",
@@ -14033,9 +14033,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4347852864",
+    "canonical_id": "v1_unknown_4307138752",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4347852864",
+    "original_id": "v1_unknown_4307138752",
     "original_sha": null,
     "domain": "political_calendar",
     "question": "BOJ April rate decision \u2014 our lean: hold_likely",
@@ -14065,9 +14065,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4347853504",
+    "canonical_id": "v1_unknown_4307139392",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4347853504",
+    "original_id": "v1_unknown_4307139392",
     "original_sha": null,
     "domain": "nba_playoff",
     "question": "NBA playoff higher seed wins next game (1st round)",
@@ -21776,6 +21776,436 @@
     "temporal_class": "UNKNOWN"
   },
   {
+    "canonical_id": "pred_c12d959b",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_c12d959b",
+    "original_sha": "c12d959b7de1fd7ac2c0aaf53efc70b15283fc5e2633478347c7f696c0fc71cd",
+    "domain": "sports_ip",
+    "question": "NBA central revenues exceed $9.5B in Two Circles 2027 Sports IP Revenue League release",
+    "resolution_criterion": "NBA central revenue in 2027 release \u2265 $9.5B (current $8.1B at 23% CAGR)",
+    "chorus_probability": 0.85,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-04-28T03:01:05.931681+00:00",
+    "locked_at": "2026-04-28T03:01:05.931681+00:00",
+    "resolution_date": "2027-04-30",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_sports_two_circles_v1"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "current_revenue_M": 8100,
+        "ten_year_cagr_pct": 23,
+        "implied_one_year_run_rate_M": 9963,
+        "rationale": "23% CAGR is highest among major US leagues; one-year extrapolation gives $9.96B; $9.5B is below extrapolation"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "RELIABLE"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD"
+  },
+  {
+    "canonical_id": "pred_0bf1a905",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_0bf1a905",
+    "original_sha": "0bf1a9053f6f74b718294968b3f46ce3176113c8d87b87c3e3983fad887387d0",
+    "domain": "sports_ip",
+    "question": "Hong Kong Jockey Club retains top-3 rank in Two Circles 2027 release",
+    "resolution_criterion": "Hong Kong Jockey Club ranks #1, #2, or #3 in 2027 release (currently #3 at $6.4B, 26% CAGR)",
+    "chorus_probability": 0.8,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-04-28T03:01:05.931681+00:00",
+    "locked_at": "2026-04-28T03:01:05.931681+00:00",
+    "resolution_date": "2027-04-30",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_sports_two_circles_v1"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "current_revenue_M": 6400,
+        "current_rank": 3,
+        "ten_year_cagr_pct": 26,
+        "rationale": "Highest CAGR in top-10. NFL ($14.9B/7%) and NBA ($8.1B/23%) are above; HKJC's growth rate exceeds both, but absolute revenue still places it #3. Premier League ($5.3B/5%) is the displacement risk if HKJC growth softens."
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "RELIABLE"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD"
+  },
+  {
+    "canonical_id": "pred_bda0cb3c",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_bda0cb3c",
+    "original_sha": "bda0cb3c26c251abb37d5c1e786dd52c03167ade6d6e13f2d2b59ecceadab95f",
+    "domain": "sports_ip",
+    "question": "TKO Group exceeds $5.5B revenue in Two Circles 2027 release",
+    "resolution_criterion": "TKO Group revenue in 2027 release \u2265 $5.5B (current $4.7B at 16% CAGR)",
+    "chorus_probability": 0.55,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-04-28T03:01:05.931681+00:00",
+    "locked_at": "2026-04-28T03:01:05.931681+00:00",
+    "resolution_date": "2027-04-30",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_sports_two_circles_v1"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "current_revenue_M": 4700,
+        "ten_year_cagr_pct": 16,
+        "implied_one_year_run_rate_M": 5452,
+        "rationale": "16% CAGR puts one-year extrapolation at $5.45B \u2014 fractionally below threshold. Moderate prob reflects threshold proximity."
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MODERATE"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD"
+  },
+  {
+    "canonical_id": "pred_c5efc952",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_c5efc952",
+    "original_sha": "c5efc952de475b16fff4b9a10957ae374a8dff6191ee917b351b29911c2ad64f",
+    "domain": "sports_ip",
+    "question": "N.Y. Yankees fail to exceed 4% trailing 10yr CAGR in Two Circles 2027 release",
+    "resolution_criterion": "N.Y. Yankees 10-year CAGR in 2027 release < 4.0% (currently 2%, MLB-team baseline ~6%)",
+    "chorus_probability": 0.65,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-04-28T03:01:05.931681+00:00",
+    "locked_at": "2026-04-28T03:01:05.931681+00:00",
+    "resolution_date": "2027-04-30",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_sports_two_circles_v1"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "current_cagr_pct": 2,
+        "mlb_franchise_baseline_cagr_pct": 6,
+        "residual_vs_baseline_pct": -4,
+        "rationale": "Yankees -4pp residual vs MLB team baseline is the largest underperformance in the top-50 baseball cohort. Mean-reversion would lift toward 6%; structural underperformance would keep at 2-3%. 4% is the midpoint; we predict structural side wins."
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MODERATE"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD"
+  },
+  {
+    "canonical_id": "pred_d10e7bff",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_d10e7bff",
+    "original_sha": "d10e7bff8be2b8bf3a8dec751040d62d66f079c5ab7b713506e0efbf5d7df734",
+    "domain": "sports_ip",
+    "question": "Big Ten passes Real Madrid in rank in Two Circles 2027 release",
+    "resolution_criterion": "Big Ten ranks higher than Real Madrid in 2027 release (currently Big Ten #20 at $1.3B/13% CAGR; Real Madrid #22 at $960M/12%)",
+    "chorus_probability": 0.7,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-04-28T03:01:05.931681+00:00",
+    "locked_at": "2026-04-28T03:01:05.931681+00:00",
+    "resolution_date": "2027-04-30",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_sports_two_circles_v1"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "big_ten_revenue_M": 1300,
+        "big_ten_cagr_pct": 13,
+        "real_madrid_revenue_M": 960,
+        "real_madrid_cagr_pct": 12,
+        "current_rank_delta": 2,
+        "rationale": "Big Ten is already 2 ranks above Real Madrid and growing slightly faster. Lock-in stronger than crossover."
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MODERATE"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD"
+  },
+  {
+    "canonical_id": "pred_779b30a0",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_779b30a0",
+    "original_sha": "779b30a0a1dda12b2f62430c958c83b40cf1a9fc86e89c399ecc30c62fbf22cc",
+    "domain": "sports_ip",
+    "question": "UEFA/UC3 passes Premier League into rank #4 in Two Circles 2027 release",
+    "resolution_criterion": "UEFA/UC3 ranks above Premier League in 2027 release (both currently $5.3B; UEFA 10% CAGR vs Premier League 5%)",
+    "chorus_probability": 0.6,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-04-28T03:01:05.931681+00:00",
+    "locked_at": "2026-04-28T03:01:05.931681+00:00",
+    "resolution_date": "2027-04-30",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_sports_two_circles_v1"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "current_uefa_revenue_M": 5300,
+        "current_pl_revenue_M": 5300,
+        "uefa_cagr_pct": 10,
+        "pl_cagr_pct": 5,
+        "rationale": "Tied today; UEFA growth rate is 2x Premier League's. One-year extrapolation puts UEFA at ~$5.83B vs Premier League at ~$5.57B. Moderate confidence reflects rounding/measurement noise at this scale."
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MODERATE"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD"
+  },
+  {
+    "canonical_id": "pred_9c16d3f8",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_9c16d3f8",
+    "original_sha": "9c16d3f82acbe52dfc7b7d2a7048c51ffd00ffa7cd3baa656ac04d1cae16e95c",
+    "domain": "sports_ip",
+    "question": "Golden State Warriors retains highest-CAGR NBA franchise in Two Circles top-50 (2027 release)",
+    "resolution_criterion": "Golden State Warriors has the highest 10-year CAGR among NBA franchises listed in 2027 Two Circles top-50",
+    "chorus_probability": 0.55,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-04-28T03:01:05.931681+00:00",
+    "locked_at": "2026-04-28T03:01:05.931681+00:00",
+    "resolution_date": "2027-04-30",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_sports_two_circles_v1"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "gsw_cagr_pct": 16,
+        "competitive_threats": "OKC Thunder, Houston Rockets, Boston Celtics if they enter top-50 with higher growth",
+        "rationale": "GSW at 16% is the only NBA franchise in top-50 today. Risk: a faster-growing franchise enters top-50 by 2027 release."
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MODERATE"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD"
+  },
+  {
+    "canonical_id": "pred_891ca2bb",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_891ca2bb",
+    "original_sha": "891ca2bb67d3906988e5d79bcc3096bf1f2d472823f3b4d78a2b20e2aeb8332f",
+    "domain": "sports_ip",
+    "question": "Churchill Downs grows revenue \u226510% YoY in next Two Circles release",
+    "resolution_criterion": "Churchill Downs revenue in 2027 release \u2265 $3.19B ($2.9B \u00d7 1.10)",
+    "chorus_probability": 0.65,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-04-28T03:01:05.931681+00:00",
+    "locked_at": "2026-04-28T03:01:05.931681+00:00",
+    "resolution_date": "2027-04-30",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_sports_two_circles_v1"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "current_revenue_M": 2900,
+        "ten_year_cagr_pct": 12,
+        "rationale": "12% CAGR sustains 10% YoY most years. Threat: betting/gaming revenue compression if state regulation changes."
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MODERATE"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD"
+  },
+  {
+    "canonical_id": "pred_b64c25ca",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_b64c25ca",
+    "original_sha": "b64c25caf2dd145dab4a033a2525a45b409453748066ec7f4fb029a81b3107db",
+    "domain": "sports_ip",
+    "question": "Nippon Professional Baseball crosses $750M revenue in Two Circles 2027 release",
+    "resolution_criterion": "NPB central revenue in 2027 release \u2265 $750M (current $610M at 25% CAGR)",
+    "chorus_probability": 0.55,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-04-28T03:01:05.931681+00:00",
+    "locked_at": "2026-04-28T03:01:05.931681+00:00",
+    "resolution_date": "2027-04-30",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_sports_two_circles_v1"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "current_revenue_M": 610,
+        "ten_year_cagr_pct": 25,
+        "implied_one_year_run_rate_M": 762,
+        "rationale": "25% CAGR is one of highest in top-50. One-year extrapolation = $762M, just above $750M threshold."
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MODERATE"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD"
+  },
+  {
+    "canonical_id": "pred_cb28172c",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_cb28172c",
+    "original_sha": "cb28172c907ce63118ac3f5f2c4431d2282d7ae273b973ed4a67c8b907fdca49",
+    "domain": "sports_ip",
+    "question": "Top-50 cumulative revenue grows \u22657% YoY in next Two Circles release",
+    "resolution_criterion": "Sum of top-50 organization revenues in 2027 release \u2265 1.07\u00d7 sum of 2026 release top-50",
+    "chorus_probability": 0.7,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-04-28T03:01:05.931681+00:00",
+    "locked_at": "2026-04-28T03:01:05.931681+00:00",
+    "resolution_date": "2027-04-30",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_sports_two_circles_v1"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "current_top50_sum_M": 94410,
+        "industry_cagr_pct": 6,
+        "rationale": "Industry-wide CAGR is 6% per Two Circles. Top-50 grows slightly faster than industry due to mix shift toward growth-tier IPs (TKO, HKJC, BCCI)."
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MODERATE"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD"
+  },
+  {
     "canonical_id": "cocoa_cpi_walkforward_2026-04-27",
     "source_file": "data/forecastbench/cross_signal_findings/cocoa_v3_cpi_backtest.json",
     "original_id": "cocoa_v3_cpi_backtest_2026-04-27",
@@ -21845,6 +22275,56 @@
     "audit_flags": [
       "slice_regression_2015_2019_thin"
     ],
+    "temporal_class": "AGG"
+  },
+  {
+    "canonical_id": "soil_moisture_cocoa_promotion_2026-04-27",
+    "source_file": "ra_intelligence/output/soil_moisture_promotion_2026-04-27.json",
+    "original_id": "ghana_cocoa_walk_forward_w_soil_moisture_2026-04-27",
+    "original_sha": null,
+    "domain": "commodity_supply_forecasting",
+    "headline_domain": null,
+    "in_headline": false,
+    "question": "Ghana cocoa direction (T+6mo > T?) walk-forward \u2014 does soil-moisture-anomaly feature improve over AR-momentum champion?",
+    "resolution_criterion": "Aggregate Brier(challenger) \u2264 Brier(champion) AND paired t-test p < 0.10 AND no per-year slice worse by >0.02",
+    "chorus_probability": null,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "resolved",
+    "created_at": "2026-04-27T00:00:00+00:00",
+    "locked_at": "2026-04-27T00:00:00+00:00",
+    "resolution_date": "2026-04-27T00:00:00+00:00",
+    "resolved_at": "2026-04-27T00:00:00+00:00",
+    "resolution": null,
+    "resolution_source": "Champion AR-momentum: Brier 0.2587, n=93 walk-forward (2018-01 \u2192 2025-09). Challenger B (multi-lag SM: T-3+T-6+T-9 weighted): Brier 0.2463, delta +0.0124, paired t=-2.29, p=0.024. No slice regression in any year 2018-2025. Verdict: PROMOTE.",
+    "brier_score": 0.2463,
+    "baseline_brier": 0.2587,
+    "brier_skill_score": 0.0479,
+    "data_sources_used": [
+      "FRED_PCOCOUSDM",
+      "NASA_POWER_GWETROOT",
+      "Ghana_Kumasi_6.6884N_-1.6244E",
+      "Cote_dIvoire_SanPedro_4.7485N_-6.6363W"
+    ],
+    "model_inputs": {
+      "champion": "AR-momentum (12mo log return \u2192 contrarian sigmoid)",
+      "challenger_a": "AR-momentum + SM lag-6 (single lag)",
+      "challenger_b": "AR-momentum + SM weighted lag (T-3, T-6, T-9 with r-weights 0.097, 0.257, 0.147)",
+      "n_walk_forward": 93,
+      "champion_brier": 0.2587,
+      "challenger_a_brier": 0.2521,
+      "challenger_b_brier": 0.2463,
+      "delta_b_vs_champion": 0.0124,
+      "t_stat_b": -2.29,
+      "p_value_b": 0.024,
+      "slice_regression_b": false,
+      "best_2025_slice_delta": 0.0505,
+      "promotion_verdict": "PROMOTE \u2014 challenger B passes all 3 gates"
+    },
+    "ots_anchor": "ledger_canonical.json.ots",
+    "ots_anchored": true,
+    "schema_version": "v3_backward_validation",
+    "audit_flags": [],
     "temporal_class": "AGG"
   }
 ]
