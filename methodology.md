@@ -1,5 +1,17 @@
 # Chorus Prediction Methodology
 
+## Forward-only lock gate (effective 2026-04-27)
+
+Going forward, every prediction must clear the lock gate before it enters the public ledger:
+
+- **`model_confidence ≥ 0.70`** — the predictor's self-reported calibration must clear this floor
+- **`|edge from baseline| ≥ 0.10`** — the predicted probability must differ meaningfully from the naive baseline
+- **`p ∉ (0.45, 0.55)`** — predictions in the coin-flip dead-zone are not real calls and don't enter
+
+Predictions that fail the gate raise `BelowLockGate` and never enter the ledger. This is enforced at the framework level in `BrierTracker.add()` so the discipline can't drift accidentally.
+
+Existing predictions on the ledger are NOT retroactively re-evaluated — the rule is going-forward only, consistent with the broader principle that *predictions never regress* (we don't pull out weak past calls; we just stop locking new weak ones).
+
 ## What we predict
 
 Chorus generates probability estimates for events with verifiable outcomes:
