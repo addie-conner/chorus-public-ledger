@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-28T00:30:24.379135Z",
+  "generated_at": "2026-04-28T00:31:00.455852Z",
   "totals": {
     "total_entries": 653,
     "resolved": 36,
     "forward_singles": 27,
-    "backward_validation": 1,
-    "backward_logged": 3,
+    "backward_validation": 2,
+    "backward_logged": 2,
     "open": 611,
     "overdue": 114,
     "duplicates_tagged": 113,
@@ -161,6 +161,13 @@
         "n_underlying": 0,
         "brier": 0.045,
         "notes": "165 predictions, Brier 0.045, 2x superforecasters"
+      },
+      {
+        "question": "Cocoa-to-chocolate-CPI direction (walk-forward backtest)",
+        "domain": "commodity_cpi_transmission",
+        "n_underlying": null,
+        "brier": 0.2282,
+        "notes": "n=206 monthly walk-forward resolutions, challenger Brier 0.2282 vs champion 0.2518 (delta 0.024, t=2.52, p=0.0126). Verdict: PROMOTE \u2014 challenger v3 passes monotonic-improvement gate."
       }
     ]
   },

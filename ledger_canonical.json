@@ -13777,9 +13777,9 @@
     "temporal_class": "FWD"
   },
   {
-    "canonical_id": "v1_unknown_4348979712",
+    "canonical_id": "v1_unknown_4347837504",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4348979712",
+    "original_id": "v1_unknown_4347837504",
     "original_sha": null,
     "domain": "eia_gasoline",
     "question": "EIA gasoline inventories build (increase) for week ending 2026-04-20",
@@ -13809,9 +13809,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4348980608",
+    "canonical_id": "v1_unknown_4347838400",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4348980608",
+    "original_id": "v1_unknown_4347838400",
     "original_sha": null,
     "domain": "eia_distillate",
     "question": "EIA distillate inventories build (increase) for week ending 2026-04-20",
@@ -13841,9 +13841,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4348980864",
+    "canonical_id": "v1_unknown_4347851008",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4348980864",
+    "original_id": "v1_unknown_4347851008",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-04-24 than Monday open",
@@ -13873,9 +13873,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4348981056",
+    "canonical_id": "v1_unknown_4347851200",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4348981056",
+    "original_id": "v1_unknown_4347851200",
     "original_sha": null,
     "domain": "spr_level",
     "question": "SPR level higher in 4 weeks than current",
@@ -13905,9 +13905,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4348993984",
+    "canonical_id": "v1_unknown_4347851776",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4348993984",
+    "original_id": "v1_unknown_4347851776",
     "original_sha": null,
     "domain": "existing_home_sales",
     "question": "Existing home sales higher MoM for March",
@@ -13937,9 +13937,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4348994176",
+    "canonical_id": "v1_unknown_4347851968",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4348994176",
+    "original_id": "v1_unknown_4347851968",
     "original_sha": null,
     "domain": "fed_terminal",
     "question": "Fed funds upper above 4.00% at next FOMC decision",
@@ -13969,9 +13969,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4348994560",
+    "canonical_id": "v1_unknown_4347852352",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4348994560",
+    "original_id": "v1_unknown_4347852352",
     "original_sha": null,
     "domain": "boj_decision",
     "question": "Bank of Japan holds rates at next meeting",
@@ -14001,9 +14001,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4348994816",
+    "canonical_id": "v1_unknown_4347852608",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4348994816",
+    "original_id": "v1_unknown_4347852608",
     "original_sha": null,
     "domain": "ez_cpi",
     "question": "Eurozone CPI hotter than consensus for April",
@@ -14033,9 +14033,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4348995072",
+    "canonical_id": "v1_unknown_4347852864",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4348995072",
+    "original_id": "v1_unknown_4347852864",
     "original_sha": null,
     "domain": "political_calendar",
     "question": "BOJ April rate decision \u2014 our lean: hold_likely",
@@ -14065,9 +14065,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4348995712",
+    "canonical_id": "v1_unknown_4347853504",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4348995712",
+    "original_id": "v1_unknown_4347853504",
     "original_sha": null,
     "domain": "nba_playoff",
     "question": "NBA playoff higher seed wins next game (1st round)",
@@ -21845,6 +21845,6 @@
     "audit_flags": [
       "slice_regression_2015_2019_thin"
     ],
-    "temporal_class": "BWD"
+    "temporal_class": "AGG"
   }
 ]
