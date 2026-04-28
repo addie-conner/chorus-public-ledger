@@ -1,0 +1,369 @@
+{
+  "generated_at": "2026-04-27T23:38:40.199171Z",
+  "totals": {
+    "total_entries": 652,
+    "resolved": 35,
+    "forward_singles": 27,
+    "backward_validation": 1,
+    "backward_logged": 2,
+    "open": 611,
+    "overdue": 114,
+    "duplicates_tagged": 113,
+    "from_v1": 476,
+    "from_v2": 176,
+    "ots_anchored": 476
+  },
+  "headline_brier_FORWARD_ONLY": {
+    "scope": "Forward, single-prediction, deduplicated, in-headline-domain only. Excludes pastcasting/cross-validation/aggregate batch claims and weak/exploratory domains.",
+    "n": 15,
+    "mean_brier": 0.0514,
+    "best": 0.0,
+    "worst": 0.1444,
+    "interpretation": "Lower=better. 0.05-0.10 = superforecaster tier; 538 elections ~0.05-0.07; coin-flip = 0.25."
+  },
+  "headline_by_domain": {
+    "corporate_earnings": {
+      "n": 6,
+      "mean_brier": 0.0524,
+      "best": 0.0144,
+      "worst": 0.0784,
+      "predictions": [
+        {
+          "q": "JPM beats Q1 2026 EPS consensus",
+          "p": 0.88,
+          "actual": 1.0,
+          "brier": 0.0144
+        },
+        {
+          "q": "GS beats Q1 2026 EPS consensus",
+          "p": 0.78,
+          "actual": 1.0,
+          "brier": 0.0484
+        },
+        {
+          "q": "NFLX beats Q1 2026 revenue consensus",
+          "p": 0.75,
+          "actual": 1.0,
+          "brier": 0.0625
+        },
+        {
+          "q": "BAC beats Q1 2026 EPS consensus",
+          "p": 0.72,
+          "actual": 1.0,
+          "brier": 0.0784
+        },
+        {
+          "q": "Citigroup C beats Q1 2026 EPS consensus",
+          "p": 0.75,
+          "actual": 1.0,
+          "brier": 0.0625
+        },
+        {
+          "q": "Wells Fargo WFC beats Q1 2026 EPS consensus",
+          "p": 0.78,
+          "actual": 1.0,
+          "brier": 0.0484
+        }
+      ]
+    },
+    "macro_indicators": {
+      "n": 5,
+      "mean_brier": 0.0389,
+      "best": 0.0,
+      "worst": 0.1132,
+      "predictions": [
+        {
+          "q": "ISM Services PMI above 50 (expansion) for March 2026",
+          "p": 0.78,
+          "actual": 1.0,
+          "brier": 0.0484
+        },
+        {
+          "q": "Initial jobless claims below 220k for week ending 2026-04-04",
+          "p": 0.6636,
+          "actual": 1.0,
+          "brier": 0.1132
+        },
+        {
+          "q": "EIA natural gas storage injection (build) for week ending 2026-04-04",
+          "p": 0.82,
+          "actual": 1.0,
+          "brier": 0.0324
+        },
+        {
+          "q": "Weekly initial jobless claims \u2265220K for week ending 2026-04-18 (BLS release 2026-04-23)",
+          "p": 0.025,
+          "actual": 0.0,
+          "brier": 0.0006250000000000001
+        },
+        {
+          "q": "Weekly initial jobless claims \u2265225K for week ending 2026-04-18 (BLS release 2026-04-23)",
+          "p": 0.002,
+          "actual": 0.0,
+          "brier": 4e-06
+        }
+      ]
+    },
+    "latin_america": {
+      "n": 2,
+      "mean_brier": 0.0513,
+      "best": 0.04,
+      "worst": 0.0625,
+      "predictions": [
+        {
+          "q": "Peru completes scheduled 2026 elections without major disruption",
+          "p": 0.75,
+          "actual": 1.0,
+          "brier": 0.0625
+        },
+        {
+          "q": "Peru holds scheduled 2026 elections on time",
+          "p": 0.8,
+          "actual": 1.0,
+          "brier": 0.04
+        }
+      ]
+    },
+    "international_political": {
+      "n": 2,
+      "mean_brier": 0.0794,
+      "best": 0.0144,
+      "worst": 0.1444,
+      "predictions": [
+        {
+          "q": "Tisza wins Hungary parliamentary election Apr 12 2026 (popular vote)",
+          "p": 0.88,
+          "actual": 1.0,
+          "brier": 0.0144
+        },
+        {
+          "q": "Tisza popular vote margin > 9% over Fidesz",
+          "p": 0.62,
+          "actual": 1.0,
+          "brier": 0.1444
+        }
+      ]
+    }
+  },
+  "all_forward_brier": {
+    "scope": "All forward, single, deduplicated predictions across all domains (full transparency).",
+    "n": 27,
+    "mean_brier": 0.1171,
+    "best": 0.0,
+    "worst": 0.4225
+  },
+  "backward_validation": {
+    "scope": "Pastcasting / cross-validation / aggregate batch claims. NOT forward predictions. Methodology evidence only.",
+    "entries": [
+      {
+        "question": "Iowa political model \u2014 165 predictions aggregate",
+        "domain": "politics",
+        "n_underlying": 0,
+        "brier": 0.045,
+        "notes": "165 predictions, Brier 0.045, 2x superforecasters"
+      }
+    ]
+  },
+  "by_domain_FORWARD_ONLY": {
+    "earnings_sector_rate": {
+      "n": 4,
+      "mean_brier": 0.0509,
+      "best": 0.0144,
+      "worst": 0.0784,
+      "in_headline": true
+    },
+    "pricing": {
+      "n": 4,
+      "mean_brier": 0.2777,
+      "best": 0.1764,
+      "worst": 0.3721,
+      "in_headline": false
+    },
+    "precious_metals_direction": {
+      "n": 3,
+      "mean_brier": 0.1076,
+      "best": 0.0625,
+      "worst": 0.1579,
+      "in_headline": false
+    },
+    "earnings_largecap": {
+      "n": 2,
+      "mean_brier": 0.0554,
+      "best": 0.0484,
+      "worst": 0.0625,
+      "in_headline": true
+    },
+    "international_political": {
+      "n": 2,
+      "mean_brier": 0.0794,
+      "best": 0.0144,
+      "worst": 0.1444,
+      "in_headline": true
+    },
+    "labor_claims": {
+      "n": 2,
+      "mean_brier": 0.0003,
+      "best": 0.0,
+      "worst": 0.0006,
+      "in_headline": true
+    },
+    "chorus-reference-class": {
+      "n": 1,
+      "mean_brier": 0.25,
+      "best": 0.25,
+      "worst": 0.25,
+      "in_headline": false
+    },
+    "ism_scan": {
+      "n": 1,
+      "mean_brier": 0.0484,
+      "best": 0.0484,
+      "worst": 0.0484,
+      "in_headline": true
+    },
+    "global_latam": {
+      "n": 1,
+      "mean_brier": 0.0625,
+      "best": 0.0625,
+      "worst": 0.0625,
+      "in_headline": true
+    },
+    "latam_scan": {
+      "n": 1,
+      "mean_brier": 0.04,
+      "best": 0.04,
+      "worst": 0.04,
+      "in_headline": true
+    },
+    "jobless_claims": {
+      "n": 1,
+      "mean_brier": 0.1132,
+      "best": 0.1132,
+      "worst": 0.1132,
+      "in_headline": true
+    },
+    "eia_natgas": {
+      "n": 1,
+      "mean_brier": 0.0324,
+      "best": 0.0324,
+      "worst": 0.0324,
+      "in_headline": true
+    },
+    "retail_sales": {
+      "n": 1,
+      "mean_brier": 0.1225,
+      "best": 0.1225,
+      "worst": 0.1225,
+      "in_headline": false
+    },
+    "politics": {
+      "n": 1,
+      "mean_brier": 0.049,
+      "best": 0.049,
+      "worst": 0.049,
+      "in_headline": false
+    },
+    "energy": {
+      "n": 1,
+      "mean_brier": 0.4225,
+      "best": 0.4225,
+      "worst": 0.4225,
+      "in_headline": false
+    },
+    "colorado_phonefree": {
+      "n": 1,
+      "mean_brier": 0.1128,
+      "best": 0.1128,
+      "worst": 0.1128,
+      "in_headline": false
+    }
+  },
+  "by_year_FORWARD_ONLY": {
+    "2026": {
+      "n": 26,
+      "mean_brier": 0.1169
+    }
+  },
+  "audit_flag_counts": [
+    [
+      "no_ots_anchor",
+      176
+    ],
+    [
+      "resolution_overdue",
+      114
+    ],
+    [
+      "missing_locked_at",
+      40
+    ],
+    [
+      "duplicate_of:pred_b7720131",
+      36
+    ],
+    [
+      "missing_sha256",
+      11
+    ],
+    [
+      "missing_id",
+      10
+    ],
+    [
+      "duplicate_of:164377ad2cae",
+      8
+    ],
+    [
+      "duplicate_of:3a45e7f61e83",
+      7
+    ],
+    [
+      "duplicate_of:73dda56e9577",
+      5
+    ],
+    [
+      "duplicate_of:fbec98f5399b",
+      5
+    ],
+    [
+      "duplicate_of:pred_fb_da97b7ddfe29",
+      5
+    ],
+    [
+      "duplicate_of:pred_fb_848fde7e8a93",
+      5
+    ],
+    [
+      "duplicate_of:85d2fbc9281a",
+      4
+    ],
+    [
+      "duplicate_of:5cf50d5003f6",
+      3
+    ],
+    [
+      "duplicate_of:pred_fb_6d639f5ead40",
+      3
+    ],
+    [
+      "duplicate_of:pred_fb_29b22e9758d9",
+      3
+    ],
+    [
+      "duplicate_of:92a3e9446875",
+      2
+    ],
+    [
+      "duplicate_of:4c268d05f345",
+      2
+    ],
+    [
+      "duplicate_of:55bdb5f3d5ed",
+      2
+    ],
+    [
+      "duplicate_of:fd3aa68b19b6",
+      2
+    ]
+  ]
+}

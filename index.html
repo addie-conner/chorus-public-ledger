@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chorus — Public Prediction Ledger</title>
+<meta name="description" content="SHA-locked, OpenTimestamps-anchored prediction ledger with resolved Brier scores. Forward predictions only; methodology and verification protocol open.">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'SF Mono', 'Fira Code', monospace; background: #0a0a0a; color: #d8d8d8; line-height: 1.5; padding: 2rem 1rem; max-width: 1100px; margin: 0 auto; font-size: 14px; }
+  h1 { font-size: 1.4rem; color: #fff; margin-bottom: 0.25rem; letter-spacing: -0.5px; }
+  h2 { font-size: 1rem; color: #ccc; margin: 2.5rem 0 0.75rem; border-bottom: 1px solid #2a2a2a; padding-bottom: 0.4rem; }
+  h3 { font-size: 0.95rem; color: #aaa; margin: 1.5rem 0 0.5rem; }
+  p, ul, li { color: #aaa; font-size: 0.85rem; }
+  ul { padding-left: 1.5rem; margin: 0.5rem 0; }
+  li { margin-bottom: 0.25rem; }
+  .subtitle { color: #888; font-size: 0.85rem; margin-bottom: 1.5rem; }
+  .hero { text-align: center; padding: 2rem 0 1.5rem; border-bottom: 1px solid #2a2a2a; margin-bottom: 1.5rem; }
+  .hero .brier { font-size: 3.2rem; color: #4ade80; font-weight: bold; line-height: 1; letter-spacing: -2px; }
+  .hero .label { font-size: 0.85rem; color: #888; margin-top: 0.5rem; }
+  .hero .meta { font-size: 0.75rem; color: #666; margin-top: 0.6rem; }
+  table { width: 100%; border-collapse: collapse; margin: 0.75rem 0 1.5rem; font-size: 0.8rem; }
+  th { text-align: left; padding: 0.4rem 0.6rem; color: #888; border-bottom: 1px solid #333; font-weight: normal; background: #0f0f0f; }
+  td { padding: 0.4rem 0.6rem; border-bottom: 1px solid #1a1a1a; vertical-align: top; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  td.q { color: #ccc; }
+  td.small, .small { font-size: 0.7rem; color: #777; }
+  .correct { color: #4ade80; }
+  .incorrect { color: #f87171; }
+  .open { color: #fbbf24; }
+  .marker { color: #4ade80; font-size: 0.9rem; }
+  .domain-header td { background: #141414; color: #ccc; padding-top: 0.6rem; padding-bottom: 0.4rem; border-top: 1px solid #2a2a2a; }
+  .domain-header .meta { color: #888; font-weight: normal; font-size: 0.75rem; }
+  .note { background: #0f1115; border-left: 3px solid #555; padding: 0.85rem 1rem; margin: 1rem 0; font-size: 0.8rem; color: #aaa; }
+  .note.warn { border-color: #f59e0b; background: #18120a; }
+  .note.green { border-color: #4ade80; }
+  code { background: #1a1a1a; padding: 0.1rem 0.35rem; border-radius: 3px; font-size: 0.78rem; color: #ccc; }
+  a { color: #60a5fa; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #2a2a2a; font-size: 0.75rem; color: #555; }
+  .stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 0.75rem; margin: 1rem 0; }
+  .stat { background: #0f0f0f; padding: 0.75rem; border-radius: 4px; border: 1px solid #1f1f1f; }
+  .stat .v { font-size: 1.1rem; color: #fff; font-weight: bold; font-variant-numeric: tabular-nums; }
+  .stat .l { font-size: 0.7rem; color: #777; margin-top: 0.2rem; }
+</style>
+</head>
+<body>
+
+<h1>Chorus — Public Prediction Ledger</h1>
+<div class="subtitle">SHA-locked. OpenTimestamps-anchored. Forward predictions only in headline. Generated 2026-04-27T23:38:40.199171Z</div>
+
+<div class="hero">
+  <div class="brier">0.0514</div>
+  <div class="label">Mean Brier · n=15 forward predictions · best 0.0000 / worst 0.1444</div>
+  <div class="meta">Lower=better. 0.05-0.10 = superforecaster tier; 538 elections ~0.05-0.07; coin-flip = 0.25.</div>
+</div>
+
+<div class="stat-grid">
+  <div class="stat"><div class="v">27</div><div class="l">forward, resolved</div></div>
+  <div class="stat"><div class="v">611</div><div class="l">open, awaiting</div></div>
+  <div class="stat"><div class="v">114</div><div class="l">overdue (resolution backlog)</div></div>
+  <div class="stat"><div class="v">1</div><div class="l">backward validation (separate)</div></div>
+  <div class="stat"><div class="v">476</div><div class="l">of 652 OTS-anchored</div></div>
+</div>
+
+<h2>Headline forward predictions, by sub-domain</h2>
+<p>Single-prediction forward calls only — locked strictly before the resolution event, deduplicated across source files, in publishable sub-domains. Pastcasting / cross-validation / weak-domain calls are reported below for transparency but do not feed the headline number.</p>
+<table>
+  <thead><tr><th>Question</th><th>Predicted p</th><th>Actual</th><th>Brier</th></tr></thead>
+  <tbody>
+        <tr class="domain-header">
+          <td colspan="4"><strong>corporate earnings</strong>
+            <span class="meta">— n=6 · mean Brier 0.0524</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="q">JPM beats Q1 2026 EPS consensus</td>
+          <td class="num">0.88</td>
+          <td class="num correct">1</td>
+          <td class="num">0.0144</td>
+        </tr>
+        <tr>
+          <td class="q">GS beats Q1 2026 EPS consensus</td>
+          <td class="num">0.78</td>
+          <td class="num correct">1</td>
+          <td class="num">0.0484</td>
+        </tr>
+        <tr>
+          <td class="q">NFLX beats Q1 2026 revenue consensus</td>
+          <td class="num">0.75</td>
+          <td class="num correct">1</td>
+          <td class="num">0.0625</td>
+        </tr>
+        <tr>
+          <td class="q">BAC beats Q1 2026 EPS consensus</td>
+          <td class="num">0.72</td>
+          <td class="num correct">1</td>
+          <td class="num">0.0784</td>
+        </tr>
+        <tr>
+          <td class="q">Citigroup C beats Q1 2026 EPS consensus</td>
+          <td class="num">0.75</td>
+          <td class="num correct">1</td>
+          <td class="num">0.0625</td>
+        </tr>
+        <tr>
+          <td class="q">Wells Fargo WFC beats Q1 2026 EPS consensus</td>
+          <td class="num">0.78</td>
+          <td class="num correct">1</td>
+          <td class="num">0.0484</td>
+        </tr>
+        <tr class="domain-header">
+          <td colspan="4"><strong>macro indicators</strong>
+            <span class="meta">— n=5 · mean Brier 0.0389</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="q">ISM Services PMI above 50 (expansion) for March 2026</td>
+          <td class="num">0.78</td>
+          <td class="num correct">1</td>
+          <td class="num">0.0484</td>
+        </tr>
+        <tr>
+          <td class="q">Initial jobless claims below 220k for week ending 2026-04-04</td>
+          <td class="num">0.66</td>
+          <td class="num correct">1</td>
+          <td class="num">0.1132</td>
+        </tr>
+        <tr>
+          <td class="q">EIA natural gas storage injection (build) for week ending 2026-04-04</td>
+          <td class="num">0.82</td>
+          <td class="num correct">1</td>
+          <td class="num">0.0324</td>
+        </tr>
+        <tr>
+          <td class="q">Weekly initial jobless claims ≥220K for week ending 2026-04-18 (BLS release 2026-04-23)</td>
+          <td class="num">0.03</td>
+          <td class="num correct">0</td>
+          <td class="num">0.0006</td>
+        </tr>
+        <tr>
+          <td class="q">Weekly initial jobless claims ≥225K for week ending 2026-04-18 (BLS release 2026-04-23)</td>
+          <td class="num">0.00</td>
+          <td class="num correct">0</td>
+          <td class="num">0.0000</td>
+        </tr>
+        <tr class="domain-header">
+          <td colspan="4"><strong>latin america</strong>
+            <span class="meta">— n=2 · mean Brier 0.0513</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="q">Peru completes scheduled 2026 elections without major disruption</td>
+          <td class="num">0.75</td>
+          <td class="num correct">1</td>
+          <td class="num">0.0625</td>
+        </tr>
+        <tr>
+          <td class="q">Peru holds scheduled 2026 elections on time</td>
+          <td class="num">0.80</td>
+          <td class="num correct">1</td>
+          <td class="num">0.0400</td>
+        </tr>
+        <tr class="domain-header">
+          <td colspan="4"><strong>international political</strong>
+            <span class="meta">— n=2 · mean Brier 0.0794</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="q">Tisza wins Hungary parliamentary election Apr 12 2026 (popular vote)</td>
+          <td class="num">0.88</td>
+          <td class="num correct">1</td>
+          <td class="num">0.0144</td>
+        </tr>
+        <tr>
+          <td class="q">Tisza popular vote margin &gt; 9% over Fidesz</td>
+          <td class="num">0.62</td>
+          <td class="num correct">1</td>
+          <td class="num">0.1444</td>
+        </tr></tbody>
+</table>
+
+<h2>All forward predictions, by raw domain</h2>
+<p>Full transparency: every resolved forward prediction, including weaker domains excluded from the headline. <code>★</code> marks domains in the headline summary above.</p>
+<p class="small">Across all forward predictions: n=27, mean Brier 0.1171, best 0.0000, worst 0.4225.</p>
+<table>
+  <thead><tr><th>Domain</th><th>n</th><th>Mean Brier</th><th>Best / Worst</th></tr></thead>
+  <tbody>
+        <tr>
+          <td>earnings_sector_rate <span class="marker">★</span></td>
+          <td class="num">4</td>
+          <td class="num">0.0509</td>
+          <td class="num small">0.0144 / 0.0784</td>
+        </tr>
+        <tr>
+          <td>pricing <span class="marker"></span></td>
+          <td class="num">4</td>
+          <td class="num">0.2777</td>
+          <td class="num small">0.1764 / 0.3721</td>
+        </tr>
+        <tr>
+          <td>precious_metals_direction <span class="marker"></span></td>
+          <td class="num">3</td>
+          <td class="num">0.1076</td>
+          <td class="num small">0.0625 / 0.1579</td>
+        </tr>
+        <tr>
+          <td>earnings_largecap <span class="marker">★</span></td>
+          <td class="num">2</td>
+          <td class="num">0.0554</td>
+          <td class="num small">0.0484 / 0.0625</td>
+        </tr>
+        <tr>
+          <td>international_political <span class="marker">★</span></td>
+          <td class="num">2</td>
+          <td class="num">0.0794</td>
+          <td class="num small">0.0144 / 0.1444</td>
+        </tr>
+        <tr>
+          <td>labor_claims <span class="marker">★</span></td>
+          <td class="num">2</td>
+          <td class="num">0.0003</td>
+          <td class="num small">0.0000 / 0.0006</td>
+        </tr>
+        <tr>
+          <td>chorus-reference-class <span class="marker"></span></td>
+          <td class="num">1</td>
+          <td class="num">0.2500</td>
+          <td class="num small">0.2500 / 0.2500</td>
+        </tr>
+        <tr>
+          <td>ism_scan <span class="marker">★</span></td>
+          <td class="num">1</td>
+          <td class="num">0.0484</td>
+          <td class="num small">0.0484 / 0.0484</td>
+        </tr>
+        <tr>
+          <td>global_latam <span class="marker">★</span></td>
+          <td class="num">1</td>
+          <td class="num">0.0625</td>
+          <td class="num small">0.0625 / 0.0625</td>
+        </tr>
+        <tr>
+          <td>latam_scan <span class="marker">★</span></td>
+          <td class="num">1</td>
+          <td class="num">0.0400</td>
+          <td class="num small">0.0400 / 0.0400</td>
+        </tr>
+        <tr>
+          <td>jobless_claims <span class="marker">★</span></td>
+          <td class="num">1</td>
+          <td class="num">0.1132</td>
+          <td class="num small">0.1132 / 0.1132</td>
+        </tr>
+        <tr>
+          <td>eia_natgas <span class="marker">★</span></td>
+          <td class="num">1</td>
+          <td class="num">0.0324</td>
+          <td class="num small">0.0324 / 0.0324</td>
+        </tr>
+        <tr>
+          <td>retail_sales <span class="marker"></span></td>
+          <td class="num">1</td>
+          <td class="num">0.1225</td>
+          <td class="num small">0.1225 / 0.1225</td>
+        </tr>
+        <tr>
+          <td>politics <span class="marker"></span></td>
+          <td class="num">1</td>
+          <td class="num">0.0490</td>
+          <td class="num small">0.0490 / 0.0490</td>
+        </tr>
+        <tr>
+          <td>energy <span class="marker"></span></td>
+          <td class="num">1</td>
+          <td class="num">0.4225</td>
+          <td class="num small">0.4225 / 0.4225</td>
+        </tr>
+        <tr>
+          <td>colorado_phonefree <span class="marker"></span></td>
+          <td class="num">1</td>
+          <td class="num">0.1128</td>
+          <td class="num small">0.1128 / 0.1128</td>
+        </tr></tbody>
+</table>
+
+<h2>Backward-validation work (NOT forward predictions)</h2>
+<div class="note warn">
+  <strong>What this is:</strong> pastcasting, cross-validation, and aggregate batch claims. Methodology evidence — useful but not the same as forward predictions locked before the event resolved. Reported in its own bucket per the rule that backward and forward Brier scores are not interchangeable.
+</div>
+<table>
+  <thead><tr><th>Claim</th><th>Domain</th><th>Brier</th><th>Notes</th></tr></thead>
+  <tbody>
+        <tr>
+          <td class="q">Iowa political model — 165 predictions aggregate</td>
+          <td>politics</td>
+          <td class="num">0.0450</td>
+          <td class="small">165 predictions, Brier 0.045, 2x superforecasters</td>
+        </tr></tbody>
+</table>
+
+<h2>Open predictions (top domains)</h2>
+<p>611 predictions are currently locked but not yet resolved. 114 are past their stated resolution date and pending resolution data ingestion.</p>
+<table>
+  <thead><tr><th>Domain</th><th>Open count</th></tr></thead>
+  <tbody><tr><td>forecastbench</td><td class="num">60</td></tr><tr><td>?</td><td class="num">40</td></tr><tr><td>sports_valuations</td><td class="num">33</td></tr><tr><td>house_scan</td><td class="num">27</td></tr><tr><td>national_race_model</td><td class="num">25</td></tr><tr><td>2026_senate</td><td class="num">24</td></tr><tr><td>2026_governor</td><td class="num">23</td></tr><tr><td>sports_scan</td><td class="num">22</td></tr><tr><td>geopolitical_scan</td><td class="num">22</td></tr><tr><td>fda_pdufa_scan</td><td class="num">20</td></tr></tbody>
+</table>
+
+<h2>Verification protocol</h2>
+<ol style="color:#aaa; font-size:0.85rem; padding-left:1.5rem; margin:0.5rem 0;">
+  <li>Each entry has a <code>sha256</code> field hashing the immutable prediction fields.</li>
+  <li>The full ledger file is anchored to the Bitcoin blockchain via <a href="https://opentimestamps.org/">OpenTimestamps</a>. Run <code>ots verify ledger_canonical.json.ots</code> against the file to confirm the timestamp predates any resolution event.</li>
+  <li>Resolution sources are named per-entry. Cross-check against the cited public source (FRED, BLS, ICE, ESPN, government release, etc.) — never against Chorus's own data.</li>
+  <li>Entries with audit flags (<code>missing_sha256</code>, <code>no_ots_anchor</code>, <code>duplicate_of:</code>, <code>resolution_overdue</code>) are explicitly tagged. The headline number includes only entries clean on all flags.</li>
+</ol>
+
+<h2>What this ledger is NOT</h2>
+<ul>
+  <li>Not a list of every prediction Chorus has ever generated internally. Research scratchwork is excluded.</li>
+  <li>Not cherry-picked. Every locked forward prediction goes in regardless of outcome — the headline simply restricts scope to publishable sub-domains and excludes pastcasting/cross-validation per the rule that backward and forward Brier are not interchangeable.</li>
+  <li>Not a guarantee. Brier scores measure calibration over <em>resolved</em> predictions; they describe the past, not the future.</li>
+</ul>
+
+<footer>
+  Methodology: <a href="methodology.md">methodology.md</a> ·
+  Source: <a href="ledger_canonical.json">ledger_canonical.json</a> ·
+  Anchor: <a href="ledger_canonical.json.ots">ledger_canonical.json.ots</a>
+</footer>
+
+</body>
+</html>
