@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-27T23:38:40.199171Z",
+  "generated_at": "2026-04-28T00:30:24.379135Z",
   "totals": {
-    "total_entries": 652,
-    "resolved": 35,
+    "total_entries": 653,
+    "resolved": 36,
     "forward_singles": 27,
     "backward_validation": 1,
-    "backward_logged": 2,
+    "backward_logged": 3,
     "open": 611,
     "overdue": 114,
     "duplicates_tagged": 113,
     "from_v1": 476,
     "from_v2": 176,
-    "ots_anchored": 476
+    "ots_anchored": 477
   },
   "headline_brier_FORWARD_ONLY": {
     "scope": "Forward, single-prediction, deduplicated, in-headline-domain only. Excludes pastcasting/cross-validation/aggregate batch claims and weak/exploratory domains.",

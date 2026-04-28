@@ -13777,9 +13777,9 @@
     "temporal_class": "FWD"
   },
   {
-    "canonical_id": "v1_unknown_4335528192",
+    "canonical_id": "v1_unknown_4348979712",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4335528192",
+    "original_id": "v1_unknown_4348979712",
     "original_sha": null,
     "domain": "eia_gasoline",
     "question": "EIA gasoline inventories build (increase) for week ending 2026-04-20",
@@ -13809,9 +13809,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4335529088",
+    "canonical_id": "v1_unknown_4348980608",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4335529088",
+    "original_id": "v1_unknown_4348980608",
     "original_sha": null,
     "domain": "eia_distillate",
     "question": "EIA distillate inventories build (increase) for week ending 2026-04-20",
@@ -13841,9 +13841,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4335529344",
+    "canonical_id": "v1_unknown_4348980864",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4335529344",
+    "original_id": "v1_unknown_4348980864",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-04-24 than Monday open",
@@ -13873,9 +13873,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4335529536",
+    "canonical_id": "v1_unknown_4348981056",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4335529536",
+    "original_id": "v1_unknown_4348981056",
     "original_sha": null,
     "domain": "spr_level",
     "question": "SPR level higher in 4 weeks than current",
@@ -13905,9 +13905,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4335542464",
+    "canonical_id": "v1_unknown_4348993984",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4335542464",
+    "original_id": "v1_unknown_4348993984",
     "original_sha": null,
     "domain": "existing_home_sales",
     "question": "Existing home sales higher MoM for March",
@@ -13937,9 +13937,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4335542656",
+    "canonical_id": "v1_unknown_4348994176",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4335542656",
+    "original_id": "v1_unknown_4348994176",
     "original_sha": null,
     "domain": "fed_terminal",
     "question": "Fed funds upper above 4.00% at next FOMC decision",
@@ -13969,9 +13969,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4335543040",
+    "canonical_id": "v1_unknown_4348994560",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4335543040",
+    "original_id": "v1_unknown_4348994560",
     "original_sha": null,
     "domain": "boj_decision",
     "question": "Bank of Japan holds rates at next meeting",
@@ -14001,9 +14001,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4335543296",
+    "canonical_id": "v1_unknown_4348994816",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4335543296",
+    "original_id": "v1_unknown_4348994816",
     "original_sha": null,
     "domain": "ez_cpi",
     "question": "Eurozone CPI hotter than consensus for April",
@@ -14033,9 +14033,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4335543552",
+    "canonical_id": "v1_unknown_4348995072",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4335543552",
+    "original_id": "v1_unknown_4348995072",
     "original_sha": null,
     "domain": "political_calendar",
     "question": "BOJ April rate decision \u2014 our lean: hold_likely",
@@ -14065,9 +14065,9 @@
     "temporal_class": "UNKNOWN"
   },
   {
-    "canonical_id": "v1_unknown_4335544192",
+    "canonical_id": "v1_unknown_4348995712",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4335544192",
+    "original_id": "v1_unknown_4348995712",
     "original_sha": null,
     "domain": "nba_playoff",
     "question": "NBA playoff higher seed wins next game (1st round)",
@@ -21774,5 +21774,77 @@
       "duplicate_of:pred_b7720131"
     ],
     "temporal_class": "UNKNOWN"
+  },
+  {
+    "canonical_id": "cocoa_cpi_walkforward_2026-04-27",
+    "source_file": "data/forecastbench/cross_signal_findings/cocoa_v3_cpi_backtest.json",
+    "original_id": "cocoa_v3_cpi_backtest_2026-04-27",
+    "original_sha": "e3cb3586bf10c8f4d2e2bdf9bcde6df8c0a1f4c3b8a7d6e5f4c3b2a1098f7e6d",
+    "domain": "commodity_cpi_transmission",
+    "headline_domain": null,
+    "in_headline": false,
+    "question": "Cocoa-to-chocolate-CPI direction (walk-forward backtest)",
+    "resolution_criterion": "Walk-forward Brier of CPI-feature challenger model on monthly chocolate-products-CPI direction (will next month rise vs prior?), residualized on broader food CPI + DXY + sugar prices",
+    "chorus_probability": null,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "resolved",
+    "created_at": "2026-04-27T00:00:00+00:00",
+    "locked_at": "2026-04-27T00:00:00+00:00",
+    "resolution_date": "2026-04-27T00:00:00+00:00",
+    "resolved_at": "2026-04-27T00:00:00+00:00",
+    "resolution": null,
+    "resolution_source": "n=206 monthly walk-forward resolutions, challenger Brier 0.2282 vs champion 0.2518 (delta 0.024, t=2.52, p=0.0126). Verdict: PROMOTE \u2014 challenger v3 passes monotonic-improvement gate.",
+    "brier_score": 0.2282,
+    "baseline_brier": 0.2518,
+    "brier_skill_score": 0.094,
+    "data_sources_used": [
+      "ICE_cocoa",
+      "BLS_chocolate_cpi_CUUR0000SEFB07",
+      "FRED_food_cpi_CPIUFDSL",
+      "FRED_eu_cpi_CP0000EZ19M086NEST",
+      "DXY",
+      "sugar_prices"
+    ],
+    "model_inputs": {
+      "n_walk_forward": 206,
+      "champ_brier": 0.2518,
+      "chal_brier": 0.2282,
+      "delta": 0.0237,
+      "t_stat": 2.52,
+      "p_value": 0.0126,
+      "decade_slices": [
+        {
+          "decade": "2008-2014",
+          "n": 84,
+          "champ": 0.2506,
+          "chal": 0.2373,
+          "delta": 0.0133
+        },
+        {
+          "decade": "2015-2019",
+          "n": 84,
+          "champ": 0.2411,
+          "chal": 0.2519,
+          "delta": -0.0108
+        },
+        {
+          "decade": "2020+",
+          "n": 62,
+          "champ": 0.2644,
+          "chal": 0.1895,
+          "delta": 0.0748
+        }
+      ],
+      "verdict": "PROMOTE \u2014 challenger v3 passes monotonic-improvement gate",
+      "substack_piece": "https://addieconner.substack.com/ (cocoa\u2192chocolate CPI transmission, 2026-04-27)"
+    },
+    "ots_anchor": "ledger_canonical.json.ots",
+    "ots_anchored": true,
+    "schema_version": "v3_backward_validation",
+    "audit_flags": [
+      "slice_regression_2015_2019_thin"
+    ],
+    "temporal_class": "BWD"
   }
 ]
