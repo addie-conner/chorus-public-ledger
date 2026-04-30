@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chorus Ledger — Audit Detail</title>
+<meta name="description" content="Full audit detail for the Chorus public prediction ledger: all forward predictions by raw domain, backward-validation work, and open predictions.">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'SF Mono', 'Fira Code', monospace; background: #0a0a0a; color: #d8d8d8; line-height: 1.5; padding: 2rem 1rem; max-width: 1100px; margin: 0 auto; font-size: 14px; }
+  h1 { font-size: 1.4rem; color: #fff; margin-bottom: 0.25rem; letter-spacing: -0.5px; }
+  h2 { font-size: 1rem; color: #ccc; margin: 2.5rem 0 0.75rem; border-bottom: 1px solid #2a2a2a; padding-bottom: 0.4rem; }
+  p, ul, li { color: #aaa; font-size: 0.85rem; }
+  ul { padding-left: 1.5rem; margin: 0.5rem 0; }
+  li { margin-bottom: 0.25rem; }
+  .subtitle { color: #888; font-size: 0.85rem; margin-bottom: 1.5rem; }
+  table { width: 100%; border-collapse: collapse; margin: 0.75rem 0 1.5rem; font-size: 0.8rem; }
+  th { text-align: left; padding: 0.4rem 0.6rem; color: #888; border-bottom: 1px solid #333; font-weight: normal; background: #0f0f0f; }
+  td { padding: 0.4rem 0.6rem; border-bottom: 1px solid #1a1a1a; vertical-align: top; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  td.q { color: #ccc; }
+  td.small, .small { font-size: 0.7rem; color: #777; }
+  .marker { color: #4ade80; font-size: 0.9rem; }
+  .note { background: #0f1115; border-left: 3px solid #555; padding: 0.85rem 1rem; margin: 1rem 0; font-size: 0.8rem; color: #aaa; }
+  .note.warn { border-color: #f59e0b; background: #18120a; }
+  code { background: #1a1a1a; padding: 0.1rem 0.35rem; border-radius: 3px; font-size: 0.78rem; color: #ccc; }
+  a { color: #60a5fa; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #2a2a2a; font-size: 0.75rem; color: #555; }
+</style>
+</head>
+<body>
+
+<h1>Audit Detail</h1>
+<div class="subtitle">Full transparency layer for the <a href="index.html">Chorus public prediction ledger</a>. Generated 2026-04-30T14:35:06.274592Z</div>
+
+<h2>All forward predictions, by raw domain</h2>
+<p>Every resolved forward prediction, including weaker domains excluded from the homepage headline. <code>★</code> marks domains in the headline summary on <a href="index.html">index.html</a>.</p>
+<p class="small">Across all forward predictions: n=27, mean Brier 0.1171, best 0.0000, worst 0.4225.</p>
+<table>
+  <thead><tr><th>Domain</th><th>n</th><th>Mean Brier</th><th>Best / Worst</th></tr></thead>
+  <tbody>
+        <tr>
+          <td>earnings_sector_rate <span class="marker">★</span></td>
+          <td class="num">4</td>
+          <td class="num">0.0509</td>
+          <td class="num small">0.0144 / 0.0784</td>
+        </tr>
+        <tr>
+          <td>pricing <span class="marker"></span></td>
+          <td class="num">4</td>
+          <td class="num">0.2777</td>
+          <td class="num small">0.1764 / 0.3721</td>
+        </tr>
+        <tr>
+          <td>precious_metals_direction <span class="marker"></span></td>
+          <td class="num">3</td>
+          <td class="num">0.1076</td>
+          <td class="num small">0.0625 / 0.1579</td>
+        </tr>
+        <tr>
+          <td>earnings_largecap <span class="marker">★</span></td>
+          <td class="num">2</td>
+          <td class="num">0.0554</td>
+          <td class="num small">0.0484 / 0.0625</td>
+        </tr>
+        <tr>
+          <td>international_political <span class="marker">★</span></td>
+          <td class="num">2</td>
+          <td class="num">0.0794</td>
+          <td class="num small">0.0144 / 0.1444</td>
+        </tr>
+        <tr>
+          <td>labor_claims <span class="marker">★</span></td>
+          <td class="num">2</td>
+          <td class="num">0.0003</td>
+          <td class="num small">0.0000 / 0.0006</td>
+        </tr>
+        <tr>
+          <td>chorus-reference-class <span class="marker"></span></td>
+          <td class="num">1</td>
+          <td class="num">0.2500</td>
+          <td class="num small">0.2500 / 0.2500</td>
+        </tr>
+        <tr>
+          <td>ism_scan <span class="marker">★</span></td>
+          <td class="num">1</td>
+          <td class="num">0.0484</td>
+          <td class="num small">0.0484 / 0.0484</td>
+        </tr>
+        <tr>
+          <td>global_latam <span class="marker">★</span></td>
+          <td class="num">1</td>
+          <td class="num">0.0625</td>
+          <td class="num small">0.0625 / 0.0625</td>
+        </tr>
+        <tr>
+          <td>latam_scan <span class="marker">★</span></td>
+          <td class="num">1</td>
+          <td class="num">0.0400</td>
+          <td class="num small">0.0400 / 0.0400</td>
+        </tr>
+        <tr>
+          <td>jobless_claims <span class="marker">★</span></td>
+          <td class="num">1</td>
+          <td class="num">0.1132</td>
+          <td class="num small">0.1132 / 0.1132</td>
+        </tr>
+        <tr>
+          <td>eia_natgas <span class="marker">★</span></td>
+          <td class="num">1</td>
+          <td class="num">0.0324</td>
+          <td class="num small">0.0324 / 0.0324</td>
+        </tr>
+        <tr>
+          <td>retail_sales <span class="marker"></span></td>
+          <td class="num">1</td>
+          <td class="num">0.1225</td>
+          <td class="num small">0.1225 / 0.1225</td>
+        </tr>
+        <tr>
+          <td>politics <span class="marker"></span></td>
+          <td class="num">1</td>
+          <td class="num">0.0490</td>
+          <td class="num small">0.0490 / 0.0490</td>
+        </tr>
+        <tr>
+          <td>energy <span class="marker"></span></td>
+          <td class="num">1</td>
+          <td class="num">0.4225</td>
+          <td class="num small">0.4225 / 0.4225</td>
+        </tr>
+        <tr>
+          <td>colorado_phonefree <span class="marker"></span></td>
+          <td class="num">1</td>
+          <td class="num">0.1128</td>
+          <td class="num small">0.1128 / 0.1128</td>
+        </tr></tbody>
+</table>
+
+<h2>Backward-validation work (NOT forward predictions)</h2>
+<div class="note warn">
+  <strong>What this is:</strong> pastcasting, cross-validation, and aggregate batch claims. Methodology evidence — useful but not the same as forward predictions locked before the event resolved. Reported in its own bucket per the rule that backward and forward Brier scores are not interchangeable.
+</div>
+<table>
+  <thead><tr><th>Claim</th><th>Domain</th><th>Brier</th><th>Notes</th></tr></thead>
+  <tbody>
+        <tr>
+          <td class="q">Iowa political model — 165 predictions aggregate</td>
+          <td>politics</td>
+          <td class="num">0.0450</td>
+          <td class="small">165 predictions, Brier 0.045, 2x superforecasters</td>
+        </tr>
+        <tr>
+          <td class="q">Cocoa-to-chocolate-CPI direction (walk-forward backtest)</td>
+          <td>commodity_cpi_transmission</td>
+          <td class="num">0.2282</td>
+          <td class="small">n=206 monthly walk-forward resolutions, challenger Brier 0.2282 vs champion 0.25</td>
+        </tr>
+        <tr>
+          <td class="q">Ghana cocoa direction (T+6mo &gt; T?) walk-forward — does soil-moisture-anomaly feature improve over AR-momentum champion?</td>
+          <td>commodity_supply_forecasting</td>
+          <td class="num">0.2463</td>
+          <td class="small">Champion AR-momentum: Brier 0.2587, n=93 walk-forward (2018-01 → 2025-09). Chall</td>
+        </tr></tbody>
+</table>
+
+<h2>Open predictions (top domains)</h2>
+<p>798 predictions are currently locked but not yet resolved. 123 are past their stated resolution date and pending resolution data ingestion.</p>
+<table>
+  <thead><tr><th>Domain</th><th>Open count</th></tr></thead>
+  <tbody><tr><td>forecastbench</td><td class="num">60</td></tr><tr><td>?</td><td class="num">40</td></tr><tr><td>sports_valuations</td><td class="num">33</td></tr><tr><td>house_scan</td><td class="num">27</td></tr><tr><td>national_race_model</td><td class="num">25</td></tr><tr><td>2026_senate</td><td class="num">24</td></tr><tr><td>2026_governor</td><td class="num">23</td></tr><tr><td>sports_scan</td><td class="num">22</td></tr><tr><td>geopolitical_scan</td><td class="num">22</td></tr><tr><td>inflation_cpiyoy</td><td class="num">21</td></tr></tbody>
+</table>
+
+<footer>
+  Back to <a href="index.html">homepage</a> ·
+  Methodology: <a href="methodology.md">methodology.md</a> ·
+  Source: <a href="ledger_canonical.json">ledger_canonical.json</a> ·
+  Anchor: <a href="ledger_canonical.json.ots">ledger_canonical.json.ots</a>
+</footer>
+
+</body>
+</html>
