@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-28T03:02:21.724883Z",
+  "generated_at": "2026-04-30T14:35:06.274592Z",
   "totals": {
-    "total_entries": 664,
+    "total_entries": 841,
     "resolved": 37,
     "forward_singles": 27,
     "backward_validation": 3,
     "backward_logged": 2,
-    "open": 621,
-    "overdue": 114,
-    "duplicates_tagged": 113,
+    "open": 798,
+    "overdue": 123,
+    "duplicates_tagged": 117,
     "from_v1": 476,
-    "from_v2": 186,
+    "from_v2": 363,
     "ots_anchored": 478
   },
   "headline_brier_FORWARD_ONLY": {
@@ -301,11 +301,11 @@
   "audit_flag_counts": [
     [
       "no_ots_anchor",
-      186
+      363
     ],
     [
       "resolution_overdue",
-      114
+      123
     ],
     [
       "missing_locked_at",
