@@ -1,33 +1,45 @@
 {
-  "generated_at": "2026-04-30T14:35:06.274592Z",
+  "generated_at": "2026-05-06T14:02:57.167732Z",
   "totals": {
-    "total_entries": 841,
-    "resolved": 37,
-    "forward_singles": 27,
+    "total_entries": 1892,
+    "resolved": 70,
+    "forward_singles": 57,
     "backward_validation": 3,
     "backward_logged": 2,
-    "open": 798,
-    "overdue": 123,
-    "duplicates_tagged": 117,
-    "from_v1": 476,
-    "from_v2": 363,
-    "ots_anchored": 478
+    "open": 1819,
+    "overdue": 1076,
+    "duplicates_tagged": 1034,
+    "from_v1": 483,
+    "from_v2": 1407,
+    "ots_anchored": 485
   },
   "headline_brier_FORWARD_ONLY": {
     "scope": "Forward, single-prediction, deduplicated, in-headline-domain only. Excludes pastcasting/cross-validation/aggregate batch claims and weak/exploratory domains.",
-    "n": 15,
-    "mean_brier": 0.0514,
+    "n": 23,
+    "mean_brier": 0.0706,
     "best": 0.0,
-    "worst": 0.1444,
+    "worst": 0.4225,
     "interpretation": "Lower=better. 0.05-0.10 = superforecaster tier; 538 elections ~0.05-0.07; coin-flip = 0.25."
   },
   "headline_by_domain": {
     "corporate_earnings": {
-      "n": 6,
-      "mean_brier": 0.0524,
+      "n": 14,
+      "mean_brier": 0.0834,
       "best": 0.0144,
-      "worst": 0.0784,
+      "worst": 0.4225,
       "predictions": [
+        {
+          "q": "META beats Q1 2026 EPS consensus",
+          "p": 0.82,
+          "actual": 1.0,
+          "brier": 0.0324
+        },
+        {
+          "q": "MSFT beats Q1 2026 EPS consensus",
+          "p": 0.75,
+          "actual": 1.0,
+          "brier": 0.0625
+        },
         {
           "q": "JPM beats Q1 2026 EPS consensus",
           "p": 0.88,
@@ -35,10 +47,22 @@
           "brier": 0.0144
         },
         {
+          "q": "GOOGL beats Q1 2026 EPS consensus",
+          "p": 0.8,
+          "actual": 1.0,
+          "brier": 0.04
+        },
+        {
           "q": "GS beats Q1 2026 EPS consensus",
           "p": 0.78,
           "actual": 1.0,
           "brier": 0.0484
+        },
+        {
+          "q": "AMZN beats Q1 2026 EPS consensus",
+          "p": 0.68,
+          "actual": 1.0,
+          "brier": 0.1024
         },
         {
           "q": "NFLX beats Q1 2026 revenue consensus",
@@ -53,6 +77,18 @@
           "brier": 0.0784
         },
         {
+          "q": "SOFI beats Q1 2026 EPS consensus",
+          "p": 0.65,
+          "actual": 0.0,
+          "brier": 0.4225
+        },
+        {
+          "q": "AAPL beats Q1 2026 EPS consensus",
+          "p": 0.65,
+          "actual": 1.0,
+          "brier": 0.1225
+        },
+        {
           "q": "Citigroup C beats Q1 2026 EPS consensus",
           "p": 0.75,
           "actual": 1.0,
@@ -60,6 +96,18 @@
         },
         {
           "q": "Wells Fargo WFC beats Q1 2026 EPS consensus",
+          "p": 0.78,
+          "actual": 1.0,
+          "brier": 0.0484
+        },
+        {
+          "q": "Apple AAPL beats Q2 2026 EPS consensus",
+          "p": 0.85,
+          "actual": 1.0,
+          "brier": 0.0225
+        },
+        {
+          "q": "Amazon AMZN beats Q1 2026 EPS consensus",
           "p": 0.78,
           "actual": 1.0,
           "brier": 0.0484
@@ -82,7 +130,7 @@
           "q": "Initial jobless claims below 220k for week ending 2026-04-04",
           "p": 0.6636,
           "actual": 1.0,
-          "brier": 0.1132
+          "brier": 0.113165
         },
         {
           "q": "EIA natural gas storage injection (build) for week ending 2026-04-04",
@@ -94,7 +142,7 @@
           "q": "Weekly initial jobless claims \u2265220K for week ending 2026-04-18 (BLS release 2026-04-23)",
           "p": 0.025,
           "actual": 0.0,
-          "brier": 0.0006250000000000001
+          "brier": 0.000625
         },
         {
           "q": "Weekly initial jobless claims \u2265225K for week ending 2026-04-18 (BLS release 2026-04-23)",
@@ -147,10 +195,10 @@
   },
   "all_forward_brier": {
     "scope": "All forward, single, deduplicated predictions across all domains (full transparency).",
-    "n": 27,
-    "mean_brier": 0.1171,
+    "n": 57,
+    "mean_brier": 0.1646,
     "best": 0.0,
-    "worst": 0.4225
+    "worst": 0.81
   },
   "backward_validation": {
     "scope": "Pastcasting / cross-validation / aggregate batch claims. NOT forward predictions. Methodology evidence only.",
@@ -159,7 +207,7 @@
         "question": "Iowa political model \u2014 165 predictions aggregate",
         "domain": "politics",
         "n_underlying": 0,
-        "brier": 0.045,
+        "brier": 0.0324,
         "notes": "165 predictions, Brier 0.045, 2x superforecasters"
       },
       {
@@ -179,11 +227,25 @@
     ]
   },
   "by_domain_FORWARD_ONLY": {
+    "crypto_weekly": {
+      "n": 11,
+      "mean_brier": 0.1655,
+      "best": 0.0196,
+      "worst": 0.4225,
+      "in_headline": false
+    },
     "earnings_sector_rate": {
-      "n": 4,
-      "mean_brier": 0.0509,
+      "n": 10,
+      "mean_brier": 0.0986,
       "best": 0.0144,
-      "worst": 0.0784,
+      "worst": 0.4225,
+      "in_headline": true
+    },
+    "earnings_largecap": {
+      "n": 4,
+      "mean_brier": 0.0454,
+      "best": 0.0225,
+      "worst": 0.0625,
       "in_headline": true
     },
     "pricing": {
@@ -193,6 +255,13 @@
       "worst": 0.3721,
       "in_headline": false
     },
+    "geopolitical_scan": {
+      "n": 3,
+      "mean_brier": 0.511,
+      "best": 0.0004,
+      "worst": 0.81,
+      "in_headline": false
+    },
     "precious_metals_direction": {
       "n": 3,
       "mean_brier": 0.1076,
@@ -200,12 +269,12 @@
       "worst": 0.1579,
       "in_headline": false
     },
-    "earnings_largecap": {
+    "chorus-reference-class": {
       "n": 2,
-      "mean_brier": 0.0554,
-      "best": 0.0484,
-      "worst": 0.0625,
-      "in_headline": true
+      "mean_brier": 0.0644,
+      "best": 0.0064,
+      "worst": 0.1225,
+      "in_headline": false
     },
     "international_political": {
       "n": 2,
@@ -214,6 +283,13 @@
       "worst": 0.1444,
       "in_headline": true
     },
+    "political_calendar": {
+      "n": 2,
+      "mean_brier": 0.2425,
+      "best": 0.0625,
+      "worst": 0.4225,
+      "in_headline": false
+    },
     "labor_claims": {
       "n": 2,
       "mean_brier": 0.0003,
@@ -221,11 +297,18 @@
       "worst": 0.0006,
       "in_headline": true
     },
-    "chorus-reference-class": {
+    "iowa_shapley_gap_prediction": {
       "n": 1,
-      "mean_brier": 0.25,
-      "best": 0.25,
-      "worst": 0.25,
+      "mean_brier": 0.1225,
+      "best": 0.1225,
+      "worst": 0.1225,
+      "in_headline": false
+    },
+    "fl01_historical": {
+      "n": 1,
+      "mean_brier": 0.6724,
+      "best": 0.6724,
+      "worst": 0.6724,
       "in_headline": false
     },
     "ism_scan": {
@@ -242,12 +325,33 @@
       "worst": 0.0625,
       "in_headline": true
     },
+    "fl01_cook_rating": {
+      "n": 1,
+      "mean_brier": 0.7225,
+      "best": 0.7225,
+      "worst": 0.7225,
+      "in_headline": false
+    },
     "latam_scan": {
       "n": 1,
       "mean_brier": 0.04,
       "best": 0.04,
       "worst": 0.04,
       "in_headline": true
+    },
+    "supply_chain_scan": {
+      "n": 1,
+      "mean_brier": 0.09,
+      "best": 0.09,
+      "worst": 0.09,
+      "in_headline": false
+    },
+    "energy_scan": {
+      "n": 1,
+      "mean_brier": 0.09,
+      "best": 0.09,
+      "worst": 0.09,
+      "in_headline": false
     },
     "jobless_claims": {
       "n": 1,
@@ -272,9 +376,9 @@
     },
     "politics": {
       "n": 1,
-      "mean_brier": 0.049,
-      "best": 0.049,
-      "worst": 0.049,
+      "mean_brier": 0.0012,
+      "best": 0.0012,
+      "worst": 0.0012,
       "in_headline": false
     },
     "energy": {
@@ -294,34 +398,38 @@
   },
   "by_year_FORWARD_ONLY": {
     "2026": {
-      "n": 26,
-      "mean_brier": 0.1169
+      "n": 56,
+      "mean_brier": 0.1653
     }
   },
   "audit_flag_counts": [
     [
       "no_ots_anchor",
-      363
+      1407
     ],
     [
       "resolution_overdue",
-      123
+      1076
     ],
     [
       "missing_locked_at",
-      40
+      1020
+    ],
+    [
+      "missing_sha256",
+      998
+    ],
+    [
+      "duplicate_of:pred_",
+      914
     ],
     [
       "duplicate_of:pred_b7720131",
       36
     ],
     [
-      "missing_sha256",
-      11
-    ],
-    [
       "missing_id",
-      10
+      17
     ],
     [
       "duplicate_of:164377ad2cae",
@@ -373,10 +481,6 @@
     ],
     [
       "duplicate_of:55bdb5f3d5ed",
-      2
-    ],
-    [
-      "duplicate_of:fd3aa68b19b6",
       2
     ]
   ]
