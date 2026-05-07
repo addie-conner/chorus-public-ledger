@@ -15330,8 +15330,8 @@
       "segment_means": {},
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_iowa165.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -15369,8 +15369,8 @@
       "segment_means": {},
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_colorado57.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -15412,8 +15412,8 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_0dcd37a0.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
@@ -15454,8 +15454,8 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_5af05b85.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
@@ -15496,8 +15496,8 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_bac1d486.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -15537,8 +15537,8 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_748edb5e.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -15578,8 +15578,8 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_3a57f9a1.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
@@ -15755,8 +15755,8 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_68f66a7c.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -15799,8 +15799,8 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_79aca225.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -15843,8 +15843,8 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_43abd32b.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -15887,8 +15887,8 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_00b397d4.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -16051,8 +16051,8 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_77a6e68f.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -16190,8 +16190,8 @@
       "segment_means": {},
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_845c44c9.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -16237,8 +16237,8 @@
       "segment_means": {},
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_f29cd5ee.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -17695,8 +17695,8 @@
       "segment_means": {},
       "confidence_label": "DIRECTIONAL"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_dcsd_adopts_phone_policy_fb8a2e4e.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"

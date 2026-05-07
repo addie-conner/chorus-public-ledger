@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.2025,
+  "canonical_id": "pred_43abd32b",
+  "chorus_probability": 0.55,
+  "domain": "pricing",
+  "in_headline": false,
+  "locked_at": "2026-04-16T13:27:29.767819+00:00",
+  "original_sha": "fde2e7ca6ded2d92b60cded333381d6a59158c0ad8e40434433d19d0a43c22e9",
+  "question": "coffee closes lower Friday Apr 25 vs Wednesday Apr 16 open ($288.00)",
+  "resolution": 1,
+  "resolution_criterion": "coffee Friday April 25 close < $288.00",
+  "resolution_date": "2026-04-25",
+  "resolved_at": "2026-04-27T13:33:03.975556+00:00",
+  "temporal_class": "FWD"
+}

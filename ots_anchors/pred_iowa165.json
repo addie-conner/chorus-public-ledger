@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.0324,
+  "canonical_id": "pred_iowa165",
+  "chorus_probability": 0.82,
+  "domain": "politics",
+  "in_headline": null,
+  "locked_at": "2026-01-15T00:00:00+00:00",
+  "original_sha": "6bfb79a32c100b067a3b8dd10c53c217df69e5518c9d2076a123b40bbd69d2f8",
+  "question": "Iowa political model \u2014 165 predictions aggregate",
+  "resolution": 1.0,
+  "resolution_criterion": "Brier score below 0.05 on 165 pre-registered political predictions",
+  "resolution_date": "2026-03-15",
+  "resolved_at": "2026-03-15T12:00:00+00:00",
+  "temporal_class": "AGG"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.112829,
+  "canonical_id": "pred_dcsd_adopts_phone_policy_fb8a2e4e",
+  "chorus_probability": 0.6641,
+  "domain": "colorado_phonefree",
+  "in_headline": false,
+  "locked_at": "2026-03-30T00:00:00+00:00",
+  "original_sha": "be41c167a0c06c66bd91318d67f18400a2f684346ef8034e27c68d3837470d28",
+  "question": "Douglas County SD adopts a communication device policy restricting student phone use",
+  "resolution": 1,
+  "resolution_criterion": "DCSD board adopts a formal communication device policy (any of b2b, split, instructional-only, or K-8 only) before July 1, 2026",
+  "resolution_date": "2026-07-01",
+  "resolved_at": "2026-04-21T00:00:00+00:00",
+  "temporal_class": "FWD"
+}

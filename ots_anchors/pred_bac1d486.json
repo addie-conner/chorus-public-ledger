@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.113165,
+  "canonical_id": "pred_bac1d486",
+  "chorus_probability": 0.6636,
+  "domain": "auto_resolved",
+  "in_headline": null,
+  "locked_at": "2026-04-09T15:15:47.109821",
+  "original_sha": "72a47a499033548d114bbed76734a4e114c6798455b5b0a1f9226ff55d6738da",
+  "question": "Initial jobless claims below 220k for week ending 2026-04-04",
+  "resolution": 1.0,
+  "resolution_criterion": "Initial jobless claims below 220k for week ending 2026-04-04",
+  "resolution_date": "2026-04-09",
+  "resolved_at": "2026-04-09T15:15:47.109821",
+  "temporal_class": "BWD"
+}

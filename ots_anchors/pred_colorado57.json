@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.001225,
+  "canonical_id": "pred_colorado57",
+  "chorus_probability": 0.965,
+  "domain": "politics",
+  "in_headline": false,
+  "locked_at": "2026-01-15T00:00:00+00:00",
+  "original_sha": "2107a263ea10c50359b1a7708d5116334e9d3891907ec180055d2df556855659",
+  "question": "Colorado phone-free schools \u2014 55/57 districts",
+  "resolution": 1.0,
+  "resolution_criterion": "Correctly predict 55+ of 57 district outcomes",
+  "resolution_date": "2026-02-28",
+  "resolved_at": "2026-02-28T12:00:00+00:00",
+  "temporal_class": "FWD"
+}

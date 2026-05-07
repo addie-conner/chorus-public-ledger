@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.3721,
+  "canonical_id": "pred_79aca225",
+  "chorus_probability": 0.61,
+  "domain": "pricing",
+  "in_headline": false,
+  "locked_at": "2026-04-16T13:27:29.767445+00:00",
+  "original_sha": "d8e900c6f791ebac2aa857d0c1f4c41ee7dceb625cd4dd7725235c9499c39ebe",
+  "question": "cocoa closes higher Friday Apr 25 vs Wednesday Apr 16 open ($3,530.00)",
+  "resolution": 0,
+  "resolution_criterion": "cocoa Friday April 25 close > $3,530.00",
+  "resolution_date": "2026-04-25",
+  "resolved_at": "2026-04-27T13:33:03.975556+00:00",
+  "temporal_class": "FWD"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.1764,
+  "canonical_id": "pred_00b397d4",
+  "chorus_probability": 0.58,
+  "domain": "pricing",
+  "in_headline": false,
+  "locked_at": "2026-04-16T13:27:29.768274+00:00",
+  "original_sha": "9719204e460ed8f195429768f849a2176a29fd745bd8738cc1161916b9434a86",
+  "question": "wheat closes higher Friday Apr 25 vs Wednesday Apr 16 open ($608.00)",
+  "resolution": 1,
+  "resolution_criterion": "wheat Friday April 25 close > $608.00",
+  "resolution_date": "2026-04-25",
+  "resolved_at": "2026-04-27T13:33:03.975556+00:00",
+  "temporal_class": "FWD"
+}

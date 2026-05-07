@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.000625,
+  "canonical_id": "pred_845c44c9",
+  "chorus_probability": 0.025,
+  "domain": "labor_claims",
+  "in_headline": true,
+  "locked_at": "2026-04-22T00:33:15.104761+00:00",
+  "original_sha": "693342f0903e51d0f4032b28f0bff77b67c58df16f1b577f88a466210eb64703",
+  "question": "Weekly initial jobless claims \u2265220K for week ending 2026-04-18 (BLS release 2026-04-23)",
+  "resolution": 0.0,
+  "resolution_criterion": "BLS initial jobless claims print (SA) on 2026-04-23 \u2265 220,000 claims",
+  "resolution_date": "2026-04-23",
+  "resolved_at": "2026-04-24T16:07:21+00:00",
+  "temporal_class": "FWD"
+}

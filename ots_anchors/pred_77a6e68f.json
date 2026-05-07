@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.4225,
+  "canonical_id": "pred_77a6e68f",
+  "chorus_probability": 0.65,
+  "domain": "energy",
+  "in_headline": false,
+  "locked_at": "2026-04-18T19:28:20.584945+00:00",
+  "original_sha": "40b171714df3976c0786c629425de326a3ccc0259201f67a9e8dc6c7ba8166ae",
+  "question": "ISO-NE and NY-ISO northeast grid stress persistence (week of 2026-04-18)",
+  "resolution": 0,
+  "resolution_criterion": "Both ISNE and NYIS maintain daily-mean demand volatility >= 30% across the 7-day rolling window ending 2026-04-25, using EIA-930 BALANCE CSV as the resolution source",
+  "resolution_date": "2026-04-25",
+  "resolved_at": "2026-04-27T13:35:27.669204+00:00",
+  "temporal_class": "FWD"
+}

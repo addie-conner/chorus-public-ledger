@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.0625,
+  "canonical_id": "pred_3a57f9a1",
+  "chorus_probability": 0.75,
+  "domain": "precious_metals_direction",
+  "in_headline": null,
+  "locked_at": "2026-04-11T07:25:20.674802",
+  "original_sha": "585e7eafc280dd3ed3ff731723ad9cf2657a5da702c0206b476d23c01d9fa83a",
+  "question": "Gold closes higher Friday 2026-04-10 than Monday open",
+  "resolution": 1.0,
+  "resolution_criterion": "Gold closes higher Friday 2026-04-10 than Monday open",
+  "resolution_date": "2026-04-11",
+  "resolved_at": "2026-04-11T07:25:20.674802",
+  "temporal_class": "BWD"
+}

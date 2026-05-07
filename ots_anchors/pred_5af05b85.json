@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.157927,
+  "canonical_id": "pred_5af05b85",
+  "chorus_probability": 0.3974,
+  "domain": "precious_metals_direction",
+  "in_headline": null,
+  "locked_at": "2026-04-03 13:37:56",
+  "original_sha": "7b11f23ddef006a2de394bd2107e1264a30c4da1ffbab49be999d12812422674",
+  "question": "Will gold close higher on Friday than it opened on Monday?",
+  "resolution": 0.0,
+  "resolution_criterion": "Will gold close higher on Friday than it opened on Monday?",
+  "resolution_date": "2026-04-03",
+  "resolved_at": "2026-04-03 13:37:56",
+  "temporal_class": "BWD"
+}

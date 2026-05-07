@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.36,
+  "canonical_id": "pred_68f66a7c",
+  "chorus_probability": 0.6,
+  "domain": "pricing",
+  "in_headline": false,
+  "locked_at": "2026-04-16T13:27:29.766278+00:00",
+  "original_sha": "89f60b541cce74eee680b0c22dd39b607090e95d5ff3dc23e0433352487bad11",
+  "question": "gold closes higher Friday Apr 25 vs Wednesday Apr 16 open ($4,841.10)",
+  "resolution": 0,
+  "resolution_criterion": "gold Friday April 25 close > $4,841.10",
+  "resolution_date": "2026-04-25",
+  "resolved_at": "2026-04-27T13:33:03.975556+00:00",
+  "temporal_class": "FWD"
+}

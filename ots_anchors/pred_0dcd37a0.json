@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.0484,
+  "canonical_id": "pred_0dcd37a0",
+  "chorus_probability": 0.78,
+  "domain": "ism_scan",
+  "in_headline": null,
+  "locked_at": "2026-04-03 13:35:43",
+  "original_sha": "6e7442c5e104bee719474abb56559431b3503f4b896765eb8f679a8c81f38d4d",
+  "question": "ISM Services PMI above 50 (expansion) for March 2026",
+  "resolution": 1.0,
+  "resolution_criterion": "ISM Services PMI above 50 (expansion) for March 2026",
+  "resolution_date": "2026-04-03",
+  "resolved_at": "2026-04-03 13:35:43",
+  "temporal_class": "BWD"
+}
