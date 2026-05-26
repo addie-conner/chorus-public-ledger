@@ -75288,5 +75288,245 @@
     ],
     "temporal_class": "FWD",
     "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_73795f3b",
+    "source_file": "cap2_breakout_2026_05_26.jsonl",
+    "original_id": "pred_73795f3b",
+    "original_sha": "73795f3bc725cbb31b4a0d97836d6ca7901da64507071dae9097e396794e01c2",
+    "domain": "sports_attention_marketability",
+    "question": "Kevin McGonigle Wikipedia 7-day median exceeds 1454/day during MLB All-Star Week 2026 (Future Stars / Rookie attention) (2026-07-11 through 2026-07-17)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Kevin_McGonigle', 7-day median over 2026-07-11 through 2026-07-17 inclusive \u2265 1454",
+    "chorus_probability": 0.72,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-26T18:13:00.673488+00:00",
+    "locked_at": "2026-05-26T18:13:00.673488+00:00",
+    "resolution_date": "2026-07-18",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap2_breakout_velocity_scan_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 808,
+        "threshold": 1454,
+        "threshold_multiplier_vs_baseline": 1.8,
+        "structural_event": "MLB All-Star Week 2026 (Future Stars / Rookie attention)",
+        "sport": "MLB",
+        "wiki_slug": "Kevin_McGonigle",
+        "rationale": "Youngest AL player; 9.31x current velocity ratio (highest in scan). All-Star week structurally amplifies rookie attention. Threshold = 1.8x baseline reflects high-confidence inflection.",
+        "discovery_source": "breakout_velocity_scan_2026_05_26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_f7fb47f5",
+    "source_file": "cap2_breakout_2026_05_26.jsonl",
+    "original_id": "pred_f7fb47f5",
+    "original_sha": "f7fb47f564214338c89a9d4e628f5e167c356c1c3b47f736df0b7c154b537885",
+    "domain": "sports_attention_marketability",
+    "question": "Kyle Harrison Wikipedia 7-day median exceeds 366/day during MLB postseason / Wild Card race window 2026 (2026-09-27 through 2026-10-03)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Kyle_Harrison_(baseball)', 7-day median over 2026-09-27 through 2026-10-03 inclusive \u2265 366",
+    "chorus_probability": 0.65,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-26T18:13:00.989934+00:00",
+    "locked_at": "2026-05-26T18:13:00.989934+00:00",
+    "resolution_date": "2026-10-04",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap2_breakout_velocity_scan_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 229,
+        "threshold": 366,
+        "threshold_multiplier_vs_baseline": 1.6,
+        "structural_event": "MLB postseason / Wild Card race window 2026",
+        "sport": "MLB",
+        "wiki_slug": "Kyle_Harrison_(baseball)",
+        "rationale": "Brewers SP with 7.11x velocity ratio. Resolution tied to team postseason positioning. Lower confidence reflects team-state dependency.",
+        "discovery_source": "breakout_velocity_scan_2026_05_26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_684dfc4b",
+    "source_file": "cap2_breakout_2026_05_26.jsonl",
+    "original_id": "pred_684dfc4b",
+    "original_sha": "684dfc4b0781701dbfac77b14b848b4a83489840ca6ea3385fa26bea56eba70e",
+    "domain": "sports_attention_marketability",
+    "question": "James Wood Wikipedia 7-day median exceeds 563/day during MLB All-Star Week 2026 (sophomore campaign) (2026-07-11 through 2026-07-17)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'James_Wood_(baseball)', 7-day median over 2026-07-11 through 2026-07-17 inclusive \u2265 563",
+    "chorus_probability": 0.7,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-26T18:13:01.296281+00:00",
+    "locked_at": "2026-05-26T18:13:01.296281+00:00",
+    "resolution_date": "2026-07-18",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap2_breakout_velocity_scan_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 352,
+        "threshold": 563,
+        "threshold_multiplier_vs_baseline": 1.6,
+        "structural_event": "MLB All-Star Week 2026 (sophomore campaign)",
+        "sport": "MLB",
+        "wiki_slug": "James_Wood_(baseball)",
+        "rationale": "Nationals OF, 3.52x velocity. Top-tier sophomore prospect; All-Star Week selection or honorable mention is the structural attention amplifier.",
+        "discovery_source": "breakout_velocity_scan_2026_05_26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_566d08c3",
+    "source_file": "cap2_breakout_2026_05_26.jsonl",
+    "original_id": "pred_566d08c3",
+    "original_sha": "566d08c386fa2e31fde2767b455535e301f190be3e564dac6c9fe12d3f553a3d",
+    "domain": "sports_attention_marketability",
+    "question": "Lily Yohannes Wikipedia 7-day median exceeds 322/day during FIFA Women's World Cup 2027 (Brazil) \u2014 group stage week (2027-07-04 through 2027-07-10)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Lily_Yohannes', 7-day median over 2027-07-04 through 2027-07-10 inclusive \u2265 322",
+    "chorus_probability": 0.68,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-26T18:13:01.605688+00:00",
+    "locked_at": "2026-05-26T18:13:01.605688+00:00",
+    "resolution_date": "2027-07-11",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap2_breakout_velocity_scan_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 161,
+        "threshold": 322,
+        "threshold_multiplier_vs_baseline": 2.0,
+        "structural_event": "FIFA Women's World Cup 2027 (Brazil) \u2014 group stage week",
+        "sport": "Soccer / USWNT",
+        "wiki_slug": "Lily_Yohannes",
+        "rationale": "18yo USWNT starter at OL Lyon. Headline 'next-Clark' candidate per breakout scan. WWC 2027 is the discovery-event tentpole. Higher threshold reflects expected magnitude of WWC attention spike vs current 2.21x baseline ratio.",
+        "discovery_source": "breakout_velocity_scan_2026_05_26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_4ca8827b",
+    "source_file": "cap2_breakout_2026_05_26.jsonl",
+    "original_id": "pred_4ca8827b",
+    "original_sha": "4ca8827b68276d33feee436497beb99bf1808e00c2d330b64c5f2eaab56827bf",
+    "domain": "sports_attention_marketability",
+    "question": "Azzi Fudd Wikipedia 7-day median exceeds 4069/day during NCAA Women's Final Four 2027 (2027-04-05 through 2027-04-11)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Azzi_Fudd', 7-day median over 2027-04-05 through 2027-04-11 inclusive \u2265 4069",
+    "chorus_probability": 0.7,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-26T18:13:01.915133+00:00",
+    "locked_at": "2026-05-26T18:13:01.915133+00:00",
+    "resolution_date": "2027-04-12",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap2_breakout_velocity_scan_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 2543,
+        "threshold": 4069,
+        "threshold_multiplier_vs_baseline": 1.6,
+        "structural_event": "NCAA Women's Final Four 2027",
+        "sport": "NCAA Basketball / WNBA",
+        "wiki_slug": "Azzi_Fudd",
+        "rationale": "UConn G, 2.90x velocity (cleanest stat signal in women's basketball not already saturated). Jordan Brand NIL exists but Nike/State Farm/Gatorade trifecta still open. Final Four window structurally amplifies attention.",
+        "discovery_source": "breakout_velocity_scan_2026_05_26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
   }
 ]
