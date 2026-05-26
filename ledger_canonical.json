@@ -74771,5 +74771,522 @@
     "audit_flags": [],
     "temporal_class": "AGG",
     "is_high_conviction": null
+  },
+  {
+    "canonical_id": "pred_8b1463e2",
+    "source_file": "cap2_cohort_expansion_2026_05_26.jsonl",
+    "original_id": "pred_8b1463e2",
+    "original_sha": "8b1463e2e8c010ed5d973f660e0d8971534d7f9cd3c5031bafa9bea1a866e460",
+    "domain": "sports_attention_marketability",
+    "question": "Sal Stewart Wikipedia 7-day median exceeds 722/day during MLB All-Star Week 2026 (Atlanta) (2026-07-11 through 2026-07-17)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Sal_Stewart', 7-day median over 2026-07-11 through 2026-07-17 inclusive \u2265 722",
+    "chorus_probability": 0.72,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-26T17:32:46.476258+00:00",
+    "locked_at": "2026-05-26T17:32:46.476258+00:00",
+    "resolution_date": "2026-07-18",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap2_cohort_expansion_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 451,
+        "threshold": 722,
+        "threshold_multiplier_vs_baseline": 1.6,
+        "structural_event": "MLB All-Star Week 2026 (Atlanta)",
+        "sport": "MLB",
+        "wiki_slug": "Sal_Stewart",
+        "rationale": "NL Rookie of the Month April 2026; structural attention spike at All-Star selection week. Threshold = 1.6x 90-day baseline."
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_2fca6f9c",
+    "source_file": "cap2_cohort_expansion_2026_05_26.jsonl",
+    "original_id": "pred_2fca6f9c",
+    "original_sha": "2fca6f9c7a9f9db0e788038c86f3b417b7c6530132b78d24943f4cf8821ace0a",
+    "domain": "sports_attention_marketability",
+    "question": "Chase DeLauter Wikipedia 7-day median exceeds 578/day during MLB postseason / Wild Card week 2026 (2026-09-27 through 2026-10-03)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Chase_DeLauter', 7-day median over 2026-09-27 through 2026-10-03 inclusive \u2265 578",
+    "chorus_probability": 0.62,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-26T17:32:46.772380+00:00",
+    "locked_at": "2026-05-26T17:32:46.772380+00:00",
+    "resolution_date": "2026-10-04",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap2_cohort_expansion_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 385,
+        "threshold": 578,
+        "threshold_multiplier_vs_baseline": 1.5,
+        "structural_event": "MLB postseason / Wild Card week 2026",
+        "sport": "MLB",
+        "wiki_slug": "Chase_DeLauter",
+        "rationale": "Cleveland breakout candidate; small-market amplifier on postseason run. Lower confidence reflects uncertainty on team postseason positioning."
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_bad7b263",
+    "source_file": "cap2_cohort_expansion_2026_05_26.jsonl",
+    "original_id": "pred_bad7b263",
+    "original_sha": "bad7b263856cc0a15db7ac33cf270c56efe917fd336d805f561963100bbadb62",
+    "domain": "sports_attention_marketability",
+    "question": "JJ Wetherholt Wikipedia 7-day median exceeds 1031/day during MLB debut window (Cardinals expected mid-season promotion) (2026-06-20 through 2026-06-26)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'JJ_Wetherholt', 7-day median over 2026-06-20 through 2026-06-26 inclusive \u2265 1031",
+    "chorus_probability": 0.6,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-26T17:32:47.042976+00:00",
+    "locked_at": "2026-05-26T17:32:47.042976+00:00",
+    "resolution_date": "2026-06-27",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap2_cohort_expansion_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 573,
+        "threshold": 1031,
+        "threshold_multiplier_vs_baseline": 1.8,
+        "structural_event": "MLB debut window (Cardinals expected mid-season promotion)",
+        "sport": "MLB",
+        "wiki_slug": "JJ_Wetherholt",
+        "rationale": "Top-prospect debut-week Wikipedia spikes are structurally reliable for high-ceiling Cardinals callups."
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_d28d06aa",
+    "source_file": "cap2_cohort_expansion_2026_05_26.jsonl",
+    "original_id": "pred_d28d06aa",
+    "original_sha": "d28d06aa1fd092eaeb38f572bc80175911133d480feb0ddd58f99a43fe946edc",
+    "domain": "sports_attention_marketability",
+    "question": "CJ Carr Wikipedia 7-day median exceeds 357/day during Notre Dame marquee October matchup (2026-10-10 through 2026-10-16)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'CJ_Carr', 7-day median over 2026-10-10 through 2026-10-16 inclusive \u2265 357",
+    "chorus_probability": 0.7,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-26T17:32:47.328714+00:00",
+    "locked_at": "2026-05-26T17:32:47.328714+00:00",
+    "resolution_date": "2026-10-17",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap2_cohort_expansion_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 238,
+        "threshold": 357,
+        "threshold_multiplier_vs_baseline": 1.5,
+        "structural_event": "Notre Dame marquee October matchup",
+        "sport": "NCAA Football",
+        "wiki_slug": "CJ_Carr",
+        "rationale": "Modest Heisman favorite at +750; Notre Dame schedule guarantees marquee national-TV window in mid-October."
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_9bb77c60",
+    "source_file": "cap2_cohort_expansion_2026_05_26.jsonl",
+    "original_id": "pred_9bb77c60",
+    "original_sha": "9bb77c60d458d5f0b38bc4c19a94a203440a0ca9c24c46d5d0549f71b5193d9d",
+    "domain": "sports_attention_marketability",
+    "question": "Jeremiah Smith Wikipedia 7-day median exceeds 907/day during Heisman ceremony week (2026-12-05 through 2026-12-11)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Jeremiah_Smith_(American_football)', 7-day median over 2026-12-05 through 2026-12-11 inclusive \u2265 907",
+    "chorus_probability": 0.65,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-26T17:32:47.623563+00:00",
+    "locked_at": "2026-05-26T17:32:47.623563+00:00",
+    "resolution_date": "2026-12-12",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap2_cohort_expansion_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 648,
+        "threshold": 907,
+        "threshold_multiplier_vs_baseline": 1.4,
+        "structural_event": "Heisman ceremony week",
+        "sport": "NCAA Football",
+        "wiki_slug": "Jeremiah_Smith_(American_football)",
+        "rationale": "WR Heisman wins are rare but a strong Heisman push produces a Wikipedia event regardless of outcome."
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_be87436f",
+    "source_file": "cap2_cohort_expansion_2026_05_26.jsonl",
+    "original_id": "pred_be87436f",
+    "original_sha": "be87436f5ea17339c4d24be41f7ef1d10de088178ab892550d90dc245f1e00f5",
+    "domain": "sports_attention_marketability",
+    "question": "Sam Leavitt Wikipedia 7-day median exceeds 234/day during LSU-Alabama rivalry week 2026 (2026-11-14 through 2026-11-20)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Sam_Leavitt_(American_football)', 7-day median over 2026-11-14 through 2026-11-20 inclusive \u2265 234",
+    "chorus_probability": 0.65,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-26T17:32:47.895599+00:00",
+    "locked_at": "2026-05-26T17:32:47.895599+00:00",
+    "resolution_date": "2026-11-21",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap2_cohort_expansion_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 156,
+        "threshold": 234,
+        "threshold_multiplier_vs_baseline": 1.5,
+        "structural_event": "LSU-Alabama rivalry week 2026",
+        "sport": "NCAA Football",
+        "wiki_slug": "Sam_Leavitt_(American_football)",
+        "rationale": "Season-defining SEC moment; structurally drives Wikipedia surge regardless of game outcome."
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_f454ff25",
+    "source_file": "cap2_cohort_expansion_2026_05_26.jsonl",
+    "original_id": "pred_f454ff25",
+    "original_sha": "f454ff25d1fe7c3ab48dcf6ac5abd4d7f3fd51424d97b847e87f08525d88d141",
+    "domain": "sports_attention_marketability",
+    "question": "Hannah Hidalgo Wikipedia 7-day median exceeds 378/day during Women's Final Four 2027 (2027-04-05 through 2027-04-11)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Hannah_Hidalgo', 7-day median over 2027-04-05 through 2027-04-11 inclusive \u2265 378",
+    "chorus_probability": 0.75,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-26T17:32:48.179706+00:00",
+    "locked_at": "2026-05-26T17:32:48.179706+00:00",
+    "resolution_date": "2027-04-12",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap2_cohort_expansion_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 236,
+        "threshold": 378,
+        "threshold_multiplier_vs_baseline": 1.6,
+        "structural_event": "Women's Final Four 2027",
+        "sport": "NCAA Basketball / WNBA 2027",
+        "wiki_slug": "Hannah_Hidalgo",
+        "rationale": "ACC Player of the Year + Defensive POY; Notre Dame likely Final Four; CAA-repped with NIL infrastructure already established."
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_d552be8f",
+    "source_file": "cap2_cohort_expansion_2026_05_26.jsonl",
+    "original_id": "pred_d552be8f",
+    "original_sha": "d552be8f01f588d5cd310f4e49bb615be80ab6e5473ae7387b646b333a0401db",
+    "domain": "sports_attention_marketability",
+    "question": "Madison Booker Wikipedia 7-day median exceeds 135/day during Women's Elite Eight / Final Four week 2027 (2027-03-29 through 2027-04-04)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Madison_Booker', 7-day median over 2027-03-29 through 2027-04-04 inclusive \u2265 135",
+    "chorus_probability": 0.6,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-26T17:32:48.467761+00:00",
+    "locked_at": "2026-05-26T17:32:48.467761+00:00",
+    "resolution_date": "2027-04-05",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap2_cohort_expansion_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 90,
+        "threshold": 135,
+        "threshold_multiplier_vs_baseline": 1.5,
+        "structural_event": "Women's Elite Eight / Final Four week 2027",
+        "sport": "NCAA Basketball / WNBA 2027",
+        "wiki_slug": "Madison_Booker",
+        "rationale": "Top-3 projected 2027 WNBA pick; Texas women's deep tournament run probable but not certain."
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_7cda2f26",
+    "source_file": "cap2_cohort_expansion_2026_05_26.jsonl",
+    "original_id": "pred_7cda2f26",
+    "original_sha": "7cda2f2619d85c00a2c816636f1f646aa5ccf0f560e9cc294626cd98e3dc3f62",
+    "domain": "sports_attention_marketability",
+    "question": "Mikaylah Williams Wikipedia 7-day median exceeds 82/day during Women's Final Four 2027 (2027-04-05 through 2027-04-11)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Mikaylah_Williams', 7-day median over 2027-04-05 through 2027-04-11 inclusive \u2265 82",
+    "chorus_probability": 0.68,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-26T17:32:48.708092+00:00",
+    "locked_at": "2026-05-26T17:32:48.708092+00:00",
+    "resolution_date": "2027-04-12",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap2_cohort_expansion_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 55,
+        "threshold": 82,
+        "threshold_multiplier_vs_baseline": 1.5,
+        "structural_event": "Women's Final Four 2027",
+        "sport": "NCAA Basketball / WNBA 2027",
+        "wiki_slug": "Mikaylah_Williams",
+        "rationale": "Jordan Brand NIL deal; LSU women's basketball remains a national-tournament brand under Mulkey."
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_548ff5ba",
+    "source_file": "cap2_cohort_expansion_2026_05_26.jsonl",
+    "original_id": "pred_548ff5ba",
+    "original_sha": "548ff5ba367818f95b4e1ee151795455bed0e8f91db7c515d23e15d7db070bce",
+    "domain": "sports_attention_marketability",
+    "question": "Hezly Rivera Wikipedia 7-day median exceeds 174/day during U.S. Gymnastics Championships 2026 (2026-08-22 through 2026-08-28)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Hezly_Rivera', 7-day median over 2026-08-22 through 2026-08-28 inclusive \u2265 174",
+    "chorus_probability": 0.7,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-26T17:32:49.000289+00:00",
+    "locked_at": "2026-05-26T17:32:49.000289+00:00",
+    "resolution_date": "2026-08-29",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap2_cohort_expansion_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 116,
+        "threshold": 174,
+        "threshold_multiplier_vs_baseline": 1.5,
+        "structural_event": "U.S. Gymnastics Championships 2026",
+        "sport": "Gymnastics / Olympics 2028",
+        "wiki_slug": "Hezly_Rivera",
+        "rationale": "2024 Olympic team gold; heir-apparent narrative to Biles for LA28; structurally amplified by national-championship coverage."
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_b8a1b044",
+    "source_file": "cap2_cohort_expansion_2026_05_26.jsonl",
+    "original_id": "pred_b8a1b044",
+    "original_sha": "b8a1b0448367a906b008892ef746487578e9d65e39c6c8a54f36a94eaecf1b65",
+    "domain": "sports_attention_marketability",
+    "question": "Torri Huske Wikipedia 7-day median exceeds 132/day during World Aquatics Championships 2027 (Tokyo) (2027-07-18 through 2027-07-24)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Torri_Huske', 7-day median over 2027-07-18 through 2027-07-24 inclusive \u2265 132",
+    "chorus_probability": 0.56,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-26T17:32:49.279424+00:00",
+    "locked_at": "2026-05-26T17:32:49.279424+00:00",
+    "resolution_date": "2027-07-25",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap2_cohort_expansion_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 94,
+        "threshold": 132,
+        "threshold_multiplier_vs_baseline": 1.4,
+        "structural_event": "World Aquatics Championships 2027 (Tokyo)",
+        "sport": "Swimming / Olympics 2028",
+        "wiki_slug": "Torri_Huske",
+        "rationale": "Established brand portfolio; lower-confidence call deliberately included to span the calibration range. Discrete spike event is the WR pursuit."
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
   }
 ]
