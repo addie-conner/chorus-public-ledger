@@ -75528,5 +75528,1502 @@
     ],
     "temporal_class": "FWD",
     "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_msv2_3de10c34",
+    "parent_canonical_id": "pred_9b4c1d03",
+    "source_file": "cap2_multisource_v2_2026_05_26.jsonl",
+    "original_id": "pred_msv2_3de10c34",
+    "original_sha": "3de10c345c5b36e9e6fcca816465eeff5d5f3fa6f623da1f5c734b895cbd49b3",
+    "domain": "sports_attention_marketability_multisource_v2",
+    "question": "Caitlin Clark Wikipedia 7-day median exceeds 6,865/day during WNBA opening week (May 12-18, 2026)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Caitlin_Clark', 7-day median over 2026-05-12 through 2026-05-18 inclusive \u2265 6865",
+    "chorus_probability": 0.81,
+    "baseline_probability": 0.78,
+    "edge": 0.030000000000000027,
+    "status": "open",
+    "created_at": "2026-05-26T18:33:04.637088+00:00",
+    "locked_at": "2026-05-26T18:33:04.637088+00:00",
+    "resolution_date": "2026-05-19",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "multisource_v2_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "parent_canonical_id": "pred_9b4c1d03",
+        "threshold_direction": "ABOVE",
+        "sources_measured": {
+          "wikipedia_views": {
+            "baseline_90d_median": 5305,
+            "current_30d_median": 6819.5,
+            "z_score": 20.79345149036558,
+            "fired": true
+          },
+          "wikipedia_edits": {
+            "edits_30d": 4,
+            "edits_90d": 20,
+            "edits_180d": 32,
+            "baseline_monthly": 5.333333333333333,
+            "z_score": -0.5773502691896256,
+            "fired": false
+          },
+          "gdelt_news": {
+            "articles_30d": 0,
+            "articles_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          },
+          "reddit": {
+            "mentions_30d": 75,
+            "mentions_90d": 100,
+            "baseline_30d_avg": 12.5,
+            "z_score": 17.67766952966369,
+            "fired": true,
+            "data_gap": false
+          }
+        },
+        "sources_firing_count": 2,
+        "adjustment_rule_applied": "ABOVE_2sources_+0.03",
+        "confidence_delta": 0.03,
+        "data_collection_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MULTISOURCE_V2"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "multisource_v2_parallel",
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_msv2_de860aee",
+    "parent_canonical_id": "pred_e85f7c2c",
+    "source_file": "cap2_multisource_v2_2026_05_26.jsonl",
+    "original_id": "pred_msv2_de860aee",
+    "original_sha": "de860aee344d5f3f75f032cfa56fb8798455418d26542779b99126a302b6d117",
+    "domain": "sports_attention_marketability_multisource_v2",
+    "question": "Cooper Flagg Wikipedia 7-day median sustains \u22652,131/day during pre-NBA-draft window (May 12-18, 2026)",
+    "resolution_criterion": "Wikipedia REST API per-article daily for 'Cooper_Flagg', 7-day median over 2026-05-12 through 2026-05-18 inclusive \u2265 2131",
+    "chorus_probability": 0.82,
+    "baseline_probability": 0.82,
+    "edge": 0.0,
+    "status": "open",
+    "created_at": "2026-05-26T18:33:48.551225+00:00",
+    "locked_at": "2026-05-26T18:33:48.551225+00:00",
+    "resolution_date": "2026-05-19",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "multisource_v2_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "parent_canonical_id": "pred_e85f7c2c",
+        "threshold_direction": "ABOVE",
+        "sources_measured": {
+          "wikipedia_views": {
+            "baseline_90d_median": 3903,
+            "current_30d_median": 4222.0,
+            "z_score": 5.106124589836014,
+            "fired": true
+          },
+          "wikipedia_edits": {
+            "edits_30d": 28,
+            "edits_90d": 75,
+            "edits_180d": 157,
+            "baseline_monthly": 26.166666666666668,
+            "z_score": 0.3583993668480908,
+            "fired": false
+          },
+          "gdelt_news": {
+            "articles_30d": 0,
+            "articles_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          },
+          "reddit": {
+            "mentions_30d": 0,
+            "mentions_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          }
+        },
+        "sources_firing_count": 1,
+        "adjustment_rule_applied": "ABOVE_1source_unchanged",
+        "confidence_delta": 0.0,
+        "data_collection_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MULTISOURCE_V2"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "multisource_v2_parallel",
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_msv2_015d2f63",
+    "parent_canonical_id": "pred_fbcede49",
+    "source_file": "cap2_multisource_v2_2026_05_26.jsonl",
+    "original_id": "pred_msv2_015d2f63",
+    "original_sha": "015d2f63e1c01295bb549066be9a4b7ec5f61bc2b7bd7ec3468d0fec509676bf",
+    "domain": "sports_attention_marketability_multisource_v2",
+    "question": "JuJu Watkins Wikipedia 7-day median stays below 852/day during May 12-18, 2026 (women's hoops offseason)",
+    "resolution_criterion": "Wikipedia REST API per-article daily for 'JuJu_Watkins', 7-day median over 2026-05-12 through 2026-05-18 inclusive \u2264 852",
+    "chorus_probability": 0.77,
+    "baseline_probability": 0.72,
+    "edge": 0.050000000000000044,
+    "status": "open",
+    "created_at": "2026-05-26T18:34:03.717904+00:00",
+    "locked_at": "2026-05-26T18:34:03.717904+00:00",
+    "resolution_date": "2026-05-19",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "multisource_v2_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "parent_canonical_id": "pred_fbcede49",
+        "threshold_direction": "BELOW",
+        "sources_measured": {
+          "wikipedia_views": {
+            "baseline_90d_median": 449,
+            "current_30d_median": 320.0,
+            "z_score": -6.087886398560812,
+            "fired": false
+          },
+          "wikipedia_edits": {
+            "edits_30d": 1,
+            "edits_90d": 4,
+            "edits_180d": 7,
+            "baseline_monthly": 1.1666666666666667,
+            "z_score": -0.15430334996209197,
+            "fired": false
+          },
+          "gdelt_news": {
+            "articles_30d": 0,
+            "articles_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          },
+          "reddit": {
+            "mentions_30d": 0,
+            "mentions_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          }
+        },
+        "sources_firing_count": 0,
+        "adjustment_rule_applied": "BELOW_0sources_+0.05_quiet_confirmed",
+        "confidence_delta": 0.05,
+        "data_collection_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MULTISOURCE_V2"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "multisource_v2_parallel",
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_msv2_01088c43",
+    "parent_canonical_id": "pred_8b1463e2",
+    "source_file": "cap2_multisource_v2_2026_05_26.jsonl",
+    "original_id": "pred_msv2_01088c43",
+    "original_sha": "01088c439e15206a779230f36563a205f05f06bcdf302b8af5121a96cddcadf3",
+    "domain": "sports_attention_marketability_multisource_v2",
+    "question": "Sal Stewart Wikipedia 7-day median exceeds 722/day during MLB All-Star Week 2026 (Atlanta) (2026-07-11 through 2026-07-17)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Sal_Stewart', 7-day median over 2026-07-11 through 2026-07-17 inclusive \u2265 722",
+    "chorus_probability": 0.72,
+    "baseline_probability": 0.72,
+    "edge": 0.0,
+    "status": "open",
+    "created_at": "2026-05-26T18:34:21.952215+00:00",
+    "locked_at": "2026-05-26T18:34:21.952215+00:00",
+    "resolution_date": "2026-07-18",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "multisource_v2_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "parent_canonical_id": "pred_8b1463e2",
+        "threshold_direction": "ABOVE",
+        "sources_measured": {
+          "wikipedia_views": {
+            "baseline_90d_median": 451,
+            "current_30d_median": 457.0,
+            "z_score": 0.28252896560880664,
+            "fired": false
+          },
+          "wikipedia_edits": {
+            "edits_30d": 7,
+            "edits_90d": 17,
+            "edits_180d": 23,
+            "baseline_monthly": 3.8333333333333335,
+            "z_score": 1.6173874084416222,
+            "fired": false
+          },
+          "gdelt_news": {
+            "articles_30d": 0,
+            "articles_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          },
+          "reddit": {
+            "mentions_30d": 74,
+            "mentions_90d": 100,
+            "baseline_30d_avg": 13.0,
+            "z_score": 16.91835598486949,
+            "fired": true,
+            "data_gap": false
+          }
+        },
+        "sources_firing_count": 1,
+        "adjustment_rule_applied": "ABOVE_1source_unchanged",
+        "confidence_delta": 0.0,
+        "data_collection_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MULTISOURCE_V2"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "multisource_v2_parallel",
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_msv2_9da9db12",
+    "parent_canonical_id": "pred_2fca6f9c",
+    "source_file": "cap2_multisource_v2_2026_05_26.jsonl",
+    "original_id": "pred_msv2_9da9db12",
+    "original_sha": "9da9db121b2b6ba95a62ce5764948ed60839be1d8777fa4fb7c0530bf358d5b4",
+    "domain": "sports_attention_marketability_multisource_v2",
+    "question": "Chase DeLauter Wikipedia 7-day median exceeds 578/day during MLB postseason / Wild Card week 2026 (2026-09-27 through 2026-10-03)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Chase_DeLauter', 7-day median over 2026-09-27 through 2026-10-03 inclusive \u2265 578",
+    "chorus_probability": 0.65,
+    "baseline_probability": 0.62,
+    "edge": 0.030000000000000027,
+    "status": "open",
+    "created_at": "2026-05-26T18:35:05.484467+00:00",
+    "locked_at": "2026-05-26T18:35:05.484467+00:00",
+    "resolution_date": "2026-10-04",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "multisource_v2_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "parent_canonical_id": "pred_2fca6f9c",
+        "threshold_direction": "ABOVE",
+        "sources_measured": {
+          "wikipedia_views": {
+            "baseline_90d_median": 385,
+            "current_30d_median": 397.0,
+            "z_score": 0.6115766297251507,
+            "fired": false
+          },
+          "wikipedia_edits": {
+            "edits_30d": 9,
+            "edits_90d": 40,
+            "edits_180d": 47,
+            "baseline_monthly": 7.833333333333333,
+            "z_score": 0.4168439339227897,
+            "fired": false
+          },
+          "gdelt_news": {
+            "articles_30d": 98,
+            "articles_90d": 250,
+            "baseline_30d_avg": 76.0,
+            "z_score": 2.523573072576179,
+            "fired": true,
+            "data_gap": false
+          },
+          "reddit": {
+            "mentions_30d": 27,
+            "mentions_90d": 50,
+            "baseline_30d_avg": 11.5,
+            "z_score": 4.570700640801811,
+            "fired": true,
+            "data_gap": false
+          }
+        },
+        "sources_firing_count": 2,
+        "adjustment_rule_applied": "ABOVE_2sources_+0.03",
+        "confidence_delta": 0.03,
+        "data_collection_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MULTISOURCE_V2"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "multisource_v2_parallel",
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_msv2_56be3715",
+    "parent_canonical_id": "pred_bad7b263",
+    "source_file": "cap2_multisource_v2_2026_05_26.jsonl",
+    "original_id": "pred_msv2_56be3715",
+    "original_sha": "56be37151e0f487c525bdce00f15897028be5bfeb0d9f6588d528df113aecb7b",
+    "domain": "sports_attention_marketability_multisource_v2",
+    "question": "JJ Wetherholt Wikipedia 7-day median exceeds 1031/day during MLB debut window (Cardinals expected mid-season promotion) (2026-06-20 through 2026-06-26)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'JJ_Wetherholt', 7-day median over 2026-06-20 through 2026-06-26 inclusive \u2265 1031",
+    "chorus_probability": 0.63,
+    "baseline_probability": 0.6,
+    "edge": 0.030000000000000027,
+    "status": "open",
+    "created_at": "2026-05-26T18:35:56.257703+00:00",
+    "locked_at": "2026-05-26T18:35:56.257703+00:00",
+    "resolution_date": "2026-06-27",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "multisource_v2_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "parent_canonical_id": "pred_bad7b263",
+        "threshold_direction": "ABOVE",
+        "sources_measured": {
+          "wikipedia_views": {
+            "baseline_90d_median": 573,
+            "current_30d_median": 812.0,
+            "z_score": 9.984368236150129,
+            "fired": true
+          },
+          "wikipedia_edits": {
+            "edits_30d": 14,
+            "edits_90d": 62,
+            "edits_180d": 73,
+            "baseline_monthly": 12.166666666666666,
+            "z_score": 0.5256003308242464,
+            "fired": false
+          },
+          "gdelt_news": {
+            "articles_30d": 0,
+            "articles_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          },
+          "reddit": {
+            "mentions_30d": 24,
+            "mentions_90d": 50,
+            "baseline_30d_avg": 13.0,
+            "z_score": 3.05085107923876,
+            "fired": true,
+            "data_gap": false
+          }
+        },
+        "sources_firing_count": 2,
+        "adjustment_rule_applied": "ABOVE_2sources_+0.03",
+        "confidence_delta": 0.03,
+        "data_collection_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MULTISOURCE_V2"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "multisource_v2_parallel",
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_msv2_6b840e34",
+    "parent_canonical_id": "pred_d28d06aa",
+    "source_file": "cap2_multisource_v2_2026_05_26.jsonl",
+    "original_id": "pred_msv2_6b840e34",
+    "original_sha": "6b840e344bec95da23eed404a2a0b8d349f65f5efc93ec4f9ee2716e4d8c33a7",
+    "domain": "sports_attention_marketability_multisource_v2",
+    "question": "CJ Carr Wikipedia 7-day median exceeds 357/day during Notre Dame marquee October matchup (2026-10-10 through 2026-10-16)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'CJ_Carr', 7-day median over 2026-10-10 through 2026-10-16 inclusive \u2265 357",
+    "chorus_probability": 0.73,
+    "baseline_probability": 0.7,
+    "edge": 0.030000000000000027,
+    "status": "open",
+    "created_at": "2026-05-26T18:36:41.218318+00:00",
+    "locked_at": "2026-05-26T18:36:41.218318+00:00",
+    "resolution_date": "2026-10-17",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "multisource_v2_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "parent_canonical_id": "pred_d28d06aa",
+        "threshold_direction": "ABOVE",
+        "sources_measured": {
+          "wikipedia_views": {
+            "baseline_90d_median": 238,
+            "current_30d_median": 415.5,
+            "z_score": 11.505616093050918,
+            "fired": true
+          },
+          "wikipedia_edits": {
+            "edits_30d": 1,
+            "edits_90d": 3,
+            "edits_180d": 9,
+            "baseline_monthly": 1.5,
+            "z_score": -0.4082482904638631,
+            "fired": false
+          },
+          "gdelt_news": {
+            "articles_30d": 23,
+            "articles_90d": 46,
+            "baseline_30d_avg": 11.5,
+            "z_score": 3.391164991562634,
+            "fired": true,
+            "data_gap": false
+          },
+          "reddit": {
+            "mentions_30d": 1,
+            "mentions_90d": 1,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          }
+        },
+        "sources_firing_count": 2,
+        "adjustment_rule_applied": "ABOVE_2sources_+0.03",
+        "confidence_delta": 0.03,
+        "data_collection_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MULTISOURCE_V2"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "multisource_v2_parallel",
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_msv2_2053eb98",
+    "parent_canonical_id": "pred_9bb77c60",
+    "source_file": "cap2_multisource_v2_2026_05_26.jsonl",
+    "original_id": "pred_msv2_2053eb98",
+    "original_sha": "2053eb986602ad904c105f841408d4674eb8b0e6453157d1901c03738af5bbbb",
+    "domain": "sports_attention_marketability_multisource_v2",
+    "question": "Jeremiah Smith Wikipedia 7-day median exceeds 907/day during Heisman ceremony week (2026-12-05 through 2026-12-11)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Jeremiah_Smith_(American_football)', 7-day median over 2026-12-05 through 2026-12-11 inclusive \u2265 907",
+    "chorus_probability": 0.65,
+    "baseline_probability": 0.65,
+    "edge": 0.0,
+    "status": "open",
+    "created_at": "2026-05-26T18:36:56.534741+00:00",
+    "locked_at": "2026-05-26T18:36:56.534741+00:00",
+    "resolution_date": "2026-12-12",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "multisource_v2_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "parent_canonical_id": "pred_9bb77c60",
+        "threshold_direction": "ABOVE",
+        "sources_measured": {
+          "wikipedia_views": {
+            "baseline_90d_median": 648,
+            "current_30d_median": 717.0,
+            "z_score": 2.710575994548432,
+            "fired": true
+          },
+          "wikipedia_edits": {
+            "edits_30d": 15,
+            "edits_90d": 21,
+            "edits_180d": 77,
+            "baseline_monthly": 12.833333333333334,
+            "z_score": 0.6048147367590059,
+            "fired": false
+          },
+          "gdelt_news": {
+            "articles_30d": 0,
+            "articles_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          },
+          "reddit": {
+            "mentions_30d": 1,
+            "mentions_90d": 7,
+            "baseline_30d_avg": 3.0,
+            "z_score": -1.1547005383792517,
+            "fired": false,
+            "data_gap": false
+          }
+        },
+        "sources_firing_count": 1,
+        "adjustment_rule_applied": "ABOVE_1source_unchanged",
+        "confidence_delta": 0.0,
+        "data_collection_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MULTISOURCE_V2"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "multisource_v2_parallel",
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_msv2_d6540a99",
+    "parent_canonical_id": "pred_be87436f",
+    "source_file": "cap2_multisource_v2_2026_05_26.jsonl",
+    "original_id": "pred_msv2_d6540a99",
+    "original_sha": "d6540a99a2a9952da32cdf939537ff4843c6e3d1139ddd8dca4feda6796c44b6",
+    "domain": "sports_attention_marketability_multisource_v2",
+    "question": "Sam Leavitt Wikipedia 7-day median exceeds 234/day during LSU-Alabama rivalry week 2026 (2026-11-14 through 2026-11-20)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Sam_Leavitt_(American_football)', 7-day median over 2026-11-14 through 2026-11-20 inclusive \u2265 234",
+    "chorus_probability": 0.65,
+    "baseline_probability": 0.65,
+    "edge": 0.0,
+    "status": "open",
+    "created_at": "2026-05-26T18:37:13.454171+00:00",
+    "locked_at": "2026-05-26T18:37:13.454171+00:00",
+    "resolution_date": "2026-11-21",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "multisource_v2_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "parent_canonical_id": "pred_be87436f",
+        "threshold_direction": "ABOVE",
+        "sources_measured": {
+          "wikipedia_views": {
+            "baseline_90d_median": 156,
+            "current_30d_median": 245.5,
+            "z_score": 7.165734882777649,
+            "fired": true
+          },
+          "wikipedia_edits": {
+            "edits_30d": 0,
+            "edits_90d": 3,
+            "edits_180d": 17,
+            "baseline_monthly": 2.8333333333333335,
+            "z_score": -1.6832508230603462,
+            "fired": false
+          },
+          "gdelt_news": {
+            "articles_30d": 0,
+            "articles_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          },
+          "reddit": {
+            "mentions_30d": 2,
+            "mentions_90d": 3,
+            "baseline_30d_avg": 0.5,
+            "z_score": 1.5,
+            "fired": false,
+            "data_gap": false
+          }
+        },
+        "sources_firing_count": 1,
+        "adjustment_rule_applied": "ABOVE_1source_unchanged",
+        "confidence_delta": 0.0,
+        "data_collection_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MULTISOURCE_V2"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "multisource_v2_parallel",
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_msv2_3955b8ca",
+    "parent_canonical_id": "pred_f454ff25",
+    "source_file": "cap2_multisource_v2_2026_05_26.jsonl",
+    "original_id": "pred_msv2_3955b8ca",
+    "original_sha": "3955b8caf4f5876fc06f0d14cafcab2c8e762ee898fd3dc2e17a862ad32a5add",
+    "domain": "sports_attention_marketability_multisource_v2",
+    "question": "Hannah Hidalgo Wikipedia 7-day median exceeds 378/day during Women's Final Four 2027 (2027-04-05 through 2027-04-11)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Hannah_Hidalgo', 7-day median over 2027-04-05 through 2027-04-11 inclusive \u2265 378",
+    "chorus_probability": 0.7,
+    "baseline_probability": 0.75,
+    "edge": -0.050000000000000044,
+    "status": "open",
+    "created_at": "2026-05-26T18:37:29.923209+00:00",
+    "locked_at": "2026-05-26T18:37:29.923209+00:00",
+    "resolution_date": "2027-04-12",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "multisource_v2_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "parent_canonical_id": "pred_f454ff25",
+        "threshold_direction": "ABOVE",
+        "sources_measured": {
+          "wikipedia_views": {
+            "baseline_90d_median": 236,
+            "current_30d_median": 156.0,
+            "z_score": -5.207556439232955,
+            "fired": false
+          },
+          "wikipedia_edits": {
+            "edits_30d": 3,
+            "edits_90d": 35,
+            "edits_180d": 42,
+            "baseline_monthly": 7.0,
+            "z_score": -1.5118578920369088,
+            "fired": false
+          },
+          "gdelt_news": {
+            "articles_30d": 0,
+            "articles_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          },
+          "reddit": {
+            "mentions_30d": 0,
+            "mentions_90d": 20,
+            "baseline_30d_avg": 10.0,
+            "z_score": -3.162277660168379,
+            "fired": false,
+            "data_gap": false
+          }
+        },
+        "sources_firing_count": 0,
+        "adjustment_rule_applied": "ABOVE_0sources_-0.05",
+        "confidence_delta": -0.05,
+        "data_collection_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MULTISOURCE_V2"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "multisource_v2_parallel",
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_msv2_74bbbde4",
+    "parent_canonical_id": "pred_d552be8f",
+    "source_file": "cap2_multisource_v2_2026_05_26.jsonl",
+    "original_id": "pred_msv2_74bbbde4",
+    "original_sha": "74bbbde406d6036a54af90a94511b4ae62c114ecbc52d07f60a896528fa6002f",
+    "domain": "sports_attention_marketability_multisource_v2",
+    "question": "Madison Booker Wikipedia 7-day median exceeds 135/day during Women's Elite Eight / Final Four week 2027 (2027-03-29 through 2027-04-04)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Madison_Booker', 7-day median over 2027-03-29 through 2027-04-04 inclusive \u2265 135",
+    "chorus_probability": 0.5499999999999999,
+    "baseline_probability": 0.6,
+    "edge": -0.050000000000000044,
+    "status": "open",
+    "created_at": "2026-05-26T18:37:45.639504+00:00",
+    "locked_at": "2026-05-26T18:37:45.639504+00:00",
+    "resolution_date": "2027-04-05",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "multisource_v2_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "parent_canonical_id": "pred_d552be8f",
+        "threshold_direction": "ABOVE",
+        "sources_measured": {
+          "wikipedia_views": {
+            "baseline_90d_median": 90,
+            "current_30d_median": 58.0,
+            "z_score": -3.3730961708462712,
+            "fired": false
+          },
+          "wikipedia_edits": {
+            "edits_30d": 1,
+            "edits_90d": 10,
+            "edits_180d": 15,
+            "baseline_monthly": 2.5,
+            "z_score": -0.9486832980505138,
+            "fired": false
+          },
+          "gdelt_news": {
+            "articles_30d": 0,
+            "articles_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          },
+          "reddit": {
+            "mentions_30d": 1,
+            "mentions_90d": 16,
+            "baseline_30d_avg": 7.5,
+            "z_score": -2.37346441585572,
+            "fired": false,
+            "data_gap": false
+          }
+        },
+        "sources_firing_count": 0,
+        "adjustment_rule_applied": "ABOVE_0sources_-0.05",
+        "confidence_delta": -0.05,
+        "data_collection_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MULTISOURCE_V2"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "multisource_v2_parallel",
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_msv2_c2dcc7d0",
+    "parent_canonical_id": "pred_7cda2f26",
+    "source_file": "cap2_multisource_v2_2026_05_26.jsonl",
+    "original_id": "pred_msv2_c2dcc7d0",
+    "original_sha": "c2dcc7d0bfdafd2af8d38a8202621dc16d7b25ac78f5b7f78e041a0dba1517d3",
+    "domain": "sports_attention_marketability_multisource_v2",
+    "question": "Mikaylah Williams Wikipedia 7-day median exceeds 82/day during Women's Final Four 2027 (2027-04-05 through 2027-04-11)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Mikaylah_Williams', 7-day median over 2027-04-05 through 2027-04-11 inclusive \u2265 82",
+    "chorus_probability": 0.63,
+    "baseline_probability": 0.68,
+    "edge": -0.050000000000000044,
+    "status": "open",
+    "created_at": "2026-05-26T18:38:04.883153+00:00",
+    "locked_at": "2026-05-26T18:38:04.883153+00:00",
+    "resolution_date": "2027-04-12",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "multisource_v2_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "parent_canonical_id": "pred_7cda2f26",
+        "threshold_direction": "ABOVE",
+        "sources_measured": {
+          "wikipedia_views": {
+            "baseline_90d_median": 55,
+            "current_30d_median": 37.5,
+            "z_score": -2.359699518621347,
+            "fired": false
+          },
+          "wikipedia_edits": {
+            "edits_30d": 0,
+            "edits_90d": 3,
+            "edits_180d": 5,
+            "baseline_monthly": 0.8333333333333334,
+            "z_score": -0.8333333333333334,
+            "fired": false
+          },
+          "gdelt_news": {
+            "articles_30d": 0,
+            "articles_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          },
+          "reddit": {
+            "mentions_30d": 0,
+            "mentions_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          }
+        },
+        "sources_firing_count": 0,
+        "adjustment_rule_applied": "ABOVE_0sources_-0.05",
+        "confidence_delta": -0.05,
+        "data_collection_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MULTISOURCE_V2"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "multisource_v2_parallel",
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_msv2_b4687334",
+    "parent_canonical_id": "pred_548ff5ba",
+    "source_file": "cap2_multisource_v2_2026_05_26.jsonl",
+    "original_id": "pred_msv2_b4687334",
+    "original_sha": "b46873348349d9fc72e5d29f502dd9e211e7c700b141a5382293fc7b0bd75c30",
+    "domain": "sports_attention_marketability_multisource_v2",
+    "question": "Hezly Rivera Wikipedia 7-day median exceeds 174/day during U.S. Gymnastics Championships 2026 (2026-08-22 through 2026-08-28)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Hezly_Rivera', 7-day median over 2026-08-22 through 2026-08-28 inclusive \u2265 174",
+    "chorus_probability": 0.73,
+    "baseline_probability": 0.7,
+    "edge": 0.030000000000000027,
+    "status": "open",
+    "created_at": "2026-05-26T18:38:16.632475+00:00",
+    "locked_at": "2026-05-26T18:38:16.632475+00:00",
+    "resolution_date": "2026-08-29",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "multisource_v2_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "parent_canonical_id": "pred_548ff5ba",
+        "threshold_direction": "ABOVE",
+        "sources_measured": {
+          "wikipedia_views": {
+            "baseline_90d_median": 116,
+            "current_30d_median": 141.0,
+            "z_score": 2.3211917272131486,
+            "fired": true
+          },
+          "wikipedia_edits": {
+            "edits_30d": 1,
+            "edits_90d": 4,
+            "edits_180d": 6,
+            "baseline_monthly": 1.0,
+            "z_score": 0.0,
+            "fired": false
+          },
+          "gdelt_news": {
+            "articles_30d": 0,
+            "articles_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          },
+          "reddit": {
+            "mentions_30d": 4,
+            "mentions_90d": 6,
+            "baseline_30d_avg": 1.0,
+            "z_score": 3.0,
+            "fired": true,
+            "data_gap": false
+          }
+        },
+        "sources_firing_count": 2,
+        "adjustment_rule_applied": "ABOVE_2sources_+0.03",
+        "confidence_delta": 0.03,
+        "data_collection_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MULTISOURCE_V2"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "multisource_v2_parallel",
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_msv2_9ceb3663",
+    "parent_canonical_id": "pred_b8a1b044",
+    "source_file": "cap2_multisource_v2_2026_05_26.jsonl",
+    "original_id": "pred_msv2_9ceb3663",
+    "original_sha": "9ceb3663759dbb9d50aa746941e5195d6a0635cea03ac5258265272f64d560ea",
+    "domain": "sports_attention_marketability_multisource_v2",
+    "question": "Torri Huske Wikipedia 7-day median exceeds 132/day during World Aquatics Championships 2027 (Tokyo) (2027-07-18 through 2027-07-24)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Torri_Huske', 7-day median over 2027-07-18 through 2027-07-24 inclusive \u2265 132",
+    "chorus_probability": 0.51,
+    "baseline_probability": 0.56,
+    "edge": -0.050000000000000044,
+    "status": "open",
+    "created_at": "2026-05-26T18:38:28.393663+00:00",
+    "locked_at": "2026-05-26T18:38:28.393663+00:00",
+    "resolution_date": "2027-07-25",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "multisource_v2_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "parent_canonical_id": "pred_b8a1b044",
+        "threshold_direction": "ABOVE",
+        "sources_measured": {
+          "wikipedia_views": {
+            "baseline_90d_median": 94,
+            "current_30d_median": 96.5,
+            "z_score": 0.2578553115646983,
+            "fired": false
+          },
+          "wikipedia_edits": {
+            "edits_30d": 3,
+            "edits_90d": 6,
+            "edits_180d": 7,
+            "baseline_monthly": 1.1666666666666667,
+            "z_score": 1.6973368495830108,
+            "fired": false
+          },
+          "gdelt_news": {
+            "articles_30d": 0,
+            "articles_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          },
+          "reddit": {
+            "mentions_30d": 0,
+            "mentions_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          }
+        },
+        "sources_firing_count": 0,
+        "adjustment_rule_applied": "ABOVE_0sources_-0.05",
+        "confidence_delta": -0.05,
+        "data_collection_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MULTISOURCE_V2"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "multisource_v2_parallel",
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_msv2_57dd20d6",
+    "parent_canonical_id": "pred_73795f3b",
+    "source_file": "cap2_multisource_v2_2026_05_26.jsonl",
+    "original_id": "pred_msv2_57dd20d6",
+    "original_sha": "57dd20d643486748319ec16ca37117880f1ff4c18308b44014908d79c138a050",
+    "domain": "sports_attention_marketability_multisource_v2",
+    "question": "Kevin McGonigle Wikipedia 7-day median exceeds 1454/day during MLB All-Star Week 2026 (Future Stars / Rookie attention) (2026-07-11 through 2026-07-17)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Kevin_McGonigle', 7-day median over 2026-07-11 through 2026-07-17 inclusive \u2265 1454",
+    "chorus_probability": 0.72,
+    "baseline_probability": 0.72,
+    "edge": 0.0,
+    "status": "open",
+    "created_at": "2026-05-26T18:38:42.239204+00:00",
+    "locked_at": "2026-05-26T18:38:42.239204+00:00",
+    "resolution_date": "2026-07-18",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "multisource_v2_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "parent_canonical_id": "pred_73795f3b",
+        "threshold_direction": "ABOVE",
+        "sources_measured": {
+          "wikipedia_views": {
+            "baseline_90d_median": 808,
+            "current_30d_median": 730.5,
+            "z_score": -2.726440485829881,
+            "fired": false
+          },
+          "wikipedia_edits": {
+            "edits_30d": 10,
+            "edits_90d": 59,
+            "edits_180d": 61,
+            "baseline_monthly": 10.166666666666666,
+            "z_score": -0.05227083734893149,
+            "fired": false
+          },
+          "gdelt_news": {
+            "articles_30d": 0,
+            "articles_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          },
+          "reddit": {
+            "mentions_30d": 78,
+            "mentions_90d": 100,
+            "baseline_30d_avg": 11.0,
+            "z_score": 20.201260086710164,
+            "fired": true,
+            "data_gap": false
+          }
+        },
+        "sources_firing_count": 1,
+        "adjustment_rule_applied": "ABOVE_1source_unchanged",
+        "confidence_delta": 0.0,
+        "data_collection_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MULTISOURCE_V2"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "multisource_v2_parallel",
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_msv2_4e55fac8",
+    "parent_canonical_id": "pred_f7fb47f5",
+    "source_file": "cap2_multisource_v2_2026_05_26.jsonl",
+    "original_id": "pred_msv2_4e55fac8",
+    "original_sha": "4e55fac821984eea2009697384a012462ecc3ea8c017a1285abf425293bb63a7",
+    "domain": "sports_attention_marketability_multisource_v2",
+    "question": "Kyle Harrison Wikipedia 7-day median exceeds 366/day during MLB postseason / Wild Card race window 2026 (2026-09-27 through 2026-10-03)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Kyle_Harrison_(baseball)', 7-day median over 2026-09-27 through 2026-10-03 inclusive \u2265 366",
+    "chorus_probability": 0.68,
+    "baseline_probability": 0.65,
+    "edge": 0.030000000000000027,
+    "status": "open",
+    "created_at": "2026-05-26T18:38:55.656275+00:00",
+    "locked_at": "2026-05-26T18:38:55.656275+00:00",
+    "resolution_date": "2026-10-04",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "multisource_v2_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "parent_canonical_id": "pred_f7fb47f5",
+        "threshold_direction": "ABOVE",
+        "sources_measured": {
+          "wikipedia_views": {
+            "baseline_90d_median": 229,
+            "current_30d_median": 387.5,
+            "z_score": 10.473974817213172,
+            "fired": true
+          },
+          "wikipedia_edits": {
+            "edits_30d": 6,
+            "edits_90d": 12,
+            "edits_180d": 28,
+            "baseline_monthly": 4.666666666666667,
+            "z_score": 0.6172133998483674,
+            "fired": false
+          },
+          "gdelt_news": {
+            "articles_30d": 0,
+            "articles_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          },
+          "reddit": {
+            "mentions_30d": 33,
+            "mentions_90d": 62,
+            "baseline_30d_avg": 14.5,
+            "z_score": 4.858338015809735,
+            "fired": true,
+            "data_gap": false
+          }
+        },
+        "sources_firing_count": 2,
+        "adjustment_rule_applied": "ABOVE_2sources_+0.03",
+        "confidence_delta": 0.03,
+        "data_collection_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MULTISOURCE_V2"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "multisource_v2_parallel",
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_msv2_09fedf22",
+    "parent_canonical_id": "pred_684dfc4b",
+    "source_file": "cap2_multisource_v2_2026_05_26.jsonl",
+    "original_id": "pred_msv2_09fedf22",
+    "original_sha": "09fedf225bc5eb37983ca815805a9fd8aa5e6a7a1cc9dfe66cabbbfd37299f07",
+    "domain": "sports_attention_marketability_multisource_v2",
+    "question": "James Wood Wikipedia 7-day median exceeds 563/day during MLB All-Star Week 2026 (sophomore campaign) (2026-07-11 through 2026-07-17)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'James_Wood_(baseball)', 7-day median over 2026-07-11 through 2026-07-17 inclusive \u2265 563",
+    "chorus_probability": 0.75,
+    "baseline_probability": 0.7,
+    "edge": 0.050000000000000044,
+    "status": "open",
+    "created_at": "2026-05-26T18:39:12.421958+00:00",
+    "locked_at": "2026-05-26T18:39:12.421958+00:00",
+    "resolution_date": "2026-07-18",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "multisource_v2_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "parent_canonical_id": "pred_684dfc4b",
+        "threshold_direction": "ABOVE",
+        "sources_measured": {
+          "wikipedia_views": {
+            "baseline_90d_median": 352,
+            "current_30d_median": 442.0,
+            "z_score": 4.797016118001235,
+            "fired": true
+          },
+          "wikipedia_edits": {
+            "edits_30d": 13,
+            "edits_90d": 20,
+            "edits_180d": 27,
+            "baseline_monthly": 4.5,
+            "z_score": 4.00693842672377,
+            "fired": true
+          },
+          "gdelt_news": {
+            "articles_30d": 0,
+            "articles_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          },
+          "reddit": {
+            "mentions_30d": 30,
+            "mentions_90d": 50,
+            "baseline_30d_avg": 10.0,
+            "z_score": 6.324555320336758,
+            "fired": true,
+            "data_gap": false
+          }
+        },
+        "sources_firing_count": 3,
+        "adjustment_rule_applied": "ABOVE_3+sources_+0.05",
+        "confidence_delta": 0.05,
+        "data_collection_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MULTISOURCE_V2"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "multisource_v2_parallel",
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_msv2_8b0918f5",
+    "parent_canonical_id": "pred_566d08c3",
+    "source_file": "cap2_multisource_v2_2026_05_26.jsonl",
+    "original_id": "pred_msv2_8b0918f5",
+    "original_sha": "8b0918f5d117eb1deb0ddbbf025c4bd89f516e04265d89fdb8a0f0914744fb2b",
+    "domain": "sports_attention_marketability_multisource_v2",
+    "question": "Lily Yohannes Wikipedia 7-day median exceeds 322/day during FIFA Women's World Cup 2027 (Brazil) \u2014 group stage week (2027-07-04 through 2027-07-10)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Lily_Yohannes', 7-day median over 2027-07-04 through 2027-07-10 inclusive \u2265 322",
+    "chorus_probability": 0.68,
+    "baseline_probability": 0.68,
+    "edge": 0.0,
+    "status": "open",
+    "created_at": "2026-05-26T18:39:30.573709+00:00",
+    "locked_at": "2026-05-26T18:39:30.573709+00:00",
+    "resolution_date": "2027-07-11",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "multisource_v2_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "parent_canonical_id": "pred_566d08c3",
+        "threshold_direction": "ABOVE",
+        "sources_measured": {
+          "wikipedia_views": {
+            "baseline_90d_median": 161,
+            "current_30d_median": 208.0,
+            "z_score": 3.704118909323773,
+            "fired": true
+          },
+          "wikipedia_edits": {
+            "edits_30d": 6,
+            "edits_90d": 22,
+            "edits_180d": 41,
+            "baseline_monthly": 6.833333333333333,
+            "z_score": -0.31878835653166904,
+            "fired": false
+          },
+          "gdelt_news": {
+            "articles_30d": 0,
+            "articles_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          },
+          "reddit": {
+            "mentions_30d": 0,
+            "mentions_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          }
+        },
+        "sources_firing_count": 1,
+        "adjustment_rule_applied": "ABOVE_1source_unchanged",
+        "confidence_delta": 0.0,
+        "data_collection_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MULTISOURCE_V2"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "multisource_v2_parallel",
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_msv2_36574060",
+    "parent_canonical_id": "pred_4ca8827b",
+    "source_file": "cap2_multisource_v2_2026_05_26.jsonl",
+    "original_id": "pred_msv2_36574060",
+    "original_sha": "36574060beb545e439af505e45afcdef082fb9c7ee81a6d0ad45531fef6812cc",
+    "domain": "sports_attention_marketability_multisource_v2",
+    "question": "Azzi Fudd Wikipedia 7-day median exceeds 4069/day during NCAA Women's Final Four 2027 (2027-04-05 through 2027-04-11)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Azzi_Fudd', 7-day median over 2027-04-05 through 2027-04-11 inclusive \u2265 4069",
+    "chorus_probability": 0.6499999999999999,
+    "baseline_probability": 0.7,
+    "edge": -0.050000000000000044,
+    "status": "open",
+    "created_at": "2026-05-26T18:39:48.214501+00:00",
+    "locked_at": "2026-05-26T18:39:48.214501+00:00",
+    "resolution_date": "2027-04-12",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "multisource_v2_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "parent_canonical_id": "pred_4ca8827b",
+        "threshold_direction": "ABOVE",
+        "sources_measured": {
+          "wikipedia_views": {
+            "baseline_90d_median": 2543,
+            "current_30d_median": 2512.5,
+            "z_score": -0.6048207177904058,
+            "fired": false
+          },
+          "wikipedia_edits": {
+            "edits_30d": 4,
+            "edits_90d": 57,
+            "edits_180d": 69,
+            "baseline_monthly": 11.5,
+            "z_score": -2.211629342323457,
+            "fired": false
+          },
+          "gdelt_news": {
+            "articles_30d": 0,
+            "articles_90d": 0,
+            "z_score": 0,
+            "fired": false,
+            "data_gap": false
+          },
+          "reddit": {
+            "mentions_30d": 25,
+            "mentions_90d": 64,
+            "baseline_30d_avg": 19.5,
+            "z_score": 1.245504737559055,
+            "fired": false,
+            "data_gap": false
+          }
+        },
+        "sources_firing_count": 0,
+        "adjustment_rule_applied": "ABOVE_0sources_-0.05",
+        "confidence_delta": -0.05,
+        "data_collection_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "MULTISOURCE_V2"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "multisource_v2_parallel",
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
   }
 ]
