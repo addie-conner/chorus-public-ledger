@@ -78583,5 +78583,238 @@
     ],
     "temporal_class": "FWD",
     "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_cap1_a70dd908",
+    "source_file": "cap1_audience_composition_2026_05_26.jsonl",
+    "original_id": "pred_cap1_a70dd908",
+    "original_sha": "a70dd908d28774cfb5d1edeebd54ce5551669f942c79627eb0443b103ec15ca6",
+    "domain": "sports_audience_composition_forecaster",
+    "question": "Japanese-American audience composition share of LA-DMA Dodgers viewed/attended games will increase by \u22653 percentage points in months 12-24 post-signing (2024-12 \u2192 2025-12) vs the 2022 pre-Ohtani baseline window",
+    "resolution_criterion": "Nielsen panel DMA-level demographic composition for LA Dodgers games, comparing 2022-01 through 2022-12 baseline window to 2024-12 through 2025-12 measurement window, scored for Japanese-American share. Predicted: share increases by \u22653 percentage points.",
+    "chorus_probability": 0.78,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-27T02:02:20.197086+00:00",
+    "locked_at": "2026-05-27T02:02:20.197086+00:00",
+    "resolution_date": "2026-01-15",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Pending Nielsen panel evaluation",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap1_audience_composition_lock_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "narrative": "Yoshinobu_Yamamoto signed with Los_Angeles_Dodgers on 2023-12-21 ($325M / 12yr). Combined with Ohtani signing same offseason, Cap 1 predicts a measurable shift in LA-DMA Dodgers viewership/attendance toward Japanese-American demographic.",
+        "axcfg_decomposition": {
+          "A": "Ohtani prior + Yamamoto top-of-rotation = max A score",
+          "C": "LA-DMA Japanese-American concentration ranks top-3 nationally (Census ACS)",
+          "F": "Dodgers franchise valuation rank 1 in MLB (Forbes); monetization infrastructure max",
+          "G": "Japanese-language sponsor capture pre-2023 was modest; substantial headroom"
+        },
+        "threshold_direction": "ABOVE",
+        "model": "Cap 1 \u2014 Audience-Composition Forecaster (multiplicative A \u00d7 C \u00d7 F \u00d7 G)",
+        "data_sources": [
+          "Census ACS DMA demographics (public)",
+          "Forbes franchise valuations (public)",
+          "Lahman historical baseball data (public)",
+          "Public attendance + sponsorship reports"
+        ],
+        "resolution_source": "Nielsen panel DMA-level audience composition data (Nielsen scores internally)",
+        "lock_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "AXCFG_MULTIPLICATIVE"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor",
+      "panel_scored_resolution"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_cap1_7877b1f6",
+    "source_file": "cap1_audience_composition_2026_05_26.jsonl",
+    "original_id": "pred_cap1_7877b1f6",
+    "original_sha": "7877b1f6d87aef53083fe0151c1449cc8828f80c787b1be747db20fcd9bb4eb5",
+    "domain": "sports_audience_composition_forecaster",
+    "question": "Dominican-American audience composition share of NY-DMA Mets viewed/attended games will increase by \u22652 percentage points in months 6-18 post-signing (2025-06 \u2192 2026-06) vs the 2023 pre-signing baseline window",
+    "resolution_criterion": "Nielsen panel DMA-level demographic composition for NY Mets games, comparing 2023-01 through 2023-12 baseline window to 2025-06 through 2026-06 measurement window, scored for Dominican-American share. Predicted: share increases by \u22652 percentage points.",
+    "chorus_probability": 0.68,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-27T02:02:20.197253+00:00",
+    "locked_at": "2026-05-27T02:02:20.197253+00:00",
+    "resolution_date": "2026-07-01",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Pending Nielsen panel evaluation",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap1_audience_composition_lock_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "narrative": "Juan_Soto signed with New_York_Mets on 2024-12-08 ($765M / 15yr). Cap 1 predicts a measurable shift in NY-DMA Mets viewership/attendance toward Dominican-American demographic.",
+        "axcfg_decomposition": {
+          "A": "Soto top-5 MLB hitter, MVP-tier \u2014 high A",
+          "C": "NY-DMA Dominican-American concentration high (Census ACS); shared with Yankees so split-attribution risk",
+          "F": "Mets franchise valuation top-5 MLB (Forbes); strong monetization",
+          "G": "Mets Dominican-sponsor capture historically below Yankees; headroom exists"
+        },
+        "threshold_direction": "ABOVE",
+        "model": "Cap 1 \u2014 Audience-Composition Forecaster (multiplicative A \u00d7 C \u00d7 F \u00d7 G)",
+        "data_sources": [
+          "Census ACS DMA demographics (public)",
+          "Forbes franchise valuations (public)",
+          "Lahman historical baseball data (public)",
+          "Public attendance + sponsorship reports"
+        ],
+        "resolution_source": "Nielsen panel DMA-level audience composition data (Nielsen scores internally)",
+        "lock_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "AXCFG_MULTIPLICATIVE"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor",
+      "panel_scored_resolution"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_cap1_f56f19ee",
+    "source_file": "cap1_audience_composition_2026_05_26.jsonl",
+    "original_id": "pred_cap1_f56f19ee",
+    "original_sha": "f56f19ee71c9e102fd0fb18ef1a72c0ee720becf46b84388b65d86721b26a1a1",
+    "domain": "sports_audience_composition_forecaster",
+    "question": "Dominican/Hispanic audience composition share of SD-DMA Padres viewed/attended games increased by \u22653 percentage points in months 12-36 post-extension (2022-02 \u2192 2024-02) vs the 2020 pre-extension baseline window",
+    "resolution_criterion": "Nielsen panel DMA-level demographic composition for SD Padres games, comparing 2020-01 through 2020-12 baseline window to 2022-02 through 2024-02 measurement window, scored for Dominican/Hispanic combined share. Predicted: share increased by \u22653 percentage points.",
+    "chorus_probability": 0.72,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-27T02:02:20.197269+00:00",
+    "locked_at": "2026-05-27T02:02:20.197269+00:00",
+    "resolution_date": "2026-06-01",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Pending Nielsen panel evaluation",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap1_audience_composition_lock_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "narrative": "Fernando_Tatis_Jr signed extension with San_Diego_Padres on 2021-02-19 ($340M / 14yr). Cap 1 predicts a measurable shift in SD-DMA Padres viewership/attendance toward Dominican/Latino demographic during the 2022-2024 post-extension window.",
+        "axcfg_decomposition": {
+          "A": "Tatis Jr top-tier marketability (pre-suspension)",
+          "C": "SD-DMA Hispanic concentration ~35% \u2014 among highest in MLB markets",
+          "F": "Padres franchise valuation mid-tier but rapidly rising (Forbes 2021-2023)",
+          "G": "Padres Dominican/Hispanic-sponsor capture historically modest; substantial headroom"
+        },
+        "threshold_direction": "ABOVE",
+        "model": "Cap 1 \u2014 Audience-Composition Forecaster (multiplicative A \u00d7 C \u00d7 F \u00d7 G)",
+        "data_sources": [
+          "Census ACS DMA demographics (public)",
+          "Forbes franchise valuations (public)",
+          "Lahman historical baseball data (public)",
+          "Public attendance + sponsorship reports"
+        ],
+        "resolution_source": "Nielsen panel DMA-level audience composition data (Nielsen scores internally)",
+        "lock_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "AXCFG_MULTIPLICATIVE"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor",
+      "panel_scored_resolution"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_cap1_55ce2e6a",
+    "source_file": "cap1_audience_composition_2026_05_26.jsonl",
+    "original_id": "pred_cap1_55ce2e6a",
+    "original_sha": "55ce2e6ade726c7db1fb7b5eb58f9752e8599578f4a7c70318af22788f12de65",
+    "domain": "sports_audience_composition_forecaster",
+    "question": "European-American audience composition share of SA-DMA Spurs viewed/attended games WILL NOT increase by \u22651 percentage point in months 12-36 post-draft (2024-06 \u2192 2026-06) vs the 2022 pre-draft baseline window",
+    "resolution_criterion": "Nielsen panel DMA-level demographic composition for SA Spurs games, comparing 2022-01 through 2022-12 baseline window to 2024-06 through 2026-06 measurement window, scored for European-American share (French + general European combined). Predicted: share will NOT increase by \u22651 percentage point \u2014 model expects null.",
+    "chorus_probability": 0.72,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-27T02:02:20.197279+00:00",
+    "locked_at": "2026-05-27T02:02:20.197279+00:00",
+    "resolution_date": "2026-07-01",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Pending Nielsen panel evaluation",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap1_audience_composition_lock_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "narrative": "Victor_Wembanyama drafted by San_Antonio_Spurs on 2023-06-22 (#1 overall). Cap 1 predicts the model stays SILENT \u2014 no measurable European-audience-composition shift in SA-DMA, because European diaspora in San Antonio is sparse (C variable too low to fire).",
+        "axcfg_decomposition": {
+          "A": "Wembanyama generational A signal",
+          "C": "SA-DMA European-American concentration <5% \u2014 C variable too low to fire",
+          "F": "Spurs mid-tier franchise valuation; Spurs Sports & Entertainment has solid infrastructure",
+          "G": "European/French-sponsor capture in SA-DMA effectively unattempted historically",
+          "interpretation": "A \u00d7 C \u00d7 F \u00d7 G fails the 0.15 multiplicative threshold because C is too small. Model correctly stays silent \u2014 NULL prediction."
+        },
+        "threshold_direction": "BELOW",
+        "model": "Cap 1 \u2014 Audience-Composition Forecaster (multiplicative A \u00d7 C \u00d7 F \u00d7 G)",
+        "data_sources": [
+          "Census ACS DMA demographics (public)",
+          "Forbes franchise valuations (public)",
+          "Lahman historical baseball data (public)",
+          "Public attendance + sponsorship reports"
+        ],
+        "resolution_source": "Nielsen panel DMA-level audience composition data (Nielsen scores internally)",
+        "lock_date": "2026-05-26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "AXCFG_MULTIPLICATIVE"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor",
+      "panel_scored_resolution"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
   }
 ]
