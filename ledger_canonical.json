@@ -79152,5 +79152,293 @@
     ],
     "temporal_class": "FWD",
     "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_b3cc6756",
+    "source_file": "cap2_demo_wave2_2026_05_27.jsonl",
+    "original_id": "pred_b3cc6756",
+    "original_sha": "b3cc67566fcad7d385e742e2248f30a2cc704c9b285248b09d0c43c8f287ea33",
+    "domain": "sports_attention_marketability",
+    "question": "Carter Bryant Wikipedia 7-day median exceeds 94/day during 2026 NBA Draft Week (2026-06-22 through 2026-06-28)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Carter_Bryant', 7-day median over 2026-06-22 through 2026-06-28 inclusive \u2265 94",
+    "chorus_probability": 0.68,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-27T20:08:56.214857+00:00",
+    "locked_at": "2026-05-27T20:08:56.214857+00:00",
+    "resolution_date": "2026-06-29",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "demo_arc_wave2_2026_05_27"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 63,
+        "threshold": 94,
+        "threshold_multiplier_vs_baseline": 1.5,
+        "structural_event": "2026 NBA Draft Week",
+        "sport": "NBA Draft 2026",
+        "wiki_slug": "Carter_Bryant",
+        "rationale": "Forward 2026 NBA draft demo (B), composite 2.43, 2 channels (Wikipedia views z=4.73 + GDELT confirmed 172 articles/30d). Arizona, projected NBA pick #10. View-first pattern (less pre-mainstream than Luis edit-leads-views) but multi-channel confirmation. Brand-clean.",
+        "discovery_source": "demo_arc_wave2_2026_05_27"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_b9b1c10a",
+    "source_file": "cap2_demo_wave2_2026_05_27.jsonl",
+    "original_id": "pred_b9b1c10a",
+    "original_sha": "b9b1c10af2140481861c727ed9a3c9e5fbb9dbdd910f0f84a3a6fcf88d9812cf",
+    "domain": "sports_attention_marketability",
+    "question": "Kiki Iriafen Wikipedia 7-day median exceeds 348/day during 2026 WNBA All-Star Week (2026-07-18 through 2026-07-24)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Kiki_Iriafen', 7-day median over 2026-07-18 through 2026-07-24 inclusive \u2265 348",
+    "chorus_probability": 0.68,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-27T20:08:56.517517+00:00",
+    "locked_at": "2026-05-27T20:08:56.517517+00:00",
+    "resolution_date": "2026-07-25",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "demo_arc_wave2_2026_05_27"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 232,
+        "threshold": 348,
+        "threshold_multiplier_vs_baseline": 1.5,
+        "structural_event": "2026 WNBA All-Star Week",
+        "sport": "WNBA",
+        "wiki_slug": "Kiki_Iriafen",
+        "rationale": "Cross-sport demo (C), composite 2.42, Reddit z=14.2, Wikipedia velocity ratio 1.48. WNBA pick #13, Golden State Valkyries \u2014 expansion-franchise narrative amplifies signal. Bay Area tech-brand activation likely first commercial move. Brand-clean.",
+        "discovery_source": "demo_arc_wave2_2026_05_27"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_a3391d4f",
+    "source_file": "cap2_demo_wave2_2026_05_27.jsonl",
+    "original_id": "pred_a3391d4f",
+    "original_sha": "a3391d4f68cbbb28fcdcfc0aa95a7d490fb2a11c5c61aac604f866f721b996cb",
+    "domain": "sports_attention_marketability",
+    "question": "Olivia Miles Wikipedia 7-day median exceeds 606/day during 2026 WNBA All-Star Week (2026-07-18 through 2026-07-24)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Olivia_Miles', 7-day median over 2026-07-18 through 2026-07-24 inclusive \u2265 606",
+    "chorus_probability": 0.7,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-27T20:08:56.881437+00:00",
+    "locked_at": "2026-05-27T20:08:56.881437+00:00",
+    "resolution_date": "2026-07-25",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "demo_arc_wave2_2026_05_27"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 404,
+        "threshold": 606,
+        "threshold_multiplier_vs_baseline": 1.5,
+        "structural_event": "2026 WNBA All-Star Week",
+        "sport": "WNBA",
+        "wiki_slug": "Olivia_Miles",
+        "rationale": "Cross-sport demo (C), composite 2.40 with both GDELT (250-article ceiling) and Reddit (100-post ceiling) hitting API caps \u2014 true volume understated, signal STRONGER than reported composite. WNBA pick #24, Golden State Valkyries, most brand-ready of WNBA passers.",
+        "discovery_source": "demo_arc_wave2_2026_05_27"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_1cc16b86",
+    "source_file": "cap2_demo_wave2_2026_05_27.jsonl",
+    "original_id": "pred_1cc16b86",
+    "original_sha": "1cc16b86ee17c8c75fd523c3bfbad6855aa751540fcecd2e95264c3142c5ab2b",
+    "domain": "sports_attention_marketability",
+    "question": "Cade Klubnik Wikipedia 7-day median exceeds 294/day during 2026 NCAA football season opening week (2026-08-29 through 2026-09-04)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Cade_Klubnik', 7-day median over 2026-08-29 through 2026-09-04 inclusive \u2265 294",
+    "chorus_probability": 0.72,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-27T20:08:57.253669+00:00",
+    "locked_at": "2026-05-27T20:08:57.253669+00:00",
+    "resolution_date": "2026-09-05",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "demo_arc_wave2_2026_05_27"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 184,
+        "threshold": 294,
+        "threshold_multiplier_vs_baseline": 1.6,
+        "structural_event": "2026 NCAA football season opening week",
+        "sport": "NCAA Football QB",
+        "wiki_slug": "Cade_Klubnik",
+        "rationale": "NIL broad-scan top finding, composite 7.06, 2 channels firing. Clemson QB, NIL $1.8M vs peer-mean $2.9M (38% NIL gap). Heisman-watch with strong Wikipedia velocity and edit activity. NCAA season-opening week is the structural attention amplifier.",
+        "discovery_source": "demo_arc_wave2_2026_05_27"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_1f057c8b",
+    "source_file": "cap2_demo_wave2_2026_05_27.jsonl",
+    "original_id": "pred_1f057c8b",
+    "original_sha": "1f057c8b3637525da8fac3c64ea530f943289b0ccecd9aa33cb0d3b68e4facc3",
+    "domain": "sports_attention_marketability",
+    "question": "Drew Allar Wikipedia 7-day median exceeds 832/day during 2026 NCAA football season opening week (2026-08-29 through 2026-09-04)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Drew_Allar', 7-day median over 2026-08-29 through 2026-09-04 inclusive \u2265 832",
+    "chorus_probability": 0.72,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-27T20:08:57.569776+00:00",
+    "locked_at": "2026-05-27T20:08:57.569776+00:00",
+    "resolution_date": "2026-09-05",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "demo_arc_wave2_2026_05_27"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 520,
+        "threshold": 832,
+        "threshold_multiplier_vs_baseline": 1.6,
+        "structural_event": "2026 NCAA football season opening week",
+        "sport": "NCAA Football QB",
+        "wiki_slug": "Drew_Allar",
+        "rationale": "NIL broad-scan top finding, composite 6.28, 2 channels firing. Penn State QB \u2014 directly matches Stefanie's 'Penn State has small NIL budget but is a great football team' framing from 2026-05-27 call. NIL $1.7M vs peer-mean $2.9M (41% gap). Heisman watch.",
+        "discovery_source": "demo_arc_wave2_2026_05_27"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_ad2a62c7",
+    "source_file": "cap2_demo_wave2_2026_05_27.jsonl",
+    "original_id": "pred_ad2a62c7",
+    "original_sha": "ad2a62c752889dee416f1553b047fa9d0371e1a06de2c8cd4edad3b9772f4086",
+    "domain": "sports_attention_marketability",
+    "question": "Bryce Eldridge Wikipedia 7-day median exceeds 234/day during 2026 MLB All-Star Week (Future Stars / Top Prospect attention) (2026-07-11 through 2026-07-17)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Bryce_Eldridge', 7-day median over 2026-07-11 through 2026-07-17 inclusive \u2265 234",
+    "chorus_probability": 0.75,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-27T20:08:57.911408+00:00",
+    "locked_at": "2026-05-27T20:08:57.911408+00:00",
+    "resolution_date": "2026-07-18",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "demo_arc_wave2_2026_05_27"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 156,
+        "threshold": 234,
+        "threshold_multiplier_vs_baseline": 1.5,
+        "structural_event": "2026 MLB All-Star Week (Future Stars / Top Prospect attention)",
+        "sport": "MLB Prospect (Giants)",
+        "wiki_slug": "Bryce_Eldridge",
+        "rationale": "NIL broad-scan strongest signal, composite 6.33, **4/4 channels firing** \u2014 only candidate in any Chorus broad scan to fire on all four. Giants prospect, no current NIL (MiLB) so 100% peer-mean gap. MLB All-Star Week selected as structural window \u2014 captures Future Stars Game / Top Prospect coverage if not yet promoted to MLB. If debuts earlier, signal will be even stronger.",
+        "discovery_source": "demo_arc_wave2_2026_05_27"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
   }
 ]
