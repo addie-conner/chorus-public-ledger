@@ -79056,5 +79056,101 @@
     ],
     "temporal_class": "FWD",
     "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_f19060ad",
+    "source_file": "cap2_brunson_maxey_demo_2026_05_27.jsonl",
+    "original_id": "pred_f19060ad",
+    "original_sha": "f19060adc86b73ab0d05b5fb23a4bcbc39197ed68162a4415a0513c5b443a2e1",
+    "domain": "sports_attention_marketability",
+    "question": "Sonia Citron Wikipedia 7-day median exceeds 396/day during 2026 WNBA All-Star Week (rookie spotlight) (2026-07-18 through 2026-07-24)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Sonia_Citron', 7-day median over 2026-07-18 through 2026-07-24 inclusive \u2265 396",
+    "chorus_probability": 0.78,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-27T19:39:09.388340+00:00",
+    "locked_at": "2026-05-27T19:39:09.388340+00:00",
+    "resolution_date": "2026-07-25",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "brunson_maxey_demo_arc_2026_05_27"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 264,
+        "threshold": 396,
+        "threshold_multiplier_vs_baseline": 1.5,
+        "structural_event": "2026 WNBA All-Star Week (rookie spotlight)",
+        "sport": "WNBA",
+        "wiki_slug": "Sonia_Citron",
+        "rationale": "Cross-sport demo top finding 2026-05-27. Composite 4.56 with Reddit z=35.6 \u2014 highest Reddit z-score in any Chorus Cap 2 cohort scanned. WNBA pick #16, Washington Mystics, Notre Dame community depth + DC market structural tailwind. Brand-clean. WNBA All-Star Week is the structural rookie-attention spike window.",
+        "discovery_source": "brunson_maxey_demo_arc_2026_05_27"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_16eb30d4",
+    "source_file": "cap2_brunson_maxey_demo_2026_05_27.jsonl",
+    "original_id": "pred_16eb30d4",
+    "original_sha": "16eb30d4d7f948ac7e28aae501f6477d6ce59ddf05e1633b3d285fcc61f17c8f",
+    "domain": "sports_attention_marketability",
+    "question": "RJ Luis Jr. Wikipedia 7-day median exceeds 218/day during 2026 NBA Draft Week (2026-06-22 through 2026-06-28)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'RJ_Luis_Jr.', 7-day median over 2026-06-22 through 2026-06-28 inclusive \u2265 218",
+    "chorus_probability": 0.7,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-27T19:39:09.697000+00:00",
+    "locked_at": "2026-05-27T19:39:09.697000+00:00",
+    "resolution_date": "2026-06-29",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "brunson_maxey_demo_arc_2026_05_27"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 145,
+        "threshold": 218,
+        "threshold_multiplier_vs_baseline": 1.5,
+        "structural_event": "2026 NBA Draft Week",
+        "sport": "NBA Draft 2026",
+        "wiki_slug": "RJ_Luis_Jr.",
+        "rationale": "Forward 2026 NBA draft demo top finding 2026-05-27. Composite 3.05. St. John's, projected pick #19. Edit-velocity z=10.5\u03c3 \u2014 highest in 28-athlete 2026 NBA draft cohort. Edit-leads-views pattern matches the retrodictively-validated Brunson/Maxey signature. GDELT data unavailable (HTTP 429 during scan); signal rests on Wikipedia views + edits only. Brand-clean.",
+        "discovery_source": "brunson_maxey_demo_arc_2026_05_27"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
   }
 ]
