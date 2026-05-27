@@ -78816,5 +78816,245 @@
     ],
     "temporal_class": "FWD",
     "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_dcf9c8ca",
+    "source_file": "cap2_broadscan_2026_05_27.jsonl",
+    "original_id": "pred_dcf9c8ca",
+    "original_sha": "dcf9c8ca1ca555d7d03c693285789516f62ad0f1535cf80b9c0261870441e5a8",
+    "domain": "sports_attention_marketability",
+    "question": "Daria Kasatkina Wikipedia 7-day median exceeds 376/day during 2026 US Open (women's singles) (2026-08-25 through 2026-09-07)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Daria_Kasatkina', 7-day median over 2026-08-25 through 2026-09-07 inclusive \u2265 376",
+    "chorus_probability": 0.78,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-27T15:31:56.710206+00:00",
+    "locked_at": "2026-05-27T15:31:56.710206+00:00",
+    "resolution_date": "2026-09-08",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap2_broad_multisignal_scan_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 209,
+        "threshold": 376,
+        "threshold_multiplier_vs_baseline": 1.8,
+        "structural_event": "2026 US Open (women's singles)",
+        "sport": "WTA Tennis",
+        "wiki_slug": "Daria_Kasatkina",
+        "rationale": "Top broad-scan composite 5.50; 3 channels firing. Grand Slam events produce predictable Wikipedia attention spikes for ranked WTA players. Cross-cultural breakout narrative (openly gay, Russian-born) amplifies attention beyond tennis-only audience. Source: CAP2_BROAD_MULTISIGNAL_DISCOVERY_2026-05-26.",
+        "discovery_source": "broad_multisignal_scan_2026_05_26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_361d4bf0",
+    "source_file": "cap2_broadscan_2026_05_27.jsonl",
+    "original_id": "pred_361d4bf0",
+    "original_sha": "361d4bf038d41ba78d75894c8a21cc602ae7251c6e0b471810909a5b8e90ff7b",
+    "domain": "sports_attention_marketability",
+    "question": "Kobbie Mainoo Wikipedia 7-day median exceeds 2626/day during 2026-27 Premier League season opening week (Manchester United) (2026-08-14 through 2026-08-21)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Kobbie_Mainoo', 7-day median over 2026-08-14 through 2026-08-21 inclusive \u2265 2626",
+    "chorus_probability": 0.75,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-27T15:31:57.088601+00:00",
+    "locked_at": "2026-05-27T15:31:57.088601+00:00",
+    "resolution_date": "2026-08-22",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap2_broad_multisignal_scan_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 1641,
+        "threshold": 2626,
+        "threshold_multiplier_vs_baseline": 1.6,
+        "structural_event": "2026-27 Premier League season opening week (Manchester United)",
+        "sport": "Soccer / Premier League",
+        "wiki_slug": "Kobbie_Mainoo",
+        "rationale": "Broad-scan composite 3.82; 3 channels firing. 19-year-old Man Utd starter + England national team midfielder. PL opening week produces reliable attention spike for established starters. Source: CAP2_BROAD_MULTISIGNAL_DISCOVERY_2026-05-26.",
+        "discovery_source": "broad_multisignal_scan_2026_05_26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_eb04ff08",
+    "source_file": "cap2_broadscan_2026_05_27.jsonl",
+    "original_id": "pred_eb04ff08",
+    "original_sha": "eb04ff08ecbf273fe3c34e1f1ab57c2f73a02507de4da4fb89a92f6b28179cab",
+    "domain": "sports_attention_marketability",
+    "question": "Stephon Castle Wikipedia 7-day median exceeds 3495/day during 2026-27 NBA opening week (San Antonio Spurs) (2026-10-20 through 2026-10-26)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Stephon_Castle', 7-day median over 2026-10-20 through 2026-10-26 inclusive \u2265 3495",
+    "chorus_probability": 0.72,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-27T15:31:57.454164+00:00",
+    "locked_at": "2026-05-27T15:31:57.454164+00:00",
+    "resolution_date": "2026-10-27",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap2_broad_multisignal_scan_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 2330,
+        "threshold": 3495,
+        "threshold_multiplier_vs_baseline": 1.5,
+        "structural_event": "2026-27 NBA opening week (San Antonio Spurs)",
+        "sport": "NBA",
+        "wiki_slug": "Stephon_Castle",
+        "rationale": "Broad-scan composite 4.12; 3 channels firing. ROY-tier Spurs second-year guard. NBA opening week produces reliable attention for emerging starters. Spurs bottom-tier so playoff window less reliable. Source: CAP2_BROAD_MULTISIGNAL_DISCOVERY_2026-05-26.",
+        "discovery_source": "broad_multisignal_scan_2026_05_26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_c0e9411b",
+    "source_file": "cap2_broadscan_2026_05_27.jsonl",
+    "original_id": "pred_c0e9411b",
+    "original_sha": "c0e9411b17960ff0cc7f7cf4c18d7b1db1aa70e4bcdf1b724a898d23bb2ea37c",
+    "domain": "sports_attention_marketability",
+    "question": "Anthony Volpe Wikipedia 7-day median exceeds 938/day during MLB All-Star Week 2026 (Atlanta) (2026-07-11 through 2026-07-17)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Anthony_Volpe', 7-day median over 2026-07-11 through 2026-07-17 inclusive \u2265 938",
+    "chorus_probability": 0.72,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-27T15:31:57.799604+00:00",
+    "locked_at": "2026-05-27T15:31:57.799604+00:00",
+    "resolution_date": "2026-07-18",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap2_broad_multisignal_scan_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 625,
+        "threshold": 938,
+        "threshold_multiplier_vs_baseline": 1.5,
+        "structural_event": "MLB All-Star Week 2026 (Atlanta)",
+        "sport": "MLB",
+        "wiki_slug": "Anthony_Volpe",
+        "rationale": "Broad-scan composite 3.77; 2 channels firing. Yankees starting SS, NY market amplifier. Yankees historically over-represented at All-Star Week. NY media multiplier on any Volpe selection or near-selection coverage. Source: CAP2_BROAD_MULTISIGNAL_DISCOVERY_2026-05-26.",
+        "discovery_source": "broad_multisignal_scan_2026_05_26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_a6242365",
+    "source_file": "cap2_broadscan_2026_05_27.jsonl",
+    "original_id": "pred_a6242365",
+    "original_sha": "a6242365f7a148ac09bb5cd7bdf526da221ea79c0a4cd08d28deff5bad896944",
+    "domain": "sports_attention_marketability",
+    "question": "Travis Bazzana Wikipedia 7-day median exceeds 1090/day during 2027 MLB Spring Training opening / Guardians camp prospect feature (2027-02-26 through 2027-03-04)",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Travis_Bazzana', 7-day median over 2027-02-26 through 2027-03-04 inclusive \u2265 1090",
+    "chorus_probability": 0.7,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-05-27T15:31:58.140369+00:00",
+    "locked_at": "2026-05-27T15:31:58.140369+00:00",
+    "resolution_date": "2027-03-05",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "cap2_broad_multisignal_scan_2026_05_26"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "baseline_median_90day": 641,
+        "threshold": 1090,
+        "threshold_multiplier_vs_baseline": 1.7,
+        "structural_event": "2027 MLB Spring Training opening / Guardians camp prospect feature",
+        "sport": "MLB",
+        "wiki_slug": "Travis_Bazzana",
+        "rationale": "Broad-scan composite 4.11; 2 channels firing. #1 overall pick 2024, Australian cross-cultural narrative. Spring Training prospect coverage produces reliable attention spike. Resolution window chosen to align with Spring Training media cycle rather than uncertain MLB debut date. Source: CAP2_BROAD_MULTISIGNAL_DISCOVERY_2026-05-26.",
+        "discovery_source": "broad_multisignal_scan_2026_05_26"
+      },
+      "n_personas": 0,
+      "segment_means": {},
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
   }
 ]
