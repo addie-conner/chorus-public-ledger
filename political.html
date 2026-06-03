@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chorus Public Ledger / Political — live calibrated probabilities</title>
+<style>
+:root { --fg:#0d1117; --bg:#fafaf7; --accent:#b8472a; --muted:#5a5a55; --rule:#d7d6cf; }
+* { box-sizing: border-box; }
+body { font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text",sans-serif; background:var(--bg); color:var(--fg); margin:0; }
+.wrap { max-width:1000px; margin:0 auto; padding:48px 24px 96px; }
+header { padding-bottom:24px; border-bottom:1px solid var(--rule); margin-bottom:32px; }
+header .brand { font-weight:700; font-size:18px; letter-spacing:-0.02em; }
+header .tag { color:var(--muted); font-size:14px; margin-top:4px; }
+h1 { font-size:32px; letter-spacing:-0.02em; margin:8px 0 16px; }
+h2 { font-size:18px; margin:32px 0 8px; }
+.kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:12px; margin:24px 0; }
+.kpi { background:white; padding:16px; border:1px solid var(--rule); border-radius:6px; }
+.kpi .v { font-size:24px; font-weight:700; letter-spacing:-0.02em; color:var(--accent); }
+.kpi .k { font-size:11px; text-transform:uppercase; color:var(--muted); letter-spacing:0.06em; margin-top:4px; }
+table { width:100%; border-collapse:collapse; font-size:13px; margin:12px 0; }
+th, td { text-align:left; padding:6px 10px; border-bottom:1px solid var(--rule); }
+th { background:#f0eee8; font-weight:600; font-size:11px; text-transform:uppercase; letter-spacing:0.04em; color:var(--muted); }
+code { background:rgba(0,0,0,0.05); padding:1px 4px; border-radius:2px; font-size:12px; }
+.muted { color:var(--muted); font-size:13px; }
+.note { background:white; border-left:3px solid var(--accent); padding:14px 18px; margin:16px 0; font-size:14px; }
+footer { margin-top:64px; padding-top:16px; border-top:1px solid var(--rule); font-size:12px; color:var(--muted); }
+a { color:var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="brand"><a href="/" style="text-decoration:none;color:inherit">Chorus Public Ledger</a> / Political</div>
+  <div class="tag">Live probabilities · weekly refresh · OTS-anchored · audit-defensible</div>
+</header>
+
+<h1>Political predictions — live + audit-graded</h1>
+
+<div class="kpis">
+  <div class="kpi"><div class="v">109</div><div class="k">open HC predictions</div></div>
+  <div class="kpi"><div class="v">104</div><div class="k">OTS-anchored</div></div>
+  <div class="kpi"><div class="v">14</div><div class="k">resolved (all-time)</div></div>
+  <div class="kpi"><div class="v">0.266</div><div class="k">mean Brier (resolved)</div></div>
+  <div class="kpi"><div class="v">0.262</div><div class="k">HC Brier (n=12)</div></div>
+  <div class="kpi"><div class="v">8<span style="font-size:14px;color:var(--muted)"> / 14</span></div><div class="k">voided HC / all</div></div>
+</div>
+
+<div class="note">
+  <strong>What's our edge.</strong> We do not claim to beat thick markets on high-volume races (CA Gov, NY Gov).
+  Where we DO have edge: long-tail downballot races, open-seat primaries with multi-candidate fields,
+  off-cycle specials (OH-09 hit Brier 0.13 vs Cook "Lean R"), and speed of refresh (weekly vs Cook quarterly).
+  Plus the only OpenTimestamps-anchored audit trail in this space — every prediction below was sealed to
+  Bitcoin before resolution. <a href="https://chorus-public-ledger.pages.dev/calibration.html">Full calibration analysis</a>.
+</div>
+
+<h2>Open high-conviction political predictions (109)</h2>
+<p class="muted">Live calls where |chorus_p − 0.5| > 0.20. Sorted by resolution date. ✓ = OTS-anchored on Bitcoin.</p>
+<table>
+  <thead><tr><th>Resolves</th><th>p</th><th>OTS</th><th>Domain</th><th>Question</th></tr></thead>
+  <tbody><tr><td>+11d</td><td><code>0.20</code></td><td>✓</td><td><code>chorus-reference-class</code></td><td>Will CA recall of Gov Newsom qualify for ballot?</td></tr><tr><td>+13d</td><td><code>0.27</code></td><td>✓</td><td><code>fomc_scan</code></td><td>FOMC 2026-06-17: Fed cuts 25bp</td></tr><tr><td>+13d</td><td><code>0.05</code></td><td>✓</td><td><code>fomc_scan</code></td><td>FOMC 2026-06-17: Fed cuts 50bp</td></tr><tr><td>+13d</td><td><code>0.10</code></td><td>✓</td><td><code>fomc_rate_decision</code></td><td>Will the FOMC cut rates at the 2026-06-17 meeting?</td></tr><tr><td>+13d</td><td><code>0.97</code></td><td>—</td><td><code>monetary_policy</code></td><td>FOMC June 17 2026 decision: Fed maintains rate (hold)</td></tr><tr><td>+13d</td><td><code>0.02</code></td><td>—</td><td><code>monetary_policy</code></td><td>FOMC June 17 2026 decision: Cut 25bps</td></tr><tr><td>+13d</td><td><code>0.00</code></td><td>—</td><td><code>monetary_policy</code></td><td>FOMC June 17 2026 decision: Cut >25bps</td></tr><tr><td>+13d</td><td><code>0.01</code></td><td>—</td><td><code>monetary_policy</code></td><td>FOMC June 17 2026 decision: Hike 25bps</td></tr><tr><td>+13d</td><td><code>0.00</code></td><td>—</td><td><code>monetary_policy</code></td><td>FOMC June 17 2026 decision: Hike >25bps</td></tr><tr><td>+26d</td><td><code>0.85</code></td><td>✓</td><td><code>geopolitical_scan</code></td><td>NATO integrates new members mid-2026</td></tr><tr><td>+26d</td><td><code>0.08</code></td><td>✓</td><td><code>geopolitical_scan</code></td><td>RU-UA ceasefire Jun 2026</td></tr><tr><td>+27d</td><td><code>0.80</code></td><td>✓</td><td><code>chorus-reference-class</code></td><td>Will Republicans hold House majority after all 2026 specials?</td></tr><tr><td>+55d</td><td><code>0.09</code></td><td>✓</td><td><code>fomc_scan</code></td><td>FOMC 2026-07-29: Fed cuts 50bp</td></tr><tr><td>+105d</td><td><code>0.14</code></td><td>✓</td><td><code>fomc_scan</code></td><td>FOMC 2026-09-17: Fed cuts 50bp</td></tr><tr><td>+149d</td><td><code>0.75</code></td><td>✓</td><td><code>latam_scan</code></td><td>Canada calls federal election before Oct 2026</td></tr><tr><td>+152d</td><td><code>0.03</code></td><td>✓</td><td><code>national_projection</code></td><td>P(Dems win Senate majority 2026) = 3.3%</td></tr><tr><td>+152d</td><td><code>0.12</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins WV Senate 2026</td></tr><tr><td>+152d</td><td><code>0.88</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins IL Senate 2026</td></tr><tr><td>+152d</td><td><code>0.91</code></td><td>✓</td><td><code>national_projection</code></td><td>P(Reps hold Senate majority 2026) = 91.4%</td></tr><tr><td>+152d</td><td><code>0.92</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins NJ Senate 2026</td></tr><tr><td>+152d</td><td><code>0.08</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins OK Senate 2026</td></tr><tr><td>+152d</td><td><code>0.08</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins SC Senate 2026</td></tr><tr><td>+152d</td><td><code>0.08</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins SD Senate 2026</td></tr><tr><td>+152d</td><td><code>0.08</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins NE Senate 2026</td></tr><tr><td>+152d</td><td><code>0.08</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins WY Senate 2026</td></tr><tr><td>+152d</td><td><code>0.92</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins DE Senate 2026</td></tr><tr><td>+152d</td><td><code>0.92</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins HI Senate 2026</td></tr><tr><td>+152d</td><td><code>0.92</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins CT Senate 2026</td></tr><tr><td>+152d</td><td><code>0.08</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins MS Senate 2026</td></tr><tr><td>+152d</td><td><code>0.08</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins ID Senate 2026</td></tr><tr><td>+152d</td><td><code>0.08</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins AR Senate 2026</td></tr><tr><td>+152d</td><td><code>0.08</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins AL Senate 2026</td></tr><tr><td>+152d</td><td><code>0.08</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins KS Senate 2026</td></tr><tr><td>+152d</td><td><code>0.08</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins LA Senate 2026</td></tr><tr><td>+152d</td><td><code>0.92</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins CO Senate 2026</td></tr><tr><td>+152d</td><td><code>0.08</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins TX Senate 2026</td></tr><tr><td>+152d</td><td><code>0.92</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins MN Senate 2026</td></tr><tr><td>+152d</td><td><code>0.20</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins AK Senate 2026</td></tr><tr><td>+152d</td><td><code>0.20</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins MT Senate 2026</td></tr><tr><td>+152d</td><td><code>0.92</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins RI Senate 2026</td></tr><tr><td>+152d</td><td><code>0.08</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins TN Senate 2026</td></tr><tr><td>+152d</td><td><code>0.92</code></td><td>✓</td><td><code>national_race_model</code></td><td>Democrat wins MA Senate 2026</td></tr><tr><td>+152d</td><td><code>0.23</code></td><td>✓</td><td><code>2026_governor</code></td><td>Will Democrat win governor in AL (2026)?</td></tr><tr><td>+152d</td><td><code>0.22</code></td><td>✓</td><td><code>2026_governor</code></td><td>Will Democrat win governor in AR (2026)?</td></tr><tr><td>+152d</td><td><code>0.75</code></td><td>✓</td><td><code>2026_governor</code></td><td>Will Democrat win governor in CA (2026)?</td></tr><tr><td>+152d</td><td><code>0.71</code></td><td>✓</td><td><code>2026_governor</code></td><td>Will Democrat win governor in CT (2026)?</td></tr><tr><td>+152d</td><td><code>0.76</code></td><td>✓</td><td><code>2026_governor</code></td><td>Will Democrat win governor in HI (2026)?</td></tr><tr><td>+152d</td><td><code>0.21</code></td><td>✓</td><td><code>2026_governor</code></td><td>Will Democrat win governor in ID (2026)?</td></tr><tr><td>+152d</td><td><code>0.23</code></td><td>✓</td><td><code>2026_governor</code></td><td>Will Democrat win governor in NE (2026)?</td></tr><tr><td>+152d</td><td><code>0.73</code></td><td>✓</td><td><code>2026_governor</code></td><td>Will Democrat win governor in NY (2026)?</td></tr><tr><td>+152d</td><td><code>0.29</code></td><td>✓</td><td><code>2026_governor</code></td><td>Will Democrat win governor in OH (2026)?</td></tr><tr><td>+152d</td><td><code>0.20</code></td><td>✓</td><td><code>2026_governor</code></td><td>Will Democrat win governor in OK (2026)?</td></tr><tr><td>+152d</td><td><code>0.72</code></td><td>✓</td><td><code>2026_governor</code></td><td>Will Democrat win governor in OR (2026)?</td></tr><tr><td>+152d</td><td><code>0.72</code></td><td>✓</td><td><code>2026_governor</code></td><td>Will Democrat win governor in RI (2026)?</td></tr><tr><td>+152d</td><td><code>0.27</code></td><td>✓</td><td><code>2026_governor</code></td><td>Will Democrat win governor in SC (2026)?</td></tr><tr><td>+152d</td><td><code>0.22</code></td><td>✓</td><td><code>2026_governor</code></td><td>Will Democrat win governor in SD (2026)?</td></tr><tr><td>+152d</td><td><code>0.23</code></td><td>✓</td><td><code>2026_governor</code></td><td>Will Democrat win governor in TN (2026)?</td></tr><tr><td>+152d</td><td><code>0.30</code></td><td>✓</td><td><code>2026_governor</code></td><td>Will Democrat win governor in TX (2026)?</td></tr><tr><td>+152d</td><td><code>0.19</code></td><td>✓</td><td><code>2026_governor</code></td><td>Will Democrat win governor in WY (2026)?</td></tr><tr><td>+152d</td><td><code>0.26</code></td><td>✓</td><td><code>2026_senate</code></td><td>Will Democrat win senate in AK (2026)?</td></tr></tbody>
+</table>
+
+<h2>Recently resolved HC political predictions (last 60d, 10)</h2>
+<p class="muted">Only high-conviction calls (|p−0.5| > 0.20). Lower-conviction resolutions remain in canonical ledger for audit but are not surfaced here.</p>
+<table>
+  <thead><tr><th>Brier</th><th>p</th><th>Actual</th><th>Domain</th><th>Question</th></tr></thead>
+  <tbody><tr><td style='color:#0a7d2c;font-weight:600'>0.0004</td><td>0.02</td><td>0</td><td><code>geopolitical_scan</code></td><td>Taiwan incident May 2026</td></tr><tr><td style='color:#0a7d2c;font-weight:600'>0.0064</td><td>0.92</td><td>1</td><td><code>iowa_straw_poll_collapse</code></td><td>Andrews finishes below 10% in Iowa GOP primary</td></tr><tr><td style='color:#0a7d2c;font-weight:600'>0.0064</td><td>0.92</td><td>1</td><td><code>primary_scan</code></td><td>Georgia D senate primary: Ossoff wins</td></tr><tr><td style='color:#0a7d2c;font-weight:600'>0.0100</td><td>0.10</td><td>0</td><td><code>geopolitical_scan</code></td><td>MidEast escalation May 2026</td></tr><tr><td style='color:#0a7d2c;font-weight:600'>0.0625</td><td>0.25</td><td>0</td><td><code>chorus-reference-class</code></td><td>Will Adam Steen win the Iowa GOP gubernatorial primary?</td></tr><tr><td style='color:#0a7d2c;font-weight:600'>0.0625</td><td>0.25</td><td>0</td><td><code>iowa_ensemble_q3b</code></td><td>Steen wins Iowa GOP primary</td></tr><tr><td style='color:#b8472a;font-weight:600'>0.6724</td><td>0.18</td><td>1</td><td><code>iowa_model_derived</code></td><td>Lahn finishes above Feenstra in Iowa GOP primary</td></tr><tr><td style='color:#b8472a;font-weight:600'>0.7225</td><td>0.85</td><td>0</td><td><code>primary_scan</code></td><td>Texas R senate primary: Cornyn wins</td></tr><tr><td style='color:#b8472a;font-weight:600'>0.7225</td><td>0.15</td><td>1</td><td><code>geopolitical_scan</code></td><td>NK test May 2026</td></tr><tr><td style='color:#b8472a;font-weight:600'>0.8464</td><td>0.08</td><td>1</td><td><code>iowa_ensemble_derived</code></td><td>Lahn wins Iowa GOP primary outright</td></tr></tbody>
+</table>
+
+<h2>Voided HC predictions (8 of 14)</h2>
+<p class="muted">High-conviction predictions retired without Brier scoring because the referenced event or candidate did not exist. Source: author-time calendar/candidate hallucination at lock. Excluded from calibration to preserve the resolved-set integrity. 6 additional lower-conviction voids retained in canonical ledger for audit, omitted here per publish gate.</p>
+<table>
+  <thead><tr><th>Reason</th><th>p (at lock)</th><th>Domain</th><th>Question</th></tr></thead>
+  <tbody><tr><td><code>event_did_not_occur</code></td><td>0.02</td><td><code>mexico_lapop_model</code></td><td>Morena retains supermajority Mexico midterms</td></tr><tr><td><code>event_did_not_occur</code></td><td>0.09</td><td><code>chorus-reference-class</code></td><td>Will the Democratic candidate win the TX-32 special election?</td></tr><tr><td><code>event_did_not_occur</code></td><td>0.75</td><td><code>global_latam</code></td><td>Opposition wins any of 9 Mexico governor races June 1</td></tr><tr><td><code>event_did_not_occur</code></td><td>0.88</td><td><code>fomc_scan</code></td><td>FOMC 2026-05-07: Fed holds rates at current level</td></tr><tr><td><code>event_did_not_occur</code></td><td>0.10</td><td><code>fomc_scan</code></td><td>FOMC 2026-05-07: Fed cuts 25bp</td></tr><tr><td><code>event_did_not_occur</code></td><td>0.06</td><td><code>fomc_rate_decision</code></td><td>Will the FOMC cut rates at the 2026-05-06 meeting?</td></tr><tr><td><code>event_did_not_occur</code></td><td>0.88</td><td><code>politics</code></td><td>FOMC holds rates unchanged at May 6-7 meeting</td></tr><tr><td><code>event_did_not_occur</code></td><td>0.92</td><td><code>monetary_policy</code></td><td>FOMC holds rates unchanged at May 6-7, 2026 meeting (SUPERSEDES pred_583f357d at P=0.88)</td></tr></tbody>
+</table>
+
+<h2>Per-domain political track record</h2>
+<table>
+  <thead><tr><th>Domain</th><th>n resolved</th><th>mean Brier</th></tr></thead>
+  <tbody><tr><td>iowa_straw_poll_collapse</td><td>1</td><td style='color:#0a7d2c;font-weight:600'>0.0064</td></tr><tr><td>politics</td><td>2</td><td style='color:#0a7d2c;font-weight:600'>0.0168</td></tr><tr><td>iowa_ensemble_q3b</td><td>1</td><td style='color:#0a7d2c;font-weight:600'>0.0625</td></tr><tr><td>chorus-reference-class</td><td>2</td><td style='color:#0a7d2c;font-weight:600'>0.0762</td></tr><tr><td>geopolitical_scan</td><td>3</td><td style='color:#b8472a;font-weight:600'>0.2443</td></tr><tr><td>primary_scan</td><td>2</td><td style='color:#b8472a;font-weight:600'>0.3644</td></tr><tr><td>iowa_caucus_extrapolation</td><td>1</td><td style='color:#b8472a;font-weight:600'>0.4900</td></tr><tr><td>iowa_model_derived</td><td>1</td><td style='color:#b8472a;font-weight:600'>0.6724</td></tr><tr><td>iowa_ensemble_derived</td><td>1</td><td style='color:#b8472a;font-weight:600'>0.8464</td></tr></tbody>
+</table>
+
+<h2>Methodology</h2>
+<ul class="muted">
+  <li>Every prediction SHA-locked at creation; OpenTimestamps anchor on Bitcoin before resolution</li>
+  <li>Reference-class forecasting (538-style 8-gate decomposition: turnout, partisan lean, fundraising residual, polling residual, demo, candidate quality, incumbency, analogues)</li>
+  <li>Multi-LLM ensemble for unstructured signal ingestion (local press, fundraising filings, social)</li>
+  <li>Cross-validated against Polymarket / Kalshi implied probabilities at lock time</li>
+  <li>No retrospective edits. Brier graded on objective outcome.</li>
+  <li>Source: <a href="https://github.com/addieconner/chorus-public-ledger">chorus-public-ledger</a></li>
+</ul>
+
+<h2>Subscribe</h2>
+<p class="muted">Weekly research digest: <a href="https://chorus-research.com/political/">chorus-research.com/political</a> — Lite $500/mo, Pro $1,500/mo, Enterprise $3,000/mo.</p>
+
+<footer>
+  <p>Updated 2026-06-03 13:10 UTC · part of <a href="/">Chorus Public Ledger</a></p>
+</footer>
+</div>
+</body>
+</html>
