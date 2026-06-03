@@ -555,7 +555,9 @@
     "temporal_class": "FWD",
     "is_high_conviction": true,
     "headline_domain": "fl01_historical",
-    "in_headline": false
+    "in_headline": false,
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=1 catastrophic HC miss (Brier 0.6724, predicted turnout <150K, actual 171K). Below n=5 criterion \u2014 judgment-call retirement; historical-turnout reference class was the prior, evidently wrong for off"
   },
   {
     "canonical_id": "552ce062e48d",
@@ -1946,7 +1948,9 @@
     "temporal_class": "FWD",
     "is_high_conviction": true,
     "headline_domain": "fl01_cook_rating",
-    "in_headline": false
+    "in_headline": false,
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=1 catastrophic HC miss (Brier 0.7225, predicted Republican >20pt win, actual ~14pt). Below n=5 criterion \u2014 judgment-call retirement pending Cook-rating-derived models passing shadow-mode requalifica"
   },
   {
     "canonical_id": "d8dcdc0b0894",
@@ -2650,7 +2654,9 @@
     "schema_version": "v1",
     "audit_flags": [],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "6c66afd11866",
@@ -2680,7 +2686,9 @@
     "schema_version": "v1",
     "audit_flags": [],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "92b97e7d92a0",
@@ -2710,7 +2718,9 @@
     "schema_version": "v1",
     "audit_flags": [],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "4c81e79aa56a",
@@ -2740,7 +2750,9 @@
     "schema_version": "v1",
     "audit_flags": [],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "b653f29d81f8",
@@ -2770,7 +2782,9 @@
     "schema_version": "v1",
     "audit_flags": [],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "40b3694049dd",
@@ -2800,7 +2814,9 @@
     "schema_version": "v1",
     "audit_flags": [],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "e7f708b3365f",
@@ -2830,7 +2846,9 @@
     "schema_version": "v1",
     "audit_flags": [],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "a1303abf05a7",
@@ -2862,7 +2880,9 @@
     "temporal_class": "FWD",
     "is_high_conviction": true,
     "headline_domain": "geopolitical_scan",
-    "in_headline": false
+    "in_headline": false,
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "f08bbccaa3fb",
@@ -2893,7 +2913,9 @@
     "audit_flags": [],
     "temporal_class": "FWD",
     "is_high_conviction": true,
-    "resolution_value": "US/Iran/Israel ceasefire 4/7-8 held through May; Operation Epic Fury concluded 5/5 with no major new escalation in May"
+    "resolution_value": "US/Iran/Israel ceasefire 4/7-8 held through May; Operation Epic Fury concluded 5/5 with no major new escalation in May",
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "df34e67e737b",
@@ -4943,7 +4965,9 @@
     "schema_version": "v1",
     "audit_flags": [],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "83a64b372b83",
@@ -4973,7 +4997,9 @@
     "schema_version": "v1",
     "audit_flags": [],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "b5ea2b7e6447",
@@ -5003,7 +5029,9 @@
     "schema_version": "v1",
     "audit_flags": [],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "2840c0f334ba",
@@ -5033,7 +5061,9 @@
     "schema_version": "v1",
     "audit_flags": [],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "983073a32116",
@@ -5755,7 +5785,9 @@
     "schema_version": "v1",
     "audit_flags": [],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "2337faa2d699",
@@ -6273,7 +6305,9 @@
     "schema_version": "v1",
     "audit_flags": [],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "674a3c3d1171",
@@ -6303,7 +6337,9 @@
     "schema_version": "v1",
     "audit_flags": [],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "c62f255cb808",
@@ -6363,7 +6399,9 @@
     "schema_version": "v1",
     "audit_flags": [],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "f3c2ac863800",
@@ -6393,7 +6431,9 @@
     "schema_version": "v1",
     "audit_flags": [],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "3c8b394dabd8",
@@ -6608,7 +6648,9 @@
     "audit_flags": [],
     "temporal_class": "FWD",
     "is_high_conviction": true,
-    "resolution_value": "Only routine PLA joint combat readiness patrols May 1/6/19/25; no escalation incident"
+    "resolution_value": "Only routine PLA joint combat readiness patrols May 1/6/19/25; no escalation incident",
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "88106e099d97",
@@ -6670,7 +6712,9 @@
     "temporal_class": "FWD",
     "is_high_conviction": true,
     "headline_domain": "geopolitical_scan",
-    "in_headline": false
+    "in_headline": false,
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "12ed730f9e1d",
@@ -6702,7 +6746,9 @@
     "temporal_class": "FWD",
     "is_high_conviction": true,
     "headline_domain": "geopolitical_scan",
-    "in_headline": false
+    "in_headline": false,
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "a8121ee2c82a",
@@ -6733,7 +6779,9 @@
     "audit_flags": [],
     "temporal_class": "FWD",
     "is_high_conviction": true,
-    "resolution_value": "5/26: Hwasong-11D tactical ballistic + multi-purpose cruise missile launches from Jeongju toward Yellow Sea"
+    "resolution_value": "5/26: Hwasong-11D tactical ballistic + multi-purpose cruise missile launches from Jeongju toward Yellow Sea",
+    "domain_retired_at": "2026-06-03",
+    "domain_retired_reason": "n=6 HC, mean Brier 0.461 across two months (Apr+May): MidEast Apr 0.81, NK Apr 0.7225, NK May 0.7225, MidEast May 0.01, Taiwan Apr 0.0004, Taiwan May 0.0004. Pattern: model gets uncontested negatives "
   },
   {
     "canonical_id": "6c81e6335716",
