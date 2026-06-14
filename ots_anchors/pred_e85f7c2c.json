@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.0324,
+  "canonical_id": "pred_e85f7c2c",
+  "chorus_probability": 0.82,
+  "domain": "sports_attention_short_fuse",
+  "in_headline": false,
+  "locked_at": "2026-04-28T23:51:35.565716+00:00",
+  "original_sha": "6089545ad66653d029894b9b16e0fd402f9594fd1810a29b9f29f29b079b199e",
+  "question": "Cooper Flagg Wikipedia 7-day median sustains \u22652,131/day during pre-NBA-draft window (May 12-18, 2026)",
+  "resolution": 1,
+  "resolution_criterion": "Wikipedia REST API per-article daily for 'Cooper_Flagg', 7-day median over 2026-05-12 through 2026-05-18 inclusive \u2265 2131",
+  "resolution_date": "2026-05-19",
+  "resolved_at": "2026-06-14T21:14:59.196141+00:00",
+  "temporal_class": "FWD"
+}

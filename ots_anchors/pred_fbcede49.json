@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.0784,
+  "canonical_id": "pred_fbcede49",
+  "chorus_probability": 0.72,
+  "domain": "sports_attention_short_fuse",
+  "in_headline": false,
+  "locked_at": "2026-04-28T23:51:35.565854+00:00",
+  "original_sha": "906841e4e433dae9cc7af01b37ae1cab44420cc1f0183b35ad3e52c63c290e44",
+  "question": "JuJu Watkins Wikipedia 7-day median stays below 852/day during May 12-18, 2026 (women's hoops offseason)",
+  "resolution": 1,
+  "resolution_criterion": "Wikipedia REST API per-article daily for 'JuJu_Watkins', 7-day median over 2026-05-12 through 2026-05-18 inclusive \u2264 852",
+  "resolution_date": "2026-05-19",
+  "resolved_at": "2026-06-14T21:14:59.196141+00:00",
+  "temporal_class": "FWD"
+}

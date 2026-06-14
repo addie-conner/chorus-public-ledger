@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_wc2026_blended_france_R16_or_better",
+  "chorus_probability": 0.706,
+  "domain": "sports_worldcup_2026",
+  "in_headline": null,
+  "locked_at": "2026-06-14T20:05:06.029632+00:00",
+  "original_sha": "184c191d02cbc626b8473b63f25bb5a41e23285495d6fbb86934c3b035540bbe",
+  "question": "France reaches R16",
+  "resolution": null,
+  "resolution_criterion": "France advances to the Round of 16",
+  "resolution_date": "2026-07-07T23:59:00+00:00",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

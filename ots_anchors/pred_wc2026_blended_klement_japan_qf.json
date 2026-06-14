@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_wc2026_blended_klement_japan_qf",
+  "chorus_probability": 0.1235,
+  "domain": "sports_worldcup_2026",
+  "in_headline": null,
+  "locked_at": "2026-06-14T20:05:06.029632+00:00",
+  "original_sha": "d6b10fd611f39d6da34b584172d40f27d0aeb243c11059fa9ec256b17db5b750",
+  "question": "Japan reaches QF",
+  "resolution": null,
+  "resolution_criterion": "Japan reaches the quarterfinals of the 2026 FIFA World Cup",
+  "resolution_date": "2026-07-11T23:59:00+00:00",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

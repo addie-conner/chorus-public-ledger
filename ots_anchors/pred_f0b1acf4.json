@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.0144,
+  "canonical_id": "pred_f0b1acf4",
+  "chorus_probability": 0.88,
+  "domain": "sports_attention_short_fuse",
+  "in_headline": false,
+  "locked_at": "2026-04-28T23:51:35.565920+00:00",
+  "original_sha": "082b2827a31faafc07f49e0589a73716d0b39319d7a3ad24332156b0dad3902d",
+  "question": "Wikipedia 7-day median ranking of 4 NIL athletes (May 12-18, 2026) preserves the relative ordering of {Cooper Flagg vs JuJu Watkins} consistent with Wikipedia attention being a leading indicator of NIL valuation rank",
+  "resolution": 1,
+  "resolution_criterion": "Wikipedia REST API per-article daily, 7-day median May 12-18, 2026: median(Cooper_Flagg) > median(JuJu_Watkins). Both are consensus-top-NIL athletes; Flagg's male-college-basketball-NBA-draft attention should outpace Watkins's offseason women's-hoops attention.",
+  "resolution_date": "2026-05-19",
+  "resolved_at": "2026-06-14T21:14:59.196141+00:00",
+  "temporal_class": "FWD"
+}

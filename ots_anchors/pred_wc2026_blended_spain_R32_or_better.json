@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_wc2026_blended_spain_R32_or_better",
+  "chorus_probability": 0.9499,
+  "domain": "sports_worldcup_2026",
+  "in_headline": null,
+  "locked_at": "2026-06-14T20:05:06.029632+00:00",
+  "original_sha": "b26dfcdf70bbf8e79bba1017178c8253e8b88573df63b8cb41bf62817af9864e",
+  "question": "Spain R32 advance",
+  "resolution": null,
+  "resolution_criterion": "Spain advances to the Round of 32 (top 2 from group OR best-8 3rd-place finisher)",
+  "resolution_date": "2026-07-03T23:59:00+00:00",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

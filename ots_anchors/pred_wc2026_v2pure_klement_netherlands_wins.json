@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_wc2026_v2pure_klement_netherlands_wins",
+  "chorus_probability": 0.0578,
+  "domain": "sports_worldcup_2026",
+  "in_headline": null,
+  "locked_at": "2026-06-14T20:05:06.029632+00:00",
+  "original_sha": "772b67c1cb6b05cafa8fe51998474330e5379fc0c83e80672a22ffd26594aed6",
+  "question": "Netherlands wins 2026 WC",
+  "resolution": null,
+  "resolution_criterion": "Netherlands wins the 2026 FIFA World Cup",
+  "resolution_date": "2026-07-19T23:59:00+00:00",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

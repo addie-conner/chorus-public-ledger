@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.1225,
+  "canonical_id": "pred_3c6d3a1f",
+  "chorus_probability": 0.65,
+  "domain": "sports_attention_short_fuse",
+  "in_headline": false,
+  "locked_at": "2026-04-28T23:51:35.565784+00:00",
+  "original_sha": "967b69ac9a73a21d3a8304ce7c7a5c734584b2d582c1d3f24cc0cd1fa0618d57",
+  "question": "AJ Dybantsa Wikipedia 7-day median exceeds Arch Manning 7-day median during May 12-18, 2026 (NIL ranking methodology test)",
+  "resolution": 1,
+  "resolution_criterion": "Wikipedia REST API per-article daily, 7-day median for 'AJ_Dybantsa' over 2026-05-12 through 2026-05-18 > 7-day median for 'Arch_Manning' over same window",
+  "resolution_date": "2026-05-19",
+  "resolved_at": "2026-06-14T21:14:59.196141+00:00",
+  "temporal_class": "FWD"
+}

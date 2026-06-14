@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.0484,
+  "canonical_id": "pred_9b4c1d03",
+  "chorus_probability": 0.78,
+  "domain": "sports_attention_short_fuse",
+  "in_headline": false,
+  "locked_at": "2026-04-28T23:51:35.565451+00:00",
+  "original_sha": "299f92e1b2a97ccdf4a89d8164bdfe78c203885080ab27429d24ba221c3b051a",
+  "question": "Caitlin Clark Wikipedia 7-day median exceeds 6,865/day during WNBA opening week (May 12-18, 2026)",
+  "resolution": 1,
+  "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Caitlin_Clark', 7-day median over 2026-05-12 through 2026-05-18 inclusive \u2265 6865",
+  "resolution_date": "2026-05-19",
+  "resolved_at": "2026-06-14T21:14:59.196141+00:00",
+  "temporal_class": "FWD"
+}
