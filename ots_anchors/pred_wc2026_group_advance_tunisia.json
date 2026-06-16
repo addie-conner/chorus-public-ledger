@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_wc2026_group_advance_tunisia",
+  "domain": "sports_worldcup_2026_group_stage",
+  "locked_at": "2026-06-16T18:00:00+00:00",
+  "predicted_prob": 0.415,
+  "question": "Tunisia advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+  "resolution_criterion": "Tunisia finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+  "resolution_date": "2026-06-27T23:59:00+00:00",
+  "sha256": "a484803f648bbdd24fd9730a0de51b1b7ace958c2d412ee42c0f029b50bbda3e"
+}

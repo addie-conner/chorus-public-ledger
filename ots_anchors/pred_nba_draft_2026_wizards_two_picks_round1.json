@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_nba_draft_2026_wizards_two_picks_round1",
+  "domain": "sports_nba_draft_2026",
+  "locked_at": "2026-06-16T18:30:00+00:00",
+  "predicted_prob": 0.92,
+  "question": "Wizards make at least 2 selections in the 2026 NBA Draft (either round)",
+  "resolution_criterion": "The Washington Wizards make at least 2 selections across the 2 rounds of the 2026 NBA Draft on 2026-06-23.",
+  "resolution_date": "2026-06-24T00:00:00+00:00",
+  "sha256": "cea84ae43abf2d4570789deffe23a528ba9a8ba349dd4efee6511308dc5e5306"
+}

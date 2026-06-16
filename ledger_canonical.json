@@ -12699,9 +12699,9 @@
     "is_high_conviction": true
   },
   {
-    "canonical_id": "v1_unknown_4308628032",
+    "canonical_id": "v1_unknown_4384780864",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308628032",
+    "original_id": "v1_unknown_4384780864",
     "original_sha": null,
     "domain": "eia_gasoline",
     "question": "EIA gasoline inventories build (increase) for week ending 2026-04-20",
@@ -12732,9 +12732,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4308628864",
+    "canonical_id": "v1_unknown_4384781696",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308628864",
+    "original_id": "v1_unknown_4384781696",
     "original_sha": null,
     "domain": "eia_distillate",
     "question": "EIA distillate inventories build (increase) for week ending 2026-04-20",
@@ -12765,9 +12765,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4308629120",
+    "canonical_id": "v1_unknown_4384781952",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308629120",
+    "original_id": "v1_unknown_4384781952",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-04-24 than Monday open",
@@ -12798,9 +12798,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4308629312",
+    "canonical_id": "v1_unknown_4384782144",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308629312",
+    "original_id": "v1_unknown_4384782144",
     "original_sha": null,
     "domain": "spr_level",
     "question": "SPR level higher in 4 weeks than current",
@@ -12831,9 +12831,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4308630272",
+    "canonical_id": "v1_unknown_4384783104",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308630272",
+    "original_id": "v1_unknown_4384783104",
     "original_sha": null,
     "domain": "existing_home_sales",
     "question": "Existing home sales higher MoM for March",
@@ -12864,9 +12864,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4308630464",
+    "canonical_id": "v1_unknown_4384783296",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308630464",
+    "original_id": "v1_unknown_4384783296",
     "original_sha": null,
     "domain": "fed_terminal",
     "question": "Fed funds upper above 4.00% at next FOMC decision",
@@ -12898,9 +12898,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4308630848",
+    "canonical_id": "v1_unknown_4384783680",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308630848",
+    "original_id": "v1_unknown_4384783680",
     "original_sha": null,
     "domain": "boj_decision",
     "question": "Bank of Japan holds rates at next meeting",
@@ -12931,9 +12931,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4308631104",
+    "canonical_id": "v1_unknown_4384783936",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308631104",
+    "original_id": "v1_unknown_4384783936",
     "original_sha": null,
     "domain": "ez_cpi",
     "question": "Eurozone CPI hotter than consensus for April",
@@ -12964,9 +12964,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4308631232",
+    "canonical_id": "v1_unknown_4384784064",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308631232",
+    "original_id": "v1_unknown_4384784064",
     "original_sha": null,
     "domain": "political_calendar",
     "question": "BOJ April rate decision \u2014 our lean: hold_likely",
@@ -12997,9 +12997,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4308648384",
+    "canonical_id": "v1_unknown_4384801216",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308648384",
+    "original_id": "v1_unknown_4384801216",
     "original_sha": null,
     "domain": "nba_playoff",
     "question": "NBA playoff higher seed wins next game (1st round)",
@@ -13030,9 +13030,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4308648640",
+    "canonical_id": "v1_unknown_4384801472",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308648640",
+    "original_id": "v1_unknown_4384801472",
     "original_sha": null,
     "domain": "eia_distillate",
     "question": "EIA distillate inventories build (increase) for week ending 2026-05-04",
@@ -13058,15 +13058,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4308628864"
+      "duplicate_of:v1_unknown_4384781696"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4308648896",
+    "canonical_id": "v1_unknown_4384801728",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308648896",
+    "original_id": "v1_unknown_4384801728",
     "original_sha": null,
     "domain": "fed_terminal",
     "question": "Fed funds upper above 4.00% at next FOMC decision",
@@ -13092,16 +13092,16 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4308630464",
+      "duplicate_of:v1_unknown_4384783296",
       "event_validation_passed"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4308649216",
+    "canonical_id": "v1_unknown_4384802048",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308649216",
+    "original_id": "v1_unknown_4384802048",
     "original_sha": null,
     "domain": "boj_decision",
     "question": "Bank of Japan holds rates at next meeting",
@@ -13127,15 +13127,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4308630848"
+      "duplicate_of:v1_unknown_4384783680"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4308649472",
+    "canonical_id": "v1_unknown_4384802304",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308649472",
+    "original_id": "v1_unknown_4384802304",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-05-02",
@@ -13166,9 +13166,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4308649856",
+    "canonical_id": "v1_unknown_4384802688",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308649856",
+    "original_id": "v1_unknown_4384802688",
     "original_sha": null,
     "domain": "jobless_claims",
     "question": "Initial jobless claims below 220k for week ending 2026-05-09",
@@ -13322,9 +13322,9 @@
     "in_headline": true
   },
   {
-    "canonical_id": "v1_unknown_4308652608",
+    "canonical_id": "v1_unknown_4384805440",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308652608",
+    "original_id": "v1_unknown_4384805440",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-05-16",
@@ -13350,15 +13350,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4308649472"
+      "duplicate_of:v1_unknown_4384802304"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4308652928",
+    "canonical_id": "v1_unknown_4384805760",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308652928",
+    "original_id": "v1_unknown_4384805760",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-05-23",
@@ -13384,15 +13384,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4308649472"
+      "duplicate_of:v1_unknown_4384802304"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4308653248",
+    "canonical_id": "v1_unknown_4384806080",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308653248",
+    "original_id": "v1_unknown_4384806080",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-05-29 than Monday open",
@@ -13423,9 +13423,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4308653440",
+    "canonical_id": "v1_unknown_4384806272",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308653440",
+    "original_id": "v1_unknown_4384806272",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-06-05 than Monday open",
@@ -13456,9 +13456,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4308653632",
+    "canonical_id": "v1_unknown_4384806464",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308653632",
+    "original_id": "v1_unknown_4384806464",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-05-30",
@@ -13484,15 +13484,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4308649472"
+      "duplicate_of:v1_unknown_4384802304"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4308654016",
+    "canonical_id": "v1_unknown_4384806848",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308654016",
+    "original_id": "v1_unknown_4384806848",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-06-12 than Monday open",
@@ -13523,9 +13523,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4308654208",
+    "canonical_id": "v1_unknown_4384807040",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308654208",
+    "original_id": "v1_unknown_4384807040",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-06-13",
@@ -13551,15 +13551,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4308649472"
+      "duplicate_of:v1_unknown_4384802304"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4308654592",
+    "canonical_id": "v1_unknown_4384807424",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4308654592",
+    "original_id": "v1_unknown_4384807424",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-06-19 than Monday open",
@@ -78378,6 +78378,1573 @@
     ],
     "temporal_class": "FWD",
     "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_spain",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_spain",
+    "original_sha": "a6078e96571a7e02e6bc29fc5251d8ac3d142d38287b50286260a91e4e59312e",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Spain advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Spain finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.9575,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": 0.2908033333333334,
+        "direction": "YES",
+        "rationale": "Probability sourced from V2 walk-forward model (Elo + Transfermarkt squad value + temp + pop + host) Monte Carlo at 100k sims. Cohort threshold: model P exceeds base rate (32/48 = 0.667) by > 0.18."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_switzerland",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_switzerland",
+    "original_sha": "4adba322d41855d6d0760ad5bc540490dec4c6d8ad4aead196169376f9477b93",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Switzerland advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Switzerland finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.9328,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": 0.2661833333333333,
+        "direction": "YES",
+        "rationale": "Probability sourced from V2 walk-forward model (Elo + Transfermarkt squad value + temp + pop + host) Monte Carlo at 100k sims. Cohort threshold: model P exceeds base rate (32/48 = 0.667) by > 0.18."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_brazil",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_brazil",
+    "original_sha": "b45f7f60d8662e5e453093e4320fe298143cb10d23057b07b37f6b0964d31c0f",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Brazil advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Brazil finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.9224,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": 0.2557533333333334,
+        "direction": "YES",
+        "rationale": "Probability sourced from V2 walk-forward model (Elo + Transfermarkt squad value + temp + pop + host) Monte Carlo at 100k sims. Cohort threshold: model P exceeds base rate (32/48 = 0.667) by > 0.18."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_france",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_france",
+    "original_sha": "d044cb3d8011ca993fe0bc845c3e6d528057902103220b35755338d757b01d13",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "France advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "France finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.9213,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": 0.2545833333333334,
+        "direction": "YES",
+        "rationale": "Probability sourced from V2 walk-forward model (Elo + Transfermarkt squad value + temp + pop + host) Monte Carlo at 100k sims. Cohort threshold: model P exceeds base rate (32/48 = 0.667) by > 0.18."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_argentina",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_argentina",
+    "original_sha": "0eb10205645b786967d5cd1ba103452c1a6ce48d0adb7d41fa59bc929abc1de3",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Argentina advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Argentina finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.9211,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": 0.2544333333333334,
+        "direction": "YES",
+        "rationale": "Probability sourced from V2 walk-forward model (Elo + Transfermarkt squad value + temp + pop + host) Monte Carlo at 100k sims. Cohort threshold: model P exceeds base rate (32/48 = 0.667) by > 0.18."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_germany",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_germany",
+    "original_sha": "31836c137e3e7fb1955944ff8783158c3b9e261d60a9eb1640874aa3360ac6a1",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Germany advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Germany finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.9187,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": 0.2520233333333334,
+        "direction": "YES",
+        "rationale": "Probability sourced from V2 walk-forward model (Elo + Transfermarkt squad value + temp + pop + host) Monte Carlo at 100k sims. Cohort threshold: model P exceeds base rate (32/48 = 0.667) by > 0.18."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_belgium",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_belgium",
+    "original_sha": "1e49588f80f2c49b9d344885b526258dcfe35641a3b4728efcb04f6a4852a5e0",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Belgium advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Belgium finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.9137,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": 0.24700333333333335,
+        "direction": "YES",
+        "rationale": "Probability sourced from V2 walk-forward model (Elo + Transfermarkt squad value + temp + pop + host) Monte Carlo at 100k sims. Cohort threshold: model P exceeds base rate (32/48 = 0.667) by > 0.18."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_mexico",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_mexico",
+    "original_sha": "5c4ee99c50535b51cb9ff97331c68c3448d80266f296fe68b44b2d82561b3889",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Mexico advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Mexico finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.9093,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": 0.24259333333333333,
+        "direction": "YES",
+        "rationale": "Probability sourced from V2 walk-forward model (Elo + Transfermarkt squad value + temp + pop + host) Monte Carlo at 100k sims. Cohort threshold: model P exceeds base rate (32/48 = 0.667) by > 0.18."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_england",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_england",
+    "original_sha": "77cd40919c9ff80b69026372fbc41a995f35b4daea25201d128d0a7410420f08",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "England advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "England finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.899,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": 0.23232333333333333,
+        "direction": "YES",
+        "rationale": "Probability sourced from V2 walk-forward model (Elo + Transfermarkt squad value + temp + pop + host) Monte Carlo at 100k sims. Cohort threshold: model P exceeds base rate (32/48 = 0.667) by > 0.18."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_netherlands",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_netherlands",
+    "original_sha": "45528a40b9e2575b12cd49c4c8f20bf3129c2811ddb88247b90b4af5deb2e47f",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Netherlands advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Netherlands finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.8851,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": 0.21843333333333337,
+        "direction": "YES",
+        "rationale": "Probability sourced from V2 walk-forward model (Elo + Transfermarkt squad value + temp + pop + host) Monte Carlo at 100k sims. Cohort threshold: model P exceeds base rate (32/48 = 0.667) by > 0.18."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_uruguay",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_uruguay",
+    "original_sha": "fd56fc5e9294eece1496e17289d7bcca6d953dce5f7a42bf7c83bb64eca41c2f",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Uruguay advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Uruguay finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.8841,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": 0.21746333333333334,
+        "direction": "YES",
+        "rationale": "Probability sourced from V2 walk-forward model (Elo + Transfermarkt squad value + temp + pop + host) Monte Carlo at 100k sims. Cohort threshold: model P exceeds base rate (32/48 = 0.667) by > 0.18."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_portugal",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_portugal",
+    "original_sha": "2e2d5c26a1d8a5de532eb7c4ab124581ad5ae875dfd79bccb9cca10cd6dc223d",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Portugal advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Portugal finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.8764,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": 0.2097633333333334,
+        "direction": "YES",
+        "rationale": "Probability sourced from V2 walk-forward model (Elo + Transfermarkt squad value + temp + pop + host) Monte Carlo at 100k sims. Cohort threshold: model P exceeds base rate (32/48 = 0.667) by > 0.18."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_turkey",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_turkey",
+    "original_sha": "d022440790d9012baad6d3d15dc99b2d376990549318726771afa7b88b0db274",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Turkey advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Turkey finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.8649,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": 0.1982733333333334,
+        "direction": "YES",
+        "rationale": "Probability sourced from V2 walk-forward model (Elo + Transfermarkt squad value + temp + pop + host) Monte Carlo at 100k sims. Cohort threshold: model P exceeds base rate (32/48 = 0.667) by > 0.18."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_morocco",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_morocco",
+    "original_sha": "ede43d653e13cb3c454d665dfb69789fef1af3152c6d7f7d02b18fbf8c9342aa",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Morocco advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Morocco finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.8622,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": 0.1955433333333334,
+        "direction": "YES",
+        "rationale": "Probability sourced from V2 walk-forward model (Elo + Transfermarkt squad value + temp + pop + host) Monte Carlo at 100k sims. Cohort threshold: model P exceeds base rate (32/48 = 0.667) by > 0.18."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_ecuador",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_ecuador",
+    "original_sha": "a1d8e4ee8fc577bf5ecc7c2f053a5d19f43c14de81bb04ca4ae12d854e75cf30",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Ecuador advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Ecuador finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.8583,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": 0.1916433333333334,
+        "direction": "YES",
+        "rationale": "Probability sourced from V2 walk-forward model (Elo + Transfermarkt squad value + temp + pop + host) Monte Carlo at 100k sims. Cohort threshold: model P exceeds base rate (32/48 = 0.667) by > 0.18."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_iraq",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_iraq",
+    "original_sha": "68aabdb6287c53de174a1d30f4dea8c3bf540207ab0734958d4875c4b9f803e1",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Iraq advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Iraq finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.1958,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": -0.4708366666666666,
+        "direction": "NO",
+        "rationale": "Probability sourced from V2 walk-forward model Monte Carlo. Cohort threshold: model P below base rate (0.667) by > 0.18 \u2014 structurally negative call."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_panama",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_panama",
+    "original_sha": "af52b624788f464d4ab1a9d6084df277b3ae117a1e8da242e16039b78772fae9",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Panama advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Panama finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.2306,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": -0.4360266666666666,
+        "direction": "NO",
+        "rationale": "Probability sourced from V2 walk-forward model Monte Carlo. Cohort threshold: model P below base rate (0.667) by > 0.18 \u2014 structurally negative call."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "MODERATE"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_jordan",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_jordan",
+    "original_sha": "6ba160734fab6e9f6ce45e1fbd3dedc884bb5c4d91662bdd335e21b146e61fca",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Jordan advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Jordan finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.2613,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": -0.4053366666666666,
+        "direction": "NO",
+        "rationale": "Probability sourced from V2 walk-forward model Monte Carlo. Cohort threshold: model P below base rate (0.667) by > 0.18 \u2014 structurally negative call."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "MODERATE"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_haiti",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_haiti",
+    "original_sha": "711aad656f0c9c9282f34ed56e039c7640418bbf94b00f8cd56c1f115b2afc0c",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Haiti advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Haiti finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.3302,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": -0.33642666666666665,
+        "direction": "NO",
+        "rationale": "Probability sourced from V2 walk-forward model Monte Carlo. Cohort threshold: model P below base rate (0.667) by > 0.18 \u2014 structurally negative call."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "MODERATE"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_curacao",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_curacao",
+    "original_sha": "e07135b77f07774476db44d294467d3661a6da0db4c917677b7db73f56a80bf4",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Curacao advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Curacao finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.3367,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": -0.3300066666666666,
+        "direction": "NO",
+        "rationale": "Probability sourced from V2 walk-forward model Monte Carlo. Cohort threshold: model P below base rate (0.667) by > 0.18 \u2014 structurally negative call."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "MODERATE"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_saudi_arabia",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_saudi_arabia",
+    "original_sha": "e33b154419c50ca2fbed56a2537a5aafa60c2cc9b63f1e0172ca58e790213b24",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Saudi Arabia advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Saudi Arabia finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.3457,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": -0.3210066666666666,
+        "direction": "NO",
+        "rationale": "Probability sourced from V2 walk-forward model Monte Carlo. Cohort threshold: model P below base rate (0.667) by > 0.18 \u2014 structurally negative call."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "MODERATE"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_cape_verde",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_cape_verde",
+    "original_sha": "10d29214a426463e71fb7bf59167d469f4fd5b1dfc47a17994dd8e417eacb26e",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Cape Verde advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Cape Verde finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.3615,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": -0.3051466666666666,
+        "direction": "NO",
+        "rationale": "Probability sourced from V2 walk-forward model Monte Carlo. Cohort threshold: model P below base rate (0.667) by > 0.18 \u2014 structurally negative call."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_dr_congo",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_dr_congo",
+    "original_sha": "7f11f290d062773b91475e224c3f1e7f02c5fa8accbd4463f09f1a3099608820",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "DR Congo advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "DR Congo finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.3629,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": -0.30372666666666664,
+        "direction": "NO",
+        "rationale": "Probability sourced from V2 walk-forward model Monte Carlo. Cohort threshold: model P below base rate (0.667) by > 0.18 \u2014 structurally negative call."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_ghana",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_ghana",
+    "original_sha": "3b8af54f00e35ce2ccf0d6255476aa990c6547fc35d3ffbf13e80525adb3ebe6",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Ghana advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Ghana finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.3931,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": -0.27358666666666664,
+        "direction": "NO",
+        "rationale": "Probability sourced from V2 walk-forward model Monte Carlo. Cohort threshold: model P below base rate (0.667) by > 0.18 \u2014 structurally negative call."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_tunisia",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_tunisia",
+    "original_sha": "a484803f648bbdd24fd9730a0de51b1b7ace958c2d412ee42c0f029b50bbda3e",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Tunisia advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Tunisia finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.415,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": -0.25165666666666664,
+        "direction": "NO",
+        "rationale": "Probability sourced from V2 walk-forward model Monte Carlo. Cohort threshold: model P below base rate (0.667) by > 0.18 \u2014 structurally negative call."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_qatar",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_qatar",
+    "original_sha": "037e270e28b77a92b73569ed9e7f71c81fec85721794a9f1b2c17a8f80d6d91b",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Qatar advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Qatar finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.4198,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": -0.24688666666666664,
+        "direction": "NO",
+        "rationale": "Probability sourced from V2 walk-forward model Monte Carlo. Cohort threshold: model P below base rate (0.667) by > 0.18 \u2014 structurally negative call."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_wc2026_group_advance_uzbekistan",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc2026_group_advance_uzbekistan",
+    "original_sha": "dc9cb3a075a81354c42080fc5b59dda19f38945f6ba07f2b767f1098692cbbec",
+    "domain": "sports_worldcup_2026_group_stage",
+    "question": "Uzbekistan advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+    "resolution_criterion": "Uzbekistan finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+    "chorus_probability": 0.4822,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:00:00+00:00",
+    "locked_at": "2026-06-16T18:00:00+00:00",
+    "resolution_date": "2026-06-27T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "klement_plus_elo_tm_v2",
+      "walk_forward_ratchet"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "model_class": "klement_plus_elo_tm_v2_walk_forward",
+        "cohort": "wc2026_group_advancement_HC",
+        "base_rate": 0.6666666666666666,
+        "edge_vs_base": -0.1845166666666666,
+        "direction": "NO",
+        "rationale": "Probability sourced from V2 walk-forward model Monte Carlo. Cohort threshold: model P below base rate (0.667) by > 0.18 \u2014 structurally negative call."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "DIRECTIONAL"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false
+  },
+  {
+    "canonical_id": "pred_nba_draft_2026_dybantsa_top3",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_nba_draft_2026_dybantsa_top3",
+    "original_sha": "5eb3aa6e8556050637ae30de2fe30692639536f559afba445b7cad28ef6adccc",
+    "domain": "sports_nba_draft_2026",
+    "question": "AJ Dybantsa selected in the top 3 of the 2026 NBA Draft",
+    "resolution_criterion": "AJ Dybantsa is selected with the #1, #2, or #3 overall pick of the 2026 NBA Draft on 2026-06-23.",
+    "chorus_probability": 0.98,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:30:00+00:00",
+    "locked_at": "2026-06-16T18:30:00+00:00",
+    "resolution_date": "2026-06-24T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_sports_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "nba_draft_2026_structural_HC",
+        "rationale": "Dybantsa is consensus #1 across all major boards; even in the rare scenario UTA passes on him at #2 (if Boozer goes #1), he goes #3 to the next pick."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_nba_draft_2026_flagg_not_in_draft",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_nba_draft_2026_flagg_not_in_draft",
+    "original_sha": "96a3239c0eb6bea9b319d5cf6002ffa1db017e648782636d3bf72ebe2577db16",
+    "domain": "sports_nba_draft_2026",
+    "question": "Cooper Flagg is NOT selected in the 2026 NBA Draft",
+    "resolution_criterion": "Cooper Flagg's name is not called by any team during the 2026 NBA Draft on 2026-06-23.",
+    "chorus_probability": 0.995,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:30:00+00:00",
+    "locked_at": "2026-06-16T18:30:00+00:00",
+    "resolution_date": "2026-06-24T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_sports_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "nba_draft_2026_structural_HC",
+        "rationale": "Flagg was the #1 overall pick in the 2025 NBA Draft (Dallas Mavericks). He is a Mavericks player and structurally not draft-eligible in 2026."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_nba_draft_2026_no_trade_for_pick_1",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_nba_draft_2026_no_trade_for_pick_1",
+    "original_sha": "940326e94e4980ff6f4d796112484a3220c6178858607d8da375d81ef3b220c9",
+    "domain": "sports_nba_draft_2026",
+    "question": "The #1 overall pick is NOT traded before or during the 2026 NBA Draft",
+    "resolution_criterion": "The team holding the #1 overall pick at the start of the draft (currently Washington Wizards) does not trade the pick before making a selection on 2026-06-23.",
+    "chorus_probability": 0.88,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:30:00+00:00",
+    "locked_at": "2026-06-16T18:30:00+00:00",
+    "resolution_date": "2026-06-24T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_sports_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "nba_draft_2026_structural_HC",
+        "rationale": "No major reported trade activity around the #1 pick; teams rarely move the consensus #1 in modern drafts (Brogdon-rule era). Wizards have indicated they intend to select."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_nba_draft_2026_wizards_two_picks_round1",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_nba_draft_2026_wizards_two_picks_round1",
+    "original_sha": "cea84ae43abf2d4570789deffe23a528ba9a8ba349dd4efee6511308dc5e5306",
+    "domain": "sports_nba_draft_2026",
+    "question": "Wizards make at least 2 selections in the 2026 NBA Draft (either round)",
+    "resolution_criterion": "The Washington Wizards make at least 2 selections across the 2 rounds of the 2026 NBA Draft on 2026-06-23.",
+    "chorus_probability": 0.92,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:30:00+00:00",
+    "locked_at": "2026-06-16T18:30:00+00:00",
+    "resolution_date": "2026-06-24T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_sports_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "nba_draft_2026_structural_HC",
+        "rationale": "Wizards currently hold #1 (R1) + #51 (R2 from Minnesota). Even if they trade one, they would likely receive a pick back; outright loss of both is rare."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_nba_draft_2026_intl_player_top10",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_nba_draft_2026_intl_player_top10",
+    "original_sha": "7ed93d2d0581b637f44fae7c639800408c60b91f53e1a0e28f21a29ab1a5d130",
+    "domain": "sports_nba_draft_2026",
+    "question": "At least 1 international-developed player selected in the top 10 of the 2026 NBA Draft",
+    "resolution_criterion": "At least one of the top 10 picks of the 2026 NBA Draft is a player whose primary basketball development was outside the United States (e.g., European, African, South American, Australian club system).",
+    "chorus_probability": 0.9,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T18:30:00+00:00",
+    "locked_at": "2026-06-16T18:30:00+00:00",
+    "resolution_date": "2026-06-24T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_sports_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "nba_draft_2026_structural_HC",
+        "rationale": "Every NBA draft since 2018 has featured 1+ international-developed player in the top 10. This cycle's top international prospects include Sergio De Larrea (Spain), Hugo Gonzalez (Spain), Joan Beringer (France) among others."
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_fomc_2026_06_18_holds_rates",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_fomc_2026_06_18_holds_rates",
+    "original_sha": "7c926668899895a06593de557b8f8632ec091c930d441885b5f34f4044c52ea2",
+    "domain": "macro_fomc",
+    "question": "FOMC holds federal funds rate target at 3.50-3.75% on June 18 2026",
+    "resolution_criterion": "The FOMC statement released 2026-06-18 at approximately 14:00 ET announces that the target range for the federal funds rate is maintained at 3.50%-3.75% (no cut, no hike).",
+    "chorus_probability": 0.85,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T19:00:00+00:00",
+    "locked_at": "2026-06-16T19:00:00+00:00",
+    "resolution_date": "2026-06-18T21:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_macro_structural",
+      "cme_fedwatch_baseline"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "fomc_2026_06_18_HC",
+        "rationale": "Market-implied P(hold) is 86% per CME FedWatch. Slight discount to 0.85 reflects uncertainty premium from Kevin Warsh's first meeting as Chair (more hawkish background than Powell) \u2014 small non-zero chance Warsh signals hawkishness via a 25bp hike. Inflation at 4.2% YoY May supports the higher-for-longer posture.",
+        "market_implied_baseline": "86% hold per CME FedWatch"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_fomc_2026_06_18_no_rate_cut",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_fomc_2026_06_18_no_rate_cut",
+    "original_sha": "838a7f35a264180e949a7a23605e2eeec1f367c9af4da954085ca1d0675ac112",
+    "domain": "macro_fomc",
+    "question": "FOMC does NOT cut rates on June 18 2026",
+    "resolution_criterion": "The FOMC statement released 2026-06-18 does not lower the target range for the federal funds rate (no 25bp or larger cut).",
+    "chorus_probability": 0.97,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T19:00:00+00:00",
+    "locked_at": "2026-06-16T19:00:00+00:00",
+    "resolution_date": "2026-06-18T21:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_macro_structural",
+      "cme_fedwatch_baseline"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "fomc_2026_06_18_HC",
+        "rationale": "With inflation at 4.2% YoY and labor market resilient, a rate cut is structurally implausible at this meeting. Market-implied cut probability is near zero. Warsh's hawkish background reduces this further.",
+        "market_implied_baseline": "86% hold per CME FedWatch"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
   },
   {
     "canonical_id": "substack_gha_93pct_retraction_2026-03-15",

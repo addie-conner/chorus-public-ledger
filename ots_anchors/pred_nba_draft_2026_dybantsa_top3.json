@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_nba_draft_2026_dybantsa_top3",
+  "domain": "sports_nba_draft_2026",
+  "locked_at": "2026-06-16T18:30:00+00:00",
+  "predicted_prob": 0.98,
+  "question": "AJ Dybantsa selected in the top 3 of the 2026 NBA Draft",
+  "resolution_criterion": "AJ Dybantsa is selected with the #1, #2, or #3 overall pick of the 2026 NBA Draft on 2026-06-23.",
+  "resolution_date": "2026-06-24T00:00:00+00:00",
+  "sha256": "5eb3aa6e8556050637ae30de2fe30692639536f559afba445b7cad28ef6adccc"
+}

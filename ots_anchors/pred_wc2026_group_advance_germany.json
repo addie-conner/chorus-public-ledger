@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_wc2026_group_advance_germany",
+  "domain": "sports_worldcup_2026_group_stage",
+  "locked_at": "2026-06-16T18:00:00+00:00",
+  "predicted_prob": 0.9187,
+  "question": "Germany advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+  "resolution_criterion": "Germany finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+  "resolution_date": "2026-06-27T23:59:00+00:00",
+  "sha256": "31836c137e3e7fb1955944ff8783158c3b9e261d60a9eb1640874aa3360ac6a1"
+}

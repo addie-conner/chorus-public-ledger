@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_wc2026_group_advance_turkey",
+  "domain": "sports_worldcup_2026_group_stage",
+  "locked_at": "2026-06-16T18:00:00+00:00",
+  "predicted_prob": 0.8649,
+  "question": "Turkey advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+  "resolution_criterion": "Turkey finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+  "resolution_date": "2026-06-27T23:59:00+00:00",
+  "sha256": "d022440790d9012baad6d3d15dc99b2d376990549318726771afa7b88b0db274"
+}

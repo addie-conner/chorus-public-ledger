@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_nba_draft_2026_intl_player_top10",
+  "domain": "sports_nba_draft_2026",
+  "locked_at": "2026-06-16T18:30:00+00:00",
+  "predicted_prob": 0.9,
+  "question": "At least 1 international-developed player selected in the top 10 of the 2026 NBA Draft",
+  "resolution_criterion": "At least one of the top 10 picks of the 2026 NBA Draft is a player whose primary basketball development was outside the United States (e.g., European, African, South American, Australian club system).",
+  "resolution_date": "2026-06-24T00:00:00+00:00",
+  "sha256": "7ed93d2d0581b637f44fae7c639800408c60b91f53e1a0e28f21a29ab1a5d130"
+}

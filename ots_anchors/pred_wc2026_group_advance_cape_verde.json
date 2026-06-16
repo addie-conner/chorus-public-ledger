@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_wc2026_group_advance_cape_verde",
+  "domain": "sports_worldcup_2026_group_stage",
+  "locked_at": "2026-06-16T18:00:00+00:00",
+  "predicted_prob": 0.3615,
+  "question": "Cape Verde advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+  "resolution_criterion": "Cape Verde finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
+  "resolution_date": "2026-06-27T23:59:00+00:00",
+  "sha256": "10d29214a426463e71fb7bf59167d469f4fd5b1dfc47a17994dd8e417eacb26e"
+}

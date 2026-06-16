@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_fomc_2026_06_18_no_rate_cut",
+  "domain": "macro_fomc",
+  "locked_at": "2026-06-16T19:00:00+00:00",
+  "predicted_prob": 0.97,
+  "question": "FOMC does NOT cut rates on June 18 2026",
+  "resolution_criterion": "The FOMC statement released 2026-06-18 does not lower the target range for the federal funds rate (no 25bp or larger cut).",
+  "resolution_date": "2026-06-18T21:00:00+00:00",
+  "sha256": "838a7f35a264180e949a7a23605e2eeec1f367c9af4da954085ca1d0675ac112"
+}
