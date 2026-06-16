@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_bls_jobs_report_july_2026_released",
+  "domain": "macro_labor",
+  "locked_at": "2026-06-16T20:00:00+00:00",
+  "predicted_prob": 0.98,
+  "question": "BLS releases the June 2026 nonfarm payrolls report on its first-Friday schedule",
+  "resolution_criterion": "The Bureau of Labor Statistics publishes the Employment Situation Summary for June 2026 on Friday 2026-07-03 at 8:30 AM ET.",
+  "resolution_date": "2026-07-04T00:00:00+00:00",
+  "sha256": "db6c9c5523b6379b38394ebd500bb37b14b802182268cb8d62dc56ab428afd92"
+}

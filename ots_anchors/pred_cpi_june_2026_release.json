@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_cpi_june_2026_release",
+  "domain": "macro_inflation",
+  "locked_at": "2026-06-16T20:00:00+00:00",
+  "predicted_prob": 0.98,
+  "question": "BLS releases the June 2026 CPI report on its scheduled mid-July date",
+  "resolution_criterion": "The Bureau of Labor Statistics publishes the Consumer Price Index for June 2026 between 2026-07-10 and 2026-07-17.",
+  "resolution_date": "2026-07-18T00:00:00+00:00",
+  "sha256": "e0f091ce40375df4d83d90e88f9b6d2dade13e6113d1ddf0c3093c2f3dbf4539"
+}

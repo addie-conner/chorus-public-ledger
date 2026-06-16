@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_open_championship_golf_2026_july",
+  "domain": "sports_golf",
+  "locked_at": "2026-06-16T20:00:00+00:00",
+  "predicted_prob": 0.98,
+  "question": "The 2026 Open Championship (golf) is held in July 2026",
+  "resolution_criterion": "The 2026 Open Championship final round is completed in July 2026.",
+  "resolution_date": "2026-07-31T23:59:00+00:00",
+  "sha256": "be43d9f4a96eaa751e6347091c6a7e3a0dbf6a042d27bc89407f9ab9d3886f28"
+}

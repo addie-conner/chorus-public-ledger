@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_amazon_q2_2026_earnings_release",
+  "domain": "earnings",
+  "locked_at": "2026-06-16T20:00:00+00:00",
+  "predicted_prob": 0.99,
+  "question": "Amazon (AMZN) reports Q2 2026 earnings in late July or early August 2026",
+  "resolution_criterion": "Amazon.com Inc. releases its Q2 2026 earnings report between 2026-07-25 and 2026-08-08.",
+  "resolution_date": "2026-08-09T00:00:00+00:00",
+  "sha256": "26307eaca6d9b10f633555de7af66cfb684accefc010d63090bf5f729860f4f2"
+}

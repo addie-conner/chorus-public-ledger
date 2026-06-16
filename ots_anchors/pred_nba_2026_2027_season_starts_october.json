@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_nba_2026_2027_season_starts_october",
+  "domain": "sports_nba",
+  "locked_at": "2026-06-16T20:00:00+00:00",
+  "predicted_prob": 0.99,
+  "question": "2026-27 NBA regular season tip-off occurs in October 2026",
+  "resolution_criterion": "At least one regular-season NBA game is played between 2026-10-01 and 2026-10-31.",
+  "resolution_date": "2026-11-01T00:00:00+00:00",
+  "sha256": "53f496c7909660027342eae3e167ea8ad02a431b9fb71e1a8de0fcbe1f5a1139"
+}

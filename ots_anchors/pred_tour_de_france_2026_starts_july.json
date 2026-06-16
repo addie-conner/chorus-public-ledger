@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_tour_de_france_2026_starts_july",
+  "domain": "sports_cycling",
+  "locked_at": "2026-06-16T20:00:00+00:00",
+  "predicted_prob": 0.98,
+  "question": "The 2026 Tour de France Stage 1 is held in July 2026",
+  "resolution_criterion": "Stage 1 of the 2026 Tour de France is completed in July 2026.",
+  "resolution_date": "2026-08-01T00:00:00+00:00",
+  "sha256": "f2eea74fca33548c49d3500013d8d1c1e896ecf0da309b1b9e4d75258cd4ea5c"
+}

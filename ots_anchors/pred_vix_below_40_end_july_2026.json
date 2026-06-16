@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_vix_below_40_end_july_2026",
+  "domain": "macro_volatility",
+  "locked_at": "2026-06-16T20:00:00+00:00",
+  "predicted_prob": 0.96,
+  "question": "VIX closing value stays below 40 on every trading day in July 2026",
+  "resolution_criterion": "The CBOE Volatility Index (VIX) closing value (per Yahoo Finance ^VIX) is below 40.00 on every NYSE trading day from 2026-07-01 through 2026-07-31.",
+  "resolution_date": "2026-08-01T00:00:00+00:00",
+  "sha256": "a6144717cc5bb6cdca93e368b82982b7fd9df82d84776fdb8f613d63dbd65495"
+}

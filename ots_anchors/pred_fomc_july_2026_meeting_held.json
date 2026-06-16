@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_fomc_july_2026_meeting_held",
+  "domain": "macro_fomc",
+  "locked_at": "2026-06-16T20:00:00+00:00",
+  "predicted_prob": 0.99,
+  "question": "The FOMC July 2026 meeting is held on its scheduled dates (July 28-29)",
+  "resolution_criterion": "The FOMC holds its scheduled July 2026 meeting and releases a statement on 2026-07-29.",
+  "resolution_date": "2026-07-30T00:00:00+00:00",
+  "sha256": "b84c09bb74cb7524d96ced16d589debd8e994bd7a30ed350461c69382e04f268"
+}

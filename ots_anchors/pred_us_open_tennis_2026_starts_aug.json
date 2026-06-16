@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_us_open_tennis_2026_starts_aug",
+  "domain": "sports_tennis",
+  "locked_at": "2026-06-16T20:00:00+00:00",
+  "predicted_prob": 0.97,
+  "question": "The 2026 US Open tennis tournament begins on schedule in August 2026",
+  "resolution_criterion": "Main-draw play at the 2026 US Open tennis tournament begins between 2026-08-24 and 2026-09-01.",
+  "resolution_date": "2026-09-02T00:00:00+00:00",
+  "sha256": "173adcc75b9ff9e5d5ed0d23cdc88fa5bb21b1eb54f019aaa937a541b33ec569"
+}

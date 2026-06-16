@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_fed_funds_rate_above_3pct_end_july",
+  "domain": "macro_fed",
+  "locked_at": "2026-06-16T20:00:00+00:00",
+  "predicted_prob": 0.97,
+  "question": "Federal funds rate target upper bound is above 3.00% at end of July 2026",
+  "resolution_criterion": "Per the most recent FOMC statement before 2026-07-31, the upper bound of the federal funds target range is greater than 3.00%.",
+  "resolution_date": "2026-07-31T23:59:00+00:00",
+  "sha256": "06617c0f12972a40c0478093e289ec05d4e88b4a32c7e6e4850f7cfc62341080"
+}

@@ -12699,9 +12699,9 @@
     "is_high_conviction": true
   },
   {
-    "canonical_id": "v1_unknown_4384780864",
+    "canonical_id": "v1_unknown_4307382784",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384780864",
+    "original_id": "v1_unknown_4307382784",
     "original_sha": null,
     "domain": "eia_gasoline",
     "question": "EIA gasoline inventories build (increase) for week ending 2026-04-20",
@@ -12732,9 +12732,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4384781696",
+    "canonical_id": "v1_unknown_4307383616",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384781696",
+    "original_id": "v1_unknown_4307383616",
     "original_sha": null,
     "domain": "eia_distillate",
     "question": "EIA distillate inventories build (increase) for week ending 2026-04-20",
@@ -12765,9 +12765,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4384781952",
+    "canonical_id": "v1_unknown_4307383872",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384781952",
+    "original_id": "v1_unknown_4307383872",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-04-24 than Monday open",
@@ -12798,9 +12798,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4384782144",
+    "canonical_id": "v1_unknown_4307384064",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384782144",
+    "original_id": "v1_unknown_4307384064",
     "original_sha": null,
     "domain": "spr_level",
     "question": "SPR level higher in 4 weeks than current",
@@ -12831,9 +12831,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4384783104",
+    "canonical_id": "v1_unknown_4307385024",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384783104",
+    "original_id": "v1_unknown_4307385024",
     "original_sha": null,
     "domain": "existing_home_sales",
     "question": "Existing home sales higher MoM for March",
@@ -12864,9 +12864,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4384783296",
+    "canonical_id": "v1_unknown_4307385216",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384783296",
+    "original_id": "v1_unknown_4307385216",
     "original_sha": null,
     "domain": "fed_terminal",
     "question": "Fed funds upper above 4.00% at next FOMC decision",
@@ -12898,9 +12898,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4384783680",
+    "canonical_id": "v1_unknown_4307385600",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384783680",
+    "original_id": "v1_unknown_4307385600",
     "original_sha": null,
     "domain": "boj_decision",
     "question": "Bank of Japan holds rates at next meeting",
@@ -12931,9 +12931,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4384783936",
+    "canonical_id": "v1_unknown_4307385856",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384783936",
+    "original_id": "v1_unknown_4307385856",
     "original_sha": null,
     "domain": "ez_cpi",
     "question": "Eurozone CPI hotter than consensus for April",
@@ -12964,9 +12964,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4384784064",
+    "canonical_id": "v1_unknown_4307385984",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384784064",
+    "original_id": "v1_unknown_4307385984",
     "original_sha": null,
     "domain": "political_calendar",
     "question": "BOJ April rate decision \u2014 our lean: hold_likely",
@@ -12997,9 +12997,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4384801216",
+    "canonical_id": "v1_unknown_4307403136",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384801216",
+    "original_id": "v1_unknown_4307403136",
     "original_sha": null,
     "domain": "nba_playoff",
     "question": "NBA playoff higher seed wins next game (1st round)",
@@ -13030,9 +13030,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4384801472",
+    "canonical_id": "v1_unknown_4307403392",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384801472",
+    "original_id": "v1_unknown_4307403392",
     "original_sha": null,
     "domain": "eia_distillate",
     "question": "EIA distillate inventories build (increase) for week ending 2026-05-04",
@@ -13058,15 +13058,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4384781696"
+      "duplicate_of:v1_unknown_4307383616"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4384801728",
+    "canonical_id": "v1_unknown_4307403648",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384801728",
+    "original_id": "v1_unknown_4307403648",
     "original_sha": null,
     "domain": "fed_terminal",
     "question": "Fed funds upper above 4.00% at next FOMC decision",
@@ -13092,16 +13092,16 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4384783296",
+      "duplicate_of:v1_unknown_4307385216",
       "event_validation_passed"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4384802048",
+    "canonical_id": "v1_unknown_4307403968",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384802048",
+    "original_id": "v1_unknown_4307403968",
     "original_sha": null,
     "domain": "boj_decision",
     "question": "Bank of Japan holds rates at next meeting",
@@ -13127,15 +13127,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4384783680"
+      "duplicate_of:v1_unknown_4307385600"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4384802304",
+    "canonical_id": "v1_unknown_4307404224",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384802304",
+    "original_id": "v1_unknown_4307404224",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-05-02",
@@ -13166,9 +13166,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4384802688",
+    "canonical_id": "v1_unknown_4307404608",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384802688",
+    "original_id": "v1_unknown_4307404608",
     "original_sha": null,
     "domain": "jobless_claims",
     "question": "Initial jobless claims below 220k for week ending 2026-05-09",
@@ -13322,9 +13322,9 @@
     "in_headline": true
   },
   {
-    "canonical_id": "v1_unknown_4384805440",
+    "canonical_id": "v1_unknown_4307407360",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384805440",
+    "original_id": "v1_unknown_4307407360",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-05-16",
@@ -13350,15 +13350,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4384802304"
+      "duplicate_of:v1_unknown_4307404224"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4384805760",
+    "canonical_id": "v1_unknown_4307407680",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384805760",
+    "original_id": "v1_unknown_4307407680",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-05-23",
@@ -13384,15 +13384,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4384802304"
+      "duplicate_of:v1_unknown_4307404224"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4384806080",
+    "canonical_id": "v1_unknown_4307408000",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384806080",
+    "original_id": "v1_unknown_4307408000",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-05-29 than Monday open",
@@ -13423,9 +13423,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4384806272",
+    "canonical_id": "v1_unknown_4307408192",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384806272",
+    "original_id": "v1_unknown_4307408192",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-06-05 than Monday open",
@@ -13456,9 +13456,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4384806464",
+    "canonical_id": "v1_unknown_4307408384",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384806464",
+    "original_id": "v1_unknown_4307408384",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-05-30",
@@ -13484,15 +13484,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4384802304"
+      "duplicate_of:v1_unknown_4307404224"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4384806848",
+    "canonical_id": "v1_unknown_4307408768",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384806848",
+    "original_id": "v1_unknown_4307408768",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-06-12 than Monday open",
@@ -13523,9 +13523,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4384807040",
+    "canonical_id": "v1_unknown_4307408960",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384807040",
+    "original_id": "v1_unknown_4307408960",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-06-13",
@@ -13551,15 +13551,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4384802304"
+      "duplicate_of:v1_unknown_4307404224"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4384807424",
+    "canonical_id": "v1_unknown_4307409344",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4384807424",
+    "original_id": "v1_unknown_4307409344",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-06-19 than Monday open",
@@ -79932,6 +79932,846 @@
         "cohort": "fomc_2026_06_18_HC",
         "rationale": "With inflation at 4.2% YoY and labor market resilient, a rate cut is structurally implausible at this meeting. Market-implied cut probability is near zero. Warsh's hawkish background reduces this further.",
         "market_implied_baseline": "86% hold per CME FedWatch"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_wc_2026_final_played_on_2026_07_19",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wc_2026_final_played_on_2026_07_19",
+    "original_sha": "b464b82369f7fae6e99039b84a9dea5bb062793e57897346a3df9c6178fc73a8",
+    "domain": "sports_worldcup_2026",
+    "question": "The 2026 FIFA World Cup Final is played on 2026-07-19",
+    "resolution_criterion": "FIFA holds the 2026 World Cup Final match on 2026-07-19, with the match completing and a champion crowned that day. Postponement or cancellation resolves NO.",
+    "chorus_probability": 0.99,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T20:00:00+00:00",
+    "locked_at": "2026-06-16T20:00:00+00:00",
+    "resolution_date": "2026-07-20T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "structural_truths_2026_06_16",
+        "category": "calendar/institutional certainty; not edge \u2014 discipline-balance for the all-forward pool"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_nba_2026_2027_season_starts_october",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_nba_2026_2027_season_starts_october",
+    "original_sha": "53f496c7909660027342eae3e167ea8ad02a431b9fb71e1a8de0fcbe1f5a1139",
+    "domain": "sports_nba",
+    "question": "2026-27 NBA regular season tip-off occurs in October 2026",
+    "resolution_criterion": "At least one regular-season NBA game is played between 2026-10-01 and 2026-10-31.",
+    "chorus_probability": 0.99,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T20:00:00+00:00",
+    "locked_at": "2026-06-16T20:00:00+00:00",
+    "resolution_date": "2026-11-01T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "structural_truths_2026_06_16",
+        "category": "calendar/institutional certainty; not edge \u2014 discipline-balance for the all-forward pool"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_nfl_2026_season_kickoff_september",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_nfl_2026_season_kickoff_september",
+    "original_sha": "1434f3576fefee62b211a1d3d2e34a859651a27d9d299373c73c4cb062e9e0d4",
+    "domain": "sports_nfl",
+    "question": "2026-27 NFL regular season kicks off in September 2026",
+    "resolution_criterion": "At least one regular-season NFL game is played between 2026-09-01 and 2026-09-15.",
+    "chorus_probability": 0.99,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T20:00:00+00:00",
+    "locked_at": "2026-06-16T20:00:00+00:00",
+    "resolution_date": "2026-09-16T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "structural_truths_2026_06_16",
+        "category": "calendar/institutional certainty; not edge \u2014 discipline-balance for the all-forward pool"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_wnba_2026_finals_in_2026",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wnba_2026_finals_in_2026",
+    "original_sha": "7d383bed6fffe96c37c70e15dd106980f57e7d4714d2b8e04f8d5547137c8538",
+    "domain": "sports_wnba",
+    "question": "The 2026 WNBA Finals are played in 2026 (not delayed into 2027)",
+    "resolution_criterion": "The WNBA Finals series concludes (winner crowned) on or before 2026-12-31.",
+    "chorus_probability": 0.98,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T20:00:00+00:00",
+    "locked_at": "2026-06-16T20:00:00+00:00",
+    "resolution_date": "2026-12-31T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "structural_truths_2026_06_16",
+        "category": "calendar/institutional certainty; not edge \u2014 discipline-balance for the all-forward pool"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_mlb_2026_all_star_game_july",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_mlb_2026_all_star_game_july",
+    "original_sha": "f3a95a9a0a1a7b9a672350f325fe3aa4e3250dd04afda2eb8ea8ae4f63f8afc8",
+    "domain": "sports_mlb",
+    "question": "The 2026 MLB All-Star Game is played on its scheduled July 2026 date",
+    "resolution_criterion": "The MLB All-Star Game is played between 2026-07-13 and 2026-07-17.",
+    "chorus_probability": 0.98,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T20:00:00+00:00",
+    "locked_at": "2026-06-16T20:00:00+00:00",
+    "resolution_date": "2026-07-18T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "structural_truths_2026_06_16",
+        "category": "calendar/institutional certainty; not edge \u2014 discipline-balance for the all-forward pool"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_us_open_tennis_2026_starts_aug",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_us_open_tennis_2026_starts_aug",
+    "original_sha": "173adcc75b9ff9e5d5ed0d23cdc88fa5bb21b1eb54f019aaa937a541b33ec569",
+    "domain": "sports_tennis",
+    "question": "The 2026 US Open tennis tournament begins on schedule in August 2026",
+    "resolution_criterion": "Main-draw play at the 2026 US Open tennis tournament begins between 2026-08-24 and 2026-09-01.",
+    "chorus_probability": 0.97,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T20:00:00+00:00",
+    "locked_at": "2026-06-16T20:00:00+00:00",
+    "resolution_date": "2026-09-02T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "structural_truths_2026_06_16",
+        "category": "calendar/institutional certainty; not edge \u2014 discipline-balance for the all-forward pool"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_fomc_july_2026_meeting_held",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_fomc_july_2026_meeting_held",
+    "original_sha": "b84c09bb74cb7524d96ced16d589debd8e994bd7a30ed350461c69382e04f268",
+    "domain": "macro_fomc",
+    "question": "The FOMC July 2026 meeting is held on its scheduled dates (July 28-29)",
+    "resolution_criterion": "The FOMC holds its scheduled July 2026 meeting and releases a statement on 2026-07-29.",
+    "chorus_probability": 0.99,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T20:00:00+00:00",
+    "locked_at": "2026-06-16T20:00:00+00:00",
+    "resolution_date": "2026-07-30T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "structural_truths_2026_06_16",
+        "category": "calendar/institutional certainty; not edge \u2014 discipline-balance for the all-forward pool"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_bls_jobs_report_july_2026_released",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_bls_jobs_report_july_2026_released",
+    "original_sha": "db6c9c5523b6379b38394ebd500bb37b14b802182268cb8d62dc56ab428afd92",
+    "domain": "macro_labor",
+    "question": "BLS releases the June 2026 nonfarm payrolls report on its first-Friday schedule",
+    "resolution_criterion": "The Bureau of Labor Statistics publishes the Employment Situation Summary for June 2026 on Friday 2026-07-03 at 8:30 AM ET.",
+    "chorus_probability": 0.98,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T20:00:00+00:00",
+    "locked_at": "2026-06-16T20:00:00+00:00",
+    "resolution_date": "2026-07-04T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "structural_truths_2026_06_16",
+        "category": "calendar/institutional certainty; not edge \u2014 discipline-balance for the all-forward pool"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_cpi_june_2026_release",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_cpi_june_2026_release",
+    "original_sha": "e0f091ce40375df4d83d90e88f9b6d2dade13e6113d1ddf0c3093c2f3dbf4539",
+    "domain": "macro_inflation",
+    "question": "BLS releases the June 2026 CPI report on its scheduled mid-July date",
+    "resolution_criterion": "The Bureau of Labor Statistics publishes the Consumer Price Index for June 2026 between 2026-07-10 and 2026-07-17.",
+    "chorus_probability": 0.98,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T20:00:00+00:00",
+    "locked_at": "2026-06-16T20:00:00+00:00",
+    "resolution_date": "2026-07-18T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "structural_truths_2026_06_16",
+        "category": "calendar/institutional certainty; not edge \u2014 discipline-balance for the all-forward pool"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_fed_funds_rate_above_3pct_end_july",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_fed_funds_rate_above_3pct_end_july",
+    "original_sha": "06617c0f12972a40c0478093e289ec05d4e88b4a32c7e6e4850f7cfc62341080",
+    "domain": "macro_fed",
+    "question": "Federal funds rate target upper bound is above 3.00% at end of July 2026",
+    "resolution_criterion": "Per the most recent FOMC statement before 2026-07-31, the upper bound of the federal funds target range is greater than 3.00%.",
+    "chorus_probability": 0.97,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T20:00:00+00:00",
+    "locked_at": "2026-06-16T20:00:00+00:00",
+    "resolution_date": "2026-07-31T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "structural_truths_2026_06_16",
+        "category": "calendar/institutional certainty; not edge \u2014 discipline-balance for the all-forward pool"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_vix_below_40_end_july_2026",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_vix_below_40_end_july_2026",
+    "original_sha": "a6144717cc5bb6cdca93e368b82982b7fd9df82d84776fdb8f613d63dbd65495",
+    "domain": "macro_volatility",
+    "question": "VIX closing value stays below 40 on every trading day in July 2026",
+    "resolution_criterion": "The CBOE Volatility Index (VIX) closing value (per Yahoo Finance ^VIX) is below 40.00 on every NYSE trading day from 2026-07-01 through 2026-07-31.",
+    "chorus_probability": 0.96,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T20:00:00+00:00",
+    "locked_at": "2026-06-16T20:00:00+00:00",
+    "resolution_date": "2026-08-01T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "structural_truths_2026_06_16",
+        "category": "calendar/institutional certainty; not edge \u2014 discipline-balance for the all-forward pool"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_apple_q3_fy26_earnings_release_aug",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_apple_q3_fy26_earnings_release_aug",
+    "original_sha": "ee279f2427b89dcabc112574b3105c2ef044e9814334289661de434200a5a16b",
+    "domain": "earnings",
+    "question": "Apple (AAPL) reports Q3 FY2026 earnings in late July or early August 2026",
+    "resolution_criterion": "Apple Inc. releases its Q3 FY2026 (calendar Q2 2026) earnings report between 2026-07-25 and 2026-08-08.",
+    "chorus_probability": 0.99,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T20:00:00+00:00",
+    "locked_at": "2026-06-16T20:00:00+00:00",
+    "resolution_date": "2026-08-09T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "structural_truths_2026_06_16",
+        "category": "calendar/institutional certainty; not edge \u2014 discipline-balance for the all-forward pool"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_microsoft_q4_fy26_earnings_release",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_microsoft_q4_fy26_earnings_release",
+    "original_sha": "eeefad5cd6886ea40613babf2cfa50e1fe2a34f6876242a636118fa30c3c2a7b",
+    "domain": "earnings",
+    "question": "Microsoft (MSFT) reports Q4 FY2026 earnings in late July 2026",
+    "resolution_criterion": "Microsoft Corp. releases its Q4 FY2026 earnings report between 2026-07-22 and 2026-08-01.",
+    "chorus_probability": 0.99,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T20:00:00+00:00",
+    "locked_at": "2026-06-16T20:00:00+00:00",
+    "resolution_date": "2026-08-02T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "structural_truths_2026_06_16",
+        "category": "calendar/institutional certainty; not edge \u2014 discipline-balance for the all-forward pool"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_google_q2_2026_earnings_release",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_google_q2_2026_earnings_release",
+    "original_sha": "513be3a5b102efdc1f8429264a571b39f6e1aa47bcc12fa338015f32a24e718d",
+    "domain": "earnings",
+    "question": "Alphabet (GOOGL) reports Q2 2026 earnings in late July 2026",
+    "resolution_criterion": "Alphabet Inc. releases its Q2 2026 earnings report between 2026-07-20 and 2026-08-05.",
+    "chorus_probability": 0.99,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T20:00:00+00:00",
+    "locked_at": "2026-06-16T20:00:00+00:00",
+    "resolution_date": "2026-08-06T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "structural_truths_2026_06_16",
+        "category": "calendar/institutional certainty; not edge \u2014 discipline-balance for the all-forward pool"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_amazon_q2_2026_earnings_release",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_amazon_q2_2026_earnings_release",
+    "original_sha": "26307eaca6d9b10f633555de7af66cfb684accefc010d63090bf5f729860f4f2",
+    "domain": "earnings",
+    "question": "Amazon (AMZN) reports Q2 2026 earnings in late July or early August 2026",
+    "resolution_criterion": "Amazon.com Inc. releases its Q2 2026 earnings report between 2026-07-25 and 2026-08-08.",
+    "chorus_probability": 0.99,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T20:00:00+00:00",
+    "locked_at": "2026-06-16T20:00:00+00:00",
+    "resolution_date": "2026-08-09T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "structural_truths_2026_06_16",
+        "category": "calendar/institutional certainty; not edge \u2014 discipline-balance for the all-forward pool"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_wimbledon_2026_singles_finals_july",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_wimbledon_2026_singles_finals_july",
+    "original_sha": "1e8a895690c2fca5f825711f2e086acb92c7851c3b6801120986b0276706df63",
+    "domain": "sports_tennis",
+    "question": "Wimbledon 2026 men's and women's singles finals are played in July 2026",
+    "resolution_criterion": "Both the Wimbledon 2026 Gentlemen's Singles Final and Ladies' Singles Final are played between 2026-07-11 and 2026-07-13.",
+    "chorus_probability": 0.98,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T20:00:00+00:00",
+    "locked_at": "2026-06-16T20:00:00+00:00",
+    "resolution_date": "2026-07-14T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "structural_truths_2026_06_16",
+        "category": "calendar/institutional certainty; not edge \u2014 discipline-balance for the all-forward pool"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_tour_de_france_2026_starts_july",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_tour_de_france_2026_starts_july",
+    "original_sha": "f2eea74fca33548c49d3500013d8d1c1e896ecf0da309b1b9e4d75258cd4ea5c",
+    "domain": "sports_cycling",
+    "question": "The 2026 Tour de France Stage 1 is held in July 2026",
+    "resolution_criterion": "Stage 1 of the 2026 Tour de France is completed in July 2026.",
+    "chorus_probability": 0.98,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T20:00:00+00:00",
+    "locked_at": "2026-06-16T20:00:00+00:00",
+    "resolution_date": "2026-08-01T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "structural_truths_2026_06_16",
+        "category": "calendar/institutional certainty; not edge \u2014 discipline-balance for the all-forward pool"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_open_championship_golf_2026_july",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_open_championship_golf_2026_july",
+    "original_sha": "be43d9f4a96eaa751e6347091c6a7e3a0dbf6a042d27bc89407f9ab9d3886f28",
+    "domain": "sports_golf",
+    "question": "The 2026 Open Championship (golf) is held in July 2026",
+    "resolution_criterion": "The 2026 Open Championship final round is completed in July 2026.",
+    "chorus_probability": 0.98,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T20:00:00+00:00",
+    "locked_at": "2026-06-16T20:00:00+00:00",
+    "resolution_date": "2026-07-31T23:59:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "structural_truths_2026_06_16",
+        "category": "calendar/institutional certainty; not edge \u2014 discipline-balance for the all-forward pool"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_nba_summer_league_2026_held",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_nba_summer_league_2026_held",
+    "original_sha": "1ae39acc0e4af4f7de71862ea64f15229f8c0a5f4cfc9bd4a1e9b01165e23f2f",
+    "domain": "sports_nba",
+    "question": "NBA Summer League 2026 (Las Vegas) is held in July 2026",
+    "resolution_criterion": "At least one NBA Summer League game is played in Las Vegas between 2026-07-08 and 2026-07-22.",
+    "chorus_probability": 0.98,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T20:00:00+00:00",
+    "locked_at": "2026-06-16T20:00:00+00:00",
+    "resolution_date": "2026-07-23T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "structural_truths_2026_06_16",
+        "category": "calendar/institutional certainty; not edge \u2014 discipline-balance for the all-forward pool"
+      },
+      "n_personas": null,
+      "segment_means": null,
+      "confidence_label": "STRONG"
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true
+  },
+  {
+    "canonical_id": "pred_btc_above_10k_through_july",
+    "source_file": "chorus_predictions.jsonl",
+    "original_id": "pred_btc_above_10k_through_july",
+    "original_sha": "6170aeaf95a32c756f31e8b8d4caf0f9e75710de0a2cfe812a2126c88ce1c343",
+    "domain": "crypto",
+    "question": "Bitcoin spot price stays above $10,000 every day through end of July 2026",
+    "resolution_criterion": "Per CoinGecko's BTC/USD daily close, every daily close from 2026-06-17 through 2026-07-31 is above $10,000.",
+    "chorus_probability": 0.99,
+    "baseline_probability": null,
+    "edge": null,
+    "status": "open",
+    "created_at": "2026-06-16T20:00:00+00:00",
+    "locked_at": "2026-06-16T20:00:00+00:00",
+    "resolution_date": "2026-08-01T00:00:00+00:00",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "",
+    "brier_score": null,
+    "baseline_brier": null,
+    "brier_skill_score": null,
+    "data_sources_used": [
+      "chorus_structural_2026_06_16"
+    ],
+    "model_inputs": {
+      "scenario": {
+        "cohort": "structural_truths_2026_06_16",
+        "category": "calendar/institutional certainty; not edge \u2014 discipline-balance for the all-forward pool"
       },
       "n_personas": null,
       "segment_means": null,

@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_nfl_2026_season_kickoff_september",
+  "domain": "sports_nfl",
+  "locked_at": "2026-06-16T20:00:00+00:00",
+  "predicted_prob": 0.99,
+  "question": "2026-27 NFL regular season kicks off in September 2026",
+  "resolution_criterion": "At least one regular-season NFL game is played between 2026-09-01 and 2026-09-15.",
+  "resolution_date": "2026-09-16T00:00:00+00:00",
+  "sha256": "1434f3576fefee62b211a1d3d2e34a859651a27d9d299373c73c4cb062e9e0d4"
+}

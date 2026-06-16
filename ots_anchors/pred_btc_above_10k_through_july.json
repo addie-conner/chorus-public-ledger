@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_btc_above_10k_through_july",
+  "domain": "crypto",
+  "locked_at": "2026-06-16T20:00:00+00:00",
+  "predicted_prob": 0.99,
+  "question": "Bitcoin spot price stays above $10,000 every day through end of July 2026",
+  "resolution_criterion": "Per CoinGecko's BTC/USD daily close, every daily close from 2026-06-17 through 2026-07-31 is above $10,000.",
+  "resolution_date": "2026-08-01T00:00:00+00:00",
+  "sha256": "6170aeaf95a32c756f31e8b8d4caf0f9e75710de0a2cfe812a2126c88ce1c343"
+}

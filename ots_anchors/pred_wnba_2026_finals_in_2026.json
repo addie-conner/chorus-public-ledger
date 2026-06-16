@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_wnba_2026_finals_in_2026",
+  "domain": "sports_wnba",
+  "locked_at": "2026-06-16T20:00:00+00:00",
+  "predicted_prob": 0.98,
+  "question": "The 2026 WNBA Finals are played in 2026 (not delayed into 2027)",
+  "resolution_criterion": "The WNBA Finals series concludes (winner crowned) on or before 2026-12-31.",
+  "resolution_date": "2026-12-31T23:59:00+00:00",
+  "sha256": "7d383bed6fffe96c37c70e15dd106980f57e7d4714d2b8e04f8d5547137c8538"
+}

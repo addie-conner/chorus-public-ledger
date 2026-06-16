@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_mlb_2026_all_star_game_july",
+  "domain": "sports_mlb",
+  "locked_at": "2026-06-16T20:00:00+00:00",
+  "predicted_prob": 0.98,
+  "question": "The 2026 MLB All-Star Game is played on its scheduled July 2026 date",
+  "resolution_criterion": "The MLB All-Star Game is played between 2026-07-13 and 2026-07-17.",
+  "resolution_date": "2026-07-18T00:00:00+00:00",
+  "sha256": "f3a95a9a0a1a7b9a672350f325fe3aa4e3250dd04afda2eb8ea8ae4f63f8afc8"
+}

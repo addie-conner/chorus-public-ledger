@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_nba_summer_league_2026_held",
+  "domain": "sports_nba",
+  "locked_at": "2026-06-16T20:00:00+00:00",
+  "predicted_prob": 0.98,
+  "question": "NBA Summer League 2026 (Las Vegas) is held in July 2026",
+  "resolution_criterion": "At least one NBA Summer League game is played in Las Vegas between 2026-07-08 and 2026-07-22.",
+  "resolution_date": "2026-07-23T00:00:00+00:00",
+  "sha256": "1ae39acc0e4af4f7de71862ea64f15229f8c0a5f4cfc9bd4a1e9b01165e23f2f"
+}

@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_microsoft_q4_fy26_earnings_release",
+  "domain": "earnings",
+  "locked_at": "2026-06-16T20:00:00+00:00",
+  "predicted_prob": 0.99,
+  "question": "Microsoft (MSFT) reports Q4 FY2026 earnings in late July 2026",
+  "resolution_criterion": "Microsoft Corp. releases its Q4 FY2026 earnings report between 2026-07-22 and 2026-08-01.",
+  "resolution_date": "2026-08-02T00:00:00+00:00",
+  "sha256": "eeefad5cd6886ea40613babf2cfa50e1fe2a34f6876242a636118fa30c3c2a7b"
+}

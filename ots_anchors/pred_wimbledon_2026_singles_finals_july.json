@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_wimbledon_2026_singles_finals_july",
+  "domain": "sports_tennis",
+  "locked_at": "2026-06-16T20:00:00+00:00",
+  "predicted_prob": 0.98,
+  "question": "Wimbledon 2026 men's and women's singles finals are played in July 2026",
+  "resolution_criterion": "Both the Wimbledon 2026 Gentlemen's Singles Final and Ladies' Singles Final are played between 2026-07-11 and 2026-07-13.",
+  "resolution_date": "2026-07-14T00:00:00+00:00",
+  "sha256": "1e8a895690c2fca5f825711f2e086acb92c7851c3b6801120986b0276706df63"
+}
