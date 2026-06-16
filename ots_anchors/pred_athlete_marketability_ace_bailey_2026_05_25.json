@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_athlete_marketability_ace_bailey_2026_05_25",
+  "chorus_probability": 0.6,
+  "domain": "sports_attention_forward_marketability",
+  "in_headline": null,
+  "locked_at": "2026-05-25T00:00:00+00:00",
+  "original_sha": "86a3a70c6ba6915ef86c4e0f4d2430b95a56bf0850f22bb16e0991ad72028979",
+  "question": "Ace Bailey signs first major Tier-1 endorsement deal in marketability window",
+  "resolution": null,
+  "resolution_criterion": "First major endorsement deal defined as: multi-million dollar partnership (single deal value >= $1M or annual value >= $500K) with a Tier-1 brand (Nike, Adidas, Under Armour, New Balance, Reebok, Puma, Gatorade, Pepsi, Coca-Cola, State Farm, or equivalent), confirmed by press announcement in Forbes, SportsBusiness Journal, Sportico, or equivalent Tier-1 sports business outlet.",
+  "resolution_date": "2027-01-01T23:59:00+00:00",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

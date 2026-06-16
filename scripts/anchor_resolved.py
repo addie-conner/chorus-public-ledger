@@ -44,6 +44,32 @@ def is_resolved_unanchored(pred: dict) -> bool:
     )
 
 
+def is_open_hc_unanchored(pred: dict) -> bool:
+    """Open + high-conviction + not yet OTS-anchored.
+
+    Anchoring these NOW gives true pre-registration proof: the prediction's
+    probability + resolution criterion are sealed to a Bitcoin block before
+    the resolution_date arrives. This is the strong claim.
+
+    Recognizes both schemas: the older state-primary schema (chorus_probability,
+    is_high_conviction) and the newer schema (predicted_prob, confidence_label).
+    """
+    if pred.get("status") == "resolved" or pred.get("ots_anchored"):
+        return False
+    # Older schema
+    if pred.get("is_high_conviction") is True and pred.get("chorus_probability") is not None:
+        return True
+    # Newer schema: STRONG or MODERATE confidence with predicted_prob set
+    if pred.get("predicted_prob") is not None:
+        if pred.get("confidence_label") in ("STRONG", "MODERATE"):
+            return True
+        # Fallback: derive HC from |p - 0.5|
+        p = pred.get("predicted_prob")
+        if isinstance(p, (int, float)) and abs(p - 0.5) > 0.15:
+            return True
+    return False
+
+
 def write_prediction_record(pred: dict, out_dir: Path) -> Path:
     """Write a stable JSON record for a single prediction.
 
@@ -66,36 +92,54 @@ def write_prediction_record(pred: dict, out_dir: Path) -> Path:
 
 
 def ots_stamp(file_path: Path) -> Path:
-    """Run `ots stamp` on a file. Returns path to the .ots proof."""
+    """Run `ots stamp` on a file. Returns path to the .ots proof.
+
+    Idempotent: if the .ots file already exists, return its path without
+    re-stamping. The `ots stamp` CLI errors out on pre-existing .ots files,
+    so the check has to happen before subprocess invocation.
+    """
+    proof = file_path.with_suffix(file_path.suffix + ".ots")
+    if proof.exists():
+        return proof  # already anchored
     result = subprocess.run(
         ["ots", "stamp", str(file_path)],
         capture_output=True, text=True, timeout=60,
     )
     if result.returncode != 0:
         raise RuntimeError(f"ots stamp failed: {result.stderr}")
-    proof = file_path.with_suffix(file_path.suffix + ".ots")
     if not proof.exists():
         raise RuntimeError(f"ots stamp did not produce {proof}")
     return proof
 
 
 def anchor_predictions(canonical_path: Path, out_dir: Path,
-                       only_id: str | None = None) -> dict:
+                       only_id: str | None = None,
+                       mode: str = "resolved",
+                       limit: int | None = None) -> dict:
     """Anchor predictions and update the canonical's ots flags in place.
 
-    If only_id is set, anchor that one prediction (lock-time mode); otherwise
-    anchor every resolved-but-unanchored prediction (retroactive sweep).
+    Modes:
+      "resolved"  — retroactive sweep of resolved-but-unanchored (chain-of-custody from now)
+      "open_hc"   — pre-registration sweep of open high-conviction unanchored (strong claim)
+      "single"    — anchor one record by canonical_id (lock-time mode)
     """
     out_dir.mkdir(parents=True, exist_ok=True)
     ledger = json.loads(canonical_path.read_text())
 
     targets = []
     for p in ledger:
+        # Filter by explicit prediction-id whenever provided (not just lock-mode)
         if only_id is not None:
-            if p.get("canonical_id") == only_id:
+            if p.get("canonical_id") == only_id or p.get("prediction_id") == only_id:
                 targets.append(p)
-        elif is_resolved_unanchored(p):
-            targets.append(p)
+        elif mode == "open_hc":
+            if is_open_hc_unanchored(p):
+                targets.append(p)
+        else:
+            if is_resolved_unanchored(p):
+                targets.append(p)
+    if limit is not None:
+        targets = targets[:limit]
 
     print(f"anchoring {len(targets)} predictions to {out_dir}/")
     anchored, errors = [], []
@@ -128,14 +172,21 @@ def main() -> int:
     ap.add_argument("--lock-mode", action="store_true",
                     help="single-prediction anchor at lock time (requires --prediction-id)")
     ap.add_argument("--prediction-id", default=None)
+    ap.add_argument("--open-hc", action="store_true",
+                    help="sweep open high-conviction unanchored predictions (pre-registration mode)")
+    ap.add_argument("--limit", type=int, default=None,
+                    help="cap number of anchors per run (useful for first batch; OTS calendar is rate-limited)")
     args = ap.parse_args()
 
     if args.lock_mode and not args.prediction_id:
         ap.error("--lock-mode requires --prediction-id")
 
+    mode = "open_hc" if args.open_hc else "resolved"
+    # Honor --prediction-id whether or not --lock-mode is set
     result = anchor_predictions(
         args.canonical, args.out_dir,
-        only_id=args.prediction_id if args.lock_mode else None,
+        only_id=args.prediction_id,
+        mode=mode, limit=args.limit,
     )
     print(json.dumps(result, indent=2))
     return 1 if result["errors"] else 0

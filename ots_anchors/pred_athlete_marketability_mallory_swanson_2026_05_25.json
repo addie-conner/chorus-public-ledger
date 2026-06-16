@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_athlete_marketability_mallory_swanson_2026_05_25",
+  "chorus_probability": 0.35,
+  "domain": "sports_attention_forward_marketability",
+  "in_headline": null,
+  "locked_at": "2026-05-25T00:00:00+00:00",
+  "original_sha": "5c75ac8e6fdf29ae655139781b944bf0dd3bd7c9e4b46b82daab965a9a0debc2",
+  "question": "Mallory Swanson signs first major Tier-1 endorsement deal in marketability window",
+  "resolution": null,
+  "resolution_criterion": "First major endorsement deal defined as: multi-million dollar partnership (single deal value >= $1M or annual value >= $500K) with a Tier-1 brand (Nike, Adidas, Under Armour, New Balance, Reebok, Puma, Gatorade, Pepsi, Coca-Cola, State Farm, or equivalent), confirmed by press announcement in Forbes, SportsBusiness Journal, Sportico, or equivalent Tier-1 sports business outlet.",
+  "resolution_date": "2027-01-01T23:59:00+00:00",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}
