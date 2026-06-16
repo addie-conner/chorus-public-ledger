@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_nordvpn_remains_1_by_us_vpn_install_shar_ef32b006",
+  "chorus_probability": 0.78,
+  "domain": "cybersecurity",
+  "in_headline": null,
+  "locked_at": "2026-05-01T20:29:19+00:00",
+  "original_sha": "ef32b00659ab7fc4a13498bd9e5ce7892bd2f227a2e2c5b979ae332ee9d2b1ac",
+  "question": "NordVPN remains #1 by US VPN install share at 2026-06-30, with US iOS App Store rank <= 15 in Utilities category.",
+  "resolution": null,
+  "resolution_criterion": "On or around 2026-06-30, NordVPN US iOS App Store Utilities rank is <= 15 AND NordVPN US VPN market share (per any publicly disclosed Sensor Tower tier, Statista, or equivalent source) is >= 25%. Resolves YES if both conditions hold, NO if either fails.",
+  "resolution_date": "2026-06-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

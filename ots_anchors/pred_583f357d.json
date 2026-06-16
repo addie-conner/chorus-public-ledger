@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_583f357d",
+  "chorus_probability": 0.88,
+  "domain": "politics",
+  "in_headline": null,
+  "locked_at": "2026-04-16T13:11:25.121032+00:00",
+  "original_sha": "1e7c8d702ceba0f8803b9f7c75ba6c2a106925c29bfe0e2827ff4186d84b2cf2",
+  "question": "FOMC holds rates unchanged at May 6-7 meeting",
+  "resolution": null,
+  "resolution_criterion": "Federal Reserve announces no change to federal funds rate target at May 6-7 2026 FOMC meeting",
+  "resolution_date": "2026-05-07",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

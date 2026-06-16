@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_0438dc5d",
+  "chorus_probability": 0.88,
+  "domain": "cross_league_validated",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:49:43.738258+00:00",
+  "original_sha": "0438dc5d1109f1ac8a43fe9e866174b7367ddb1cd830f6e6809b7a81d07421b2",
+  "question": "MLB 2025 regular-season Saturday home games average attendance \u2265 +2,500 fans above team baseline (replicating 2-season MLB +3,648/+4,705 finding)",
+  "resolution": null,
+  "resolution_criterion": "MLB.com/Baseball-Reference 2025 attendance: filtered to Saturday home games, mean(attendance - team_avg) \u2265 +2,500",
+  "resolution_date": "2025-10-30",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

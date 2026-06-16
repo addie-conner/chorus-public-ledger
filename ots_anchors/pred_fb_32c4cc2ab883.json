@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_fb_32c4cc2ab883",
+  "chorus_probability": 0.2415,
+  "domain": "forecastbench",
+  "in_headline": null,
+  "locked_at": "2026-04-26T03:56:54Z",
+  "original_sha": "32c4cc2ab883a4dc5aa6886982855766b71c517d43dfa056f3484713d099d087",
+  "question": "Will there be more than ten times as many 'Violence against civilians' in Venezuela for the 30 days before {resolution_date} compared to one plus the 30-day average of 'Violence against civilians' over the 360 days preceding {forecast_due_date}?\n\ne.g. If the forecast due date is 2024-01-01 and we ha",
+  "resolution": null,
+  "resolution_criterion": "Resolves to the value calculated from the ACLED dataset once the data is published.",
+  "resolution_date": "2025-11-02",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

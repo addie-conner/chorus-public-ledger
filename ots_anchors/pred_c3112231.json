@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_c3112231",
+  "chorus_probability": 0.72,
+  "domain": "sports_upfront",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:21:48.921858+00:00",
+  "original_sha": "c3112231b7805e827b92d02b274f7bcbfe4fbb02a4fb20ebb7d681be4fd6f3b8",
+  "question": "NBA 2026 upfront commitments grow faster YoY than NFL upfronts",
+  "resolution": null,
+  "resolution_criterion": "NBA upfront commitment growth rate (2026 vs 2025) > NFL upfront commitment growth rate (2026 vs 2025), per Variety/AdAge published figures",
+  "resolution_date": "2026-08-31",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

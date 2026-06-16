@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_c9bdc2cc",
+  "chorus_probability": 0.75,
+  "domain": "pricing",
+  "in_headline": null,
+  "locked_at": "2026-04-16T13:11:25.120466+00:00",
+  "original_sha": "8a9c8d392ffb7ba3cd4c1fe602858a558e56bac6458ffce0b941237a740b4bc3",
+  "question": "Coffee stays below 310c through April 30 2026",
+  "resolution": null,
+  "resolution_criterion": "ICE Arabica coffee does not close above 310c/lb on any trading day through April 30 2026",
+  "resolution_date": "2026-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

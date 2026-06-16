@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_nfl_manningcast_2034",
+  "chorus_probability": 0.88,
+  "domain": "nfl_forward_qi_media_value",
+  "in_headline": null,
+  "locked_at": "2026-04-29T12:00:03.000000+00:00",
+  "original_sha": "d47a6f1e5b24b380c9f7d5e0e6a8c1d4f7a0e3d6a9e3d6a9e3d6a9e3d6a9e3d",
+  "question": "ManningCast (ESPN2/ESPN+) continues through 2033-34 NFL season with \u2265 10 episodes/season \u2014 contract already locked through 2034, demo premium (6.8yr younger median) sustains buy",
+  "resolution": null,
+  "resolution_criterion": "ESPN Press Room or NFL schedule 2033-34: ManningCast listed \u2265 10 episodes OR Peyton/Eli end-of-deal confirmation by Jan 2034",
+  "resolution_date": "2034-01-31",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_047814c0",
+  "chorus_probability": 0.72,
+  "domain": "nil_valuation",
+  "in_headline": null,
+  "locked_at": "2026-04-28T23:08:45.807805+00:00",
+  "original_sha": "047814c06197d64bccf6cd27f4806d8d807f878352d5b455ead50a3d59d28261",
+  "question": "Arch Manning (Texas QB) NIL valuation grows \u226510% YoY through end of 2026-27 college football season",
+  "resolution": null,
+  "resolution_criterion": "On3 NIL valuation for Arch Manning shows \u2265 1.10\u00d7 growth from 2026-04-28 baseline by 2026-12-31 OR by start of 2027 NFL Draft",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

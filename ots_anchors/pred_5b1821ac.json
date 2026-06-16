@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_5b1821ac",
+  "chorus_probability": 0.005,
+  "domain": "monetary_policy",
+  "in_headline": null,
+  "locked_at": "2026-04-29T17:45:00+00:00",
+  "original_sha": "5b1821ac5c32118aa0ec0cadeab4b8e1bbdb5c5f8ce3b6c4c48ba46752395910",
+  "question": "FOMC June 17 2026 decision: Hike 25bps",
+  "resolution": null,
+  "resolution_criterion": "FOMC statement on 2026-06-17 indicates FOMC statement indicates 25bp rate hike, new target 3.75-4.00%",
+  "resolution_date": "2026-06-17",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

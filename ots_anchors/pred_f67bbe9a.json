@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_f67bbe9a",
+  "chorus_probability": 0.85,
+  "domain": "nil_valuation_v2",
+  "in_headline": null,
+  "locked_at": "2026-04-28T23:15:00.061993+00:00",
+  "original_sha": "f67bbe9a641412e3fa6a27b1427b762be5138451de3f0e4494c2e8032b762401",
+  "question": "Cooper Flagg's Wikipedia daily pageview median (excluding tournament spike days) maintains \u2265 3,000/day through end of 2026",
+  "resolution": null,
+  "resolution_criterion": "Wikipedia REST API pageviews API for 'Cooper_Flagg', daily English all-access, computed median over 2026-05-01 through 2026-12-31, excluding any single-day spikes >2\u00d7 monthly median \u2265 3,000/day",
+  "resolution_date": "2027-01-15",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

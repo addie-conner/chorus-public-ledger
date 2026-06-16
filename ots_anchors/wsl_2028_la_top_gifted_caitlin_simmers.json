@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "wsl_2028_la_top_gifted_caitlin_simmers",
+  "chorus_probability": 1.0,
+  "domain": "wsl_judging_bias",
+  "in_headline": null,
+  "locked_at": "2026-05-04T06:03:15.001450+00:00",
+  "original_sha": "396a89800c8b92e8098d41c5c902c6bb8b051dffe90e2b8d544930ac2a32a400",
+  "question": "Caitlin Simmers (USA) will be flagged in top-3 gifted at LA28.",
+  "resolution": null,
+  "resolution_criterion": "After LA28 closes, compute residual-score ranks per surfer. Resolves YES if surfer is in top 3 by absolute residual (correct sign for gifted).",
+  "resolution_date": "2028-08-31",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

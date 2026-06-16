@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.016953,
+  "canonical_id": "pred_a8248229",
+  "chorus_probability": 0.869796,
+  "domain": "labor_payrolls",
+  "in_headline": false,
+  "locked_at": "2026-04-30T13:00:59.967383+00:00",
+  "original_sha": "a824822969e0301fa32c87770feebf946950cfda1d567a034489da9c84038edf",
+  "question": "Monthly change in nonfarm payrolls above -75K for April 2026 (BLS release 2026-05-08)",
+  "resolution": 1.0,
+  "resolution_criterion": "Resolves YES if BLS April 2026 NFP change > -75K",
+  "resolution_date": "2026-05-08",
+  "resolved_at": "2026-05-12T00:01:47+00:00",
+  "temporal_class": "FWD"
+}

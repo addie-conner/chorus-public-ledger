@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "wsl_2026_surfer_leo_fioravanti_unfair_gift",
+  "chorus_probability": 0.0,
+  "domain": "wsl_judging_bias",
+  "in_headline": null,
+  "locked_at": "2026-05-04T04:26:11.695360+00:00",
+  "original_sha": "cfc8a71fb2e9883a2f238651dcb7d375390c88ae330d0c023007baf94342f3ad",
+  "question": "Leo Fioravanti (ITA) will be flagged P(unfair_gift)=0.000 across the 2026 CT season.",
+  "resolution": null,
+  "resolution_criterion": "After 2026 CT season closes (after Pipe Pro 2026-12-20), compute realized unfair_gift-rank for this surfer using leave-one-out heat-mean residual analysis on heats.parquet. Surfer is 'flagged' if realized rank is in top quintile (n>=5/26). Resolves binary.",
+  "resolution_date": "2027-01-15",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

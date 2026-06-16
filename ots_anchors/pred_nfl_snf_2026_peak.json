@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_nfl_snf_2026_peak",
+  "chorus_probability": 0.72,
+  "domain": "nfl_forward_qi_media_value",
+  "in_headline": null,
+  "locked_at": "2026-04-29T12:00:00.000000+00:00",
+  "original_sha": "a14f3c8b2e91d057f6c4a2b7e3d5f8a1c9b4e7f2a5d8c1b4e7f2a5d8c1b4e71",
+  "question": "SNF 2026-27 season (NBC/Peacock) avg viewership \u2265 24.5M \u2014 extending 2025 record 23.5M via validated +1.61M/yr OLS trend",
+  "resolution": null,
+  "resolution_criterion": "NBC Universal / Sports Media Watch season-end release 2026-27 NFL season: SNF cross-platform avg viewership across 18 regular-season games \u2265 24.5M",
+  "resolution_date": "2027-01-31",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

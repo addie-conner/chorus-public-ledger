@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_1bd02c9d",
+  "chorus_probability": 0.97,
+  "domain": "sports_valuation",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:21:48.921858+00:00",
+  "original_sha": "1bd02c9d7e04fa45c926fafe66e603f09176e0440ee1611463df4e5830aa1651",
+  "question": "Dallas Cowboys retain rank #1 on Forbes 2026 Most Valuable NFL Franchises list",
+  "resolution": null,
+  "resolution_criterion": "Cowboys rank #1 in Forbes 2026 NFL franchise valuation list",
+  "resolution_date": "2026-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

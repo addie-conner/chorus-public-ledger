@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_552660ea",
+  "chorus_probability": 0.95,
+  "domain": "sports_ip",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:09:58.740173+00:00",
+  "original_sha": "552660ea766194b7a25d9a43cdd4aab068817b28bfae717da1707ca37c46c5bb",
+  "question": "Hong Kong Jockey Club retains highest 10yr CAGR in horse-racing category in Two Circles 2027 release",
+  "resolution": null,
+  "resolution_criterion": "HKJC has higher 10yr CAGR than Churchill Downs (other horse-racing org in top-50) in 2027 release",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

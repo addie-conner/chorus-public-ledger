@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_042df5c3",
+  "chorus_probability": 0.95,
+  "domain": "sports_ip",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:09:58.740173+00:00",
+  "original_sha": "042df5c3d3b52bfef63b9908b70c36d920f98b2b0dedb3d88eec638d075c8de8",
+  "question": "NBA central revenue exceeds $8.9B in Two Circles 2027 release",
+  "resolution": null,
+  "resolution_criterion": "NBA central revenue in 2027 release \u2265 $8.9B (current $8.1B at 23% CAGR; threshold is $8.91B = 1.10\u00d7 current)",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_ef23c54e",
+  "chorus_probability": 0.85,
+  "domain": "cross_domain_validated_signal",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:16:32.439080+00:00",
+  "original_sha": "ef23c54e06b9ad0e0f1d5811f1dff66d7043baebc475e126a0992392145e7aef",
+  "question": "NBA 2024-25 regular season Saturday home games average attendance \u2265 200 fans above team baseline (cross-domain residualization replication)",
+  "resolution": null,
+  "resolution_criterion": "ESPN/NBA.com 2024-25 attendance: across all NBA Saturday home games 2024-25, mean(attendance - home_team_avg_2024_25) \u2265 +200",
+  "resolution_date": "2025-04-15",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

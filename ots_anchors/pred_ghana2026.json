@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_ghana2026",
+  "chorus_probability": 0.93,
+  "domain": "conservation",
+  "in_headline": null,
+  "locked_at": "2026-01-15T00:00:00+00:00",
+  "original_sha": "4fc0bd11358939e45a1d9d4e10d3dec081e55de6934a4b3a5f3a3d4421654fa6",
+  "question": "Ghana 2026 deforestation threshold breach",
+  "resolution": null,
+  "resolution_criterion": "Ghana exceeds GFW deforestation threshold in 2026",
+  "resolution_date": "2026-05-31",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

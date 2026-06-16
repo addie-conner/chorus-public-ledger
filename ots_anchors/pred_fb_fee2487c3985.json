@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_fb_fee2487c3985",
+  "chorus_probability": 0.803,
+  "domain": "forecastbench",
+  "in_headline": null,
+  "locked_at": "2026-04-26T03:36:43Z",
+  "original_sha": "fee2487c39853da2f1b774f9aba1d39c24693f51ff7be457580c62ecb620ac72",
+  "question": "Will there be more than ten times as many 'Violence against civilians' in Poland for the 30 days before {resolution_date} compared to one plus the 30-day average of 'Violence against civilians' over the 360 days preceding {forecast_due_date}?\n\ne.g. If the forecast due date is 2024-01-01 and we have ",
+  "resolution": null,
+  "resolution_criterion": "Resolves to the value calculated from the ACLED dataset once the data is published.",
+  "resolution_date": "2025-11-02",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

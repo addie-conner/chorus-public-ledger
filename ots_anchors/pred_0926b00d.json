@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_0926b00d",
+  "chorus_probability": 0.9,
+  "domain": "sports_ip",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:09:58.740173+00:00",
+  "original_sha": "0926b00d12067aeb6843d1d7f4b3dd0524d98516d9aea37f095e5ef87a3e9a5b",
+  "question": "NFL central revenue exceeds $15.5B in Two Circles 2027 release",
+  "resolution": null,
+  "resolution_criterion": "NFL central revenue in 2027 release \u2265 $15.5B (current $14.9B at 7% CAGR; threshold = $15.5B = 1.04\u00d7 current)",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

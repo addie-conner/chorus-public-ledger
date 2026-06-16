@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_e3cfeca0",
+  "chorus_probability": 0.92,
+  "domain": "sports_ip",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:09:58.740173+00:00",
+  "original_sha": "e3cfeca0f3697c211f704165a38f62acae22a8713d7c2f31336585795a563fdb",
+  "question": "TKO Group exceeds $5.0B revenue in Two Circles 2027 release",
+  "resolution": null,
+  "resolution_criterion": "TKO Group revenue in 2027 release \u2265 $5.0B (current $4.7B at 16% CAGR; threshold = $5.0B = 1.064\u00d7 current)",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

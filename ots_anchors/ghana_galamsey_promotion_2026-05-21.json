@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.044,
+  "canonical_id": "ghana_galamsey_promotion_2026-05-21",
+  "chorus_probability": null,
+  "domain": "commodity_supply_forecasting",
+  "in_headline": false,
+  "locked_at": "2026-05-21T00:00:00+00:00",
+  "original_sha": null,
+  "question": "Does adding gold-price-as-galamsey-proxy as first-class feature beat the GHA cocoa-price-only baseline?",
+  "resolution": null,
+  "resolution_criterion": "v3 Brier < v2 baseline Brier AND walk-forward MAPE improves AND no slice regression",
+  "resolution_date": null,
+  "resolved_at": "2026-05-21T00:00:00+00:00",
+  "temporal_class": "UNKNOWN"
+}

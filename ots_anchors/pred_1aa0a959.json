@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.04,
+  "canonical_id": "pred_1aa0a959",
+  "chorus_probability": 0.8,
+  "domain": "pricing",
+  "in_headline": false,
+  "locked_at": "2026-04-16T13:23:15.208070+00:00",
+  "original_sha": "d3dc35ea1f929d1d64998dcfa4a31e4bf2d2a4235d907257e38d94f59f6a65f5",
+  "question": "GDP Q1 2026 advance estimate positive (above 0%)",
+  "resolution": 1.0,
+  "resolution_criterion": "BEA GDP advance estimate for Q1 2026 (released April 30) shows positive real GDP growth",
+  "resolution_date": "2026-04-30",
+  "resolved_at": "2026-05-12T00:01:50+00:00",
+  "temporal_class": "FWD"
+}

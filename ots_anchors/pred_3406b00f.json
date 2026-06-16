@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_3406b00f",
+  "chorus_probability": 0.78,
+  "domain": "sports_valuation",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:21:48.921858+00:00",
+  "original_sha": "3406b00fc854a481c8ca235960b52fd55d99182e0b98d80b670d3ba4d2aabfd7",
+  "question": "L.A. Dodgers Forbes valuation exceeds $6.0B in 2026 refresh",
+  "resolution": null,
+  "resolution_criterion": "Dodgers Forbes 2026 valuation \u2265 $6.0B (current $5.5B at 10% CAGR)",
+  "resolution_date": "2026-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

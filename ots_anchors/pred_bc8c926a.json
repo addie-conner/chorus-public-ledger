@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_bc8c926a",
+  "chorus_probability": 0.91,
+  "domain": "conservation",
+  "in_headline": null,
+  "locked_at": "2026-04-16T12:59:14.847166+00:00",
+  "original_sha": "7028c15c95e3881477c65a2ca57a164c893c6dd4ac02a8a973e3c93b1fa83e89",
+  "question": "Western US wildfire season 2026 exceeds 2025 acreage",
+  "resolution": null,
+  "resolution_criterion": "Total Western US wildfire acreage (CA + OR + WA + MT + ID + CO + NM + AZ) in 2026 exceeds 2025 total per NIFC reporting",
+  "resolution_date": "2026-11-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

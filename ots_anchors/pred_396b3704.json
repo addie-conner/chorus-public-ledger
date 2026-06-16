@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_396b3704",
+  "chorus_probability": 0.82,
+  "domain": "sports_ip",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:21:48.921858+00:00",
+  "original_sha": "396b3704bdb8828f75991546911d666274e40069e122f2975dbf82f14f3d4bae",
+  "question": "Ferrari (motorsport entity) exceeds $570M revenue in Two Circles 2027 release",
+  "resolution": null,
+  "resolution_criterion": "Ferrari motorsport revenue in 2027 \u2265 $570M (current $520M at 11% CAGR)",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "wsl_2026_mechanism_aus_home_bloc",
+  "chorus_probability": 0.88,
+  "domain": "wsl_judging_bias",
+  "in_headline": null,
+  "locked_at": "2026-05-04T04:26:11.695360+00:00",
+  "original_sha": "9333b973d364673cd91180a1ff203470e70ccb29c0a89b22fa12137d9543e757",
+  "question": "AUS-event home-bloc effect on 2026 CT (Bells/Margaret River/Gold Coast) will show positive uplift on Australian surfers >= +0.20 pts in pooled regression.",
+  "resolution": null,
+  "resolution_criterion": "After 2026evt01-03 close, fit home-match coef on AUS strata only with surfer-clustered SE. Resolves YES if coef >= +0.20 AND p<0.05.",
+  "resolution_date": "2026-06-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

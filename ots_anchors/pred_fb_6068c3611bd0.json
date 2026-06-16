@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_fb_6068c3611bd0",
+  "chorus_probability": 0.203,
+  "domain": "forecastbench",
+  "in_headline": null,
+  "locked_at": "2026-04-26T03:48:43Z",
+  "original_sha": "6068c3611bd071f764fa077e5ad297d0fc81d43cb96c1887e9cd224bbbf3df28",
+  "question": "Will there be more 'Strategic developments' in Equatorial Guinea for the 30 days before {resolution_date} compared to the 30-day average of 'Strategic developments' over the 360 days preceding {forecast_due_date}?\n\ne.g. If the forecast due date is 2024-01-01 and we have the following data:\nDate,'Str",
+  "resolution": null,
+  "resolution_criterion": "Resolves to the value calculated from the ACLED dataset once the data is published.",
+  "resolution_date": "2025-11-02",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

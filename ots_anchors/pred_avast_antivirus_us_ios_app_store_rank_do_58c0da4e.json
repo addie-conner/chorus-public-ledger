@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_avast_antivirus_us_ios_app_store_rank_do_58c0da4e",
+  "chorus_probability": 0.74,
+  "domain": "cybersecurity",
+  "in_headline": null,
+  "locked_at": "2026-05-01T20:29:19+00:00",
+  "original_sha": "58c0da4ec4f10ced35c43b21ce0294cac64bf7828ce23b064775779efe71e888",
+  "question": "Avast Antivirus US iOS App Store rank does NOT improve by 2026-06-30 (rank stays flat or declines vs 2026-05-01 snapshot).",
+  "resolution": null,
+  "resolution_criterion": "On or around 2026-06-30, Avast Antivirus (App ID 1276561962) US iOS App Store rank is equal to or worse (higher number) than its rank on 2026-05-01. Resolves YES if rank is flat or declined, NO if rank improved. If rank is INSUFFICIENT_PUBLIC_DATA at both dates, resolves via available proxy evidence (review trajectory, Google Trends Avast, news sentiment).",
+  "resolution_date": "2026-06-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

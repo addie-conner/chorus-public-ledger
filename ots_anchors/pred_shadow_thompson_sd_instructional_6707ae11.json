@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_shadow_thompson_sd_instructional_6707ae11",
+  "chorus_probability": 0.1382,
+  "domain": "colorado_phonefree_shadow",
+  "in_headline": null,
+  "locked_at": "2026-05-08T14:43:49+00:00",
+  "original_sha": "6707ae1165a7543deb7d1c50c34481af65cd6d9bc8d3cae0850b59d0a1ca13bc",
+  "question": "Thompson SD adopts a INSTRUCTIONAL communication device policy by 2026-06-17 [SHADOW of pred_thompson_sd_instructional_0a009e00]",
+  "resolution": null,
+  "resolution_criterion": "Thompson SD board formally adopts policy; outcome classified as one of: b2b / split / instructional / k8_only / discretion. Shadow prediction correct if adopted class == 'instructional'.",
+  "resolution_date": "2026-06-17",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_db2096e5",
+  "chorus_probability": 0.82,
+  "domain": "sports_ip",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:21:48.921858+00:00",
+  "original_sha": "db2096e5c08c9c4fc8c90275808fac248138735926bd380f81575243355e443f",
+  "question": "BCCI exceeds $1.85B revenue in Two Circles 2027 release",
+  "resolution": null,
+  "resolution_criterion": "BCCI revenue in 2027 \u2265 $1.85B (current $1.6B at 21% CAGR)",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

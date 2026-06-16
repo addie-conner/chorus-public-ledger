@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_1b0f7852",
+  "chorus_probability": 0.97,
+  "domain": "sports_ip",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:09:58.740173+00:00",
+  "original_sha": "1b0f7852ae410b2831527f436bca4e75944ae4a332709a5954f5d2152046fa14",
+  "question": "Hong Kong Jockey Club retains top-5 rank in Two Circles 2027 release",
+  "resolution": null,
+  "resolution_criterion": "Hong Kong Jockey Club ranks #1, #2, #3, #4, or #5 in 2027 release (currently #3 at $6.4B with 26% CAGR; #4 Premier League at $5.3B with 5% CAGR)",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

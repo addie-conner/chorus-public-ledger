@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.378093,
+  "canonical_id": "pred_b46d557f",
+  "chorus_probability": 0.385107,
+  "domain": "labor_payrolls",
+  "in_headline": false,
+  "locked_at": "2026-04-30T13:00:59.967445+00:00",
+  "original_sha": "b46d557f73952ed01f668bbc75607940d4a7008ea75bdb6900481a89a5e2fb29",
+  "question": "Monthly change in nonfarm payrolls above 90K for April 2026 (BLS release 2026-05-08)",
+  "resolution": 1.0,
+  "resolution_criterion": "Resolves YES if BLS April 2026 NFP change > 90K",
+  "resolution_date": "2026-05-08",
+  "resolved_at": "2026-05-12T00:01:47+00:00",
+  "temporal_class": "FWD"
+}

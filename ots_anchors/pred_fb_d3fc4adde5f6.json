@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_fb_d3fc4adde5f6",
+  "chorus_probability": 0.2362,
+  "domain": "forecastbench",
+  "in_headline": null,
+  "locked_at": "2026-04-26T03:44:07Z",
+  "original_sha": "d3fc4adde5f62aee8c5ddfa20dfc32eedb6825efc610de6b9e2ac5b8aca3af43",
+  "question": "Will there be more than ten times as many 'Strategic developments' in Lesotho for the 30 days before {resolution_date} compared to one plus the 30-day average of 'Strategic developments' over the 360 days preceding {forecast_due_date}?\n\ne.g. If the forecast due date is 2024-01-01 and we have the fol",
+  "resolution": null,
+  "resolution_criterion": "Resolves to the value calculated from the ACLED dataset once the data is published.",
+  "resolution_date": "2025-11-02",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

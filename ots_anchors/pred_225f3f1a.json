@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.032848,
+  "canonical_id": "pred_225f3f1a",
+  "chorus_probability": 0.818761,
+  "domain": "labor_payrolls",
+  "in_headline": false,
+  "locked_at": "2026-04-30T13:00:59.967404+00:00",
+  "original_sha": "225f3f1ae796f38399272b96e0cc0908daf53203d54249ded51c00976029097c",
+  "question": "Monthly change in nonfarm payrolls above -50K for April 2026 (BLS release 2026-05-08)",
+  "resolution": 1.0,
+  "resolution_criterion": "Resolves YES if BLS April 2026 NFP change > -50K",
+  "resolution_date": "2026-05-08",
+  "resolved_at": "2026-05-12T00:01:47+00:00",
+  "temporal_class": "FWD"
+}

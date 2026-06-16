@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_shadow_aurora_public_schools_split_06be66e6",
+  "chorus_probability": 0.0965,
+  "domain": "colorado_phonefree_shadow",
+  "in_headline": null,
+  "locked_at": "2026-05-08T14:43:49+00:00",
+  "original_sha": "06be66e69df23815f45c62eeb7cc2ff987cf1caa76df3c607aa1f4c04ff3790c",
+  "question": "Aurora Public Schools adopts a SPLIT communication device policy by 2026-06-16 [SHADOW of pred_aurora_public_schools_split_7ed805bc]",
+  "resolution": null,
+  "resolution_criterion": "Aurora Public Schools board formally adopts policy; outcome classified as one of: b2b / split / instructional / k8_only / discretion. Shadow prediction correct if adopted class == 'split'.",
+  "resolution_date": "2026-06-16",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

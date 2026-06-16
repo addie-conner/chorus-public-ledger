@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_nba26_nba26_draft_1",
+  "chorus_probability": 0.95,
+  "domain": "sports_affinity",
+  "in_headline": null,
+  "locked_at": "2026-06-08T18:00:00+00:00",
+  "original_sha": "2ebba09884ebebdf8fa4ed2a73c1f83799321d5ac51c3a88cd45548a8da01a87",
+  "question": "Dybantsa #1 overall",
+  "resolution": null,
+  "resolution_criterion": "AJ Dybantsa is selected #1 overall in 2026 NBA Draft (2026-06-23)",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

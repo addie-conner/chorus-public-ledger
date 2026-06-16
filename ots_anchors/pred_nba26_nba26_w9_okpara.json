@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_nba26_nba26_w9_okpara",
+  "chorus_probability": 0.13,
+  "domain": "sports_affinity",
+  "in_headline": null,
+  "locked_at": "2026-06-08T18:00:00+00:00",
+  "original_sha": "e06edfbf5998c80718c176d4b8e7900820c13e35e39dad7947bfc2779087fb42",
+  "question": "Felix Okpara breakout \u2014 Nigerian-heritage center",
+  "resolution": null,
+  "resolution_criterion": "Felix Okpara (Tennessee, projected DAL R2) lands top-30 NBA rookie jersey sales 2026-27 OR signs major Y1 brand deal by 2027-04-30",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

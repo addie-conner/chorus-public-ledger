@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "wsl_2026_surfer_john_florence_robbed",
+  "chorus_probability": 1.0,
+  "domain": "wsl_judging_bias",
+  "in_headline": null,
+  "locked_at": "2026-05-04T04:26:11.695360+00:00",
+  "original_sha": "903c035077610df753493f26b7f521797d8e51dfe869d884e0e6cb2b39dbe5d8",
+  "question": "John Florence (USA) will be flagged P(robbed)=1.000 across the 2026 CT season.",
+  "resolution": null,
+  "resolution_criterion": "After 2026 CT season closes (after Pipe Pro 2026-12-20), compute realized robbed-rank for this surfer using leave-one-out heat-mean residual analysis on heats.parquet. Surfer is 'flagged' if realized rank is in top quintile (n>=5/26). Resolves binary.",
+  "resolution_date": "2027-01-15",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

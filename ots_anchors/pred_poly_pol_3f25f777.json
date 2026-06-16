@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_poly_pol_3f25f777",
+  "chorus_probability": 0.01,
+  "domain": "politics",
+  "in_headline": null,
+  "locked_at": "2026-06-07T10:27:01.646621+00:00",
+  "original_sha": "93995e29d8be208edbf6fcacdc2269a8c6345bc4114fb90e94d7711a2757d37a",
+  "question": "Will Karen Bass & Spencer Pratt advance to the second round of the 2026 Los Angeles mayoral election?",
+  "resolution": null,
+  "resolution_criterion": "Polymarket market resolves YES: Will Karen Bass & Spencer Pratt advance to the second round of the 2026 Los Angeles mayoral election?",
+  "resolution_date": "2026-06-02T00:00:00+00:00",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

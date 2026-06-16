@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_d837d5f2",
+  "chorus_probability": 0.88,
+  "domain": "nba_athlete_marketability",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:00:38.016890+00:00",
+  "original_sha": "d837d5f265587e9dc6a4d4b9eb43641773aebafd4bba2815ea621ac3af67d47e",
+  "question": "Cooper Flagg Nike OR Adidas signature/footwear endorsement announced within 30 days of 2026 NBA Draft",
+  "resolution": null,
+  "resolution_criterion": "Public announcement / press release / Sportico-Athletic-ESPN reporting: Cooper Flagg signs Nike OR Adidas signature/footwear deal between 2026-06-25 and 2026-07-25",
+  "resolution_date": "2026-07-26",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

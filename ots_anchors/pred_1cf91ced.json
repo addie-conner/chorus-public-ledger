@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_1cf91ced",
+  "chorus_probability": 0.88,
+  "domain": "cross_league_validated",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:49:43.738831+00:00",
+  "original_sha": "1cf91cedd828f2a7a5641a9ea8e5a453aa315ae2241079e9a36296eeba45257b",
+  "question": "MLB 2025 regular-season Wednesday home games average attendance \u2264 -2,200 fans below team baseline",
+  "resolution": null,
+  "resolution_criterion": "MLB.com/Baseball-Reference 2025 attendance: filtered to Wednesday home games, mean(attendance - team_avg) \u2264 -2,200",
+  "resolution_date": "2025-10-30",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

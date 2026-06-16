@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_chicago_bears_finishes_in_top_5_of_nfl_b_f190a0ee",
+  "chorus_probability": 0.15,
+  "domain": "sports_valuations",
+  "in_headline": null,
+  "locked_at": "2026-04-24T17:24:15+00:00",
+  "original_sha": "f190a0ee30e114c78c55bea9d2afe502712714cab622f08ad50f805e4315d315",
+  "question": "Chicago Bears finishes in top 5 of NFL by valuation on the 2026 Forbes annual list",
+  "resolution": null,
+  "resolution_criterion": "Forbes 2026 NFL franchise valuation list (published 2026-09-30) shows Chicago Bears with rank \u2264 5",
+  "resolution_date": "2026-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

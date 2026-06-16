@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_chicago_cubs_finishes_in_top_5_of_mlb_by_27dd3f54",
+  "chorus_probability": 0.85,
+  "domain": "sports_valuations",
+  "in_headline": null,
+  "locked_at": "2026-04-24T17:24:15+00:00",
+  "original_sha": "27dd3f5459cc70be1ed416a7e2e772d84499c0f9b3d38282338e5617bf8688a5",
+  "question": "Chicago Cubs finishes in top 5 of MLB by valuation on the 2026 Forbes annual list",
+  "resolution": null,
+  "resolution_criterion": "Forbes 2026 MLB franchise valuation list (published 2026-09-30) shows Chicago Cubs with rank \u2264 5",
+  "resolution_date": "2026-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

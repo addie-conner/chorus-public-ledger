@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_31d4aa11",
+  "chorus_probability": 0.78,
+  "domain": "cross_domain_pair_validated",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:33:25.786569+00:00",
+  "original_sha": "31d4aa1185285cd669ec40dbb44edcef48da85b4de0bdfae8e2db2270f42679f",
+  "question": "NBA 2026-27 visiting team Wikipedia velocity decile spread (top vs bot decile attendance residual) \u2265 200 fans",
+  "resolution": null,
+  "resolution_criterion": "NBA 2026-27 ESPN data: top-decile-Wikipedia visitor games mean attendance residual \u2265 bottom-decile + 200 fans",
+  "resolution_date": "2027-04-15",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_1d6ca95d",
+  "chorus_probability": 0.85,
+  "domain": "nhl_upfront",
+  "in_headline": null,
+  "locked_at": "2026-04-28T13:40:48.725993+00:00",
+  "original_sha": "1d6ca95d4537cebe81d2238b42e3ace0a8851b58a20c128310092ce961cc14dd",
+  "question": "Geico, Honda, OR Discover renews multi-year NHL TNT sponsorship before 2026 upfront close",
+  "resolution": null,
+  "resolution_criterion": "At least one of {Geico, Honda, Discover} announces or is reported to have renewed a multi-year NHL/TNT Sports sponsorship deal between 2026-04-28 and the 2026 upfront close (typically July 31, 2026), per Variety/AdAge/Sportico/MediaPost",
+  "resolution_date": "2026-08-15",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

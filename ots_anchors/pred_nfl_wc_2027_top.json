@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_nfl_wc_2027_top",
+  "chorus_probability": 0.82,
+  "domain": "nfl_forward_qi_media_value",
+  "in_headline": null,
+  "locked_at": "2026-04-29T12:00:02.000000+00:00",
+  "original_sha": "c36f5e0d4a13f279b8e6c4d9a5f7b0c3e6f9d2c5f8b3e6f9d2c5f8b3e6f9d2c",
+  "question": "Wild Card Weekend January 2027: top single game viewership \u2265 38M (replicating accelerating trajectory: 35.7\u219236.1\u219241.0M in 2024-2026)",
+  "resolution": null,
+  "resolution_criterion": "Sports Media Watch + Nielsen Wild Card Weekend report Jan 2027: highest single-game viewership across all 6 Wild Card games \u2265 38M",
+  "resolution_date": "2027-01-20",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

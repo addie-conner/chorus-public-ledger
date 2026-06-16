@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_9cfb4956297731d8",
+  "chorus_probability": 0.72,
+  "domain": "athlete_pre_discovery_w_18_34",
+  "in_headline": null,
+  "locked_at": "2026-04-29T06:00:00+00:00",
+  "original_sha": "9cfb4956297731d8f91dc9df4e5704653b5a0f7e99768b238d62da5037b8298b",
+  "question": "Sarah Strong appears in On3 NIL Top-50 valuation list by Q3 2027",
+  "resolution": null,
+  "resolution_criterion": "On3 NIL Top-50 list Q3 2027 includes Sarah Strong",
+  "resolution_date": "2027-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

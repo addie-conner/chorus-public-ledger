@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_27c9d7be",
+  "chorus_probability": 0.82,
+  "domain": "cross_league_validated",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:49:43.738859+00:00",
+  "original_sha": "27c9d7be1f526a72319eee72da551b9688f4abb5c4832185054090cb0a920f99",
+  "question": "NBA 2025-26 regular-season Saturday residual \u2265 +200 fans (continuing 6-season replication)",
+  "resolution": null,
+  "resolution_criterion": "ESPN/NBA.com 2025-26: filtered to Saturday home games, mean(attendance - team_avg) \u2265 +200",
+  "resolution_date": "2026-04-15",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

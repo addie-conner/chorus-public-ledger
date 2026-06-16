@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_0a9f2252",
+  "chorus_probability": 0.97,
+  "domain": "monetary_policy",
+  "in_headline": null,
+  "locked_at": "2026-04-29T17:45:00+00:00",
+  "original_sha": "0a9f22524d8f7048a261c514e270d62ae0d2c4bff6d5d2b31dff3e5239359712",
+  "question": "FOMC June 17 2026 decision: Fed maintains rate (hold)",
+  "resolution": null,
+  "resolution_criterion": "FOMC statement on 2026-06-17 indicates FOMC statement indicates federal funds target rate unchanged at 3.50-3.75%",
+  "resolution_date": "2026-06-17",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

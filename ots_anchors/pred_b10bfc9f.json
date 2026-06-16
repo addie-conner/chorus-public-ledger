@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_b10bfc9f",
+  "chorus_probability": 0.9,
+  "domain": "conservation",
+  "in_headline": null,
+  "locked_at": "2026-04-16T13:11:25.121169+00:00",
+  "original_sha": "4f6e136e71cd9e74087c96863f11717e5c8d9f758c3a56ed0c6db93534d85e8b",
+  "question": "Ghana FIRMS fire density stays above 80/day through April 30",
+  "resolution": null,
+  "resolution_criterion": "NASA FIRMS 7-day avg fire density for Ghana cocoa belt exceeds 80 fires/day on April 30 2026",
+  "resolution_date": "2026-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

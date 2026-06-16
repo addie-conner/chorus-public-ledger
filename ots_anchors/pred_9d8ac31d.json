@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_9d8ac31d",
+  "chorus_probability": 0.95,
+  "domain": "nba_athlete_marketability",
+  "in_headline": null,
+  "locked_at": "2026-04-28T23:58:22.411703+00:00",
+  "original_sha": "9d8ac31d9a6733204a93086eeb0f9fc0b35ca294c811509246735ac3486b00b3",
+  "question": "Cooper Flagg selected #1 overall in 2026 NBA Draft",
+  "resolution": null,
+  "resolution_criterion": "ESPN draft tracker / NBA.com 2026 Draft official: pick #1 overall = Cooper Flagg",
+  "resolution_date": "2026-06-26",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_shadow_pueblo_70_k8_only_2a512b71",
+  "chorus_probability": 0.1275,
+  "domain": "colorado_phonefree_shadow",
+  "in_headline": null,
+  "locked_at": "2026-05-08T14:43:49+00:00",
+  "original_sha": "2a512b7117cfc995b381edc6752930c09b615770663bb2c2103d7ff938ce6770",
+  "question": "Pueblo 70 adopts a K8_ONLY communication device policy by 2026-07-01 [SHADOW of pred_pueblo_70_k8_only_f378bd91]",
+  "resolution": null,
+  "resolution_criterion": "Pueblo 70 board formally adopts policy; outcome classified as one of: b2b / split / instructional / k8_only / discretion. Shadow prediction correct if adopted class == 'k8_only'.",
+  "resolution_date": "2026-07-01",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

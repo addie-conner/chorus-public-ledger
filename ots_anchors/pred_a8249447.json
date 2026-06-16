@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_a8249447",
+  "chorus_probability": 0.85,
+  "domain": "sports_valuation",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:21:48.921858+00:00",
+  "original_sha": "a82494476001daea68e38caa28c939534d5e2d6624b713a13530edc8ba1f469a",
+  "question": "Golden State Warriors valuation grows \u22655% on Forbes 2026 NBA refresh",
+  "resolution": null,
+  "resolution_criterion": "GSW Forbes franchise valuation in 2026 release \u2265 1.05\u00d7 2025 release",
+  "resolution_date": "2026-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_fb_75f8a7c264ce",
+  "chorus_probability": 0.2244,
+  "domain": "forecastbench",
+  "in_headline": null,
+  "locked_at": "2026-04-26T03:31:49Z",
+  "original_sha": "75f8a7c264ce3467e65e5a971abf5fab5355572500b6ae021da6eb2dcc82adb3",
+  "question": "Will there be more than ten times as many 'Explosions/Remote violence' in Canada for the 30 days before {resolution_date} compared to one plus the 30-day average of 'Explosions/Remote violence' over the 360 days preceding {forecast_due_date}?\n\ne.g. If the forecast due date is 2024-01-01 and we have ",
+  "resolution": null,
+  "resolution_criterion": "Resolves to the value calculated from the ACLED dataset once the data is published.",
+  "resolution_date": "2025-11-02",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

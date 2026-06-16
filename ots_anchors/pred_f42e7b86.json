@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_f42e7b86",
+  "chorus_probability": 0.78,
+  "domain": "nil_valuation_v2",
+  "in_headline": null,
+  "locked_at": "2026-04-28T23:15:00.061993+00:00",
+  "original_sha": "f42e7b86d42c402569c38c67c6f04a94bb86ea5942330109c8ecf22aedb594b2",
+  "question": "Wikipedia velocity ranking (median pageviews 2026-05 to 2026-10) of these 5 college NIL candidates correctly predicts the rank ordering of their Q4 2026 On3 NIL valuations",
+  "resolution": null,
+  "resolution_criterion": "Spearman rank correlation between (Wikipedia median May-Oct 2026 ranking) and (On3 Q4 2026 NIL valuation ranking) across {Cooper Flagg, Arch Manning, JuJu Watkins, AJ Dybantsa, Paige Bueckers (pre-WNBA component)} \u2265 +0.70",
+  "resolution_date": "2027-01-15",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

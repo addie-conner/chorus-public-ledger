@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_fb_c9b60029d11c",
+  "chorus_probability": 0.2253,
+  "domain": "forecastbench",
+  "in_headline": null,
+  "locked_at": "2026-04-26T03:50:08Z",
+  "original_sha": "c9b60029d11c7a5212af3cc47d28c1bdffd7f411db3eb064a4ed476f01eb99a7",
+  "question": "Will there be more than ten times as many fatalities in Iran for the 30 days before {resolution_date} compared to one plus the 30-day average of fatalities over the 360 days preceding {forecast_due_date}?\n\ne.g. If the forecast due date is 2024-01-01 and we have the following data:\nDate,fatalities\n20",
+  "resolution": null,
+  "resolution_criterion": "Resolves to the value calculated from the ACLED dataset once the data is published.",
+  "resolution_date": "2025-11-02",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

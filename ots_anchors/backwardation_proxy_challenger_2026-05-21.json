@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.2588,
+  "canonical_id": "backwardation_proxy_challenger_2026-05-21",
+  "chorus_probability": null,
+  "domain": "commodity_supply_forecasting",
+  "in_headline": false,
+  "locked_at": "2026-05-21T00:00:00+00:00",
+  "original_sha": null,
+  "question": "Does adding spot-momentum + log-return-acceleration + coffee-Granger-lag10 as backwardation proxies improve Ghana cocoa T+6mo direction over champion B (multi-lag SM, 0.2334)?",
+  "resolution": null,
+  "resolution_criterion": "Challenger Brier < champion B - 0.005 AND no slice regression",
+  "resolution_date": null,
+  "resolved_at": "2026-05-21T00:00:00+00:00",
+  "temporal_class": "UNKNOWN"
+}

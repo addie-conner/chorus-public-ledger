@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_fb_cb6e77782b6a",
+  "chorus_probability": 0.803,
+  "domain": "forecastbench",
+  "in_headline": null,
+  "locked_at": "2026-04-26T03:43:02Z",
+  "original_sha": "cb6e77782b6a263b090ac6137ea8fdc26c4f2b640448c6e640c3cbbb8d5610ee",
+  "question": "Will there be more 'Explosions/Remote violence' in Chile for the 30 days before {resolution_date} compared to the 30-day average of 'Explosions/Remote violence' over the 360 days preceding {forecast_due_date}?\n\ne.g. If the forecast due date is 2024-01-01 and we have the following data:\nDate,'Explosi",
+  "resolution": null,
+  "resolution_criterion": "Resolves to the value calculated from the ACLED dataset once the data is published.",
+  "resolution_date": "2025-11-02",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_d30afe71",
+  "chorus_probability": 0.22,
+  "domain": "macro_conditional_sponsorship",
+  "in_headline": null,
+  "locked_at": "2026-04-29T01:13:05.025005+00:00",
+  "original_sha": "d30afe71b3929a3231926e9e3e757e0975e7e22ec12ddab8288c497d3863f966",
+  "question": "If FRED ICSA averages \u2265250K weekly through Q3 2026, NBA Finals 2026 viewership average \u226411.0M",
+  "resolution": null,
+  "resolution_criterion": "Joint outcome: ICSA Q3 2026 weekly average \u2265250K AND NBA Finals 2026 avg viewership \u226411.0M",
+  "resolution_date": "2026-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

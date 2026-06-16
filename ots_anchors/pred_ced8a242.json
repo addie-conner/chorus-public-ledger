@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_ced8a242",
+  "chorus_probability": 0.78,
+  "domain": "sports_upfront",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:21:48.921858+00:00",
+  "original_sha": "ced8a2428d46cad4d3b72a403e470fd84534f014afa0501fda223029e904b82d",
+  "question": "NFL 2026 broadcast upfront commitments exceed 2025 by \u22653% (industry-typical for non-recession year)",
+  "resolution": null,
+  "resolution_criterion": "Variety/AdAge published NFL upfront commitment summary for 2026 season \u2265 1.03\u00d7 2025 commitment",
+  "resolution_date": "2026-08-31",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

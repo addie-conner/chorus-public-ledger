@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_nba26_nba26_w7_saunders",
+  "chorus_probability": 0.15,
+  "domain": "sports_affinity",
+  "in_headline": null,
+  "locked_at": "2026-06-08T18:00:00+00:00",
+  "original_sha": "b291688748f6f6154676c52c5c6699fe388bb1b02dfa721ddbcc939cce4fafa4",
+  "question": "Richie Saunders breakout (BYU teammate-of-Dybantsa story)",
+  "resolution": null,
+  "resolution_criterion": "Richie Saunders (BYU, projected LAC/BOS R2) lands top-30 NBA rookie jersey sales 2026-27 OR signs major Y1 brand deal by 2027-04-30",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

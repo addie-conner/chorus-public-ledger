@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_bc4ee339c4be577a",
+  "chorus_probability": 0.8,
+  "domain": "athlete_pre_discovery_w_18_34",
+  "in_headline": null,
+  "locked_at": "2026-04-29T06:00:00+00:00",
+  "original_sha": "bc4ee339c4be577a713d0ad6b2a59523cec0d25c5e6d495db01142479e89297c",
+  "question": "Lauren Betts appears in On3 NIL Top-50 valuation list by Q3 2027",
+  "resolution": null,
+  "resolution_criterion": "On3 NIL Top-50 list Q3 2027 includes Lauren Betts",
+  "resolution_date": "2027-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

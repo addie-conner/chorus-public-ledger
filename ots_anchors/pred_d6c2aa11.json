@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_d6c2aa11",
+  "chorus_probability": 0.89,
+  "domain": "conservation",
+  "in_headline": null,
+  "locked_at": "2026-04-15T13:08:31.380776+00:00",
+  "original_sha": "3447f740399e9c3d40309e8072b99ec7ba9d2773f57f20a8e5f23a16fce3467e",
+  "question": "C\u00f4te d'Ivoire 2026 deforestation threshold breach",
+  "resolution": null,
+  "resolution_criterion": "C\u00f4te d'Ivoire exceeds GFW annual deforestation threshold in 2026 data release",
+  "resolution_date": "2026-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

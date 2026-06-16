@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_2901562e",
+  "chorus_probability": 0.82,
+  "domain": "cross_domain_validated",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:19:06.899423+00:00",
+  "original_sha": "2901562ea767ee1a4f4cb98077db47e4d5f83795ee431d10dc9556c6450d5193",
+  "question": "NBA 2026-27 regular-season Saturday home games average attendance \u2265 250 fans above team baseline (replicating 2023-24 +321 finding)",
+  "resolution": null,
+  "resolution_criterion": "ESPN/NBA.com 2026-27 attendance: across all NBA Saturday home games 2026-27, mean(attendance - home_team_avg_2026_27) \u2265 +250",
+  "resolution_date": "2027-04-15",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

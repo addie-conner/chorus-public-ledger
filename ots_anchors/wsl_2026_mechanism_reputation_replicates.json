@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "wsl_2026_mechanism_reputation_replicates",
+  "chorus_probability": 0.95,
+  "domain": "wsl_judging_bias",
+  "in_headline": null,
+  "locked_at": "2026-05-04T04:26:11.695360+00:00",
+  "original_sha": "63ee057b57a563a70613779e44700a0a20f8d2fc88fb571af8f8bee606d07e36",
+  "question": "Reputation prior coefficient (\u03b2 per rank-pt) on 2026 CT data will be negative and significant (p<0.05) when re-fit with same Findlay & Ste-Marie 2004 spec.",
+  "resolution": null,
+  "resolution_criterion": "After 2026 CT closes, re-run reputation regression on 2026-only heats with surfer-clustered SE. Resolves YES if \u03b2<0 AND p<0.05; NO otherwise. Locked-coef estimate: -0.010194 \u00b1 0.002876.",
+  "resolution_date": "2027-01-15",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

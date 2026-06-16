@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_8e96c6af",
+  "chorus_probability": 0.97,
+  "domain": "sports_ip",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:09:58.740173+00:00",
+  "original_sha": "8e96c6afb8c8e7a4e5aeac715d80f23c199e334209a1ea910f730f0bbc91e4bf",
+  "question": "NFL retains rank #1 in Two Circles 2027 Sports IP Revenue League release",
+  "resolution": null,
+  "resolution_criterion": "NFL ranks #1 by central revenue in 2027 Two Circles release (currently $14.9B vs #2 NBA at $8.1B; $6.8B gap)",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

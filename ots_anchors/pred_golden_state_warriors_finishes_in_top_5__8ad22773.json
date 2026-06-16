@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_golden_state_warriors_finishes_in_top_5__8ad22773",
+  "chorus_probability": 0.85,
+  "domain": "sports_valuations",
+  "in_headline": null,
+  "locked_at": "2026-04-24T17:24:15+00:00",
+  "original_sha": "8ad227736df90bf981b68d10ddcb00b583d4e799633de54b4ce2c8ebac94f185",
+  "question": "Golden State Warriors finishes in top 5 of NBA by valuation on the 2026 Forbes annual list",
+  "resolution": null,
+  "resolution_criterion": "Forbes 2026 NBA franchise valuation list (published 2026-09-30) shows Golden State Warriors with rank \u2264 5",
+  "resolution_date": "2026-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_dallas_cowboys_finishes_in_top_5_of_nfl__4c7062ef",
+  "chorus_probability": 0.85,
+  "domain": "sports_valuations",
+  "in_headline": null,
+  "locked_at": "2026-04-24T17:24:15+00:00",
+  "original_sha": "4c7062effb10ac951a8d1d352005f6f47f1dea3b75f15c3c7ce02a1f64ccfc92",
+  "question": "Dallas Cowboys finishes in top 5 of NFL by valuation on the 2026 Forbes annual list",
+  "resolution": null,
+  "resolution_criterion": "Forbes 2026 NFL franchise valuation list (published 2026-09-30) shows Dallas Cowboys with rank \u2264 5",
+  "resolution_date": "2026-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

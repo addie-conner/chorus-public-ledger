@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.0484,
+  "canonical_id": "pred_0b981f2a",
+  "chorus_probability": 0.78,
+  "domain": "pricing",
+  "in_headline": false,
+  "locked_at": "2026-04-16T13:11:25.121112+00:00",
+  "original_sha": "43b98971c120bf094d5c7bf625011b6386ee5786ee16222c3b1cf49bbf77adb5",
+  "question": "VIX stays below 25 through April 30 2026",
+  "resolution": 1.0,
+  "resolution_criterion": "CBOE VIX does not close above 25.0 on any trading day through April 30 2026",
+  "resolution_date": "2026-04-30",
+  "resolved_at": "2026-05-12T00:01:50+00:00",
+  "temporal_class": "FWD"
+}

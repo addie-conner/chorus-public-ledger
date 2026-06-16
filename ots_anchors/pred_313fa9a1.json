@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_313fa9a1",
+  "chorus_probability": 0.85,
+  "domain": "sponsor_renewal_prob",
+  "in_headline": null,
+  "locked_at": "2026-04-29T01:13:05.025210+00:00",
+  "original_sha": "313fa9a10d6af5522fa1a0bc0504cb4e0f36c7e1599615874c8de19dd4d057b4",
+  "question": "Geico NFL national broadcast advertising spend Q4 2026 \u2265 Q4 2025 reported figure (-15% maximum decline tolerance)",
+  "resolution": null,
+  "resolution_criterion": "iSpot.tv / Sportico Q4 2026 Geico NFL spend \u2265 Q4 2025 figure \u00d7 0.85",
+  "resolution_date": "2027-01-31",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

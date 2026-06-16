@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_faebc37c",
+  "chorus_probability": 0.72,
+  "domain": "sports_ip",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:21:48.921858+00:00",
+  "original_sha": "faebc37ceeba1c6bc5c19c3db6e45ff9327613d05395ba5e095f4112d40bbc80",
+  "question": "TKO Group enters top-5 globally on Two Circles 2027 release",
+  "resolution": null,
+  "resolution_criterion": "TKO Group ranks #1, #2, #3, #4, or #5 by revenue in Two Circles 2027 release",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

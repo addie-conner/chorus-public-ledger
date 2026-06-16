@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_1e1094cc",
+  "chorus_probability": 0.72,
+  "domain": "cross_domain_pair_validated",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:33:25.786354+00:00",
+  "original_sha": "1e1094cc596af9efc5fcf71c403f52a9515b642bc60da7e0175f3d5fa00b015a",
+  "question": "NBA 2026-27 Tuesday game visiting-team-Wikipedia velocity correlation with attendance residual \u2265 0.15",
+  "resolution": null,
+  "resolution_criterion": "NBA 2026-27 ESPN data: filtered to Tuesday home games only, Pearson r between visiting team Wikipedia 30d median and home attendance residual \u2265 0.15",
+  "resolution_date": "2027-04-15",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

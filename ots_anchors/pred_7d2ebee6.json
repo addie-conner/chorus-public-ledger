@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_7d2ebee6",
+  "chorus_probability": 0.93,
+  "domain": "sports_ip",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:09:58.740173+00:00",
+  "original_sha": "7d2ebee6cd2940124586b51f19d505694560dd43fb8f7f5c1cda8e87f055dc38",
+  "question": "Big Ten plus SEC combined revenue exceeds $2.5B in Two Circles 2027 release",
+  "resolution": null,
+  "resolution_criterion": "Big Ten central revenue + SEC central revenue in 2027 release \u2265 $2.5B (currently $1.3B + $1.0B = $2.3B)",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

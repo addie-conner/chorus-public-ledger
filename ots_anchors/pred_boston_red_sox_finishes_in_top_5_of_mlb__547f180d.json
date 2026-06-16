@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_boston_red_sox_finishes_in_top_5_of_mlb__547f180d",
+  "chorus_probability": 0.85,
+  "domain": "sports_valuations",
+  "in_headline": null,
+  "locked_at": "2026-04-24T17:24:15+00:00",
+  "original_sha": "547f180d6724d6cb85f19b3fcaf000a16efb07a113ba6a26ccfa33b16adc6c47",
+  "question": "Boston Red Sox finishes in top 5 of MLB by valuation on the 2026 Forbes annual list",
+  "resolution": null,
+  "resolution_criterion": "Forbes 2026 MLB franchise valuation list (published 2026-09-30) shows Boston Red Sox with rank \u2264 5",
+  "resolution_date": "2026-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

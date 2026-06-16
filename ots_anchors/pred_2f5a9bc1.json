@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_2f5a9bc1",
+  "chorus_probability": 0.92,
+  "domain": "nil_valuation",
+  "in_headline": null,
+  "locked_at": "2026-04-28T23:08:45.807805+00:00",
+  "original_sha": "2f5a9bc1aca0006f4b750acc3e2e5cf39baefb6c8e36ce3ead2f88f62efb8ad4",
+  "question": "At least one currently-unranked-top-50 college athlete enters On3 NIL Top-50 between 2026-04-28 and 2027-04-30 with Wikipedia daily pageview velocity that was already 5\u00d7+ the peer-cohort median \u2265 6 months before the NIL valuation jump",
+  "resolution": null,
+  "resolution_criterion": "Forensic check on the next 12 months of On3 Top-50 entrants: at least one new entrant whose Wikipedia daily pageviews were running \u2265 5\u00d7 sport-cohort median \u2265 6 months before the On3 entry. Wikipedia data via Wikipedia REST API public-pageviews endpoint.",
+  "resolution_date": "2027-05-15",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

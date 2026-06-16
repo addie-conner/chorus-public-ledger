@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_fb_e05b93ef3df3",
+  "chorus_probability": 0.2379,
+  "domain": "forecastbench",
+  "in_headline": null,
+  "locked_at": "2026-04-26T03:36:05Z",
+  "original_sha": "e05b93ef3df3a1ccbf47985297b9c5cac6c50936a7fb13d500f0e5759712ff0f",
+  "question": "Will there be more than ten times as many 'Riots' in Canada for the 30 days before {resolution_date} compared to one plus the 30-day average of 'Riots' over the 360 days preceding {forecast_due_date}?\n\ne.g. If the forecast due date is 2024-01-01 and we have the following data:\nDate,'Riots'\n2023-11-1",
+  "resolution": null,
+  "resolution_criterion": "Resolves to the value calculated from the ACLED dataset once the data is published.",
+  "resolution_date": "2025-11-02",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

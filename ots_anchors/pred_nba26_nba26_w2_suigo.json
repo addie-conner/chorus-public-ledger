@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_nba26_nba26_w2_suigo",
+  "chorus_probability": 0.18,
+  "domain": "sports_affinity",
+  "in_headline": null,
+  "locked_at": "2026-06-08T18:00:00+00:00",
+  "original_sha": "b96996167f49e3d4ae98d699589ad29b152cdc0440c88c4204193766bef46b8e",
+  "question": "Luigi Suigo breakout \u2014 top-30 jersey OR major Y1 deal",
+  "resolution": null,
+  "resolution_criterion": "Luigi Suigo (Italy) lands top-30 NBA rookie jersey sales 2026-27 OR signs major Y1 brand deal by 2027-04-30",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

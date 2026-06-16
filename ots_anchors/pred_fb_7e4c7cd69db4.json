@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_fb_7e4c7cd69db4",
+  "chorus_probability": 0.2238,
+  "domain": "forecastbench",
+  "in_headline": null,
+  "locked_at": "2026-04-26T03:35:31Z",
+  "original_sha": "7e4c7cd69db44ac709ef4732526dbf398d36fa82a25447628e0a78daf1f3b52a",
+  "question": "Will there be more than ten times as many 'Protests' in France for the 30 days before {resolution_date} compared to one plus the 30-day average of 'Protests' over the 360 days preceding {forecast_due_date}?\n\ne.g. If the forecast due date is 2024-01-01 and we have the following data:\nDate,'Protests'\n",
+  "resolution": null,
+  "resolution_criterion": "Resolves to the value calculated from the ACLED dataset once the data is published.",
+  "resolution_date": "2025-11-02",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_fb_4b673a1b8d88",
+  "chorus_probability": 0.2373,
+  "domain": "forecastbench",
+  "in_headline": null,
+  "locked_at": "2026-04-26T03:45:35Z",
+  "original_sha": "4b673a1b8d88fc158b90b44ff9e0eff2e0a08aea168b45d518ccf12e7fbf0a2c",
+  "question": "Will there be more than ten times as many 'Strategic developments' in New Caledonia for the 30 days before {resolution_date} compared to one plus the 30-day average of 'Strategic developments' over the 360 days preceding {forecast_due_date}?\n\ne.g. If the forecast due date is 2024-01-01 and we have t",
+  "resolution": null,
+  "resolution_criterion": "Resolves to the value calculated from the ACLED dataset once the data is published.",
+  "resolution_date": "2025-11-02",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

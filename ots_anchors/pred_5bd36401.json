@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_5bd36401",
+  "chorus_probability": 0.85,
+  "domain": "sports_ip",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:21:48.921858+00:00",
+  "original_sha": "5bd36401cb3de8ed2012a2708841a575b837b9e37c7de1336d2032061f0256ea",
+  "question": "MotoGP exceeds $640M revenue in Two Circles 2027 release",
+  "resolution": null,
+  "resolution_criterion": "MotoGP revenue in 2027 \u2265 $640M (current $570M at 12% CAGR)",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

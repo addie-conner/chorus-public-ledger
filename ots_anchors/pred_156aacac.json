@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_156aacac",
+  "chorus_probability": 0.92,
+  "domain": "sports_ip",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:09:58.740173+00:00",
+  "original_sha": "156aacac3cf97d8cb0983ccc0385e4f4126d791e618bc645a88a2b465d04aa54",
+  "question": "Top-50 cumulative revenue grows \u22655% YoY in Two Circles 2027 release",
+  "resolution": null,
+  "resolution_criterion": "Sum of top-50 organization revenues in 2027 release \u2265 1.05\u00d7 sum of 2026 release top-50",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

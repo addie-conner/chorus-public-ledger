@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "wsl_2028_la_top_robbed_italo_ferreira",
+  "chorus_probability": 1.0,
+  "domain": "wsl_judging_bias",
+  "in_headline": null,
+  "locked_at": "2026-05-04T06:03:15.001450+00:00",
+  "original_sha": "fc552be36665a1dbc7f355cc7979a2fe95c8a4534f4f643c36895fa032a1b737",
+  "question": "Italo Ferreira (BRA) will be flagged in top-3 robbed at LA28.",
+  "resolution": null,
+  "resolution_criterion": "After LA28 closes, compute residual-score ranks per surfer. Resolves YES if surfer is in top 3 by absolute residual (correct sign for robbed).",
+  "resolution_date": "2028-08-31",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

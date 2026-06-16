@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_9648335e",
+  "chorus_probability": 0.78,
+  "domain": "lens_disagreement_arb",
+  "in_headline": null,
+  "locked_at": "2026-04-29T01:13:05.025087+00:00",
+  "original_sha": "9648335ed0eb297a39d001883ad6c7c5956a8d2a18b121f5ddeb9de5d963b7e1",
+  "question": "Forbes 2027 release: Yankees franchise EV revision implies growth gap vs Two Circles 2026 IP CAGR remains \u2265 4pp (lens disagreement persists)",
+  "resolution": null,
+  "resolution_criterion": "Forbes 2027 MLB Franchise Valuations: NYY EV-implied growth - TC 2026 NYY 10y CAGR \u2265 4pp",
+  "resolution_date": "2027-04-15",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

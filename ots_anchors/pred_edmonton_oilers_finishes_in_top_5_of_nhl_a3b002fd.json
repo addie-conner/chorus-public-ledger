@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_edmonton_oilers_finishes_in_top_5_of_nhl_a3b002fd",
+  "chorus_probability": 0.85,
+  "domain": "sports_valuations",
+  "in_headline": null,
+  "locked_at": "2026-04-24T17:24:15+00:00",
+  "original_sha": "a3b002fd963a2a5d2cce5d502dd1052d5a9482329412128f9b9aad63f0aa185f",
+  "question": "Edmonton Oilers finishes in top 5 of NHL by valuation on the 2026 Forbes annual list",
+  "resolution": null,
+  "resolution_criterion": "Forbes 2026 NHL franchise valuation list (published 2026-09-30) shows Edmonton Oilers with rank \u2264 5",
+  "resolution_date": "2026-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_los_angeles_clippers_finishes_in_top_5_o_b453d982",
+  "chorus_probability": 0.85,
+  "domain": "sports_valuations",
+  "in_headline": null,
+  "locked_at": "2026-04-24T17:24:15+00:00",
+  "original_sha": "b453d982db1bd747409b34e903fb43818be1c8cfd2409dcaa73ab3b636eb550d",
+  "question": "Los Angeles Clippers finishes in top 5 of NBA by valuation on the 2026 Forbes annual list",
+  "resolution": null,
+  "resolution_criterion": "Forbes 2026 NBA franchise valuation list (published 2026-09-30) shows Los Angeles Clippers with rank \u2264 5",
+  "resolution_date": "2026-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

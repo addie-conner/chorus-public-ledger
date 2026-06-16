@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_q2_2026_earnings_cost_567603089db1",
+  "chorus_probability": 0.85,
+  "domain": "earnings_sector_rate",
+  "in_headline": null,
+  "locked_at": "2026-06-03T21:37:31.953327+00:00",
+  "original_sha": null,
+  "question": "COST beats Q2 2026 EPS consensus",
+  "resolution": null,
+  "resolution_criterion": "COST reported EPS on 2026-09-24 exceeds analyst consensus estimate at report time",
+  "resolution_date": "2026-09-24T16:00:00",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

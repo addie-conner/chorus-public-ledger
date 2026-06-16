@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_ee522a86",
+  "chorus_probability": 0.997074,
+  "domain": "inflation_cpiyoy",
+  "in_headline": null,
+  "locked_at": "2026-04-30T13:00:59.967690+00:00",
+  "original_sha": "ee522a86a2cd06d1cdb0ce67742a5d264486012fac39f819643831f985e7dbdf",
+  "question": "CPI YoY above 2.4% for April 2026 (BLS release 2026-06-10)",
+  "resolution": null,
+  "resolution_criterion": "Resolves YES if BLS April 2026 CPI year-over-year change > 2.4%",
+  "resolution_date": "2026-06-10",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

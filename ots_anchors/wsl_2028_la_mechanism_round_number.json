@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "wsl_2028_la_mechanism_round_number",
+  "chorus_probability": 0.85,
+  "domain": "wsl_judging_bias",
+  "in_headline": null,
+  "locked_at": "2026-05-04T06:03:15.001450+00:00",
+  "original_sha": "5621a53217ab209f97b02bf5c2be65ed97acf506fdc5ae80e98408087e6939db",
+  "question": "LA28 Olympic surfing round-number score-ending share will exceed null baseline of 6.67%. Predicted share = 25.55% (95% PI: 20.5-30.6%).",
+  "resolution": null,
+  "resolution_criterion": "After LA28 surfing concludes (2028-08-05), harvest score sheets and compute share of scores ending in .00/.25/.50/.75. Resolves YES if share >= 0.15 (>= 2\u00d7 null).",
+  "resolution_date": "2028-08-31",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

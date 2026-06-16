@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_9b484add",
+  "chorus_probability": 0.82,
+  "domain": "sports_ip",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:21:48.921858+00:00",
+  "original_sha": "9b484add34c290be36948fab7d8050047b25d03a335008d1e3561c8ddf88d087",
+  "question": "FIFA exceeds $2.4B revenue in Two Circles 2027 release",
+  "resolution": null,
+  "resolution_criterion": "FIFA revenue in 2027 \u2265 $2.4B (current $2.1B at 16% CAGR)",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

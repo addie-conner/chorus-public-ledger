@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "auto_2026_carrier_q2_ad_spend",
+  "chorus_probability": 0.72,
+  "domain": "auto_insurance_lead_gen",
+  "in_headline": null,
+  "locked_at": "2026-05-05T13:52:10.251497+00:00",
+  "original_sha": "2875874adfbade82aa0be84c4e3c83497f6c2ac32a589d8e79edd3089c2f885c",
+  "question": "At least one of {GEICO/Berkshire, Progressive, State Farm, Allstate, Liberty Mutual} reports Q2 2026 paid-marketing-spend up >=15% year-over-year in Q2 2026 earnings disclosures. P=0.72.",
+  "resolution": null,
+  "resolution_criterion": "Q2 2026 earnings filings (10-Q) or earnings call transcripts from any of the five named carriers cite Q2 2026 advertising/marketing spend up >=15% vs Q2 2025. Resolves at the latest Q2 release among the five (typically late July / early August 2026).",
+  "resolution_date": "2026-08-15",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

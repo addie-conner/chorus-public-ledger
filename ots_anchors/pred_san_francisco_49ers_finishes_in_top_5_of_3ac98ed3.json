@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_san_francisco_49ers_finishes_in_top_5_of_3ac98ed3",
+  "chorus_probability": 0.85,
+  "domain": "sports_valuations",
+  "in_headline": null,
+  "locked_at": "2026-04-24T17:24:15+00:00",
+  "original_sha": "3ac98ed3288f020f37051bdec0a4e6f8cd45e1bbb9c94c5f97c355c6e275d141",
+  "question": "San Francisco 49ers finishes in top 5 of NFL by valuation on the 2026 Forbes annual list",
+  "resolution": null,
+  "resolution_criterion": "Forbes 2026 NFL franchise valuation list (published 2026-09-30) shows San Francisco 49ers with rank \u2264 5",
+  "resolution_date": "2026-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

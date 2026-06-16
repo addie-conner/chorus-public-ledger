@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_houston_rockets_finishes_in_top_5_of_nba_1458d2af",
+  "chorus_probability": 0.15,
+  "domain": "sports_valuations",
+  "in_headline": null,
+  "locked_at": "2026-04-24T17:24:15+00:00",
+  "original_sha": "1458d2af9685af088e974fd4a934aa712cabbdfc893018b358b2f351bc1f28ec",
+  "question": "Houston Rockets finishes in top 5 of NBA by valuation on the 2026 Forbes annual list",
+  "resolution": null,
+  "resolution_criterion": "Forbes 2026 NBA franchise valuation list (published 2026-09-30) shows Houston Rockets with rank \u2264 5",
+  "resolution_date": "2026-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

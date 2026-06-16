@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_a7df49a1",
+  "chorus_probability": 0.72,
+  "domain": "nhl_upfront",
+  "in_headline": null,
+  "locked_at": "2026-04-28T13:40:48.725993+00:00",
+  "original_sha": "a7df49a1f38fd9356b6fc83853efff2e2462551b833a4582d60011a42d4fd9a2",
+  "question": "NHL 2026-27 regular-season national TV average viewership exceeds 510K per game (i.e., maintains \u226593% of the 14-year-high 2025-26 baseline of 546K)",
+  "resolution": null,
+  "resolution_criterion": "Per Nielsen / Sportico published 2026-27 NHL season summary, average national TV viewership per game \u2265 510,000 viewers across Disney + TNT Sports networks combined",
+  "resolution_date": "2026-12-31",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

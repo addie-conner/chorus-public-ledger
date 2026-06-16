@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_nba26_nba26_w1_lopez",
+  "chorus_probability": 0.25,
+  "domain": "sports_affinity",
+  "in_headline": null,
+  "locked_at": "2026-06-08T18:00:00+00:00",
+  "original_sha": "76486c00734fc000155ef2a223854f13ddaf63ed2e9a143deaa2ece5a08d1ad5",
+  "question": "Mexican wing Lopez (NBL) breakout \u2014 top-30 jersey OR major Y1 deal",
+  "resolution": null,
+  "resolution_criterion": "Mexican wing prospect (NBL Mexico) lands top-30 NBA rookie jersey sales 2026-27 OR signs major Y1 brand deal (sneaker tier or equivalent) by 2027-04-30",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

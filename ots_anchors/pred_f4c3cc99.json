@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_f4c3cc99",
+  "chorus_probability": 0.72,
+  "domain": "sports_sponsorship_category",
+  "in_headline": null,
+  "locked_at": "2026-04-28T13:51:14.231719+00:00",
+  "original_sha": "f4c3cc99b795a950ea93c6b21937c7b08193bb661963a65e918cd5431fbc2180",
+  "question": "Pharmaceutical category retains or grows share of total sports advertising spend in 2026 despite RFK Jr. regulatory pressure on prescription-drug TV ads",
+  "resolution": null,
+  "resolution_criterion": "Per Standard Media Index (SMI) or Magna Global category share data published for 2026, pharmaceutical advertising share of total sports TV ad spend \u2265 2025 share OR Variety/AdAge published industry summary confirms pharma category did not contract in 2026 sports advertising",
+  "resolution_date": "2027-02-28",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

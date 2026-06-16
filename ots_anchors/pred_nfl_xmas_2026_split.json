@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_nfl_xmas_2026_split",
+  "chorus_probability": 0.78,
+  "domain": "nfl_forward_qi_media_value",
+  "in_headline": null,
+  "locked_at": "2026-04-29T12:00:01.000000+00:00",
+  "original_sha": "b25e4d9c3f02e168a7d5b3c8f4e6a9b2d5e8c1b4f7a2d5e8c1b4f7a2d5e8c1b",
+  "question": "NFL Christmas Day 2026: top game \u2265 26M viewers AND top/bottom game spread \u2265 28% (replicating 2025 structural 38% split: Lions-Vikings 27.5M vs Cowboys-Commanders 19.9M)",
+  "resolution": null,
+  "resolution_criterion": "Netflix/Amazon/broadcaster Christmas Day NFL viewership press release Dec 26-31 2026: highest single Christmas game \u2265 26M AND (top_game_M - bottom_game_M) / bottom_game_M \u2265 0.28",
+  "resolution_date": "2026-12-31",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

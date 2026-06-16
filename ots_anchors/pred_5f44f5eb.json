@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_5f44f5eb",
+  "chorus_probability": 0.92,
+  "domain": "sports_valuation",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:21:48.921858+00:00",
+  "original_sha": "5f44f5eb60f7ad39f75361bbbe89be5e3f010c8ada9fa3dd5cb84b2091faac5c",
+  "question": "Real Madrid valuation surpasses Manchester United on Forbes 2026 most valuable soccer clubs",
+  "resolution": null,
+  "resolution_criterion": "Real Madrid Forbes 2026 valuation > Manchester United Forbes 2026 valuation",
+  "resolution_date": "2026-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

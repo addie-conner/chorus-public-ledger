@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_7ec1c717",
+  "chorus_probability": 0.82,
+  "domain": "sponsorship_lane_forecast",
+  "in_headline": null,
+  "locked_at": "2026-04-28T23:08:45.807805+00:00",
+  "original_sha": "7ec1c717b138ccf9c5cfb330ec22fee2e20beb5be33e33ed0ad789ae0bad89ff",
+  "question": "L.A. Dodgers add \u22653 net-new Japanese-headquartered corporate sponsors to their official partner roster between 2026-05-01 and 2027-04-30, beyond the post-Ohtani-signing baseline (estimated ~22 Japanese-corp partners as of April 2026)",
+  "resolution": null,
+  "resolution_criterion": "Dodgers official 2027 sponsor roster (mlb.com / dodgers.com / press releases) shows \u226525 Japanese-headquartered partners by April 30 2027, OR cumulative announced new Japanese-corp deals reported in Sports Business Journal / Sportico \u2265 3 over the window",
+  "resolution_date": "2027-05-15",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

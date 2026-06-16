@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_philadelphia_phillies_finishes_in_top_5__a97c452e",
+  "chorus_probability": 0.15,
+  "domain": "sports_valuations",
+  "in_headline": null,
+  "locked_at": "2026-04-24T17:24:15+00:00",
+  "original_sha": "a97c452ea23f0265b81ffd7549d9508d715ed021906d60f181f91b095b8aa98f",
+  "question": "Philadelphia Phillies finishes in top 5 of MLB by valuation on the 2026 Forbes annual list",
+  "resolution": null,
+  "resolution_criterion": "Forbes 2026 MLB franchise valuation list (published 2026-09-30) shows Philadelphia Phillies with rank \u2264 5",
+  "resolution_date": "2026-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_fb_83a4d611773d",
+  "chorus_probability": 0.2411,
+  "domain": "forecastbench",
+  "in_headline": null,
+  "locked_at": "2026-04-26T03:38:36Z",
+  "original_sha": "83a4d611773daca6f96b84e558bbb50b4319049783c9fd4463bf5685c72be42f",
+  "question": "Will there be more than ten times as many 'Battles' in Bulgaria for the 30 days before {resolution_date} compared to one plus the 30-day average of 'Battles' over the 360 days preceding {forecast_due_date}?\n\ne.g. If the forecast due date is 2024-01-01 and we have the following data:\nDate,'Battles'\n2",
+  "resolution": null,
+  "resolution_criterion": "Resolves to the value calculated from the ACLED dataset once the data is published.",
+  "resolution_date": "2025-11-02",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

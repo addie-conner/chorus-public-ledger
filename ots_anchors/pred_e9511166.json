@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_e9511166",
+  "chorus_probability": 0.88,
+  "domain": "nba_draft",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:00:38.016487+00:00",
+  "original_sha": "e95111661d8c4b86d2352fe392dc1778b4b0a9ed742bd18e7b57fb10df7c4f99",
+  "question": "2026 NBA Draft #2 pick is one of {AJ Dybantsa, Cameron Boozer, Darryn Peterson, VJ Edgecombe}",
+  "resolution": null,
+  "resolution_criterion": "ESPN draft tracker / NBA.com 2026 Draft official pick #2 \u2208 {AJ_Dybantsa, Cameron_Boozer, Darryn_Peterson, VJ_Edgecombe}",
+  "resolution_date": "2026-06-26",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

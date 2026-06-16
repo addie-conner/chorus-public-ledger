@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_d27cce78",
+  "chorus_probability": 0.78,
+  "domain": "cross_domain_validated",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:19:06.899423+00:00",
+  "original_sha": "d27cce78b0f8efd4fe81e5c111376921dffd22c36e258e79f07671e79f64d060",
+  "question": "NBA 2026-27 regular-season visiting team Wikipedia attention deciles produce attendance spread \u2265 214 fans (top vs bottom decile)",
+  "resolution": null,
+  "resolution_criterion": "NBA 2026-27 ESPN data: top-decile-Wikipedia visitor games mean attendance \u2265 bottom-decile + 214 fans",
+  "resolution_date": "2027-04-15",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_09b7ff52",
+  "chorus_probability": 0.87,
+  "domain": "sports_ip",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:21:48.921858+00:00",
+  "original_sha": "09b7ff52dfc4b9299493d3cdee5fd25f6e1eb55319c68aa498e05984bdbc144c",
+  "question": "Hong Kong Jockey Club exceeds $7.8B revenue in Two Circles 2027 release",
+  "resolution": null,
+  "resolution_criterion": "HKJC revenue in 2027 \u2265 $7.8B (current $6.4B at 26% CAGR)",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

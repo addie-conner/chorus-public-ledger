@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_nba26_nba26_d4",
+  "chorus_probability": 0.85,
+  "domain": "sports_affinity",
+  "in_headline": null,
+  "locked_at": "2026-06-08T18:00:00+00:00",
+  "original_sha": "733c4da090bbaf8e2535bb5cb8a64e57853981d02d0ee4fdfbd75eaa171469a2",
+  "question": "Wizards 8+ nationally televised regular-season games",
+  "resolution": null,
+  "resolution_criterion": "Washington Wizards have >= 8 nationally televised regular-season games (ABC/ESPN/TNT/NBA TV national broadcasts) for 2026-27 season",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

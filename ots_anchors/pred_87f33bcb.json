@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_87f33bcb",
+  "chorus_probability": 0.78,
+  "domain": "cross_domain_pair_validated",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:33:25.786541+00:00",
+  "original_sha": "87f33bcb5e5b6fde9d4a2084e955b42fcc8f5da5e3aa2d276adc1afd19d51234",
+  "question": "NBA 2026-27 wiki_home \u00d7 wiki_away interaction term Pearson r \u2265 0.06 across full season",
+  "resolution": null,
+  "resolution_criterion": "Pearson r between (home Wikipedia \u00d7 visitor Wikipedia interaction term) and (game attendance residual) across all NBA 2026-27 home games \u2265 0.06",
+  "resolution_date": "2027-04-15",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

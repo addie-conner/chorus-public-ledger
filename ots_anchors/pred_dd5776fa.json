@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_dd5776fa",
+  "chorus_probability": 0.78,
+  "domain": "sports_ip",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:21:48.921858+00:00",
+  "original_sha": "dd5776faf36593bbef19a2e8337f5ca4bb3aa6c497a2f2e50372afa44565a7e9",
+  "question": "Big 12 grows revenue by \u22657% in next Two Circles release",
+  "resolution": null,
+  "resolution_criterion": "Big 12 revenue in 2027 \u2265 1.07\u00d7 2026 release ($610M base)",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_chicago_bulls_finishes_in_top_5_of_nba_b_5ba7bc20",
+  "chorus_probability": 0.15,
+  "domain": "sports_valuations",
+  "in_headline": null,
+  "locked_at": "2026-04-24T17:24:15+00:00",
+  "original_sha": "5ba7bc20abcabb7186666dc69339fee35f2e42a6feb59862a3c2d6e72d7b2a83",
+  "question": "Chicago Bulls finishes in top 5 of NBA by valuation on the 2026 Forbes annual list",
+  "resolution": null,
+  "resolution_criterion": "Forbes 2026 NBA franchise valuation list (published 2026-09-30) shows Chicago Bulls with rank \u2264 5",
+  "resolution_date": "2026-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

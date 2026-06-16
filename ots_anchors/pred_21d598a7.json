@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_21d598a7",
+  "chorus_probability": 0.85,
+  "domain": "cross_league_validated",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:49:43.738866+00:00",
+  "original_sha": "21d598a7d0f067bde13b0cc5c109221b005f331b647971d12f7ad99ba96c1b63",
+  "question": "NBA 2025-26 regular-season Wednesday residual \u2264 -200 fans (continuing 6-season replication)",
+  "resolution": null,
+  "resolution_criterion": "ESPN/NBA.com 2025-26: filtered to Wednesday home games, mean(attendance - team_avg) \u2264 -200",
+  "resolution_date": "2026-04-15",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

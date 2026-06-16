@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_60303dca",
+  "chorus_probability": 0.94,
+  "domain": "nba_audience_trajectory",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:00:38.016859+00:00",
+  "original_sha": "60303dca086ee5bcfc6c65113049f29ed102badd5279325c39ebb4847008c012",
+  "question": "2026 NBA Playoffs Round 1 has at least one 4-0 sweep among 8 series",
+  "resolution": null,
+  "resolution_criterion": "ESPN/NBA.com 2026 Playoffs Round 1 results: at least 1 of 8 first-round series finishes 4-0",
+  "resolution_date": "2026-05-10",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

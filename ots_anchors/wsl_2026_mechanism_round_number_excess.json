@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "wsl_2026_mechanism_round_number_excess",
+  "chorus_probability": 0.92,
+  "domain": "wsl_judging_bias",
+  "in_headline": null,
+  "locked_at": "2026-05-04T04:26:11.695360+00:00",
+  "original_sha": "91e11a38cd3b34f692b680ac41de2657e4320cfb29b3670740ccdd4011899c71",
+  "question": "Score-ending round-number excess (.00/.25/.50/.75) on 2026 CT panel-trim-mean scores will exceed 15% (vs 6.67% trim-mean arithmetic null).",
+  "resolution": null,
+  "resolution_criterion": "After 2026 CT closes, count proportion of trim-mean wave scores ending in .00/.25/.50/.75. Resolves YES if proportion >= 0.15.",
+  "resolution_date": "2027-01-15",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

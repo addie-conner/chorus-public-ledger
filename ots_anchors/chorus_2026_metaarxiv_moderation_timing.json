@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "chorus_2026_metaarxiv_moderation_timing",
+  "chorus_probability": 0.85,
+  "domain": "chorus_methodology",
+  "in_headline": null,
+  "locked_at": "2026-05-05T13:52:10.251497+00:00",
+  "original_sha": "39af715275542acdf6c34c832a70b55a362fe5b6e34ebd4f29c387dfc9b34fb1",
+  "question": "All three Conner (2026) WSL judging-bias preprints submitted to MetaArXiv on 2026-05-04 clear moderation and receive DOIs by 2026-05-11. P=0.85.",
+  "resolution": null,
+  "resolution_criterion": "All three of {paper1_empirical, paper2_methodology, paper3_reform} appear on osf.io/preprints/metaarxiv with status='Approved' and an assigned DOI of form 10.31222/osf.io/[id], on or before 2026-05-11 23:59:59 UTC.",
+  "resolution_date": "2026-05-11",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

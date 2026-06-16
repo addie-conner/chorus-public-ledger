@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_4969ec96",
+  "chorus_probability": 0.91,
+  "domain": "nba_athlete_marketability",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:00:38.016875+00:00",
+  "original_sha": "4969ec96ccf2e4862a2d79b0b58f7beaaabd96c09ce5c10a2072df94757fae07",
+  "question": "Caitlin Clark Wikipedia daily pageviews on Indiana Fever 2026 opening game date exceed 30,000",
+  "resolution": null,
+  "resolution_criterion": "Wikipedia REST API per-article daily for 'Caitlin_Clark' on Indiana Fever 2026 home opener date \u2265 30,000",
+  "resolution_date": "2026-05-25",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

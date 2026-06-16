@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.01,
+  "canonical_id": "pred_c467a31b",
+  "chorus_probability": 0.9,
+  "domain": "pricing",
+  "in_headline": false,
+  "locked_at": "2026-04-16T13:23:15.208016+00:00",
+  "original_sha": "96c1006f37be615aaf3601f11eac8a7fb7a803c7843e58bdd84bb860f44ade50",
+  "question": "Oil stays above $55 through April 30 2026",
+  "resolution": 1.0,
+  "resolution_criterion": "WTI crude (CL=F) does not close below $55 on any trading day through April 30 2026",
+  "resolution_date": "2026-04-30",
+  "resolved_at": "2026-05-12T00:01:48+00:00",
+  "temporal_class": "FWD"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_fb_33531fb23433",
+  "chorus_probability": 0.238,
+  "domain": "forecastbench",
+  "in_headline": null,
+  "locked_at": "2026-04-26T03:55:25Z",
+  "original_sha": "33531fb234338f69b1164daf5ac2d5e567b0348c8e8fa10183bd5768ab99d88c",
+  "question": "Will there be more 'Battles' in Indonesia for the 30 days before {resolution_date} compared to the 30-day average of 'Battles' over the 360 days preceding {forecast_due_date}?\n\ne.g. If the forecast due date is 2024-01-01 and we have the following data:\nDate,'Battles'\n2023-11-11,1\n2023-10-10,2\nto cal",
+  "resolution": null,
+  "resolution_criterion": "Resolves to the value calculated from the ACLED dataset once the data is published.",
+  "resolution_date": "2025-11-02",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

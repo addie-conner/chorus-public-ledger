@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_d95b3f0d",
+  "chorus_probability": 0.88,
+  "domain": "nil_valuation",
+  "in_headline": null,
+  "locked_at": "2026-04-28T23:08:45.807805+00:00",
+  "original_sha": "d95b3f0d2fe3bf7b3f4079b3148147bd08f2fd5ab66f45bda22cc684666dcaae",
+  "question": "Cooper Flagg (Duke basketball, projected 2026 NBA #1 pick) maintains an On3 NIL valuation \u2265 $4.0M through end of 2026-27 college season",
+  "resolution": null,
+  "resolution_criterion": "On3 NIL Top-100 list (or successor public NIL valuation index) shows Cooper Flagg with valuation \u2265 $4.0M at any quarterly snapshot between 2026-04-28 and 2027-04-15. Pre-draft NIL valuation, not NBA endorsement post-draft.",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

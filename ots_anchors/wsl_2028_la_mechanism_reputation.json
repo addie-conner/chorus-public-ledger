@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "wsl_2028_la_mechanism_reputation",
+  "chorus_probability": 0.78,
+  "domain": "wsl_judging_bias",
+  "in_headline": null,
+  "locked_at": "2026-05-04T06:03:15.001450+00:00",
+  "original_sha": "0afc5ef39c0984793dbf0190090efb0878e1721e74744c6ef88058e59c169ed3",
+  "question": "LA28 higher-ranked surfer win rate in within-heat pairs will exceed 55% (predicted 61.3%, 95% PI 50.6-72.0%).",
+  "resolution": null,
+  "resolution_criterion": "After LA28, run within-heat pair sign test on Olympic surfing heats. Resolves YES if higher-seeded surfer wins >55% of pair-comparisons.",
+  "resolution_date": "2028-08-31",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

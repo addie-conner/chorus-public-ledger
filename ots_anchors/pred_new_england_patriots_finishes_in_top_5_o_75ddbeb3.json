@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_new_england_patriots_finishes_in_top_5_o_75ddbeb3",
+  "chorus_probability": 0.85,
+  "domain": "sports_valuations",
+  "in_headline": null,
+  "locked_at": "2026-04-24T17:24:15+00:00",
+  "original_sha": "75ddbeb345201d2081f3c7a82ee4f6b5ec361e048a9c719dbff6eae5c3d41884",
+  "question": "New England Patriots finishes in top 5 of NFL by valuation on the 2026 Forbes annual list",
+  "resolution": null,
+  "resolution_criterion": "Forbes 2026 NFL franchise valuation list (published 2026-09-30) shows New England Patriots with rank \u2264 5",
+  "resolution_date": "2026-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

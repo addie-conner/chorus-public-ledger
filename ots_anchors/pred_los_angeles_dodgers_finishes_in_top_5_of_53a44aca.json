@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_los_angeles_dodgers_finishes_in_top_5_of_53a44aca",
+  "chorus_probability": 0.85,
+  "domain": "sports_valuations",
+  "in_headline": null,
+  "locked_at": "2026-04-24T17:24:15+00:00",
+  "original_sha": "53a44acaa291fc5e5184d4e974eeae36986c0b2220622faa0ae9225656dfa612",
+  "question": "Los Angeles Dodgers finishes in top 5 of MLB by valuation on the 2026 Forbes annual list",
+  "resolution": null,
+  "resolution_criterion": "Forbes 2026 MLB franchise valuation list (published 2026-09-30) shows Los Angeles Dodgers with rank \u2264 5",
+  "resolution_date": "2026-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "wsl_2028_la_top_robbed_brisa_hennessy",
+  "chorus_probability": 0.8041,
+  "domain": "wsl_judging_bias",
+  "in_headline": null,
+  "locked_at": "2026-05-04T06:03:15.001450+00:00",
+  "original_sha": "164587288313d9e5fb9f53588668e98765497636d9d2b044ac13d1b6cb1ec9f8",
+  "question": "Brisa Hennessy (CRI) will be flagged in top-3 robbed at LA28.",
+  "resolution": null,
+  "resolution_criterion": "After LA28 closes, compute residual-score ranks per surfer. Resolves YES if surfer is in top 3 by absolute residual (correct sign for robbed).",
+  "resolution_date": "2028-08-31",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

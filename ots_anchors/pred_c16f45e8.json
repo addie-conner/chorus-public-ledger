@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_c16f45e8",
+  "chorus_probability": 0.78,
+  "domain": "forward_n_score",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:08:15.535580+00:00",
+  "original_sha": "c16f45e8572eef03618c66020456eb27c8acae76eee1a384d2006ad087e28ca6",
+  "question": "Caitlin Clark retains top-3 placement in SportsPro 50MM 2027 release",
+  "resolution": null,
+  "resolution_criterion": "SportsPro 2027 50 Most Marketable Athletes list: Caitlin Clark ranked \u22643",
+  "resolution_date": "2027-12-31",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_fb_100e404591b6",
+  "chorus_probability": 0.2238,
+  "domain": "forecastbench",
+  "in_headline": null,
+  "locked_at": "2026-04-26T03:30:58Z",
+  "original_sha": "100e404591b62df556307a8c0100e9e46138021e08b2d90a02f93cd0bf20c1c7",
+  "question": "Will there be more than ten times as many fatalities in Turkmenistan for the 30 days before {resolution_date} compared to one plus the 30-day average of fatalities over the 360 days preceding {forecast_due_date}?\n\ne.g. If the forecast due date is 2024-01-01 and we have the following data:\nDate,fatal",
+  "resolution": null,
+  "resolution_criterion": "Resolves to the value calculated from the ACLED dataset once the data is published.",
+  "resolution_date": "2025-11-02",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

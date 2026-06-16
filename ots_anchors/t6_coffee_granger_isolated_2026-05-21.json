@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.2379,
+  "canonical_id": "t6_coffee_granger_isolated_2026-05-21",
+  "chorus_probability": null,
+  "domain": "commodity_supply_forecasting",
+  "in_headline": false,
+  "locked_at": "2026-05-21T00:00:00+00:00",
+  "original_sha": null,
+  "question": "Does the cocoa-coffee Granger lag-10mo feature ISOLATED (added to champion B's multi-lag SM) improve T+6mo direction Brier?",
+  "resolution": null,
+  "resolution_criterion": "Brier < 0.2334 - 0.005 AND p<0.10 AND no slice regression",
+  "resolution_date": null,
+  "resolved_at": "2026-05-21T00:00:00+00:00",
+  "temporal_class": "UNKNOWN"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_9430cff3",
+  "chorus_probability": 0.82,
+  "domain": "athlete_valuation",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:21:48.921858+00:00",
+  "original_sha": "9430cff3807a0ce258b7cb5d5218e190b36133c7985b8a32563e4c813bd41c82",
+  "question": "\u22653 NBA players in Forbes 2026 Highest-Paid Athletes top-10",
+  "resolution": null,
+  "resolution_criterion": "3 or more NBA athletes ranked in top-10 of Forbes 2026 Highest-Paid Athletes",
+  "resolution_date": "2026-06-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

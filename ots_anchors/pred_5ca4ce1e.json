@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_5ca4ce1e",
+  "chorus_probability": 0.92,
+  "domain": "brand_property_fit",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:08:15.535619+00:00",
+  "original_sha": "5ca4ce1e5c6c88d094b21f9c997054ab3f3cbf8107ac1481d5f15faab394820c",
+  "question": "At least 2 of {Mars, Coca-Cola, Geico, Pepsi, Anheuser-Busch InBev} run national broadcast advertising during 2026 NBA Finals",
+  "resolution": null,
+  "resolution_criterion": "iSpot.tv / Sportico ad-tracking 2026 NBA Finals: \u22652 of {Mars, Coca-Cola, Geico, Pepsi, AB InBev} appear in national broadcast inventory across the Finals series",
+  "resolution_date": "2026-07-05",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

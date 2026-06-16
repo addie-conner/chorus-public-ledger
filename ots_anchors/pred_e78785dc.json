@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_e78785dc",
+  "chorus_probability": 0.92,
+  "domain": "nba_athlete_marketability",
+  "in_headline": null,
+  "locked_at": "2026-04-28T23:58:22.411711+00:00",
+  "original_sha": "e78785dc7f92529c18e4c17e27b41bf05afb09bd2ccad28d87a1a008977b9186",
+  "question": "NBA Finals 2026 MVP Wikipedia daily pageviews exceed 50,000 within 7 days of Finals conclusion",
+  "resolution": null,
+  "resolution_criterion": "Wikipedia REST API per-article daily English all-access for 2026 NBA Finals MVP, any single day in 7 days post-Finals \u2265 50,000",
+  "resolution_date": "2026-07-05",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

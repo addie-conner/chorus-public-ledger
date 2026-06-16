@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_shadow_st__vrain_valley_sd_instructional_09c37017",
+  "chorus_probability": 0.2669,
+  "domain": "colorado_phonefree_shadow",
+  "in_headline": null,
+  "locked_at": "2026-05-08T14:43:49+00:00",
+  "original_sha": "09c37017aeb0a3ea8f801a84958a0074ff3a422bff792d1ec0e1f3876e94f7ff",
+  "question": "St. Vrain Valley SD adopts a INSTRUCTIONAL communication device policy by 2026-06-17 [SHADOW of pred_st__vrain_valley_sd_instructional_455acd42]",
+  "resolution": null,
+  "resolution_criterion": "St. Vrain Valley SD board formally adopts policy; outcome classified as one of: b2b / split / instructional / k8_only / discretion. Shadow prediction correct if adopted class == 'instructional'.",
+  "resolution_date": "2026-06-17",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

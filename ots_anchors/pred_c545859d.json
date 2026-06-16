@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_c545859d",
+  "chorus_probability": 0.92,
+  "domain": "nba_audience_trajectory",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:00:38.016899+00:00",
+  "original_sha": "c545859d7c4702d09d0b35209f6f2ec3f2681760f01c7eb8d59ebdb9f9806e8a",
+  "question": "2026 NBA Finals home-game average attendance \u2265 18,000",
+  "resolution": null,
+  "resolution_criterion": "ESPN/NBA.com Finals 2026 box scores: average attendance per home Finals game \u2265 18,000",
+  "resolution_date": "2026-07-05",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

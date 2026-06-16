@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_q2_2026_earnings_meta_25eb93251074",
+  "chorus_probability": 0.82,
+  "domain": "earnings_sector_rate",
+  "in_headline": null,
+  "locked_at": "2026-06-03T21:37:31.953327+00:00",
+  "original_sha": null,
+  "question": "META beats Q2 2026 EPS consensus",
+  "resolution": null,
+  "resolution_criterion": "META reported EPS on 2026-07-29 exceeds analyst consensus estimate at report time",
+  "resolution_date": "2026-07-29T16:00:00",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

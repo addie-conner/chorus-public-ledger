@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_fb_359d5b1bd437",
+  "chorus_probability": 0.2272,
+  "domain": "forecastbench",
+  "in_headline": null,
+  "locked_at": "2026-04-26T03:32:16Z",
+  "original_sha": "359d5b1bd437b602a3ac6b6cb48c23b166cb6dff8f38bcf008e33915518c9dbc",
+  "question": "Will there be more than ten times as many 'Violence against civilians' in Kosovo for the 30 days before {resolution_date} compared to one plus the 30-day average of 'Violence against civilians' over the 360 days preceding {forecast_due_date}?\n\ne.g. If the forecast due date is 2024-01-01 and we have ",
+  "resolution": null,
+  "resolution_criterion": "Resolves to the value calculated from the ACLED dataset once the data is published.",
+  "resolution_date": "2025-11-02",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

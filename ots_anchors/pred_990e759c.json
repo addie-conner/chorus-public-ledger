@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_990e759c",
+  "chorus_probability": 0.85,
+  "domain": "pricing",
+  "in_headline": null,
+  "locked_at": "2026-04-16T13:23:15.207835+00:00",
+  "original_sha": "823bbee53e944adfcfd512d7f87503f229e8ea1f18d3a6d0ab7391c60140aef0",
+  "question": "Gold stays above $4,500 through April 30 2026",
+  "resolution": null,
+  "resolution_criterion": "COMEX gold futures (GC=F) do not close below $4,500 on any trading day through April 30 2026",
+  "resolution_date": "2026-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

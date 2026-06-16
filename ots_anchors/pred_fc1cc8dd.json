@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_fc1cc8dd",
+  "chorus_probability": 0.85,
+  "domain": "athlete_trajectory_predisco",
+  "in_headline": null,
+  "locked_at": "2026-04-29T01:13:05.024766+00:00",
+  "original_sha": "fc1cc8dd29f5d0cc3f17258d5dec094f4959c6424d97bc3a654f563882ce0c68",
+  "question": "At least 2 of {Cooper Flagg, AJ Dybantsa, Caitlin Clark, Cameron Boozer, Paige Bueckers} appear in On3 NIL Top-10 valuation as of 2026-12-31",
+  "resolution": null,
+  "resolution_criterion": "On3.com/NIL.com Top-100 December 2026 release: \u22652 of named athletes ranked \u226410 by NIL valuation",
+  "resolution_date": "2026-12-31",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

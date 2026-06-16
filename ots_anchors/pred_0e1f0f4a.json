@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_0e1f0f4a",
+  "chorus_probability": 0.72,
+  "domain": "sports_ip",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:09:58.740173+00:00",
+  "original_sha": "0e1f0f4af65d99aa92ddc402e77477b6b48c8da40d52720d78ba222807faff09",
+  "question": "N.Y. Yankees fail to exceed 5% trailing 10yr CAGR in Two Circles 2027 release",
+  "resolution": null,
+  "resolution_criterion": "N.Y. Yankees 10-year CAGR in 2027 release < 5.0% (currently 2%; MLB-team baseline 7%; residual -6.0)",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_nba26_nba26_d3",
+  "chorus_probability": 0.85,
+  "domain": "sports_affinity",
+  "in_headline": null,
+  "locked_at": "2026-06-08T18:00:00+00:00",
+  "original_sha": "9f9234cc23b9d364ae7c3a26939fda1cb065128e5589eb3db868b7d01f6687c5",
+  "question": "Dybantsa top-5 IG follower count among Wizards roster within 90 days of debut",
+  "resolution": null,
+  "resolution_criterion": "AJ Dybantsa Instagram follower count ranks in top 5 among Washington Wizards roster players by day 90 of regular season",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

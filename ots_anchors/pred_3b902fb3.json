@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_3b902fb3",
+  "chorus_probability": 0.78,
+  "domain": "cross_league_validated",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:49:43.738851+00:00",
+  "original_sha": "3b902fb3cfabb6f950962ba34f7eb22ed40c15cc288b594da72ebac70ce25ec4",
+  "question": "NHL 2025-26 regular-season Wednesday home games average attendance \u2264 -150 fans below team baseline",
+  "resolution": null,
+  "resolution_criterion": "NHL.com/ESPN 2025-26: filtered to Wednesday home games, mean(attendance - team_avg) \u2264 -150",
+  "resolution_date": "2026-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

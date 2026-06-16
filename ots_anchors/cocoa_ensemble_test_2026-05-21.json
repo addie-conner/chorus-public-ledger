@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.242,
+  "canonical_id": "cocoa_ensemble_test_2026-05-21",
+  "chorus_probability": null,
+  "domain": "commodity_supply_forecasting",
+  "in_headline": false,
+  "locked_at": "2026-05-21T00:00:00+00:00",
+  "original_sha": null,
+  "question": "Does log-pool ensemble (AR-momentum champion + multi-lag soil-moisture challenger B) beat SM-challenger alone on Ghana cocoa T+6mo direction?",
+  "resolution": null,
+  "resolution_criterion": "Ensemble Brier < challenger B Brier 0.2334 AND no slice regression > 0.02 in any year 2018-2025",
+  "resolution_date": null,
+  "resolved_at": "2026-05-21T00:00:00+00:00",
+  "temporal_class": "UNKNOWN"
+}

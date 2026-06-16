@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "wsl_2026_surfer_ryan_callinan_robbed",
+  "chorus_probability": 0.2354,
+  "domain": "wsl_judging_bias",
+  "in_headline": null,
+  "locked_at": "2026-05-04T04:26:11.695360+00:00",
+  "original_sha": "83ba654b4fb13fa757d5f3c9afd1c6cd9b91354cee8733253c945b8d51550fcf",
+  "question": "Ryan Callinan (AUS) will be flagged P(robbed)=0.235 across the 2026 CT season.",
+  "resolution": null,
+  "resolution_criterion": "After 2026 CT season closes (after Pipe Pro 2026-12-20), compute realized robbed-rank for this surfer using leave-one-out heat-mean residual analysis on heats.parquet. Surfer is 'flagged' if realized rank is in top quintile (n>=5/26). Resolves binary.",
+  "resolution_date": "2027-01-15",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

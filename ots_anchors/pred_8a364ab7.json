@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_8a364ab7",
+  "chorus_probability": 0.78,
+  "domain": "sports_ip",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:21:48.921858+00:00",
+  "original_sha": "8a364ab77d7cd09cc955cbc88d6addfcc80ed22bc87c1e69608ae52d45ff6135",
+  "question": "Nippon Professional Baseball exceeds $720M revenue in Two Circles 2027 release",
+  "resolution": null,
+  "resolution_criterion": "NPB revenue in 2027 \u2265 $720M (current $610M at 25% CAGR)",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

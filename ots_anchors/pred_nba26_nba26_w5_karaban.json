@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_nba26_nba26_w5_karaban",
+  "chorus_probability": 0.18,
+  "domain": "sports_affinity",
+  "in_headline": null,
+  "locked_at": "2026-06-08T18:00:00+00:00",
+  "original_sha": "83006084a6e5e0e494c7cd5f1dcc0c9bbc68153963e8376ffa6899d74323f673",
+  "question": "Alex Karaban breakout (UConn brand carryover)",
+  "resolution": null,
+  "resolution_criterion": "Alex Karaban (UConn, projected SAS R2) lands top-30 NBA rookie jersey sales 2026-27 OR signs major Y1 brand deal by 2027-04-30",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

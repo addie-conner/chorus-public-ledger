@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_d4aa2e03",
+  "chorus_probability": 0.72,
+  "domain": "nba_audience_trajectory",
+  "in_headline": null,
+  "locked_at": "2026-04-30T14:08:31.572416+00:00",
+  "original_sha": "d4aa2e033077d0cd235f6b6416b1f7a062f6caf15b4635502d50777ff595b8bf",
+  "question": "NBA Playoffs: Who Will Win Series? - Lakers vs. Rockets ",
+  "resolution": null,
+  "resolution_criterion": "Resolves per Polymarket market resolution rules. Market: 0x13b1bfb4d3d001814cc7c7dcecbd2de54befc1a33dc1e9b847dc96b0d66ca46d",
+  "resolution_date": "2026-12-31",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

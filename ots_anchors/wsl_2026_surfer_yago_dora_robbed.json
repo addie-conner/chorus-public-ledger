@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "wsl_2026_surfer_yago_dora_robbed",
+  "chorus_probability": 0.2243,
+  "domain": "wsl_judging_bias",
+  "in_headline": null,
+  "locked_at": "2026-05-04T04:26:11.695360+00:00",
+  "original_sha": "15f7f085e9dcb08a158e18583e3ad92b35bc1262e00626c290177696a4894845",
+  "question": "Yago Dora (BRA) will be flagged P(robbed)=0.224 across the 2026 CT season.",
+  "resolution": null,
+  "resolution_criterion": "After 2026 CT season closes (after Pipe Pro 2026-12-20), compute realized robbed-rank for this surfer using leave-one-out heat-mean residual analysis on heats.parquet. Surfer is 'flagged' if realized rank is in top quintile (n>=5/26). Resolves binary.",
+  "resolution_date": "2027-01-15",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

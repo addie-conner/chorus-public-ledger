@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_q2_2026_earnings_googl_2b84f295091d",
+  "chorus_probability": 0.8,
+  "domain": "earnings_sector_rate",
+  "in_headline": null,
+  "locked_at": "2026-06-03T21:37:31.953327+00:00",
+  "original_sha": null,
+  "question": "GOOGL beats Q2 2026 EPS consensus",
+  "resolution": null,
+  "resolution_criterion": "GOOGL reported EPS on 2026-07-23 exceeds analyst consensus estimate at report time",
+  "resolution_date": "2026-07-23T16:00:00",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

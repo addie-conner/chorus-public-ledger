@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_miami_heat_finishes_in_top_5_of_nba_by_v_d79c4d23",
+  "chorus_probability": 0.15,
+  "domain": "sports_valuations",
+  "in_headline": null,
+  "locked_at": "2026-04-24T17:24:15+00:00",
+  "original_sha": "d79c4d236044ac0086c4b234f4353b925522352d00d81789a2c0e9ed116de28b",
+  "question": "Miami Heat finishes in top 5 of NBA by valuation on the 2026 Forbes annual list",
+  "resolution": null,
+  "resolution_criterion": "Forbes 2026 NBA franchise valuation list (published 2026-09-30) shows Miami Heat with rank \u2264 5",
+  "resolution_date": "2026-09-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

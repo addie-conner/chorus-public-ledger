@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_7d8d18b2",
+  "chorus_probability": 0.85,
+  "domain": "nba_audience_trajectory",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:00:38.016883+00:00",
+  "original_sha": "7d8d18b226124dd0f678f292a9b8e7d8a1ece9cb9d90dd24402011cd092b8d60",
+  "question": "2026 NBA Finals Game 1 viewership \u2265 11M",
+  "resolution": null,
+  "resolution_criterion": "Sports Media Watch / Nielsen final published Game 1 audience \u2265 11,000,000",
+  "resolution_date": "2026-06-08",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

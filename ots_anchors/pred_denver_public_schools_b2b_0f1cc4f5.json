@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_denver_public_schools_b2b_0f1cc4f5",
+  "chorus_probability": 0.278,
+  "domain": "colorado_phonefree",
+  "in_headline": null,
+  "locked_at": "2026-04-24T21:28:59+00:00",
+  "original_sha": "0f1cc4f5c6484b6b8b142f7a66240504d0366b73f96201f2f57e0cd31b2ceafd",
+  "question": "Denver Public Schools adopts a B2B communication device policy by 2026-06-11",
+  "resolution": null,
+  "resolution_criterion": "Denver Public Schools board formally adopts policy; outcome classified as one of: b2b / split / instructional / k8_only / discretion. Prediction correct if adopted class == 'b2b'.",
+  "resolution_date": "2026-06-11",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

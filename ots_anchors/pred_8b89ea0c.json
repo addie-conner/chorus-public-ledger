@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_8b89ea0c",
+  "chorus_probability": 0.78,
+  "domain": "sponsor_renewal_probability",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:08:15.535605+00:00",
+  "original_sha": "8b89ea0c5f07dee54a7422b112e1d898be9306f9d45b48ab3f18eef00c8cb25e",
+  "question": "At least 7 of top-10 NBA national sponsors (2024-25 list) renew for 2026-27 cycle",
+  "resolution": null,
+  "resolution_criterion": "Sportico/SBJ/AdAge reporting confirms \u22657 of top-10 2024-25 NBA national sponsors signed renewal deals for 2026-27 NBA season",
+  "resolution_date": "2026-12-15",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

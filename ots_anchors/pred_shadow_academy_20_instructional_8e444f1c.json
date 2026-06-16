@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_shadow_academy_20_instructional_8e444f1c",
+  "chorus_probability": 0.1823,
+  "domain": "colorado_phonefree_shadow",
+  "in_headline": null,
+  "locked_at": "2026-05-08T14:43:49+00:00",
+  "original_sha": "8e444f1cd93c96973f273ca1b164e9d8809d91f43715db66997bc4f41b5989c6",
+  "question": "Academy 20 adopts a INSTRUCTIONAL communication device policy by 2026-06-11 [SHADOW of pred_academy_20_instructional_bfe86ebd]",
+  "resolution": null,
+  "resolution_criterion": "Academy 20 board formally adopts policy; outcome classified as one of: b2b / split / instructional / k8_only / discretion. Shadow prediction correct if adopted class == 'instructional'.",
+  "resolution_date": "2026-06-11",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

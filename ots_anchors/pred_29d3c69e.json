@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_29d3c69e",
+  "chorus_probability": 0.0195,
+  "domain": "monetary_policy",
+  "in_headline": null,
+  "locked_at": "2026-04-29T17:45:00+00:00",
+  "original_sha": "29d3c69e740659ca571abf18299caad49ab1b528340c91f123ad90066591023c",
+  "question": "FOMC June 17 2026 decision: Cut 25bps",
+  "resolution": null,
+  "resolution_criterion": "FOMC statement on 2026-06-17 indicates FOMC statement indicates 25bp rate cut, new target 3.25-3.50%",
+  "resolution_date": "2026-06-17",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

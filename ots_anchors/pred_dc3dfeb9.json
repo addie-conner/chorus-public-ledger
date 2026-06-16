@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_dc3dfeb9",
+  "chorus_probability": 0.8,
+  "domain": "cross_platform_attention",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:21:48.921858+00:00",
+  "original_sha": "dc3dfeb95fd3018fb6a9e18211fad5aaba28df5cab3262730f520473bf515603",
+  "question": "NBA official YouTube channel YoY view growth exceeds NFL official YouTube channel YoY view growth in 2026",
+  "resolution": null,
+  "resolution_criterion": "NBA YouTube channel total views Q4 2026 / Q4 2025 > NFL YouTube channel total views Q4 2026 / Q4 2025",
+  "resolution_date": "2026-12-31",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

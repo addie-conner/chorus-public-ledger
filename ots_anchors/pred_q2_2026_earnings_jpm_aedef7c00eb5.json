@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_q2_2026_earnings_jpm_aedef7c00eb5",
+  "chorus_probability": 0.78,
+  "domain": "earnings_sector_rate",
+  "in_headline": null,
+  "locked_at": "2026-06-03T21:37:31.953327+00:00",
+  "original_sha": null,
+  "question": "JPM beats Q2 2026 EPS consensus",
+  "resolution": null,
+  "resolution_criterion": "JPM reported EPS on 2026-07-14 exceeds analyst consensus estimate at report time",
+  "resolution_date": "2026-07-14T16:00:00",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

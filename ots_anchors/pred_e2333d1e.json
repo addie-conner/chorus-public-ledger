@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_e2333d1e",
+  "chorus_probability": 0.91,
+  "domain": "nba_audience_trajectory",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:00:38.016867+00:00",
+  "original_sha": "e2333d1eab1bfdd00fedb3b274348f42b3884e18147b55b1cdf42c1b479bc7f4",
+  "question": "At least one team in 2026 NBA Finals features a 2025-26 All-NBA First Team selection",
+  "resolution": null,
+  "resolution_criterion": "NBA Finals 2026 team rosters include \u22651 player named to 2025-26 All-NBA First Team",
+  "resolution_date": "2026-06-25",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

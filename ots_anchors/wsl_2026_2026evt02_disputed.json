@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "wsl_2026_2026evt02_disputed",
+  "chorus_probability": 0.832,
+  "domain": "wsl_judging_bias",
+  "in_headline": null,
+  "locked_at": "2026-05-04T04:26:11.695360+00:00",
+  "original_sha": "3cf36d1ae15496b2e0d20198070da3ade3b4771ddfb8170a3206be6a89d44c31",
+  "question": "2026 Western Australia Margaret River Pro (AUS) will register as a disputed-outcome event on the bias-signature axes. P(disputed)=0.832.",
+  "resolution": null,
+  "resolution_criterion": "Post-event sentiment-corpus contains >=2 high-engagement (>50 score) 'robbed'/'controversy' threads tagged to that event_id within 14 days of the final, AND the realized inter-wave CV is in the top tertile of CT history for the venue. Computed via wsl/analysis/bias_tests.py against heats SHA 7f07fb121abe.",
+  "resolution_date": "2026-05-26",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

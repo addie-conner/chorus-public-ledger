@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_e91d9ef2",
+  "chorus_probability": 0.99,
+  "domain": "nba_audience_trajectory",
+  "in_headline": null,
+  "locked_at": "2026-04-29T00:00:38.016849+00:00",
+  "original_sha": "e91d9ef2d2cf910924bf7667977bf78903c6ebedb94ba823ce1e4407041712f0",
+  "question": "2026 NBA Finals broadcast on ABC (Disney/ESPN) \u2014 last year of current rights deal",
+  "resolution": null,
+  "resolution_criterion": "NBA Finals 2026 broadcast attribution: ABC airs Game 1 of NBA Finals 2026",
+  "resolution_date": "2026-06-15",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

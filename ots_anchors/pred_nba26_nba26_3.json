@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_nba26_nba26_3",
+  "chorus_probability": 0.75,
+  "domain": "sports_affinity",
+  "in_headline": null,
+  "locked_at": "2026-06-08T18:00:00+00:00",
+  "original_sha": "3bbfeee13a46cf97341081502efa99d072efe22c2456d137ae2c82e24fd2530b",
+  "question": "Cameron Boozer signs major footwear deal by 2026-12-31",
+  "resolution": null,
+  "resolution_criterion": "Cameron Boozer publicly announces multi-year footwear deal with Jordan/Nike/Adidas/Puma/UA/New Balance by 2026-12-31 (Jordan Brand HS NIL deal already public; counts only as continuation if elevated to pro contract)",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

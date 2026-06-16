@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_shadow_pueblo_city_schools_d60_k8_only_fdac719d",
+  "chorus_probability": 0.216,
+  "domain": "colorado_phonefree_shadow",
+  "in_headline": null,
+  "locked_at": "2026-05-08T14:43:49+00:00",
+  "original_sha": "fdac719d78c00a256ead9c14531e74354066cf2315e1b9c0ffe01f9b47721999",
+  "question": "Pueblo City Schools D60 adopts a K8_ONLY communication device policy by 2026-06-23 [SHADOW of pred_pueblo_city_schools_d60_k8_only_ea28b809]",
+  "resolution": null,
+  "resolution_criterion": "Pueblo City Schools D60 board formally adopts policy; outcome classified as one of: b2b / split / instructional / k8_only / discretion. Shadow prediction correct if adopted class == 'k8_only'.",
+  "resolution_date": "2026-06-23",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

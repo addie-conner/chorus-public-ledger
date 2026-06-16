@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_aa330d75",
+  "chorus_probability": 0.85,
+  "domain": "athlete_valuation",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:21:48.921858+00:00",
+  "original_sha": "aa330d759016a9d23fe38d15d501d1861c0b89a9c1010f814d45467eddc33af1",
+  "question": "Cristiano Ronaldo retains #1 on Forbes 2026 Highest-Paid Athletes list",
+  "resolution": null,
+  "resolution_criterion": "Cristiano Ronaldo ranks #1 in Forbes 2026 Highest-Paid Athletes (publish ~May 2026)",
+  "resolution_date": "2026-06-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

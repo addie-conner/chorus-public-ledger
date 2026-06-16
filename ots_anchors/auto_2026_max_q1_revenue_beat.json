@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "auto_2026_max_q1_revenue_beat",
+  "chorus_probability": 0.78,
+  "domain": "auto_insurance_lead_gen",
+  "in_headline": null,
+  "locked_at": "2026-05-05T13:52:10.251497+00:00",
+  "original_sha": "9a2a877c7ed704a30201e83e9556174ca6c22194c7ac604a807aba42c66c7295",
+  "question": "MediaAlpha (NYSE: MAX) reports Q1 2026 revenue that beats Street consensus by at least 10%. P=0.78. Anchored on EverQuote (EVER) Q1 2026 +45.5% earnings-day reaction (2026-05-05) implying a sector-wide auto-insurance carrier ad-spend recovery.",
+  "resolution": null,
+  "resolution_criterion": "MediaAlpha Q1 2026 earnings press release shows revenue >= consensus_revenue_estimate_at_2026-05-05 * 1.10. Consensus pulled from FactSet/Street consensus at the time of press-release publication. Resolves immediately on press release.",
+  "resolution_date": "2026-05-22",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

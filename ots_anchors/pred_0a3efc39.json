@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_0a3efc39",
+  "chorus_probability": 0.78,
+  "domain": "nba_athlete_marketability",
+  "in_headline": null,
+  "locked_at": "2026-04-28T23:58:22.411720+00:00",
+  "original_sha": "0a3efc3907a5c6ad48a5b09527f523d26456bc29afa1f4e2b517c0abc20fde0e",
+  "question": "AJ Dybantsa Wikipedia 30-day median pageviews \u2265 2,000/day during BYU 2026-27 season opening month",
+  "resolution": null,
+  "resolution_criterion": "Wikipedia REST API per-article daily for 'AJ_Dybantsa', 30-day median over 2026-11-01 through 2026-11-30 \u2265 2,000",
+  "resolution_date": "2026-12-15",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

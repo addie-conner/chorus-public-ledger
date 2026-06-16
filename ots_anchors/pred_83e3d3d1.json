@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.011669,
+  "canonical_id": "pred_83e3d3d1",
+  "chorus_probability": 0.108022,
+  "domain": "labor_payrolls",
+  "in_headline": false,
+  "locked_at": "2026-04-30T13:00:59.967484+00:00",
+  "original_sha": "83e3d3d14fa053fd145082b81a9874f73485e672b082ad489efc50d2c0357a5f",
+  "question": "Monthly change in nonfarm payrolls above 200K for April 2026 (BLS release 2026-05-08)",
+  "resolution": 0.0,
+  "resolution_criterion": "Resolves YES if BLS April 2026 NFP change > 200K",
+  "resolution_date": "2026-05-08",
+  "resolved_at": "2026-05-12T00:01:47+00:00",
+  "temporal_class": "FWD"
+}

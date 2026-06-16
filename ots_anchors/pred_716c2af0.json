@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_716c2af0",
+  "chorus_probability": 0.85,
+  "domain": "sports_ip",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:21:48.921858+00:00",
+  "original_sha": "716c2af082e237852275843e280eb7142f7ab230afdebd665d400f2c9ba52a23",
+  "question": "National Rugby League exceeds $610M revenue in Two Circles 2027 release",
+  "resolution": null,
+  "resolution_criterion": "NRL revenue in 2027 \u2265 $610M (current $540M at 14% CAGR)",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

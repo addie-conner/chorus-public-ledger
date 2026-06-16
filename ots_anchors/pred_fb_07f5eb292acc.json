@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_fb_07f5eb292acc",
+  "chorus_probability": 0.2086,
+  "domain": "forecastbench",
+  "in_headline": null,
+  "locked_at": "2026-04-26T03:37:51Z",
+  "original_sha": "07f5eb292acc982bcefc1be1e3e14543b2514c9a78337eca37195b431259204e",
+  "question": "Will there be more fatalities in Sao Tome and Principe for the 30 days before {resolution_date} compared to the 30-day average of fatalities over the 360 days preceding {forecast_due_date}?\n\ne.g. If the forecast due date is 2024-01-01 and we have the following data:\nDate,fatalities\n2023-11-11,1\n2023",
+  "resolution": null,
+  "resolution_criterion": "Resolves to the value calculated from the ACLED dataset once the data is published.",
+  "resolution_date": "2025-11-02",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

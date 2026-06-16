@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_fb_d2736ffa2365",
+  "chorus_probability": 0.2494,
+  "domain": "forecastbench",
+  "in_headline": null,
+  "locked_at": "2026-04-26T03:45:56Z",
+  "original_sha": "d2736ffa2365ef2f74f74a38e689080266f89736c80ddfe485302ba7fa1c85fa",
+  "question": "Will there be more 'Protests' in Martinique for the 30 days before {resolution_date} compared to the 30-day average of 'Protests' over the 360 days preceding {forecast_due_date}?\n\ne.g. If the forecast due date is 2024-01-01 and we have the following data:\nDate,'Protests'\n2023-11-11,1\n2023-10-10,2\nto",
+  "resolution": null,
+  "resolution_criterion": "Resolves to the value calculated from the ACLED dataset once the data is published.",
+  "resolution_date": "2025-11-02",
+  "resolved_at": null,
+  "temporal_class": "BWD"
+}

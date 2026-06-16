@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_33f0aed1",
+  "chorus_probability": 0.78,
+  "domain": "sports_ip",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:09:58.740173+00:00",
+  "original_sha": "33f0aed14bc857afd1983c97e88fe5cfc932cc5ff501acef6c61a892d4f5e268",
+  "question": "Big Ten passes Real Madrid in rank in Two Circles 2027 release",
+  "resolution": null,
+  "resolution_criterion": "Big Ten ranks higher than Real Madrid in 2027 release (currently Big Ten #20, Real Madrid #22; Big Ten 13% CAGR vs Real Madrid 12%)",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}

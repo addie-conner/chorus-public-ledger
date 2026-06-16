@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": null,
+  "canonical_id": "pred_a0e0d723",
+  "chorus_probability": 0.85,
+  "domain": "sports_ip",
+  "in_headline": null,
+  "locked_at": "2026-04-28T03:21:48.921858+00:00",
+  "original_sha": "a0e0d723b79e242ddd861bd810bc1aaa44baa7dc916f04fffd95eb51958489db",
+  "question": "NHL exceeds $2.5B revenue in Two Circles 2027 release",
+  "resolution": null,
+  "resolution_criterion": "NHL revenue in 2027 \u2265 $2.5B (current $2.2B at 17% CAGR)",
+  "resolution_date": "2027-04-30",
+  "resolved_at": null,
+  "temporal_class": "FWD"
+}
