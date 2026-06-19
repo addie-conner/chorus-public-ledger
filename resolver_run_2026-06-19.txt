@@ -1,0 +1,187 @@
+Daily Chorus prediction-resolver run · 2026-06-19 UTC
+GMAIL DELIVERY FAILED — token expired. Report written to this file for manual pickup.
+
+══════════════════════════════════════════════════════════
+DATA NOTES (read before writing back to ledger)
+══════════════════════════════════════════════════════════
+① CPI label discrepancy: 35 inflation_cpi / inflation_cpiyoy predictions carry
+  "April 2026 (BLS release 2026-06-10)" in the question text, but the BLS release
+  on 2026-06-10 is the MAY 2026 CPI (April CPI was released 2026-05-12). Resolution
+  uses May 2026 actuals (MoM = +0.5%, YoY = +4.2%) because resolution_date and the
+  explicit "BLS release 2026-06-10" tag both point to the June 10 release.
+  Correct the month label when writing back.
+
+② FOMC "May 6-7" date error: pred_583f357d and pred_e038ee1d reference a "May 6-7"
+  FOMC meeting that does not appear on the 2026 calendar. The actual meeting was
+  April 28-29, which also held at 3.50-3.75%. Resolved as outcome=1 (hold) per the
+  April 28-29 decision. Update question text when writing back.
+
+③ forecastbench (60 entries): All have an unfilled "{resolution_date}" template
+  variable in the question text. They were created 2025-11-02 and are 7+ months
+  overdue. Excluded from auto-resolution; flagged for bulk triage.
+
+══════════════════════════════════════════════════════════
+Resolutions (55):
+══════════════════════════════════════════════════════════
+
+--- FOMC June 16-17 2026: FED HELD at 3.50-3.75% (12-0, 4th consecutive hold) ---
+  - aaeb684d2c1a | FOMC 2026-06-17: Fed cuts 25bp | p=0.2700 | actual=0 | Brier=0.0729 | https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html
+  - c0c9c10c958f | FOMC 2026-06-17: Fed holds rates at current level | p=0.6800 | actual=1 | Brier=0.1024 | https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html
+  - f33e9dd53858 | FOMC 2026-06-17: Fed cuts 50bp | p=0.0500 | actual=0 | Brier=0.0025 | https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html
+  - 81ad935c-383 | Will the FOMC cut rates at the 2026-06-17 meeting? | p=0.0989 | actual=0 | Brier=0.0098 | https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html
+  - pred_0a9f2252 | FOMC Jun 17 2026: Fed maintains rate (hold) | p=0.9700 | actual=1 | Brier=0.0009 | https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html
+  - pred_29d3c69e | FOMC Jun 17 2026: Cut 25bps | p=0.0195 | actual=0 | Brier=0.0004 | https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html
+  - pred_5075cf04 | FOMC Jun 17 2026: Cut >25bps | p=0.0040 | actual=0 | Brier=0.0000 | https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html
+  - pred_5b1821ac | FOMC Jun 17 2026: Hike 25bps | p=0.0050 | actual=0 | Brier=0.0000 | https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html
+  - pred_48f74eda | FOMC Jun 17 2026: Hike >25bps | p=0.0015 | actual=0 | Brier=0.0000 | https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html
+
+--- FOMC April 28-29 2026: FED HELD at 3.50-3.75% (8-4 vote) [questions cite "May 6-7" — date error] ---
+  - pred_583f357d | FOMC holds rates unchanged at "May 6-7" meeting [actual Apr 28-29] | p=0.8800 | actual=1 | Brier=0.0144 | https://www.cnbc.com/2026/04/29/fed-interest-rate-decision-april-2026.html
+  - pred_e038ee1d | FOMC holds unchanged May 6-7 (SUPERSEDES pred_583f357d) | p=0.9200 | actual=1 | Brier=0.0064 | https://www.cnbc.com/2026/04/29/fed-interest-rate-decision-april-2026.html
+
+--- Fed Terminal: Fed funds upper above 4.00% at next FOMC? NO — upper was 3.75% ---
+  - 73dda56e9577 | Fed funds upper above 4.00% at next FOMC decision | p=0.3000 | actual=0 | Brier=0.0900 | https://www.cnbc.com/2026/04/29/fed-interest-rate-decision-april-2026.html
+  - 4be5b00af39d | Fed funds upper above 4.00% at next FOMC decision | p=0.3000 | actual=0 | Brier=0.0900 | https://www.cnbc.com/2026/04/29/fed-interest-rate-decision-april-2026.html
+  - 2888044d0439 | Fed funds upper above 4.00% at next FOMC decision | p=0.3000 | actual=0 | Brier=0.0900 | https://www.cnbc.com/2026/04/29/fed-interest-rate-decision-april-2026.html
+  - 902b2ea04406 | Fed funds upper above 4.00% at next FOMC decision | p=0.5000 | actual=0 | Brier=0.2500 | https://www.cnbc.com/2026/04/29/fed-interest-rate-decision-april-2026.html
+  - 9248c619476e | Fed funds upper above 4.00% at next FOMC decision | p=0.0500 | actual=0 | Brier=0.0025 | https://www.cnbc.com/2026/04/29/fed-interest-rate-decision-april-2026.html
+  - cb935523027f | Fed funds upper above 4.00% at next FOMC decision | p=0.0500 | actual=0 | Brier=0.0025 | https://www.cnbc.com/2026/04/29/fed-interest-rate-decision-april-2026.html
+
+--- CPI MoM: May 2026 actual = +0.5% [questions mislabeled "April 2026 (BLS release 2026-06-10)"] ---
+  - pred_966fdc72 | CPI MoM above -0.3pp [BLS Jun 10] | p=0.9891 | actual=1 | Brier=0.0001 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_1b2d8de0 | CPI MoM above -0.2pp [BLS Jun 10] | p=0.9707 | actual=1 | Brier=0.0009 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_1ee8af3b | CPI MoM above -0.1pp [BLS Jun 10] | p=0.9318 | actual=1 | Brier=0.0047 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_8e84107f  | CPI MoM above 0.0pp [BLS Jun 10] | p=0.8615 | actual=1 | Brier=0.0192 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_cbbecf82 | CPI MoM above 0.1pp [BLS Jun 10] | p=0.7534 | actual=1 | Brier=0.0608 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_a59dc3e3 | CPI MoM above 0.2pp [BLS Jun 10] | p=0.6116 | actual=1 | Brier=0.1509 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_84d3a403 | CPI MoM above 0.3pp [BLS Jun 10] | p=0.4528 | actual=1 | Brier=0.2994 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_c9ea4848 | CPI MoM above 0.4pp [BLS Jun 10] | p=0.3014 | actual=1 | Brier=0.4881 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_755ed0e9 | CPI MoM above 0.5pp [BLS Jun 10] | p=0.1782 | actual=0 | Brier=0.0317 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_1a2e69dc | CPI MoM above 0.6pp [BLS Jun 10] | p=0.0927 | actual=0 | Brier=0.0086 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_e105ddf1 | CPI MoM above 0.7pp [BLS Jun 10] | p=0.0421 | actual=0 | Brier=0.0018 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_59f5b7bb | CPI MoM above 0.8pp [BLS Jun 10] | p=0.0167 | actual=0 | Brier=0.0003 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_ce115a23 | CPI MoM above 0.9pp [BLS Jun 10] | p=0.0057 | actual=0 | Brier=0.0000 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_d00c4a13 | CPI MoM above 1.0pp [BLS Jun 10] | p=0.0017 | actual=0 | Brier=0.0000 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+
+--- CPI YoY: May 2026 actual = +4.2% [same mislabeling note] ---
+  - pred_ee522a86 | CPI YoY above 2.4% [BLS Jun 10] | p=0.9971 | actual=1 | Brier=0.0000 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_473b2df0 | CPI YoY above 2.5% [BLS Jun 10] | p=0.9934 | actual=1 | Brier=0.0000 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_ade8fa64 | CPI YoY above 2.6% [BLS Jun 10] | p=0.9862 | actual=1 | Brier=0.0002 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_db2ed21b | CPI YoY above 2.7% [BLS Jun 10] | p=0.9731 | actual=1 | Brier=0.0007 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_d9fef9cf | CPI YoY above 2.8% [BLS Jun 10] | p=0.9507 | actual=1 | Brier=0.0024 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_95c356f3 | CPI YoY above 2.9% [BLS Jun 10] | p=0.9155 | actual=1 | Brier=0.0071 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_1a792e46 | CPI YoY above 3.0% [BLS Jun 10] | p=0.8642 | actual=1 | Brier=0.0184 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_992deb81 | CPI YoY above 3.1% [BLS Jun 10] | p=0.7948 | actual=1 | Brier=0.0421 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_1abaed91 | CPI YoY above 3.2% [BLS Jun 10] | p=0.7079 | actual=1 | Brier=0.0853 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_6b800613 | CPI YoY above 3.3% [BLS Jun 10] | p=0.6069 | actual=1 | Brier=0.1546 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_5caa86b0 | CPI YoY above 3.4% [BLS Jun 10] | p=0.4980 | actual=1 | Brier=0.2520 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_549b28a7 | CPI YoY above 3.5% [BLS Jun 10] | p=0.3893 | actual=1 | Brier=0.3729 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_b8f88e72 | CPI YoY above 3.6% [BLS Jun 10] | p=0.2887 | actual=1 | Brier=0.5059 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_54ad964d | CPI YoY above 3.7% [BLS Jun 10] | p=0.2024 | actual=1 | Brier=0.6362 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_f08191ee | CPI YoY above 3.8% [BLS Jun 10] | p=0.1336 | actual=1 | Brier=0.7506 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_de3e92fe | CPI YoY above 3.9% [BLS Jun 10] | p=0.0830 | actual=1 | Brier=0.8410 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_fd716a67 | CPI YoY above 4.0% [BLS Jun 10] | p=0.0483 | actual=1 | Brier=0.9057 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_143efc28 | CPI YoY above 4.1% [BLS Jun 10] | p=0.0263 | actual=1 | Brier=0.9480 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_d3f771f5 | CPI YoY above 4.2% [BLS Jun 10] | p=0.0134 | actual=0 | Brier=0.0002 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_1e2ff469 | CPI YoY above 4.3% [BLS Jun 10] | p=0.0064 | actual=0 | Brier=0.0000 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+  - pred_db7ea18d | CPI YoY above 4.4% [BLS Jun 10] | p=0.0028 | actual=0 | Brier=0.0000 | https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html
+
+--- Unemployment: April & May 2026 = 4.3% (both below 4.5%) ---
+  - b5ccf8b2e9e0 | Apr 2026 Unemployment below 4.5% | p=0.8500 | actual=1 | Brier=0.0225 | https://www.cnbc.com/2026/06/05/jobs-report-may-2026.html
+  - f9a0c02089a9 | May 2026 Unemployment below 4.5% | p=0.6500 | actual=1 | Brier=0.1225 | https://www.cnbc.com/2026/06/05/jobs-report-may-2026.html
+
+--- NBA Finals 2026 ---
+  - pred_e91d9ef2 | 2026 NBA Finals broadcast on ABC (Disney/ESPN) | p=0.9900 | actual=1 | Brier=0.0001 | https://www.nba.com/news/abcs-exclusive-coverage-of-the-2026-nba-finals-begins-june-3-new-york-knicks-vs-san-antonio-spurs
+
+Mean Brier this batch: 0.1358
+
+CALIBRATION NOTE: Chorus badly underestimated May 2026 CPI YoY. Predictions for
+CPI YoY above 3.6%-4.1% have Brier scores of 0.51-0.95 — Chorus prior was far too
+low (median near 3.3-3.4%). May actual was +4.2% YoY. Energy prices (Middle East
+conflict) drove the miss. This warrants a recalibration review of the inflation
+prior for the remaining 2026 CPI ladder predictions.
+
+══════════════════════════════════════════════════════════
+Flagged for manual review (92):
+══════════════════════════════════════════════════════════
+
+--- CA Newsom Recall ---
+  - aee1ebb5397a | Will CA recall of Gov Newsom qualify for ballot? | No definitive
+    result found. Recall filed Oct 2025; campaign reported 1.95M signatures near
+    deadline. CA SoS certification status by Jun 15 unclear. Check:
+    https://www.sos.ca.gov/elections/recalls/complete-list-recall-attempts
+
+--- Maine R Senate Primary (malformed criterion) ---
+  - 4ca319db20e2 | Maine R senate primary: TBD wins | Criterion never filled in
+    ("TBD wins"). Susan Collins ran unopposed Jun 9. Manually decide: void or
+    resolve as YES for "incumbent wins uncontested."
+
+--- Colorado Phone-Free: 8 district predictions (4-way categorical) ---
+  - pred_harrison_sd_2_instructional_40c3f2df | Harrison SD 2 INSTRUCTIONAL by Jun 18
+  - pred_thompson_sd_instructional_3c2d2657 | Thompson SD INSTRUCTIONAL by Jun 17
+  - pred_st__vrain_valley_sd_instructional_0d6bf4bc | St. Vrain Valley SD INSTRUCTIONAL by Jun 17
+  - pred_aurora_public_schools_split_cc9113e3 | Aurora Public Schools SPLIT by Jun 16
+  - pred_denver_public_schools_b2b_0f1cc4f5 | Denver Public Schools B2B by Jun 11
+  - pred_academy_20_instructional_98fa16eb | Academy 20 INSTRUCTIONAL by Jun 11
+  - pred_greeley_evans_sd_6_k8_only_c5a80ebe | Greeley-Evans SD 6 K8_ONLY by Jun 8
+  - pred_cherry_creek_sd_split_82f4691e | Cherry Creek SD SPLIT by Jun 8
+  All require district board minutes or Chalkbeat Colorado. Source:
+  https://www.chalkbeat.org/colorado/
+
+--- Colorado Phone-Free Shadow (6 duplicates) ---
+  - pred_shadow_harrison_sd_2_instructional_2fe57f3a
+  - pred_shadow_st__vrain_valley_sd_instructional_09c37017
+  - pred_shadow_thompson_sd_instructional_6707ae11
+  - pred_shadow_aurora_public_schools_split_06be66e6
+  - pred_shadow_denver_public_schools_b2b_e868df97
+  - pred_shadow_academy_20_instructional_8e444f1c
+
+--- Forecastbench (60 entries — malformed, ACLED required) ---
+  All 60 pred_fb_* have unfilled "{resolution_date}" template in question text.
+  All resolution_date 2025-11-02 (7+ months overdue). Require ACLED API.
+  Recommend: bulk void OR targeted ACLED pull for 30-day windows around 2025-11-02.
+  First 5: pred_fb_da97b7ddfe29, pred_fb_b07a35d69694, pred_fb_6d639f5ead40,
+  pred_fb_848fde7e8a93, pred_fb_ab9209eec18c (55 more)
+
+--- Other domain flags (17 predictions) ---
+  - a5a5edc1ad66 | Port of LA avg dwell >5 days May 2026 | portoflosangeles.org ops report
+  - 3fac6520223d | EIA gas storage surprise >10 Bcf May 2026 | EIA API (WNGSWE) — 403 on fetch
+  - c23d95a5428b | UK Labour polling lead through May 2026 | YouGov/MRP tracker needed
+  - ad06a27a3da7 | Major hurricane US landfall May 2026 | No NOAA data; likely NO (pre-season)
+  - 8bef186b2ecb | CIV tree cover loss >167k ha 2026 | GFW 2026 annual not yet published
+  - 68e974ab053f | GHA tree cover loss threshold 2026 | Same — GFW 2026 not available
+  - pred_ghana2026 | Ghana deforestation threshold 2026 | Same
+  - pred_c9bdc2cc | Coffee stays below 310c Apr 30 2026 | ICE Arabica daily close needed
+  - pred_990e759c | Gold stays above $4,500 Apr 30 2026 | COMEX GC futures daily close needed
+  - pred_b10bfc9f | Ghana FIRMS fire density Apr 30 2026 | NASA FIRMS API needed
+  - wsl_2026_2026evt03_disputed | WSL Gold Coast Pro disputed outcome Jun 11 | WSL records
+  - pred_7b9ad2f2 | NBA upfront inventory sells before Finals | Media trade confirmation
+  - pred_on_the_next_batch_of_gen_digital_norton__2faae28b | Gen Digital ad test | Internal data
+  - b4380e0db7f0 | JPM Q1 2026 revenue vs consensus | Bloomberg/FactSet earnings
+  - aa2268fa28c4 | HIMS Q1 2026 revenue vs consensus | Same
+  - dd7b383983f4 | FDA Olpasiran (Amgen) approval by May 30 PDUFA | FDA drug approvals page
+
+NOTE: ~1,200 additional open-and-due predictions across michigan_sentiment, ez_cpi,
+boj_decision, nba_playoff, glossier_creative, wsl_judging_bias, cross_league_validated,
+cybersecurity, earnings, fda, economic_scan, state_primary, etc. were not addressed
+in today's run. Today focused on domains with clear auto-resolution paths.
+
+══════════════════════════════════════════════════════════
+ACTION ITEMS FOR ADDIE
+══════════════════════════════════════════════════════════
+1. Re-authorize Gmail MCP (token expired — routine could not email you).
+2. Fix CPI label error: rename "April 2026" → "May 2026" for pred_966fdc72 through
+   pred_db7ea18d before writing back.
+3. Fix FOMC date error: "May 6-7" → "April 28-29" for pred_583f357d / pred_e038ee1d.
+4. Run locally:
+     python scripts/resolve_ledger.py  # write 55 resolutions to chorus_predictions.jsonl
+     python scripts/public_ledger_consolidate.py --write  # refresh ledger_canonical + summary
+     git add -A && git commit -m "chore: resolve 55 predictions 2026-06-19" && git push
+5. Triage 60 forecastbench malformed predictions (void or ACLED pull).
+6. Manually resolve 8 CO phone-free district predictions via Chalkbeat CO.
+7. Check CA Newsom recall at SoS website.
+8. Review calibration: CPI YoY predictions badly missed (Brier 0.51-0.95 on
+   3.6%-4.1% thresholds). Consider recalibrating inflation priors.
+
+Headline forward Brier (current): see ledger_summary.json -> headline_brier_FORWARD_ONLY
+══════════════════════════════════════════════════════════
