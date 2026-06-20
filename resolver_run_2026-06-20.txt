@@ -1,0 +1,172 @@
+Daily Chorus prediction-resolver run · 2026-06-20 UTC
+Gmail draft creation FAILED (token expired) — full report preserved here.
+
+===================================================================
+GROUND TRUTH USED
+===================================================================
+• FOMC June 17, 2026: Fed HELD at 3.50–3.75% (unanimous 12-0)
+  Source: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm
+  Confirmed: https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html
+
+• FOMC May 6–7, 2026: Fed HELD at 3.50–3.75%
+  Source: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260507a.htm
+
+• Federal funds upper bound: 3.75% (NOT above 4.00%) — held since Dec 2025
+
+• April 2026 Unemployment: 4.3% (BLS release 2026-05-08)
+  Source: https://www.bls.gov/news.release/archives/empsit_05082026.htm
+
+• May 2026 Unemployment: 4.3% (BLS release 2026-06-05)
+  Source: https://www.bls.gov/news.release/empsit.nr0.htm
+
+• April 2026 CPI: MoM +0.6%, YoY +3.8% (BLS release 2026-05-12)
+  Source: https://www.bls.gov/news.release/archives/cpi_05122026.htm
+
+• May 2026 CPI: MoM +0.5%, YoY +4.2% (BLS release 2026-06-10)
+  Source: https://www.bls.gov/news.release/cpi.nr0.htm
+  ⚠️  NOTE: inflation_cpi / inflation_cpiyoy questions are labeled "April 2026 (BLS
+  release 2026-06-10)" — internally inconsistent. April CPI was released May 12;
+  June 10 release carries MAY data. Resolved using June 10 data (May CPI: MoM +0.5%, YoY +4.2%).
+  If April CPI intended: MoM=+0.6% → threshold >0.5pp flips to outcome=1;
+  YoY=3.8% → thresholds 3.9–4.4% flip from outcome=1 to outcome=0.
+
+• Jobless claims week ending 2026-04-11: 207K (below 220K)
+• Jobless claims week ending 2026-04-18: 214K (below 220K)
+  Source: https://verifiedinvesting.com/blogs/us-economic-metrics/us-initial-jobless-claims-april-18-2026
+
+⚠️  BORDERLINE CASES:
+  - pred_755ed0e9: "CPI MoM above 0.5pp" — actual = exactly 0.5% → outcome=0 (strict >)
+  - pred_d3f771f5: "CPI YoY above 4.2%" — actual = exactly 4.2% → outcome=0 (strict >)
+  Override if BLS unrounded figure clears the threshold.
+
+===================================================================
+RESOLUTIONS (56)
+===================================================================
+
+--- FOMC June 17, 2026: Fed HELD (9 predictions) ---
+aaeb684d2c1a | FOMC 2026-06-17: Fed cuts 25bp                        | p=0.27     | actual=0 | Brier=0.072900 | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm
+c0c9c10c958f | FOMC 2026-06-17: Fed holds rates at current level      | p=0.68     | actual=1 | Brier=0.102400 | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm
+f33e9dd53858 | FOMC 2026-06-17: Fed cuts 50bp                        | p=0.05     | actual=0 | Brier=0.002500 | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm
+81ad935c-383 | Will the FOMC cut rates at the 2026-06-17 meeting?     | p=0.0989   | actual=0 | Brier=0.009781 | https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html
+pred_0a9f2252 | FOMC June 17 2026 decision: Fed maintains rate (hold) | p=0.97     | actual=1 | Brier=0.000900 | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm
+pred_29d3c69e | FOMC June 17 2026 decision: Cut 25bps                 | p=0.0195   | actual=0 | Brier=0.000380 | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm
+pred_5075cf04 | FOMC June 17 2026 decision: Cut >25bps                | p=0.004    | actual=0 | Brier=0.000016 | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm
+pred_5b1821ac | FOMC June 17 2026 decision: Hike 25bps                | p=0.005    | actual=0 | Brier=0.000025 | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm
+pred_48f74eda | FOMC June 17 2026 decision: Hike >25bps               | p=0.0015   | actual=0 | Brier=0.000002 | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm
+
+--- FOMC May 6-7, 2026: Fed HELD (1 prediction) ---
+pred_e038ee1d | FOMC holds rates unchanged at May 6-7 2026 meeting    | p=0.92     | actual=1 | Brier=0.006400 | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260507a.htm
+
+--- Fed terminal rate: upper 3.75%, NOT above 4.00% (6 predictions) ---
+73dda56e9577 | Fed funds upper above 4.00% at next FOMC (rd:05-23)   | p=0.30     | actual=0 | Brier=0.090000 | https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html
+4be5b00af39d | Fed funds upper above 4.00% at next FOMC (rd:05-24)   | p=0.30     | actual=0 | Brier=0.090000 | https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html
+9248c619476e | Fed funds upper above 4.00% at next FOMC (rd:05-26)   | p=0.05     | actual=0 | Brier=0.002500 | https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html
+cb935523027f | Fed funds upper above 4.00% at next FOMC (rd:05-28)   | p=0.05     | actual=0 | Brier=0.002500 | https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html
+902b2ea04406 | Fed funds upper above 4.00% at next FOMC (rd:05-29)   | p=0.50     | actual=0 | Brier=0.250000 | https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html
+2888044d0439 | Fed funds upper above 4.00% at next FOMC (rd:05-30)   | p=0.30     | actual=0 | Brier=0.090000 | https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html
+
+--- Unemployment: Apr=4.3%, May=4.3% (both < 4.5%) (2 predictions) ---
+b5ccf8b2e9e0 | Apr 2026 Unemployment below 4.5%                      | p=0.85     | actual=1 | Brier=0.022500 | https://www.bls.gov/news.release/archives/empsit_05082026.htm
+f9a0c02089a9 | May 2026 Unemployment below 4.5%                      | p=0.65     | actual=1 | Brier=0.122500 | https://www.bls.gov/news.release/empsit.nr0.htm
+
+--- CPI April 2026 YoY vs 3.3% consensus (released May 12, YoY=3.8%) (1 prediction) ---
+9f3f118ee5d1 | CPI April 2026 YoY exceeds 3.3% consensus             | p=0.68     | actual=1 | Brier=0.102400 | https://www.bls.gov/news.release/archives/cpi_05122026.htm
+
+--- Jobless claims (2 predictions) ---
+6d9827b3f886 | Initial jobless claims below 220k wk ending 2026-04-11 | p=0.5800  | actual=1 | Brier=0.176400 | https://verifiedinvesting.com/blogs/us-economic-metrics/us-initial-jobless-claims-april-18-2026
+655134749241 | Initial jobless claims below 220k wk ending 2026-04-18 | p=0.6182  | actual=1 | Brier=0.145771 | https://verifiedinvesting.com/blogs/us-economic-metrics/us-initial-jobless-claims-april-18-2026
+
+--- CPI MoM ladder (inflation_cpi): May 2026 MoM = +0.5% (BLS June 10 release) (14 predictions) ---
+pred_966fdc72 | CPI MoM above -0.3pp | p=0.989076 | actual=1 | Brier=0.000119 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_1b2d8de0 | CPI MoM above -0.2pp | p=0.970693 | actual=1 | Brier=0.000859 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_1ee8af3b | CPI MoM above -0.1pp | p=0.931776 | actual=1 | Brier=0.004655 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_8e84107f | CPI MoM above 0.0pp  | p=0.861530 | actual=1 | Brier=0.019174 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_cbbecf82 | CPI MoM above 0.1pp  | p=0.753419 | actual=1 | Brier=0.060802 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_a59dc3e3 | CPI MoM above 0.2pp  | p=0.611550 | actual=1 | Brier=0.150893 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_84d3a403 | CPI MoM above 0.3pp  | p=0.452808 | actual=1 | Brier=0.299419 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_c9ea4848 | CPI MoM above 0.4pp  | p=0.301358 | actual=1 | Brier=0.488101 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_755ed0e9 | CPI MoM above 0.5pp ⚠️BORDER | p=0.178153 | actual=0 | Brier=0.031738 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_1a2e69dc | CPI MoM above 0.6pp  | p=0.092692 | actual=0 | Brier=0.008592 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_e105ddf1 | CPI MoM above 0.7pp  | p=0.042148 | actual=0 | Brier=0.001776 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_59f5b7bb | CPI MoM above 0.8pp  | p=0.016660 | actual=0 | Brier=0.000278 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_ce115a23 | CPI MoM above 0.9pp  | p=0.005701 | actual=0 | Brier=0.000033 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_d00c4a13 | CPI MoM above 1.0pp  | p=0.001684 | actual=0 | Brier=0.000003 | https://www.bls.gov/news.release/cpi.nr0.htm
+
+--- CPI YoY ladder (inflation_cpiyoy): May 2026 YoY = +4.2% (BLS June 10 release) (21 predictions) ---
+pred_ee522a86 | CPI YoY above 2.4% | p=0.997074 | actual=1 | Brier=0.000009 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_473b2df0 | CPI YoY above 2.5% | p=0.993428 | actual=1 | Brier=0.000043 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_ade8fa64 | CPI YoY above 2.6% | p=0.986229 | actual=1 | Brier=0.000190 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_db2ed21b | CPI YoY above 2.7% | p=0.973052 | actual=1 | Brier=0.000726 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_d9fef9cf | CPI YoY above 2.8% | p=0.950689 | actual=1 | Brier=0.002432 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_95c356f3 | CPI YoY above 2.9% | p=0.915509 | actual=1 | Brier=0.007139 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_1a792e46 | CPI YoY above 3.0% | p=0.864202 | actual=1 | Brier=0.018441 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_992deb81 | CPI YoY above 3.1% | p=0.794832 | actual=1 | Brier=0.042094 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_1abaed91 | CPI YoY above 3.2% | p=0.707883 | actual=1 | Brier=0.085332 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_6b800613 | CPI YoY above 3.3% | p=0.606851 | actual=1 | Brier=0.154566 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_5caa86b0 | CPI YoY above 3.4% | p=0.498017 | actual=1 | Brier=0.251987 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_549b28a7 | CPI YoY above 3.5% | p=0.389332 | actual=1 | Brier=0.372915 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_b8f88e72 | CPI YoY above 3.6% | p=0.288712 | actual=1 | Brier=0.505931 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_54ad964d | CPI YoY above 3.7% | p=0.202354 | actual=1 | Brier=0.636239 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_f08191ee | CPI YoY above 3.8% | p=0.133644 | actual=1 | Brier=0.750573 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_de3e92fe | CPI YoY above 3.9% | p=0.082962 | actual=1 | Brier=0.840959 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_fd716a67 | CPI YoY above 4.0% | p=0.048305 | actual=1 | Brier=0.905723 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_143efc28 | CPI YoY above 4.1% | p=0.026336 | actual=1 | Brier=0.948022 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_d3f771f5 | CPI YoY above 4.2% ⚠️BORDER | p=0.013425 | actual=0 | Brier=0.000180 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_1e2ff469 | CPI YoY above 4.3% | p=0.006391 | actual=0 | Brier=0.000041 | https://www.bls.gov/news.release/cpi.nr0.htm
+pred_db7ea18d | CPI YoY above 4.4% | p=0.002839 | actual=0 | Brier=0.000008 | https://www.bls.gov/news.release/cpi.nr0.htm
+
+Mean Brier across these 56 resolved predictions: 0.1407
+
+===================================================================
+FLAGGED FOR MANUAL REVIEW (12)
+===================================================================
+aa497b0ff6ae | EIA crude oil inventories build wk ending 2026-04-13    | EIA weekly archive blocked; need WPSR PDF from eia.gov for week of 2026-04-15
+e751b2e3ed58 | EIA gasoline inventories build wk ending 2026-04-13     | same
+8383e6524c41 | EIA distillate inventories build wk ending 2026-04-13   | same
+4b8745e2a901 | EIA crude oil inventories build wk ending 2026-04-20    | EIA archive blocked; need WPSR PDF for week of 2026-04-22
+4e30298cf99f | EIA gasoline inventories build wk ending 2026-04-20     | same
+46ebbd408824 | EIA distillate inventories build wk ending 2026-04-20   | same
+fd3aa68b19b6 | SPR level higher in 4 weeks than current (rd 2026-05-09) | need EIA WCSSTUS1 historical; gov site returned 403
+9905f3276da6 | SPR level higher in 4 weeks than current (rd 2026-05-10) | same
+9ca7e9a648d3 | SPR level higher in 4 weeks than current (rd 2026-05-16) | same
+0e8132fe36c9 | Gold closes higher Friday 2026-04-24 than Monday open    | need historical gold spot; no data feed available
+pred_c9bdc2cc | Coffee stays below 310c through April 30 2026           | need ICE Coffee C historical futures
+pred_990e759c | Gold stays above $4,500 through April 30 2026           | need historical gold spot; no data feed available
+
+===================================================================
+BULK BACKLOG (1,180+ predictions — NOT individually enumerated)
+===================================================================
+domain=None         1028 predictions  — bulk cascade/scenario predictions; may need batch void or dedicated resolver
+forecastbench         60 predictions  — ForecastBench API lookup needed per question
+colorado_phonefree     8 predictions  — 4-way categorical phone policy; human judgment required
+colorado_phone_shadow  8 predictions  — same
+state_primary_2026     8 predictions  — election results per state needed
+boj_decision           6 predictions  — Bank of Japan press releases needed
+nba_playoff/audience  10 predictions  — NBA Finals data + ratings needed
+misc (politics, wsl, conservation, cybersecurity, insurance, mortgage, auto) — various domain-specific resolution
+
+===================================================================
+NEXT STEPS
+===================================================================
+1. Resolve the CPI label ambiguity: are the 35 CPI ladder predictions keyed to
+   the June 10 BLS release (May CPI: MoM +0.5%, YoY +4.2%) or to April CPI
+   (MoM +0.6%, YoY +3.8%)? Affects outcome of pred_755ed0e9 and thresholds
+   3.9–4.4% in the YoY ladder.
+
+2. Re-authorize Gmail MCP (token expired) so future runs can deliver email.
+
+3. Run locally:
+     python scripts/resolve_ledger.py
+   to write the 56 resolutions above back to chorus_predictions.jsonl.
+
+4. Then:
+     python scripts/public_ledger_consolidate.py --write
+
+5. Push chorus-public-ledger.
+
+6. For the 12 flagged EIA/SPR/commodity items, try:
+     https://www.eia.gov/petroleum/supply/weekly/archive/
+
+7. Schedule a bulk-void/resolve pass for the 1,028 domain=None predictions.
+
+Headline forward Brier (current): see ledger_summary.json -> headline_brier_FORWARD_ONLY
