@@ -12703,9 +12703,9 @@
     "is_high_conviction": true
   },
   {
-    "canonical_id": "v1_unknown_4316588096",
+    "canonical_id": "v1_unknown_4344670656",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316588096",
+    "original_id": "v1_unknown_4344670656",
     "original_sha": null,
     "domain": "eia_gasoline",
     "question": "EIA gasoline inventories build (increase) for week ending 2026-04-20",
@@ -12736,9 +12736,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316588992",
+    "canonical_id": "v1_unknown_4344671552",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316588992",
+    "original_id": "v1_unknown_4344671552",
     "original_sha": null,
     "domain": "eia_distillate",
     "question": "EIA distillate inventories build (increase) for week ending 2026-04-20",
@@ -12769,9 +12769,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316589248",
+    "canonical_id": "v1_unknown_4344671808",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316589248",
+    "original_id": "v1_unknown_4344671808",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-04-24 than Monday open",
@@ -12802,9 +12802,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316589504",
+    "canonical_id": "v1_unknown_4344672064",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316589504",
+    "original_id": "v1_unknown_4344672064",
     "original_sha": null,
     "domain": "spr_level",
     "question": "SPR level higher in 4 weeks than current",
@@ -12835,9 +12835,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316598400",
+    "canonical_id": "v1_unknown_4344680960",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316598400",
+    "original_id": "v1_unknown_4344680960",
     "original_sha": null,
     "domain": "existing_home_sales",
     "question": "Existing home sales higher MoM for March",
@@ -12868,9 +12868,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316598592",
+    "canonical_id": "v1_unknown_4344681152",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316598592",
+    "original_id": "v1_unknown_4344681152",
     "original_sha": null,
     "domain": "fed_terminal",
     "question": "Fed funds upper above 4.00% at next FOMC decision",
@@ -12902,9 +12902,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316599040",
+    "canonical_id": "v1_unknown_4344681600",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316599040",
+    "original_id": "v1_unknown_4344681600",
     "original_sha": null,
     "domain": "boj_decision",
     "question": "Bank of Japan holds rates at next meeting",
@@ -12935,9 +12935,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316599296",
+    "canonical_id": "v1_unknown_4344681856",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316599296",
+    "original_id": "v1_unknown_4344681856",
     "original_sha": null,
     "domain": "ez_cpi",
     "question": "Eurozone CPI hotter than consensus for April",
@@ -12968,9 +12968,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316599616",
+    "canonical_id": "v1_unknown_4344682176",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316599616",
+    "original_id": "v1_unknown_4344682176",
     "original_sha": null,
     "domain": "political_calendar",
     "question": "BOJ April rate decision \u2014 our lean: hold_likely",
@@ -13001,9 +13001,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316600320",
+    "canonical_id": "v1_unknown_4344682880",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316600320",
+    "original_id": "v1_unknown_4344682880",
     "original_sha": null,
     "domain": "nba_playoff",
     "question": "NBA playoff higher seed wins next game (1st round)",
@@ -13034,9 +13034,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316600576",
+    "canonical_id": "v1_unknown_4344683136",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316600576",
+    "original_id": "v1_unknown_4344683136",
     "original_sha": null,
     "domain": "eia_distillate",
     "question": "EIA distillate inventories build (increase) for week ending 2026-05-04",
@@ -13062,15 +13062,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4316588992"
+      "duplicate_of:v1_unknown_4344671552"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316600832",
+    "canonical_id": "v1_unknown_4344683392",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316600832",
+    "original_id": "v1_unknown_4344683392",
     "original_sha": null,
     "domain": "fed_terminal",
     "question": "Fed funds upper above 4.00% at next FOMC decision",
@@ -13096,16 +13096,16 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4316598592",
+      "duplicate_of:v1_unknown_4344681152",
       "event_validation_passed"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316601280",
+    "canonical_id": "v1_unknown_4344683840",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316601280",
+    "original_id": "v1_unknown_4344683840",
     "original_sha": null,
     "domain": "boj_decision",
     "question": "Bank of Japan holds rates at next meeting",
@@ -13131,15 +13131,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4316599040"
+      "duplicate_of:v1_unknown_4344681600"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316601536",
+    "canonical_id": "v1_unknown_4344684096",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316601536",
+    "original_id": "v1_unknown_4344684096",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-05-02",
@@ -13170,9 +13170,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316601920",
+    "canonical_id": "v1_unknown_4344684480",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316601920",
+    "original_id": "v1_unknown_4344684480",
     "original_sha": null,
     "domain": "jobless_claims",
     "question": "Initial jobless claims below 220k for week ending 2026-05-09",
@@ -13326,9 +13326,9 @@
     "in_headline": true
   },
   {
-    "canonical_id": "v1_unknown_4316616448",
+    "canonical_id": "v1_unknown_4344694912",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316616448",
+    "original_id": "v1_unknown_4344694912",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-05-16",
@@ -13354,15 +13354,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4316601536"
+      "duplicate_of:v1_unknown_4344684096"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316616768",
+    "canonical_id": "v1_unknown_4344695232",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316616768",
+    "original_id": "v1_unknown_4344695232",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-05-23",
@@ -13388,15 +13388,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4316601536"
+      "duplicate_of:v1_unknown_4344684096"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316617152",
+    "canonical_id": "v1_unknown_4344695616",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316617152",
+    "original_id": "v1_unknown_4344695616",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-05-29 than Monday open",
@@ -13427,9 +13427,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316617344",
+    "canonical_id": "v1_unknown_4344695808",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316617344",
+    "original_id": "v1_unknown_4344695808",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-06-05 than Monday open",
@@ -13460,9 +13460,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316617536",
+    "canonical_id": "v1_unknown_4344696000",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316617536",
+    "original_id": "v1_unknown_4344696000",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-05-30",
@@ -13488,15 +13488,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4316601536"
+      "duplicate_of:v1_unknown_4344684096"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316617920",
+    "canonical_id": "v1_unknown_4344696384",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316617920",
+    "original_id": "v1_unknown_4344696384",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-06-12 than Monday open",
@@ -13527,9 +13527,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316618112",
+    "canonical_id": "v1_unknown_4344696576",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316618112",
+    "original_id": "v1_unknown_4344696576",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-06-13",
@@ -13555,15 +13555,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4316601536"
+      "duplicate_of:v1_unknown_4344684096"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316618496",
+    "canonical_id": "v1_unknown_4344713408",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316618496",
+    "original_id": "v1_unknown_4344713408",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-06-19 than Monday open",
@@ -13594,9 +13594,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316618688",
+    "canonical_id": "v1_unknown_4344713600",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316618688",
+    "original_id": "v1_unknown_4344713600",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-06-20",
@@ -13622,15 +13622,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4316601536"
+      "duplicate_of:v1_unknown_4344684096"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4316635520",
+    "canonical_id": "v1_unknown_4344713984",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4316635520",
+    "original_id": "v1_unknown_4344713984",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-06-26 than Monday open",
@@ -30698,7 +30698,8 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolution_overdue"
     ],
     "temporal_class": "FWD",
     "is_high_conviction": false
