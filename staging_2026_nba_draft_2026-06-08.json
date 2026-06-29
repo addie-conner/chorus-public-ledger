@@ -48,7 +48,7 @@
   {
     "domain": "nba_athlete_marketability",
     "question": "AJ Dybantsa finishes in top-10 NBA jersey sales for 2026-27 season",
-    "resolution_criterion": "NBA official jersey sales ranking for 2026-27 season (released by mid-2027): AJ Dybantsa ranked ≤ 10",
+    "resolution_criterion": "NBA official jersey sales ranking for 2026-27 season (released by mid-2027): AJ Dybantsa ranked \u2264 10",
     "chorus_probability": 0.62,
     "baseline_probability": 0.33,
     "edge": 0.29,
@@ -69,10 +69,10 @@
     "model_inputs": {
       "scenario": {
         "category": "commercial_marketability",
-        "rationale": "AVI composite not directly computed for Dybantsa (excluded from CAP2 scope as pre-declared lock). High-conviction commercial-breakout prediction based on: Wikipedia baseline 1,334/day pre-college, projected 2,000+/day BYU season; On3 NIL $4.2M pre-debut; cross-cultural reach absent. Baseline = 30% (top-10 is 10 of 30 teams; rookies rarely chart unless transcendent — adjusting to 33% for top-class prospects). Brunson precedent: post-trade, 5yr to chart. Dybantsa structural advantage: #1 pick market attention + BYU media cycle Oct-Mar before draft.",
+        "rationale": "AVI composite not directly computed for Dybantsa (excluded from CAP2 scope as pre-declared lock). High-conviction commercial-breakout prediction based on: Wikipedia baseline 1,334/day pre-college, projected 2,000+/day BYU season; On3 NIL $4.2M pre-debut; cross-cultural reach absent. Baseline = 30% (top-10 is 10 of 30 teams; rookies rarely chart unless transcendent \u2014 adjusting to 33% for top-class prospects). Brunson precedent: post-trade, 5yr to chart. Dybantsa structural advantage: #1 pick market attention + BYU media cycle Oct-Mar before draft.",
         "base_rate": "Historically ~2-3 rookies/year chart top-10 NBA jersey sales. Base rate for #1 pick class = ~50-60% in modern era (Zion, LeBron, Kyrie all entered top-10 Y1).",
         "confidence_label": "DIRECTIONAL",
-        "avi_flag": "NOT_AVI_SCANNED — excluded as pre-declared high-conviction"
+        "avi_flag": "NOT_AVI_SCANNED \u2014 excluded as pre-declared high-conviction"
       },
       "n_personas": 0,
       "segment_means": {}
@@ -94,8 +94,8 @@
   },
   {
     "domain": "nba_athlete_marketability",
-    "question": "AJ Dybantsa debut NBA game-worn jersey auction fetches ≥ $400K",
-    "resolution_criterion": "Documented auction result (Heritage Auctions, SCP, NBA Auctions, or equivalent): highest hammer price for any Dybantsa game-worn jersey from his NBA debut game ≥ $400,000 USD",
+    "question": "AJ Dybantsa debut NBA game-worn jersey auction fetches \u2265 $400K",
+    "resolution_criterion": "Documented auction result (Heritage Auctions, SCP, NBA Auctions, or equivalent): highest hammer price for any Dybantsa game-worn jersey from his NBA debut game \u2265 $400,000 USD",
     "chorus_probability": 0.45,
     "baseline_probability": 0.15,
     "edge": 0.3,
@@ -141,7 +141,7 @@
   {
     "domain": "nba_athlete_marketability",
     "question": "Cameron Boozer's Y1 NBA brand-deal count exceeds 2026 draft class median",
-    "resolution_criterion": "By 2027-09-01: documented brand/sponsor deals (apparel, footwear, CPG, finance, tech) for Cameron Boozer ≥ median count across all 2026 NBA Draft first-round picks as reported by Sportico, SportsProMedia, or equivalent",
+    "resolution_criterion": "By 2027-09-01: documented brand/sponsor deals (apparel, footwear, CPG, finance, tech) for Cameron Boozer \u2265 median count across all 2026 NBA Draft first-round picks as reported by Sportico, SportsProMedia, or equivalent",
     "chorus_probability": 0.72,
     "baseline_probability": 0.5,
     "edge": 0.22,
@@ -162,10 +162,10 @@
     "model_inputs": {
       "scenario": {
         "category": "commercial_marketability",
-        "rationale": "Cameron Boozer entered 2026 draft with 7 confirmed NIL partners — empirically the highest NIL deal density in the AVI-adjacent scan pool. Y1 footwear deal already announced (pre-draft). This is the rare case where AVI signal (brand-density) is the KNOWN variable, not the prediction: the prediction is whether existing density advantage sustains into NBA Y1. P=0.72 reflects high prior from NIL-to-NBA deal persistence (historically ~75% of NIL leaders retain above-median brand count Y1). CAP2 Stage1 fail (low_velocity) means the AVI flag is OFF — prediction is purely NIL-structural, not attention-driven.",
+        "rationale": "Cameron Boozer entered 2026 draft with 7 confirmed NIL partners \u2014 empirically the highest NIL deal density in the AVI-adjacent scan pool. Y1 footwear deal already announced (pre-draft). This is the rare case where AVI signal (brand-density) is the KNOWN variable, not the prediction: the prediction is whether existing density advantage sustains into NBA Y1. P=0.72 reflects high prior from NIL-to-NBA deal persistence (historically ~75% of NIL leaders retain above-median brand count Y1). CAP2 Stage1 fail (low_velocity) means the AVI flag is OFF \u2014 prediction is purely NIL-structural, not attention-driven.",
         "base_rate": "NIL deal count at draft entry correlates r~0.6 with Y1 NBA brand deal count (n=3 available data points; treat as weak prior). 7 NIL partners is top decile in draft class.",
         "confidence_label": "DIRECTIONAL",
-        "avi_flag": "STAGE1_FAIL — low_velocity; prediction is NIL-structural not AVI-driven",
+        "avi_flag": "STAGE1_FAIL \u2014 low_velocity; prediction is NIL-structural not AVI-driven",
         "nil_partners_at_draft": 7,
         "footwear_deal": "Y1 announced pre-draft (confirmed)"
       },
@@ -190,7 +190,7 @@
   {
     "domain": "nba_athlete_marketability",
     "question": "Carter Bryant (2026 NBA Draft) secures a national-brand endorsement deal within 18 months of draft",
-    "resolution_criterion": "By 2027-12-31: Carter Bryant has ≥1 documented national brand endorsement (apparel, footwear, CPG, tech, finance) reported by Sportico, SportsProMedia, ESPN, or team press release",
+    "resolution_criterion": "By 2027-12-31: Carter Bryant has \u22651 documented national brand endorsement (apparel, footwear, CPG, tech, finance) reported by Sportico, SportsProMedia, ESPN, or team press release",
     "chorus_probability": 0.55,
     "baseline_probability": 0.3,
     "edge": 0.25,
@@ -213,10 +213,10 @@
         "avi_composite": 2.433,
         "channels_firing": 2,
         "proj_pick": 10,
-        "brand_status": "CLEAN — no major deal at scan date",
+        "brand_status": "CLEAN \u2014 no major deal at scan date",
         "rationale": "AVI Brunson-Maxey candidate: composite 2.43, 2 channels (wiki views z=4.73, GDELT confirmed 172 articles/30d). Projected top-10 pick Arizona, brand-clean at scan. Brunson-arc framing implies underpriced attention prior to market waking up. P=0.55 reflects: brand-clean entry point is favorable for first-mover brands; top-10 pick landing spot matters; 18-month window is long enough to absorb slow-start scenarios.",
         "confidence_label": "DIRECTIONAL",
-        "note": "Wikipedia attention spike prediction already locked as pred_b3cc6756 — this is the COMMERCIAL-BREAKOUT companion prediction"
+        "note": "Wikipedia attention spike prediction already locked as pred_b3cc6756 \u2014 this is the COMMERCIAL-BREAKOUT companion prediction"
       },
       "n_personas": 0,
       "segment_means": {}
@@ -239,18 +239,18 @@
   {
     "domain": "sports_attention_marketability",
     "question": "Mikel Brown Jr. Wikipedia 7-day median exceeds 232/day during 2026 NBA Draft Week (2026-06-22 through 2026-06-28)",
-    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Mikel_Brown_Jr.', 7-day median over 2026-06-22 through 2026-06-28 inclusive ≥ 232",
+    "resolution_criterion": "Wikipedia REST API per-article daily English all-access pageviews for 'Mikel_Brown_Jr.', 7-day median over 2026-06-22 through 2026-06-28 inclusive \u2265 232",
     "chorus_probability": 0.6,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-08T00:00:00+00:00",
     "locked_at": "2026-06-08T00:00:00+00:00",
     "resolution_date": "2026-06-29",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-06-29T01:06:48.919848+00:00",
+    "resolution": true,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": 0.16,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -265,10 +265,10 @@
         "sport": "NBA Draft 2026",
         "wiki_slug": "Mikel_Brown_Jr.",
         "avi_composite": null,
-        "stage1_result": "PASS — view_velocity_ratio=1.733, edit_z=-2.04",
-        "stage2_result": "STAGE1_ONLY — did not reach Brunson-Maxey composite threshold",
+        "stage1_result": "PASS \u2014 view_velocity_ratio=1.733, edit_z=-2.04",
+        "stage2_result": "STAGE1_ONLY \u2014 did not reach Brunson-Maxey composite threshold",
         "proj_pick": 9,
-        "rationale": "Stage 1 passer with velocity ratio 1.733 — above threshold but no Brunson-Maxey composite flag. P=0.60 is lower-conviction than RJ Luis (0.70) or Carter Bryant (0.68) due to absence of multi-channel confirmation. 1.5× threshold standard; lower conviction flagged.",
+        "rationale": "Stage 1 passer with velocity ratio 1.733 \u2014 above threshold but no Brunson-Maxey composite flag. P=0.60 is lower-conviction than RJ Luis (0.70) or Carter Bryant (0.68) due to absence of multi-channel confirmation. 1.5\u00d7 threshold standard; lower conviction flagged.",
         "confidence_label": "DIRECTIONAL",
         "discovery_source": "CAP2_NBA_2026_DRAFT_FORWARD_2026-05-27"
       },
@@ -294,7 +294,7 @@
   {
     "domain": "nba_franchise_marketability",
     "question": "Washington Wizards finish in top-15 NBA team merchandise sales for 2026-27 season",
-    "resolution_criterion": "NBA licensed merchandise sales ranking (NFLPA/NBA ranking published post-season, typically by mid-2027): Washington Wizards ranked ≤ 15 of 30",
+    "resolution_criterion": "NBA licensed merchandise sales ranking (NFLPA/NBA ranking published post-season, typically by mid-2027): Washington Wizards ranked \u2264 15 of 30",
     "chorus_probability": 0.7,
     "baseline_probability": 0.33,
     "edge": 0.37,
@@ -315,7 +315,7 @@
     "model_inputs": {
       "scenario": {
         "category": "franchise_marketability",
-        "rationale": "Draft lottery win (Cooper Flagg #1 pick) + post-lottery season ticket revenue TRIPLED per Bullets Forever reporting. Merch sales historically lag attendance recovery by 0-1 season. Baseline is top-15 = 50% of league; Wizards have been bottom-5 in merch for 3+ years. Structural unlock: new franchise face, DC market reactivation. P=0.70 is directional conviction not certainty — depends on Flagg staying healthy and playing meaningful minutes.",
+        "rationale": "Draft lottery win (Cooper Flagg #1 pick) + post-lottery season ticket revenue TRIPLED per Bullets Forever reporting. Merch sales historically lag attendance recovery by 0-1 season. Baseline is top-15 = 50% of league; Wizards have been bottom-5 in merch for 3+ years. Structural unlock: new franchise face, DC market reactivation. P=0.70 is directional conviction not certainty \u2014 depends on Flagg staying healthy and playing meaningful minutes.",
         "current_merch_rank_est": "Bottom-5 (2024-25)",
         "structural_catalyst": "Cooper Flagg #1 pick, season ticket revenue tripled post-lottery (Bullets Forever)",
         "confidence_label": "DIRECTIONAL"
@@ -340,8 +340,8 @@
   },
   {
     "domain": "nba_franchise_marketability",
-    "question": "Washington Wizards 2026-27 average home attendance up ≥ 25% year-over-year",
-    "resolution_criterion": "ESPN / Basketball-Reference 2026-27 Wizards average home attendance ≥ 1.25× 2025-26 average home attendance",
+    "question": "Washington Wizards 2026-27 average home attendance up \u2265 25% year-over-year",
+    "resolution_criterion": "ESPN / Basketball-Reference 2026-27 Wizards average home attendance \u2265 1.25\u00d7 2025-26 average home attendance",
     "chorus_probability": 0.7,
     "baseline_probability": 0.2,
     "edge": 0.5,
@@ -362,7 +362,7 @@
     "model_inputs": {
       "scenario": {
         "category": "franchise_marketability",
-        "rationale": "Season-ticket revenue TRIPLED post-lottery win (Bullets Forever empirical report, 2026). Tripling season ticket revenue is a near-certain leading indicator of attendance recovery — the seats are sold before the season starts. +25% YoY is conservative given the revenue signal; the base attendance was low (Wizards bottom-5 in NBA attendance 2023-26). Main risk: Flagg injury dampens late-season attendance. P=0.70 is tempered by: (a) revenue tripling ≠ attendance tripling (price increases can inflate revenue at flat volume), (b) early-season ticket inventory vs sellout.",
+        "rationale": "Season-ticket revenue TRIPLED post-lottery win (Bullets Forever empirical report, 2026). Tripling season ticket revenue is a near-certain leading indicator of attendance recovery \u2014 the seats are sold before the season starts. +25% YoY is conservative given the revenue signal; the base attendance was low (Wizards bottom-5 in NBA attendance 2023-26). Main risk: Flagg injury dampens late-season attendance. P=0.70 is tempered by: (a) revenue tripling \u2260 attendance tripling (price increases can inflate revenue at flat volume), (b) early-season ticket inventory vs sellout.",
         "base_evidence": "Season-ticket revenue tripled post-lottery, per Bullets Forever (2026-06 report)",
         "current_attendance_rank": "Bottom-5 NBA (2024-25 est.)",
         "confidence_label": "DIRECTIONAL"
@@ -387,8 +387,8 @@
   },
   {
     "domain": "nba_franchise_marketability",
-    "question": "Washington Wizards 2026-27 local TV ratings (Monumental Sports Network) up ≥ 50% year-over-year",
-    "resolution_criterion": "Publicly reported local broadcast ratings (Nielsen / Monumental Sports Network): Wizards 2026-27 average local TV households or viewers ≥ 1.50× 2025-26 average",
+    "question": "Washington Wizards 2026-27 local TV ratings (Monumental Sports Network) up \u2265 50% year-over-year",
+    "resolution_criterion": "Publicly reported local broadcast ratings (Nielsen / Monumental Sports Network): Wizards 2026-27 average local TV households or viewers \u2265 1.50\u00d7 2025-26 average",
     "chorus_probability": 0.65,
     "baseline_probability": 0.15,
     "edge": 0.5,
@@ -414,7 +414,7 @@
         "current_tv_rank_est": "Bottom-3 NBA local TV (2024-25)",
         "precedent": "Cleveland +112% post-LeBron return; OKC +80% post-Durant draft",
         "confidence_label": "DIRECTIONAL",
-        "resolution_note": "VOID RISK: If Monumental Sports Network does not publicly release 2026-27 ratings, prediction cannot be resolved — should be voided per ledger protocol"
+        "resolution_note": "VOID RISK: If Monumental Sports Network does not publicly release 2026-27 ratings, prediction cannot be resolved \u2014 should be voided per ledger protocol"
       },
       "n_personas": 0,
       "segment_means": {}
@@ -438,7 +438,7 @@
   {
     "domain": "nba_franchise_audience_composition",
     "question": "Washington Wizards measurable audience-composition shift toward Nigerian-heritage viewers in 2026-27 season via R2 Nigerian-heritage pick",
-    "resolution_criterion": "By 2027-09-01: Chorus audience-composition model OR published third-party survey (Nielsen, YouGov) documents ≥ 10 percentage-point increase in Nigerian-heritage viewership share among DC-market Wizards viewers compared to 2025-26 baseline, attributable to a Nigerian-born or first-generation Nigerian-American Wizards player drafted in 2026",
+    "resolution_criterion": "By 2027-09-01: Chorus audience-composition model OR published third-party survey (Nielsen, YouGov) documents \u2265 10 percentage-point increase in Nigerian-heritage viewership share among DC-market Wizards viewers compared to 2025-26 baseline, attributable to a Nigerian-born or first-generation Nigerian-American Wizards player drafted in 2026",
     "chorus_probability": 0.12,
     "baseline_probability": 0.05,
     "edge": 0.07,
@@ -459,15 +459,15 @@
     "model_inputs": {
       "scenario": {
         "category": "audience_composition",
-        "rationale": "Model logic per Wembanyama/Luka cases: the C-variable (diaspora density in DMA vs league-wide) must fire for audience-comp shift to be measurable. Nigerian-heritage population in DC DMA is elevated vs national average (large Nigerian-American community in MD/VA suburbs) but the C-variable DOES fire only weakly — Washington is not Houston or Atlanta where the Nigerian diaspora is large enough to move a Nielsen-class sample. Additionally: 2026 draft does not have a confirmed Nigerian or Nigerian-heritage pick in the projected lottery. Prediction is SILENT per model — marked low-P (0.12) to represent the tail scenario where a Nigerian-heritage player IS drafted to Washington AND the C-variable fires. This is a MODEL-CALIBRATION prediction, not a high-conviction forecast.",
-        "chorus_cap_verdict": "SILENT — C-variable fires weakly; Wembanyama/Luka case studies show this pattern requires C ≥ threshold",
+        "rationale": "Model logic per Wembanyama/Luka cases: the C-variable (diaspora density in DMA vs league-wide) must fire for audience-comp shift to be measurable. Nigerian-heritage population in DC DMA is elevated vs national average (large Nigerian-American community in MD/VA suburbs) but the C-variable DOES fire only weakly \u2014 Washington is not Houston or Atlanta where the Nigerian diaspora is large enough to move a Nielsen-class sample. Additionally: 2026 draft does not have a confirmed Nigerian or Nigerian-heritage pick in the projected lottery. Prediction is SILENT per model \u2014 marked low-P (0.12) to represent the tail scenario where a Nigerian-heritage player IS drafted to Washington AND the C-variable fires. This is a MODEL-CALIBRATION prediction, not a high-conviction forecast.",
+        "chorus_cap_verdict": "SILENT \u2014 C-variable fires weakly; Wembanyama/Luka case studies show this pattern requires C \u2265 threshold",
         "precedent_cases": [
-          "Wembanyama → San Antonio (SILENT — European diaspora sparse)",
-          "Luka → Dallas (PARTIAL — Slovenian/Balkan community small but concentrated)"
+          "Wembanyama \u2192 San Antonio (SILENT \u2014 European diaspora sparse)",
+          "Luka \u2192 Dallas (PARTIAL \u2014 Slovenian/Balkan community small but concentrated)"
         ],
         "confidence_label": "SPECULATIVE",
         "is_high_conviction": false,
-        "note": "DOWN-WEIGHTED per task brief — correctly flagging model-silence. P=0.12 reflects tail probability not systematic edge."
+        "note": "DOWN-WEIGHTED per task brief \u2014 correctly flagging model-silence. P=0.12 reflects tail probability not systematic edge."
       },
       "n_personas": 0,
       "segment_means": {}
