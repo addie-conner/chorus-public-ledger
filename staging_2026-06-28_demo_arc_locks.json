@@ -1,0 +1,1091 @@
+[
+  {
+    "_scaffold_note": "Demo-arc forward-lock cohort, OTS-anchored 2026-06-28. Source analysis: /Users/addieconner/chorus/sports_weather/outputs/CAP2_BROAD_MULTISIGNAL_DISCOVERY_2026-05-26.json + CAP2_MSV2_FULL_2026-05-26.md. Lock parameters: threshold = baseline_median(90d) \u00d7 1.2; resolution = Wikipedia 7-day pageview median during named event window. chorus_probability sourced from MSV2 walk-forward analysis. Provenance: upstream analysis dated 2026-05-26/27; formal OTS lock dated 2026-06-28 (this commit). RJ Luis Jr. window 2026-06-23 \u2192 2026-06-29 is partially complete at lock time.",
+    "_data_source": "CAP2_MSV2_FULL_2026-05-26 + CAP2_BROAD_MULTISIGNAL_DISCOVERY_2026-05-26",
+    "_lock_methodology": "threshold = round(baseline_median_90d \u00d7 1.2). Direction = above. Resolution = Wikipedia 7-day median during event window \u2265 threshold."
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_001",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "RJ Luis Jr. Wikipedia 7-day median exceeds 174/day during 2026 NBA Draft Week (2026-06-23 through 2026-06-29)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'RJ_Luis_Jr.' on en.wikipedia 7-day median over [2026-06-23, 2026-06-29] inclusive \u2265 174/day",
+    "chorus_probability": 0.7,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2026-06-29",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews"
+    ],
+    "model_inputs": {
+      "wiki_slug": "RJ_Luis_Jr.",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 174,
+      "window_start": "2026-06-23",
+      "window_end": "2026-06-29",
+      "event": "2026 NBA Draft Week",
+      "baseline": "145/day (90-day median per live fetch over [2026-02-25, 2026-05-26])",
+      "baseline_median_90d_views_per_day": 145,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": null
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_002",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "Bryce Eldridge Wikipedia 7-day median exceeds 187/day during MLB All-Star Week 2026 (Future Stars) (2026-07-12 through 2026-07-18)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Bryce_Eldridge' on en.wikipedia 7-day median over [2026-07-12, 2026-07-18] inclusive \u2265 187/day",
+    "chorus_probability": 0.75,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2026-07-18",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews"
+    ],
+    "model_inputs": {
+      "wiki_slug": "Bryce_Eldridge",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 187,
+      "window_start": "2026-07-12",
+      "window_end": "2026-07-18",
+      "event": "MLB All-Star Week 2026 (Future Stars)",
+      "baseline": "156/day (90-day median per live fetch over [2026-02-25, 2026-05-26])",
+      "baseline_median_90d_views_per_day": 156,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": {
+        "channels_firing": null,
+        "composite_score": null,
+        "gdelt_z": null,
+        "view_z": null,
+        "velocity_ratio": null
+      }
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_003",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "Anthony Volpe Wikipedia 7-day median exceeds 540/day during MLB All-Star Week 2026 (2026-07-12 through 2026-07-18)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Anthony_Volpe' on en.wikipedia 7-day median over [2026-07-12, 2026-07-18] inclusive \u2265 540/day",
+    "chorus_probability": 0.72,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2026-07-18",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews",
+      "gdelt_news",
+      "reddit",
+      "youtube"
+    ],
+    "model_inputs": {
+      "wiki_slug": "Anthony_Volpe",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 540,
+      "window_start": "2026-07-12",
+      "window_end": "2026-07-18",
+      "event": "MLB All-Star Week 2026",
+      "baseline": "450/day (90-day median per CAP2 scan 2026-05-26)",
+      "baseline_median_90d_views_per_day": 450.0,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": {
+        "channels_firing": 2,
+        "composite_score": 3.768,
+        "gdelt_z": 17.68,
+        "view_z": 1.89,
+        "velocity_ratio": 2.417
+      }
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_004",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "James Wood Wikipedia 7-day median exceeds 316/day during MLB All-Star Week 2026 (2026-07-12 through 2026-07-18)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'James_Wood_(baseball)' on en.wikipedia 7-day median over [2026-07-12, 2026-07-18] inclusive \u2265 316/day",
+    "chorus_probability": 0.75,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2026-07-18",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews",
+      "gdelt_news",
+      "reddit",
+      "youtube"
+    ],
+    "model_inputs": {
+      "wiki_slug": "James_Wood_(baseball)",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 316,
+      "window_start": "2026-07-12",
+      "window_end": "2026-07-18",
+      "event": "MLB All-Star Week 2026",
+      "baseline": "264/day (90-day median per CAP2 scan 2026-05-26)",
+      "baseline_median_90d_views_per_day": 263.5,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": {
+        "channels_firing": 2,
+        "composite_score": 3.118,
+        "gdelt_z": 11.18,
+        "view_z": 0.63,
+        "velocity_ratio": 1.677
+      }
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_005",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "Sal Stewart Wikipedia 7-day median exceeds 541/day during MLB All-Star Week 2026 (2026-07-12 through 2026-07-18)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Sal_Stewart' on en.wikipedia 7-day median over [2026-07-12, 2026-07-18] inclusive \u2265 541/day",
+    "chorus_probability": 0.72,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2026-07-18",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews"
+    ],
+    "model_inputs": {
+      "wiki_slug": "Sal_Stewart",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 541,
+      "window_start": "2026-07-12",
+      "window_end": "2026-07-18",
+      "event": "MLB All-Star Week 2026",
+      "baseline": "451/day (90-day median per live fetch over [2026-02-25, 2026-05-26])",
+      "baseline_median_90d_views_per_day": 451,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": {
+        "channels_firing": null,
+        "composite_score": null,
+        "gdelt_z": null,
+        "view_z": null,
+        "velocity_ratio": null
+      }
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_006",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "Kevin McGonigle Wikipedia 7-day median exceeds 1146/day during MLB All-Star Week 2026 (2026-07-12 through 2026-07-18)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Kevin_McGonigle' on en.wikipedia 7-day median over [2026-07-12, 2026-07-18] inclusive \u2265 1146/day",
+    "chorus_probability": 0.72,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2026-07-18",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews"
+    ],
+    "model_inputs": {
+      "wiki_slug": "Kevin_McGonigle",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 1146,
+      "window_start": "2026-07-12",
+      "window_end": "2026-07-18",
+      "event": "MLB All-Star Week 2026",
+      "baseline": "955/day (90-day median per CAP2 scan 2026-05-26)",
+      "baseline_median_90d_views_per_day": 955.0,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": {
+        "channels_firing": null,
+        "composite_score": null,
+        "gdelt_z": null,
+        "view_z": -0.08,
+        "velocity_ratio": 0.765
+      }
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_007",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "Sonia Citron Wikipedia 7-day median exceeds 317/day during WNBA All-Star Week 2026 (2026-07-19 through 2026-07-25)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Sonia_Citron' on en.wikipedia 7-day median over [2026-07-19, 2026-07-25] inclusive \u2265 317/day",
+    "chorus_probability": 0.78,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2026-07-25",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews"
+    ],
+    "model_inputs": {
+      "wiki_slug": "Sonia_Citron",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 317,
+      "window_start": "2026-07-19",
+      "window_end": "2026-07-25",
+      "event": "WNBA All-Star Week 2026",
+      "baseline": "264/day (90-day median per live fetch over [2026-02-25, 2026-05-26])",
+      "baseline_median_90d_views_per_day": 264,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": null
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_008",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "Kobbie Mainoo Wikipedia 7-day median exceeds 1586/day during 2026-27 Premier League opening week (2026-08-16 through 2026-08-22)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Kobbie_Mainoo' on en.wikipedia 7-day median over [2026-08-16, 2026-08-22] inclusive \u2265 1586/day",
+    "chorus_probability": 0.75,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2026-08-22",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews",
+      "gdelt_news",
+      "reddit",
+      "youtube"
+    ],
+    "model_inputs": {
+      "wiki_slug": "Kobbie_Mainoo",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 1586,
+      "window_start": "2026-08-16",
+      "window_end": "2026-08-22",
+      "event": "2026-27 Premier League opening week",
+      "baseline": "1322/day (90-day median per CAP2 scan 2026-05-26)",
+      "baseline_median_90d_views_per_day": 1321.5,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": {
+        "channels_firing": 3,
+        "composite_score": 3.824,
+        "gdelt_z": 8.24,
+        "view_z": 2.73,
+        "velocity_ratio": 2.456
+      }
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_009",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "Hezly Rivera Wikipedia 7-day median exceeds 130/day during U.S. Gymnastics Championships 2026 (2026-08-23 through 2026-08-29)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Hezly_Rivera' on en.wikipedia 7-day median over [2026-08-23, 2026-08-29] inclusive \u2265 130/day",
+    "chorus_probability": 0.73,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2026-08-29",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews"
+    ],
+    "model_inputs": {
+      "wiki_slug": "Hezly_Rivera",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 130,
+      "window_start": "2026-08-23",
+      "window_end": "2026-08-29",
+      "event": "U.S. Gymnastics Championships 2026",
+      "baseline": "108/day (90-day median per CAP2 scan 2026-05-26)",
+      "baseline_median_90d_views_per_day": 108.0,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": {
+        "channels_firing": null,
+        "composite_score": null,
+        "gdelt_z": null,
+        "view_z": 0.55,
+        "velocity_ratio": 1.306
+      }
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_010",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "Cade Klubnik Wikipedia 7-day median exceeds 221/day during NCAA football season opening week 2026 (2026-08-30 through 2026-09-05)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Cade_Klubnik' on en.wikipedia 7-day median over [2026-08-30, 2026-09-05] inclusive \u2265 221/day",
+    "chorus_probability": 0.72,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2026-09-05",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews"
+    ],
+    "model_inputs": {
+      "wiki_slug": "Cade_Klubnik",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 221,
+      "window_start": "2026-08-30",
+      "window_end": "2026-09-05",
+      "event": "NCAA football season opening week 2026",
+      "baseline": "184/day (90-day median per live fetch over [2026-02-25, 2026-05-26])",
+      "baseline_median_90d_views_per_day": 184,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": null
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_011",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "Drew Allar Wikipedia 7-day median exceeds 624/day during NCAA football season opening week 2026 (2026-08-30 through 2026-09-05)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Drew_Allar' on en.wikipedia 7-day median over [2026-08-30, 2026-09-05] inclusive \u2265 624/day",
+    "chorus_probability": 0.72,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2026-09-05",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews"
+    ],
+    "model_inputs": {
+      "wiki_slug": "Drew_Allar",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 624,
+      "window_start": "2026-08-30",
+      "window_end": "2026-09-05",
+      "event": "NCAA football season opening week 2026",
+      "baseline": "520/day (90-day median per live fetch over [2026-02-25, 2026-05-26])",
+      "baseline_median_90d_views_per_day": 520,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": null
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_012",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "Daria Kasatkina Wikipedia 7-day median exceeds 224/day during 2026 US Open women's singles (2026-08-31 through 2026-09-08)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Daria_Kasatkina' on en.wikipedia 7-day median over [2026-08-31, 2026-09-08] inclusive \u2265 224/day",
+    "chorus_probability": 0.78,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2026-09-08",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews",
+      "gdelt_news",
+      "reddit",
+      "youtube"
+    ],
+    "model_inputs": {
+      "wiki_slug": "Daria_Kasatkina",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 224,
+      "window_start": "2026-08-31",
+      "window_end": "2026-09-08",
+      "event": "2026 US Open women's singles",
+      "baseline": "187/day (90-day median per CAP2 scan 2026-05-26)",
+      "baseline_median_90d_views_per_day": 187.0,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": {
+        "channels_firing": 3,
+        "composite_score": 5.498,
+        "gdelt_z": 24.98,
+        "view_z": 2.03,
+        "velocity_ratio": 2.297
+      }
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_013",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "Kyle Harrison Wikipedia 7-day median exceeds 220/day during MLB postseason / Wild Card race 2026 (2026-09-28 through 2026-10-04)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Kyle_Harrison_(baseball)' on en.wikipedia 7-day median over [2026-09-28, 2026-10-04] inclusive \u2265 220/day",
+    "chorus_probability": 0.68,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2026-10-04",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews",
+      "gdelt_news",
+      "reddit",
+      "youtube"
+    ],
+    "model_inputs": {
+      "wiki_slug": "Kyle_Harrison_(baseball)",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 220,
+      "window_start": "2026-09-28",
+      "window_end": "2026-10-04",
+      "event": "MLB postseason / Wild Card race 2026",
+      "baseline": "183/day (90-day median per CAP2 scan 2026-05-26)",
+      "baseline_median_90d_views_per_day": 183.0,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": {
+        "channels_firing": 1,
+        "composite_score": 1.058,
+        "gdelt_z": -11.18,
+        "view_z": 0.58,
+        "velocity_ratio": 2.117
+      }
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_014",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "CJ Carr Wikipedia 7-day median exceeds 234/day during Notre Dame marquee October game 2026 (2026-10-11 through 2026-10-17)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'CJ_Carr' on en.wikipedia 7-day median over [2026-10-11, 2026-10-17] inclusive \u2265 234/day",
+    "chorus_probability": 0.73,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2026-10-17",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews",
+      "gdelt_news",
+      "reddit",
+      "youtube"
+    ],
+    "model_inputs": {
+      "wiki_slug": "CJ_Carr",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 234,
+      "window_start": "2026-10-11",
+      "window_end": "2026-10-17",
+      "event": "Notre Dame marquee October game 2026",
+      "baseline": "195/day (90-day median per CAP2 scan 2026-05-26)",
+      "baseline_median_90d_views_per_day": 195.0,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": {
+        "channels_firing": 1,
+        "composite_score": 1.125,
+        "gdelt_z": null,
+        "view_z": 1.25,
+        "velocity_ratio": 2.131
+      }
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_015",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "Stephon Castle Wikipedia 7-day median exceeds 2521/day during 2026-27 NBA opening week (2026-10-21 through 2026-10-27)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Stephon_Castle' on en.wikipedia 7-day median over [2026-10-21, 2026-10-27] inclusive \u2265 2521/day",
+    "chorus_probability": 0.72,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2026-10-27",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews",
+      "gdelt_news",
+      "reddit",
+      "youtube"
+    ],
+    "model_inputs": {
+      "wiki_slug": "Stephon_Castle",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 2521,
+      "window_start": "2026-10-21",
+      "window_end": "2026-10-27",
+      "event": "2026-27 NBA opening week",
+      "baseline": "2100/day (90-day median per CAP2 scan 2026-05-26)",
+      "baseline_median_90d_views_per_day": 2100.5,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": {
+        "channels_firing": 3,
+        "composite_score": 4.118,
+        "gdelt_z": 11.18,
+        "view_z": 2.02,
+        "velocity_ratio": 2.644
+      }
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_016",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "Sam Leavitt Wikipedia 7-day median exceeds 343/day during LSU-Alabama rivalry week 2026 (2026-11-15 through 2026-11-21)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Sam_Leavitt_(American_football)' on en.wikipedia 7-day median over [2026-11-15, 2026-11-21] inclusive \u2265 343/day",
+    "chorus_probability": 0.65,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2026-11-21",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews"
+    ],
+    "model_inputs": {
+      "wiki_slug": "Sam_Leavitt_(American_football)",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 343,
+      "window_start": "2026-11-15",
+      "window_end": "2026-11-21",
+      "event": "LSU-Alabama rivalry week 2026",
+      "baseline": "286.0/day (90-day median per live fetch [2026-02-25, 2026-05-26] using disambiguated slug Sam_Leavitt_(American_football); bare slug Sam_Leavitt is a different person)",
+      "baseline_median_90d_views_per_day": 286.0,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": {
+        "channels_firing": null,
+        "composite_score": null,
+        "gdelt_z": null,
+        "view_z": null,
+        "velocity_ratio": null
+      }
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_017",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "Jeremiah Smith Wikipedia 7-day median exceeds 778/day during Heisman ceremony week 2026 (2026-12-06 through 2026-12-12)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Jeremiah_Smith_(American_football)' on en.wikipedia 7-day median over [2026-12-06, 2026-12-12] inclusive \u2265 778/day",
+    "chorus_probability": 0.65,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2026-12-12",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews"
+    ],
+    "model_inputs": {
+      "wiki_slug": "Jeremiah_Smith_(American_football)",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 778,
+      "window_start": "2026-12-06",
+      "window_end": "2026-12-12",
+      "event": "Heisman ceremony week 2026",
+      "baseline": "648/day (90-day median per live fetch over [2026-02-25, 2026-05-26])",
+      "baseline_median_90d_views_per_day": 648,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": {
+        "channels_firing": null,
+        "composite_score": null,
+        "gdelt_z": null,
+        "view_z": null,
+        "velocity_ratio": null
+      }
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_018",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "Travis Bazzana Wikipedia 7-day median exceeds 576/day during 2027 MLB Spring Training opening week (2027-02-27 through 2027-03-05)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Travis_Bazzana' on en.wikipedia 7-day median over [2027-02-27, 2027-03-05] inclusive \u2265 576/day",
+    "chorus_probability": 0.7,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2027-03-05",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews",
+      "gdelt_news",
+      "reddit",
+      "youtube"
+    ],
+    "model_inputs": {
+      "wiki_slug": "Travis_Bazzana",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 576,
+      "window_start": "2027-02-27",
+      "window_end": "2027-03-05",
+      "event": "2027 MLB Spring Training opening week",
+      "baseline": "480/day (90-day median per CAP2 scan 2026-05-26)",
+      "baseline_median_90d_views_per_day": 480.0,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": {
+        "channels_firing": 2,
+        "composite_score": 4.111,
+        "gdelt_z": 21.11,
+        "view_z": 0.24,
+        "velocity_ratio": 2.171
+      }
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_019",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "Hannah Hidalgo Wikipedia 7-day median exceeds 530/day during NCAA Women's Final Four 2027 (2027-04-06 through 2027-04-12)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Hannah_Hidalgo' on en.wikipedia 7-day median over [2027-04-06, 2027-04-12] inclusive \u2265 530/day",
+    "chorus_probability": 0.7,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2027-04-12",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews"
+    ],
+    "model_inputs": {
+      "wiki_slug": "Hannah_Hidalgo",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 530,
+      "window_start": "2027-04-06",
+      "window_end": "2027-04-12",
+      "event": "NCAA Women's Final Four 2027",
+      "baseline": "442/day (90-day median per CAP2 scan 2026-05-26)",
+      "baseline_median_90d_views_per_day": 441.5,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": {
+        "channels_firing": null,
+        "composite_score": null,
+        "gdelt_z": null,
+        "view_z": -0.08,
+        "velocity_ratio": 0.353
+      }
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_020",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "Azzi Fudd Wikipedia 7-day median exceeds 3148/day during NCAA Women's Final Four 2027 (2027-04-06 through 2027-04-12)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Azzi_Fudd' on en.wikipedia 7-day median over [2027-04-06, 2027-04-12] inclusive \u2265 3148/day",
+    "chorus_probability": 0.65,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2027-04-12",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews"
+    ],
+    "model_inputs": {
+      "wiki_slug": "Azzi_Fudd",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 3148,
+      "window_start": "2027-04-06",
+      "window_end": "2027-04-12",
+      "event": "NCAA Women's Final Four 2027",
+      "baseline": "2624/day (90-day median per CAP2 scan 2026-05-26)",
+      "baseline_median_90d_views_per_day": 2623.5,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": {
+        "channels_firing": null,
+        "composite_score": null,
+        "gdelt_z": null,
+        "view_z": -0.01,
+        "velocity_ratio": 0.958
+      }
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_021",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "Lily Yohannes Wikipedia 7-day median exceeds 173/day during FIFA Women's World Cup 2027 (2027-07-05 through 2027-07-11)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Lily_Yohannes' on en.wikipedia 7-day median over [2027-07-05, 2027-07-11] inclusive \u2265 173/day",
+    "chorus_probability": 0.68,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2027-07-11",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews",
+      "gdelt_news",
+      "reddit",
+      "youtube"
+    ],
+    "model_inputs": {
+      "wiki_slug": "Lily_Yohannes",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 173,
+      "window_start": "2027-07-05",
+      "window_end": "2027-07-11",
+      "event": "FIFA Women's World Cup 2027",
+      "baseline": "144/day (90-day median per CAP2 scan 2026-05-26)",
+      "baseline_median_90d_views_per_day": 144.0,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": {
+        "channels_firing": 1,
+        "composite_score": 1.021,
+        "gdelt_z": null,
+        "view_z": 0.21,
+        "velocity_ratio": 1.444
+      }
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": false,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  },
+  {
+    "canonical_id": "demo_arc_2026-06-28_022",
+    "source_file": "staging_2026-06-28_demo_arc_locks.json",
+    "domain": "athlete_marketability_signal",
+    "question": "Olivia Miles Wikipedia 7-day median exceeds 395/day during WNBA All-Star Week 2026 (2026-07-19 through 2026-07-25)",
+    "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Olivia_Miles' on en.wikipedia 7-day median over [2026-07-19, 2026-07-25] inclusive \u2265 395/day",
+    "chorus_probability": 0.7,
+    "baseline_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T19:30:00+00:00",
+    "locked_at": "2026-06-28T19:30:00+00:00",
+    "resolution_date": "2026-07-25",
+    "resolved_at": null,
+    "resolution": null,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews",
+    "brier_score": null,
+    "data_sources_used": [
+      "wikipedia_en_pageviews",
+      "gdelt_news",
+      "reddit",
+      "youtube"
+    ],
+    "model_inputs": {
+      "wiki_slug": "Olivia_Miles",
+      "wiki_lang": "en",
+      "direction": "above",
+      "threshold": 395,
+      "window_start": "2026-07-19",
+      "window_end": "2026-07-25",
+      "event": "WNBA All-Star Week 2026",
+      "baseline": "329/day (90-day median per CAP2 scan 2026-05-26)",
+      "baseline_median_90d_views_per_day": 329.0,
+      "threshold_multiplier_vs_baseline": 1.2,
+      "upstream_cap2_signals": {
+        "channels_firing": 2,
+        "composite_score": 3.118,
+        "gdelt_z": 11.18,
+        "view_z": 0.09,
+        "velocity_ratio": 1.804
+      }
+    },
+    "ots_anchor": null,
+    "ots_anchored": false,
+    "schema_version": "v2",
+    "audit_flags": [
+      "no_ots_anchor"
+    ],
+    "temporal_class": "FWD",
+    "is_high_conviction": true,
+    "headline_domain": "athlete_marketability_signal",
+    "in_headline": true
+  }
+]
