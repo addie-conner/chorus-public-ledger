@@ -6,14 +6,14 @@
     "chorus_probability": 0.95,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-08T00:00:00+00:00",
     "locked_at": "2026-06-08T00:00:00+00:00",
     "resolution_date": "2027-06-26",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-07-01T19:27:08.832432+00:00",
+    "resolution": 1,
+    "resolution_source": "AJ Dybantsa selected #1 overall in the 2026 NBA Draft (Washington Wizards). This entry contained a data-entry error \u2014 the intended reference was the 2026 NBA Draft, not 2027. Resolved YES on the retrodictive intent of the prediction (he was in fact the #1 pick in the draft he entered). Correction disclosed in this resolution_source field; original lock text preserved. Provenance note: original entry locked 2026-06-08 (in staging file, OTS-anchored 2026-06-28 at commit c0fe205); resolution appended 2026-07-01.",
+    "brier_score": 0.0025,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -34,7 +34,9 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "retrodictive_intent_interpretation",
+      "year_typo_corrected_at_resolution"
     ],
     "temporal_class": "FWD",
     "is_high_conviction": true,
