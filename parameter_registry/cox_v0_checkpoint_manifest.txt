@@ -1,0 +1,7 @@
+# Chorus Cox PH model v0 — checkpoint manifest
+Model file: cox_v0.pkl
+SHA-256: 61d00fe17d2ea52f6568de0966755f62fe854668a48fd4bbf22e837a376c496b
+Training data: deals_v0_seed.jsonl
+Training data SHA-256: 351a71f9c9b284c75c02db4b7cf16f11c2a83912be7476540aa7adc786262799
+Registry SHA-256: ffdadc3ea5b8de7b56aaba649fe04d385f1aaffcda029fefff1f398c130d3976
+Generated: 2026-07-01

@@ -1,0 +1,41 @@
+{
+  "registry_version": "v1",
+  "generated_at": "2026-07-01T00:00:00Z",
+  "avi": {
+    "model_version": "avi-v2-2026-07-01",
+    "data_source": "Wikipedia REST API (public)",
+    "wikipedia_languages_default": ["en", "es", "fr", "ja", "ml"],
+    "language_weights": {"english_leader": 1.0, "non_english_leader": 1.5, "other": 0.5},
+    "velocity_window_days": 30,
+    "rolling_mean_window_days": 7,
+    "ar_lag_order": 1,
+    "forecast_horizons_days": [90, 180, 365],
+    "bootstrap_resamples": 200,
+    "bootstrap_seed": 42,
+    "avi_saturation_reference": 100,
+    "confidence_tier_thresholds": {
+      "MEASURED_min_days": 30,
+      "DIRECTIONAL_min_days": 7,
+      "INFERRED_max_days": 6
+    }
+  },
+  "survival_model": {
+    "model_version": "cox-v0-2026-07-01",
+    "model_file_sha256": "61d00fe17d2ea52f6568de0966755f62fe854668a48fd4bbf22e837a376c496b",
+    "n_training_deals": 39,
+    "ridge_penalizer": 1.0,
+    "bootstrap_resamples": 200,
+    "bootstrap_convergence": 195,
+    "training_data_sha256": "351a71f9c9b284c75c02db4b7cf16f11c2a83912be7476540aa7adc786262799",
+    "training_data_git_sha": "644b1a1d0c9c7724bb87e85f413a4008adb84683",
+    "c_index_training": 0.81,
+    "walk_forward_c_index": null,
+    "features": ["annual_value_musd", "duration_years_at_signing", "category_bucket", "category_exclusivity", "bundled_flag", "sponsor_public_company", "is_ncaa"],
+    "category_buckets": ["energy", "financial-services", "food-bev", "tech", "other"]
+  },
+  "ledger": {
+    "public_repo": "https://github.com/addie-conner/chorus-public-ledger",
+    "anchoring": "OpenTimestamps (Bitcoin)"
+  },
+  "changelog_url": "https://github.com/addie-conner/chorus-public-ledger/blob/main/parameter_registry/PARAMETER_CHANGELOG.md"
+}
