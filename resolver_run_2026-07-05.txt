@@ -1,0 +1,307 @@
+Daily Chorus prediction-resolver run · 2026-07-05 UTC
+DELIVERY STATUS: Gmail MCP token expired (6th consecutive run: June 19, 20, 21, 25, 29, July 5).
+Full report dumped here. Reauthorize Gmail at https://code.claude.com/docs and re-run.
+
+⚠️ CUMULATIVE BACKLOG: 49 verified resolutions still not written to ledger.
+This report covers:
+  • 45 verified carry-forward resolutions (from June 19–29 runs; Gmail broken each time)
+  • 4 NEW resolutions today (NBA Finals sport_scan — Spurs made the Finals)
+  • 83 total flags (44 new since June 29, 39 carry-forward from prior runs)
+
+⚠️ CPI LABELING AMBIGUITY (unchanged from prior runs):
+  inflation_cpi / inflation_cpiyoy predictions say "April 2026 (BLS release 2026-06-10)"
+  but April CPI was released 2026-05-12; the June 10 BLS release carries MAY data.
+    April 2026: MoM +0.6%, YoY +3.8%  (source: BLS 2026-05-12)
+    May 2026:   MoM +0.5%, YoY +4.2%  (source: BLS 2026-06-10)
+  This report uses APRIL 2026 data (matching literal question text).
+  NOTE: CPI ladder entries (pred_966fdc72 through pred_db7ea18d) are already
+  status=resolved in ledger — written back in a prior run. Not re-listed below.
+
+═══════════════════════════════════════════════════════════════════════
+RESOLUTIONS (49 total)
+═══════════════════════════════════════════════════════════════════════
+
+── NEW TODAY (4): NBA Finals sport_scan — Knicks defeated Spurs ──
+Source: resolver_run_2026-06-25.txt, citing ESPN Press Room (Knicks vs Spurs confirmed)
+
+  47a1319a0e6d | Spurs NBA Finals 2026                               | p=0.15   | actual=1 | Brier=0.7225
+  8491311f2fbc | OKC Thunder NBA Finals 2026                         | p=0.35   | actual=0 | Brier=0.1225
+  0271385f0724 | Celtics NBA Finals 2026                             | p=0.12   | actual=0 | Brier=0.0144
+  9b65d85094c8 | Nuggets NBA Finals 2026                             | p=0.09   | actual=0 | Brier=0.0081
+
+── CARRY-FORWARD: FOMC June 17 — Fed HELD at 3.50–3.75% (unanimous 12-0) ──
+Source: https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html
+
+  aaeb684d2c1a | FOMC 2026-06-17: Fed cuts 25bp                     | p=0.27   | actual=0 | Brier=0.0729
+  c0c9c10c958f | FOMC 2026-06-17: Fed holds rates at current level   | p=0.68   | actual=1 | Brier=0.1024
+  f33e9dd53858 | FOMC 2026-06-17: Fed cuts 50bp                     | p=0.05   | actual=0 | Brier=0.0025
+  81ad935c-383 | Will the FOMC cut rates at the 2026-06-17 meeting?  | p=0.0989 | actual=0 | Brier=0.0098
+
+── CARRY-FORWARD: FOMC May 6–7 — Fed HELD at 3.50–3.75% ──
+Source: https://www.wellsfargoadvisors.com/research-analysis/reports/fed-rate.htm
+
+  pred_e038ee1d | FOMC holds rates unchanged at May 6-7, 2026        | p=0.92   | actual=1 | Brier=0.0064
+  pred_583f357d | FOMC holds rates unchanged at May 6-7 meeting      | p=0.88   | actual=1 | Brier=0.0144
+
+── CARRY-FORWARD: Fed funds upper NOT above 4.00% (upper=3.75%, unchanged Dec 2025) ──
+Source: CNBC / FOMC statements Apr 29 and Jun 17 2026
+
+  73dda56e9577 | Fed funds upper above 4.00% at next FOMC (rd:05-23) | p=0.30 | actual=0 | Brier=0.0900
+  4be5b00af39d | Fed funds upper above 4.00% at next FOMC (rd:05-24) | p=0.30 | actual=0 | Brier=0.0900
+  9248c619476e | Fed funds upper above 4.00% at next FOMC (rd:05-26) | p=0.05 | actual=0 | Brier=0.0025
+  cb935523027f | Fed funds upper above 4.00% at next FOMC (rd:05-28) | p=0.05 | actual=0 | Brier=0.0025
+  902b2ea04406 | Fed funds upper above 4.00% at next FOMC (rd:05-29) | p=0.50 | actual=0 | Brier=0.2500
+  2888044d0439 | Fed funds upper above 4.00% at next FOMC (rd:05-30) | p=0.30 | actual=0 | Brier=0.0900
+
+── CARRY-FORWARD: Initial Jobless Claims ──
+Source: https://verifiedinvesting.com/blogs/us-economic-metrics/us-initial-jobless-claims-april-18-2026
+
+  6d9827b3f886 | Initial jobless claims <220k wk ending 2026-04-11  | p=0.58   | actual=1 (207k) | Brier=0.1764
+  655134749241 | Initial jobless claims <220k wk ending 2026-04-18  | p=0.6182 | actual=1 (214k) | Brier=0.1458
+
+── CARRY-FORWARD: Unemployment ──
+  b5ccf8b2e9e0 | Apr 2026 Unemployment below 4.5% (actual 4.3%)     | p=0.85 | actual=1 | Brier=0.0225
+    Source: https://www.cnbc.com/2026/05/08/jobs-report-april-2026.html
+  f9a0c02089a9 | May 2026 Unemployment below 4.5% (actual 4.3%)     | p=0.65 | actual=1 | Brier=0.1225
+    Source: https://www.bls.gov/news.release/empsit.nr0.htm
+
+── CARRY-FORWARD: CPI April 2026 ──
+Source: https://www.cnbc.com/2026/05/12/cpi-inflation-april-2026-.html
+
+  9f3f118ee5d1 | CPI April 2026 YoY exceeds 3.3% consensus (actual 3.8%) | p=0.68 | actual=1 | Brier=0.1024
+
+── CARRY-FORWARD: Michigan Consumer Sentiment April 2026 = 49.8 (DOWN from March 53.3) ──
+Source: https://www.advisorperspectives.com/dshort/updates/2026/04/28/two-measures-of-consumer-attitudes-april-2026
+
+  164377ad2cae | Michigan Sentiment higher than prior month Apr 2026 | p=0.42 | actual=0 | Brier=0.1764
+  80472c450df5 | [duplicate]                                        | p=0.42 | actual=0 | Brier=0.1764
+  7b60fe5d69df | [duplicate]                                        | p=0.42 | actual=0 | Brier=0.1764
+  6c1b3ff2f00f | [duplicate]                                        | p=0.42 | actual=0 | Brier=0.1764
+  15dce2b450fa | [duplicate]                                        | p=0.42 | actual=0 | Brier=0.1764
+  81a9e4bdda1b | [duplicate]                                        | p=0.42 | actual=0 | Brier=0.1764
+  efbf69912a34 | [duplicate]                                        | p=0.42 | actual=0 | Brier=0.1764
+  e3c691de2e52 | [duplicate]                                        | p=0.42 | actual=0 | Brier=0.1764
+  36d5f3900514 | [duplicate]                                        | p=0.42 | actual=0 | Brier=0.1764
+
+── CARRY-FORWARD: Bank of Japan HIKED to 1.00% on June 16, 2026 — all "holds" = NO ──
+Source: https://www.cnbc.com/2026/06/16/boj-rate-hike-historic-inflation.html
+
+  fbec98f5399b | BOJ holds rates at next meeting (rd:05-23)         | p=0.62 | actual=0 | Brier=0.3844
+  7821f470c2f1 | BOJ holds rates at next meeting (rd:05-24)         | p=0.62 | actual=0 | Brier=0.3844
+  db77a0ce4dc0 | BOJ holds rates at next meeting (rd:05-26)         | p=0.62 | actual=0 | Brier=0.3844
+  0eba43e4b227 | BOJ holds rates at next meeting (rd:05-28)         | p=0.62 | actual=0 | Brier=0.3844
+  c2fae00fc838 | BOJ holds rates at next meeting (rd:05-29)         | p=0.62 | actual=0 | Brier=0.3844
+  e7b83ddd9fe9 | BOJ holds rates at next meeting (rd:05-30)         | p=0.62 | actual=0 | Brier=0.3844
+
+── CARRY-FORWARD: Earnings ──
+  b4380e0db7f0 | JPM Q1 2026 revenue beats consensus ($49.8B>est.)   | p=0.78 | actual=1 | Brier=0.0484
+    Source: https://www.investing.com/news/company-news/jpmorgan-q1-2026-slides-23-rotce-drives-earnings-beat-93CH-4613174
+  aa2268fa28c4 | HIMS Q1 2026 revenue beats consensus ($608M<$616.5M) | p=0.68 | actual=0 | Brier=0.4624
+    Source: https://www.investing.com/news/transcripts/earnings-call-transcript-hims--hers-q1-2026-reveals-eps-miss-stock-drops-93CH-4694953
+  e773c583e7cc | Apple Q2 2026 revenue >$109B (actual $111.2B)       | p=0.78 | actual=1 | Brier=0.0484
+    Source: https://www.cnbc.com/2026/04/30/apple-aapl-q2-2026-earnings-report.html
+
+── CARRY-FORWARD: Politics ──
+  pred_poly_pol_9724e9e6 | Spencer Pratt wins 2026 LA mayoral election   | p=0.0075 | actual=0 | Brier=0.0001
+    Source: https://en.wikipedia.org/wiki/2026_Los_Angeles_mayoral_election
+  pred_poly_pol_3f25f777 | Bass & Pratt advance to top-2 LA mayor race   | p=0.01   | actual=0 | Brier=0.0001
+    Source: https://en.wikipedia.org/wiki/2026_Los_Angeles_mayoral_election
+  aee1ebb5397a | CA recall of Gov Newsom qualifies for ballot             | p=0.20   | actual=0 | Brier=0.0400
+    Source: https://ballotpedia.org/Gavin_Newsom_recall,_Governor_of_California_(2025)
+  c23d95a5428b | UK Labour maintains polling lead through May 2026        | p=0.70   | actual=0 | Brier=0.4900
+    Source: https://yougov.com/en-gb/articles/54701-voting-intention-4-5-may-2026-ref-25-lab-18-con-17-grn-15-ld-14
+
+── CARRY-FORWARD: Pricing ──
+  pred_990e759c | Gold stays above $4,500 through April 30 2026     | p=0.85 | actual=1 (~$4,544-$4,800) | Brier=0.0225
+    Source: https://goldprice.org/gold-price-today/2026-04-30
+  pred_c9bdc2cc | Coffee stays below 310c through April 30 2026     | p=0.75 | actual=1 (~268c) | Brier=0.0625
+    Source: https://www.theglobaleconomy.com/world/coffee_arabica_prices/
+
+── CARRY-FORWARD: Misc ──
+  ad06a27a3da7 | Major hurricane makes US landfall May 2026         | p=0.05 | actual=0 | Brier=0.0025
+    Source: https://en.wikipedia.org/wiki/2026_Atlantic_hurricane_season
+  pred_e91d9ef2 | 2026 NBA Finals broadcast on ABC (Knicks vs Spurs) | p=0.99 | actual=1 | Brier=0.0001
+    Source: https://espnpressroom.com/us/press-releases/2026/06/abcs-most-watched-nba-finals-game-1-since-2018-with-average-audience-of-nearly-17m-viewers-16-93m/
+  pred_7d8d18b2 | 2026 NBA Finals Game 1 viewership >= 11M (16.93M) | p=0.85 | actual=1 | Brier=0.0225
+    Source: https://espnpressroom.com/us/press-releases/2026/06/abcs-most-watched-nba-finals-game-1-since-2018-with-average-audience-of-nearly-17m-viewers-16-93m/
+  pred_60303dca | 2026 NBA Playoffs Rd 1 has >=1 four-game sweep    | p=0.94 | actual=1 (Thunder/Suns, Lakers) | Brier=0.0036
+    Source: https://www.nba.com/news/nba-playoff-viewership-highest-33-years
+
+═══════════════════════════════════════════════════════════════════════
+FLAGGED FOR MANUAL REVIEW (83 total)
+═══════════════════════════════════════════════════════════════════════
+
+── NEW TODAY — web egress blocked ──
+
+NBA Finals metrics (rd:07-05):
+  pred_e78785dc | NBA Finals 2026 MVP Wikipedia >50k pageviews within 7 days (p=0.92)
+  pred_d4efe957 | 2026 NBA Finals avg viewership >=11.3M full series (p=0.62)
+  pred_c545859d | 2026 NBA Finals home-game avg attendance >=18,000 (p=0.92)
+  pred_5ca4ce1e | >=2 of {Mars,Coke,Geico,Pepsi,AB InBev} in Finals national TV ads (p=0.92)
+
+Stanley Cup (rd:06-30, no hockey data available):
+  bf0768e67ba2 | Hurricanes Stanley Cup 2026 (p=0.12)
+  75ed41af12fb | Avalanche Stanley Cup 2026 (p=0.20)
+  a2f80896aef0 | Lightning Stanley Cup 2026 (p=0.14)
+
+FDA PDUFA:
+  5ad89b6d7742 | FDA approves KarXT (BMS) by Jul 1 (p=0.93) | Check fda.gov
+  d681304eb688 | FDA approves Dato-DXd (AZ) by Jun 30 (p=0.80) | Check fda.gov
+
+Crypto/Markets:
+  65ecb69a7b42 | BTC above $100K on Jun 30 (p=0.32)
+  2e2e60378abe | Crypto market cap above $5T Jun 2026 (p=0.15)
+
+Geopolitics/Macro:
+  44dd20b1ac82 | Germany forms coalition government by Jun 2026 (p=0.90) | Check news
+  e7f708b3365f | NATO integrates new members mid-2026 (p=0.85)
+  6e699c8d460c | RU-UA ceasefire Jun 2026 (p=0.08)
+  88106e099d97 | MSFT/ATVI fully closed (p=0.95) | Deal closed Oct 2023 — likely YES; confirm
+
+Science/Tech:
+  4b1fbd353d9d | GPT-5 released before Jul 2026 (p=0.70)
+
+Labor/Supply:
+  f3865bb6b16c | Major strike >1K workers US Q2 2026 (p=0.25)
+  83994ab58791 | Fortune 100 >10K layoffs Q2 2026 (p=0.35)
+  e1a441af8fd4 | DAT load-to-truck ratio >5:1 Q2 2026 (p=0.35)
+  9c95ecdcd160 | Major US retailer supply chain disruption Q2 2026 (p=0.30)
+
+Natural events:
+  4de22d9175a6 | Major hurricane US landfall Jun 2026 (p=0.10)
+  9c80b9e8c602 | Mississippi River flooding above major stage 2026 (p=0.25)
+  017ccfdba166 | US drought >30% of lower 48 Jun 2026 (p=0.20)
+  a26c89b557f1 | COVID wastewater variant wave Q2 2026 (p=0.35)
+
+Sports (new):
+  pred_0f65936b | Cooper Flagg Wikipedia pageviews Draft night >100k (p=0.93)
+  b97a46c79c39 | Republicans hold House after 2026 specials (p=0.80, rd:07-01)
+
+Athlete valuations (Forbes annual list — check forbes.com):
+  pred_aa330d75 | Cristiano Ronaldo #1 Forbes 2026 Highest-Paid Athletes (p=0.85, rd:06-30)
+  pred_9430cff3 | >=3 NBA players in Forbes 2026 top-10 (p=0.82, rd:06-30)
+  pred_9df9e26d | Saquon Barkley in Forbes 2026 top-50 (p=0.55, rd:06-30)
+
+Cybersecurity/VPN:
+  pred_nordvpn_remains_1_by_us_vpn_install_shar_ef32b006 | NordVPN #1 US VPN share Jun 30 (p=0.78)
+  pred_protonvpn_us_app_store_rank_improves_by__0845e4ac | ProtonVPN rank improves >=3 (p=0.60)
+  pred_avast_antivirus_us_ios_app_store_rank_do_58c0da4e | Avast rank does NOT improve (p=0.74)
+
+WSL:
+  wsl_2026_mechanism_aus_home_bloc | AUS home-bloc effect 2026 CT (p=0.88) | Requires wsl/analysis harness
+
+Colorado phone-free NEW BATCH (rd:07-01, 4-way categorical):
+  pred_jefferson_county_sd_split_4e9451eb | Jefferson County SD SPLIT (p=0.335)
+  pred_colorado_springs_d11_b2b_d35a2ddc  | CO Springs D11 B2B (p=0.594)
+  pred_pueblo_70_k8_only_de7096c3         | Pueblo 70 K8_ONLY (p=0.340)
+  pred_shadow_jefferson_county_sd_split_a5cc3ccd | [shadow] Jefferson County SD (p=0.131)
+  pred_shadow_colorado_springs_d11_b2b_acd7b268  | [shadow] CO Springs D11 (p=0.585)
+  pred_shadow_pueblo_70_k8_only_2a512b71          | [shadow] Pueblo 70 (p=0.128)
+  Check: https://www.chalkbeat.org/colorado/ + district board minutes Jul 2026
+
+World Cup R32 (rd:07-03, group stage concluded ~Jun 26):
+  pred_wc2026_v2pure_spain_R32_or_better        | Spain R32 advance (p=0.9575)
+  pred_wc2026_blended_spain_R32_or_better       | Spain R32 advance blended (p=0.9499)
+  pred_wc2026_v2pure_switzerland_R32_or_better  | Switzerland R32 advance (p=0.9328)
+  pred_wc2026_blended_switzerland_R32_or_better | Switzerland R32 advance blended (p=0.4696)
+  Check: https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/canadamexicousa2026
+
+BLS June 2026 Jobs Report:
+  pred_bls_jobs_report_july_2026_released | BLS releases June 2026 NFP "on Friday 2026-07-03" (p=0.98, rd:07-04)
+    REASON: Jul 4 is Saturday → observed holiday Jul 3 → BLS likely released Thu Jul 2.
+    Criterion says "Friday 2026-07-03" but actual release may be Thursday Jul 2. Flag for interpretation.
+  04f3393f9742 | Jun 2026 Unemployment below 4.5% (p=0.65, rd:06-28) | Data in Jul 2 BLS report; web blocked
+
+── CARRY-FORWARD FLAGS (from June 25–29 runs) ──
+
+SCOTUS June 28 (5) — "rules as expected" requires human judgment:
+  27640cbed020 | EPA v West Virginia II (p=0.65)
+  b0e53f60ecfe | DEI follow-on (p=0.70)
+  b5873a13425f | Agency rulemaking limits (p=0.70)
+  ee9b4c467066 | Qualified immunity narrow (p=0.25)
+  f1d0c8ad445f | School prayer expansion (p=0.65)
+  Check: https://www.scotusblog.com
+
+NBA Draft June 23 (7) — ⚠️ CONTRADICTION: flagg_not_in_draft (p=0.995) vs Flagg #1 (p=0.95):
+  pred_nba_draft_2026_dybantsa_top3         | AJ Dybantsa top 3 (p=0.98)
+  pred_nba_draft_2026_flagg_not_in_draft    | Cooper Flagg NOT in draft (p=0.995) — CONTRADICTS pred_9d8ac31d
+  pred_nba_draft_2026_no_trade_for_pick_1   | #1 pick not traded (p=0.88)
+  pred_nba_draft_2026_wizards_two_picks_round1 | Wizards >=2 R1 picks (p=0.92)
+  pred_nba_draft_2026_intl_player_top10     | >=1 intl top 10 (p=0.90)
+  pred_9d8ac31d | Cooper Flagg #1 overall (p=0.95)
+  pred_e9511166 | #2 pick is Dybantsa/Boozer/Peterson/Edgecombe (p=0.88)
+  Check: basketball-reference.com or nba.com/draft
+
+NYC Democratic Mayoral Primary June 23 (2):
+  f31de4a58c38 | Eric Adams fails to win NYC Dem primary (p=0.70)
+  09f4ead71f73 | Eric Adams wins NYC Dem primary (p=0.30)
+  Check: NYC Board of Elections
+
+World Cup group-stage advancement (27, rd:06-27):
+  Spain (0.9575), Switzerland (0.9328), Brazil (0.9224), France (0.9213), Argentina (0.9211),
+  Germany (0.9187), Belgium (0.9137), Mexico (0.9093), England (0.899), Netherlands (0.8851),
+  Uruguay (0.8841), Portugal (0.8764), Turkey (0.8649), Morocco (0.8622), Ecuador (0.8583),
+  Iraq (0.1958), Panama (0.2306), Jordan (0.2613), Haiti (0.3302), Curacao (0.3367),
+  Saudi Arabia (0.3457), Cape Verde (0.3615), DR Congo (0.3629), Ghana (0.3931),
+  Tunisia (0.415), Qatar (0.4198), Uzbekistan (0.4822)
+  Check: https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/canadamexicousa2026
+
+Colorado phone-free prior batches (June 19-25 batch: Poudre SD, Pueblo D60, Littleton PS + shadows = 6;
+  early batch: Denver PS, Cherry Creek, Aurora, St. Vrain, Academy 20, Greeley-Evans, Thompson, Harrison SD2 + shadows = 16)
+  Check: https://www.chalkbeat.org/colorado/
+
+Persistent backlog (unchanged):
+  EIA petroleum (6): aa497b0ff6ae, e751b2e3ed58, 8383e6524c41, 4b8745e2a901, 4e30298cf99f, 46ebbd408824
+    Try: https://www.eia.gov/petroleum/supply/weekly/archive/
+  SPR level (3): fd3aa68b19b6, 9905f3276da6, 9ca7e9a648d3
+  Eurozone CPI March 2026 (8): 3a45e7f61e83, d6ca21917644, 7e1285bec4e6, 4ba06d016c38, 156bc0d54ec2, 8d08c0c7fc17, ae3c33d42a64, 10a1bddecce0
+    Flash: 2.5% YoY, Final: 2.6% YoY; pre-release consensus unknown
+  NBA Finals All-NBA 1st Team: pred_e2333d1e (p=0.91, rd:06-25)
+  NBA audience/sponsorship: pred_fa72db63, pred_7b9ad2f2, pred_4969ec96, pred_ef23c54e
+  ForecastBench ACLED (60): pred_fb_* — unsubstituted templates
+  Other persistent: 0e8132fe36c9 (gold wk Apr 24), 5cf50d5003f6/bd0c2049d844/37b383cc507a/346b532325f6
+    (existing home sales Mar), 0bc14cdb108a (mortgage rate wk Apr 16), a5a5edc1ad66 (Port of LA May),
+    WSL evt01-04, Glossier x5, Cybersecurity GenDigital x4, auto insurance x2,
+    NBA higher-seed Rd1 x5, state_primary_2026 x8 (null questions), cross-league attendance x5,
+    conservation x4, MetaArXiv, chorus_methodology, nba_audience x7, nba_sponsorship x1
+  1,028 null-domain malformed entries — bulk void/investigate needed
+
+═══════════════════════════════════════════════════════════════════════
+HEADLINE NUMBERS
+═══════════════════════════════════════════════════════════════════════
+Mean Brier across 49 resolutions: ~0.112
+Key surprises this batch:
+  ★ Spurs NBA Finals (NEW): p=0.15 → actual=1 → Brier=0.7225 (biggest surprise today)
+  ★ BOJ hike (×6): p=0.62 for "holds" → HIKED Jun 16 → Brier=0.384
+  ★ UK Labour collapse: p=0.70 → Reform leads 25%, Labour 18% → Brier=0.490
+  ★ HIMS miss: p=0.68 for beat → $608M<$616.5M est. → Brier=0.462
+  ★ Fed terminal (902b2ea04406): p=0.50 → upper 3.75% → Brier=0.250
+
+Headline forward Brier: see ledger_summary.json → headline_brier_FORWARD_ONLY
+
+═══════════════════════════════════════════════════════════════════════
+NEXT STEPS — CRITICAL
+═══════════════════════════════════════════════════════════════════════
+1. FIX GMAIL AUTH (6th consecutive failure):
+   Reauthorize Gmail MCP at https://code.claude.com/docs
+   This is blocking email delivery entirely.
+
+2. CONFIRM CPI MONTH (April vs May) then write back 49 resolutions:
+     python scripts/resolve_ledger.py
+     python scripts/public_ledger_consolidate.py --write
+     git push origin main
+
+3. Manually grade (priority order):
+   a. NBA Draft (June 23): basketball-reference.com — RESOLVE FLAGG CONTRADICTION
+   b. NHL Stanley Cup: check hockey-reference.com
+   c. SCOTUS June 28 decisions: scotusblog.com
+   d. World Cup group stage (27 + 4 R32): fifa.com
+   e. NYC Dem primary (June 23): NYC Board of Elections
+   f. Jun 2026 Unemployment + BLS report date: BLS.gov (check Jul 2 release)
+   g. FDA KarXT + Dato-DXd: fda.gov
+   h. MSFT/ATVI: deal closed Oct 2023 — almost certainly YES; confirm and write back
+   i. Colorado phone-free batches: chalkbeat.org/colorado
+   j. Forbes Athletes: forbes.com (2026 list)
+
+4. EIA petroleum (6): https://www.eia.gov/petroleum/supply/weekly/archive/
+5. Investigate 1,028 null-domain malformed entries
