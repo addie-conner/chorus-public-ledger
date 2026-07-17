@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_wc2026_v2pure_klement_top5_book_fav_wins",
+  "domain": "sports_worldcup_2026",
+  "locked_at": "2026-06-14T20:05:06.029632+00:00",
+  "predicted_prob": 0.4582,
+  "question": "A top-5 book favorite (Spain, France, Portugal, England, Argentina) wins 2026 WC",
+  "resolution_criterion": "One of {Spain, France, Portugal, England, Argentina} wins the 2026 FIFA World Cup",
+  "resolution_date": "2026-07-19T23:59:00+00:00",
+  "sha256": "8817690b81ac7fcc74ba6af28c90855279d44de9bacb8bb93989bca61876662d"
+}

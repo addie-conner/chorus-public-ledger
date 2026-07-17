@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_wc2026_blended_switzerland_R32_or_better",
+  "domain": "sports_worldcup_2026",
+  "locked_at": "2026-06-14T20:05:06.029632+00:00",
+  "predicted_prob": 0.4696,
+  "question": "Switzerland R32 advance",
+  "resolution_criterion": "Switzerland advances to the Round of 32 (top 2 from group OR best-8 3rd-place finisher)",
+  "resolution_date": "2026-07-03T23:59:00+00:00",
+  "sha256": "fc6a195184866e74ab5938fa199eea43be9e634312d9821fea3c6509c524b02f"
+}

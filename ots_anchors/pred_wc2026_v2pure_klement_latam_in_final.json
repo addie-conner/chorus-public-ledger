@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_wc2026_v2pure_klement_latam_in_final",
+  "domain": "sports_worldcup_2026",
+  "locked_at": "2026-06-14T20:05:06.029632+00:00",
+  "predicted_prob": 0.511,
+  "question": "A LatAm team (BRA/ARG/MEX/URU/COL/ECU) reaches the final",
+  "resolution_criterion": "At least one of {Brazil, Argentina, Mexico, Uruguay, Colombia, Ecuador} reaches the 2026 FIFA World Cup final",
+  "resolution_date": "2026-07-19T23:59:00+00:00",
+  "sha256": "69a54fc01d41bf0e19f33f4662d553125a79b7fca549fa2a2cbe54377b88bf07"
+}

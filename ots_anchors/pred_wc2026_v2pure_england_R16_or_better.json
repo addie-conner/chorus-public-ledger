@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_wc2026_v2pure_england_R16_or_better",
+  "domain": "sports_worldcup_2026",
+  "locked_at": "2026-06-14T20:05:06.029632+00:00",
+  "predicted_prob": 0.605,
+  "question": "England reaches R16",
+  "resolution_criterion": "England advances to the Round of 16",
+  "resolution_date": "2026-07-07T23:59:00+00:00",
+  "sha256": "cb06cbd8e5d0b89514eed951c10e186f60bda6ed9115d2169725b61f0f7c3d38"
+}

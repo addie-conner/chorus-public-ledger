@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_wc2026_blended_spain_QF_or_better",
+  "domain": "sports_worldcup_2026",
+  "locked_at": "2026-06-14T20:05:06.029632+00:00",
+  "predicted_prob": 0.5328,
+  "question": "Spain reaches QF",
+  "resolution_criterion": "Spain reaches the quarterfinals",
+  "resolution_date": "2026-07-11T23:59:00+00:00",
+  "sha256": "3abb5c7ee68a5adc7ced1a5120d60e87af1715169fc1a8ed0f27fa5724fbb9ed"
+}

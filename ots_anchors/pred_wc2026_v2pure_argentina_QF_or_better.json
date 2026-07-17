@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_wc2026_v2pure_argentina_QF_or_better",
+  "domain": "sports_worldcup_2026",
+  "locked_at": "2026-06-14T20:05:06.029632+00:00",
+  "predicted_prob": 0.4436,
+  "question": "Argentina reaches QF",
+  "resolution_criterion": "Argentina reaches the quarterfinals",
+  "resolution_date": "2026-07-11T23:59:00+00:00",
+  "sha256": "3e2408663dd45056502c1fecc0cc97902f342e6907b355dd8c175f79f3641b2f"
+}

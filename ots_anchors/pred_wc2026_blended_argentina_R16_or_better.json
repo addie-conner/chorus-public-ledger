@@ -1,0 +1,10 @@
+{
+  "canonical_id": "pred_wc2026_blended_argentina_R16_or_better",
+  "domain": "sports_worldcup_2026",
+  "locked_at": "2026-06-14T20:05:06.029632+00:00",
+  "predicted_prob": 0.5107,
+  "question": "Argentina reaches R16",
+  "resolution_criterion": "Argentina advances to the Round of 16",
+  "resolution_date": "2026-07-07T23:59:00+00:00",
+  "sha256": "c1a5a34b19da911e07625fa4536febc276ad26711664944bb0254a12da62b311"
+}
