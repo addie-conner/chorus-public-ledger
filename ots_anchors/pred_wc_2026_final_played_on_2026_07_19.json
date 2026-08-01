@@ -1,10 +1,16 @@
 {
+  "baseline_probability": null,
+  "brier_score": 0.0001,
   "canonical_id": "pred_wc_2026_final_played_on_2026_07_19",
+  "chorus_probability": 0.99,
   "domain": "sports_worldcup_2026",
+  "in_headline": null,
   "locked_at": "2026-06-16T20:00:00+00:00",
-  "predicted_prob": 0.99,
+  "original_sha": "b464b82369f7fae6e99039b84a9dea5bb062793e57897346a3df9c6178fc73a8",
   "question": "The 2026 FIFA World Cup Final is played on 2026-07-19",
+  "resolution": 1.0,
   "resolution_criterion": "FIFA holds the 2026 World Cup Final match on 2026-07-19, with the match completing and a champion crowned that day. Postponement or cancellation resolves NO.",
   "resolution_date": "2026-07-20T00:00:00+00:00",
-  "sha256": "b464b82369f7fae6e99039b84a9dea5bb062793e57897346a3df9c6178fc73a8"
+  "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+  "temporal_class": "FWD"
 }

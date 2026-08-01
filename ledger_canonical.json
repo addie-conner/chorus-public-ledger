@@ -136,16 +136,16 @@
     "chorus_probability": 0.75,
     "baseline_probability": 0.535,
     "edge": 0.215,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-03-29T15:25:18.935406",
     "locked_at": "2026-03-29T15:25:18.935406",
     "resolution_date": "2026-07-31T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:38:27.681600+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://apnews.com/hub/donald-trump",
+    "brier_score": 0.0625,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.75,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
@@ -153,7 +153,9 @@
     "schema_version": "v1",
     "audit_flags": [],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Trump remains the 47th President of the United States as of 2026-08-01. No removal, resignation, or death event occurred before or on July 31 2026. Verified via AP News White House coverage and BBC US politics.",
+    "criterion_note": "Criterion: 'Trump still president on July 31 2026' \u2014 YES (actual=1); Brier=(0.75-1)^2=0.0625"
   },
   {
     "canonical_id": "65ecb69a7b42",
@@ -5956,16 +5958,16 @@
     "chorus_probability": 0.27,
     "baseline_probability": 0.3,
     "edge": -0.03,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-03-29T15:48:14.409026",
     "locked_at": "2026-03-29T15:48:14.409026",
     "resolution_date": "2026-06-17T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:38:27.681600+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html",
+    "brier_score": 0.0729,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.7084,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
@@ -5976,7 +5978,9 @@
       "event_validation_passed"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "FOMC June 17 2026: Fed held rates at 3.50-3.75% (unanimous 12-0). No 25bp cut.",
+    "criterion_note": "Criterion: 'FOMC 2026-06-17: Fed cuts 25bp' \u2014 Fed HELD, not cut -> actual=0"
   },
   {
     "canonical_id": "57a72e960fc7",
@@ -6019,16 +6023,16 @@
     "chorus_probability": 0.68,
     "baseline_probability": 0.65,
     "edge": 0.03,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-03-29T15:48:14.404378",
     "locked_at": "2026-03-29T15:48:14.404378",
     "resolution_date": "2026-06-17T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:38:27.681600+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html",
+    "brier_score": 0.1024,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.5904,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
@@ -6039,7 +6043,9 @@
       "event_validation_passed"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "FOMC June 17 2026: Fed held rates at 3.50-3.75% (unanimous 12-0). Rate unchanged.",
+    "criterion_note": "Criterion: 'FOMC 2026-06-17: Fed holds rates at current level' \u2014 Fed HELD -> actual=1"
   },
   {
     "canonical_id": "f4dd134d5675",
@@ -7897,16 +7903,16 @@
     "chorus_probability": 0.05,
     "baseline_probability": 0.05,
     "edge": 0.0,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-03-29T15:48:14.431247",
     "locked_at": "2026-03-29T15:48:14.431247",
     "resolution_date": "2026-06-17T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:38:27.681600+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html",
+    "brier_score": 0.0025,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.99,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
@@ -7917,7 +7923,9 @@
       "event_validation_passed"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "FOMC June 17 2026: Fed held rates at 3.50-3.75% (unanimous 12-0). No 50bp cut.",
+    "criterion_note": "Criterion: 'FOMC 2026-06-17: Fed cuts 50bp' \u2014 Fed HELD, not cut -> actual=0"
   },
   {
     "canonical_id": "f12c26f5dfb2",
@@ -11114,16 +11122,16 @@
     "chorus_probability": 0.3,
     "baseline_probability": 0.45,
     "edge": 0.15,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-11T14:51:26.158607",
     "locked_at": "2026-04-11T14:51:26.158607",
     "resolution_date": "2026-05-23T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:38:27.681600+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.cnbc.com/2026/04/29/fed-interest-rate-decision-april-2026.html",
+    "brier_score": 0.09,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.64,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
@@ -11134,7 +11142,9 @@
       "event_validation_passed"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Fed held at 3.50-3.75% at Apr 29 and Jun 17 2026 meetings. Upper bound never exceeded 4.00%.",
+    "criterion_note": "Fed funds upper = 3.75% (held Apr 29 + Jun 17 2026); criterion='above 4.00%' -> actual=0"
   },
   {
     "canonical_id": "7b60fe5d69df",
@@ -11180,16 +11190,16 @@
     "chorus_probability": 0.62,
     "baseline_probability": 0.5,
     "edge": 0.12,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-11T14:55:20.587376",
     "locked_at": "2026-04-11T14:55:20.587376",
     "resolution_date": "2026-05-23T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:38:27.681600+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.cnbc.com/2026/06/16/boj-rate-hike-historic-inflation.html",
+    "brier_score": 0.3844,
+    "baseline_brier": 0.25,
+    "brier_skill_score": -0.5376,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
@@ -11199,7 +11209,9 @@
       "resolution_overdue"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "BOJ raised rates to 1.00% on June 16, 2026 \u2014 did NOT hold. All 'holds at next meeting' = NO.",
+    "criterion_note": "BOJ hiked to 1.00% June 16, 2026; criterion='holds at next meeting'; BOJ did NOT hold -> actual=0"
   },
   {
     "canonical_id": "3a45e7f61e83",
@@ -11370,16 +11382,16 @@
     "chorus_probability": 0.3,
     "baseline_probability": 0.45,
     "edge": 0.15,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-12T06:11:54.447798",
     "locked_at": "2026-04-12T06:11:54.447798",
     "resolution_date": "2026-05-24T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:38:27.681600+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.cnbc.com/2026/04/29/fed-interest-rate-decision-april-2026.html",
+    "brier_score": 0.09,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.64,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
@@ -11391,7 +11403,9 @@
       "event_validation_passed"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Fed held at 3.50-3.75% at Apr 29 and Jun 17 2026 meetings. Upper bound never exceeded 4.00%.",
+    "criterion_note": "Fed funds upper = 3.75% (held Apr 29 + Jun 17 2026); criterion='above 4.00%' -> actual=0"
   },
   {
     "canonical_id": "7821f470c2f1",
@@ -11404,16 +11418,16 @@
     "chorus_probability": 0.62,
     "baseline_probability": 0.5,
     "edge": 0.12,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-12T06:11:55.413712",
     "locked_at": "2026-04-12T06:11:55.413712",
     "resolution_date": "2026-05-24T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:38:27.681600+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.cnbc.com/2026/06/16/boj-rate-hike-historic-inflation.html",
+    "brier_score": 0.3844,
+    "baseline_brier": 0.25,
+    "brier_skill_score": -0.5376,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
@@ -11424,7 +11438,9 @@
       "resolution_overdue"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "BOJ raised rates to 1.00% on June 16, 2026 \u2014 did NOT hold. All 'holds at next meeting' = NO.",
+    "criterion_note": "BOJ hiked to 1.00% June 16, 2026; criterion='holds at next meeting'; BOJ did NOT hold -> actual=0"
   },
   {
     "canonical_id": "d6ca21917644",
@@ -11470,16 +11486,16 @@
     "chorus_probability": 0.63,
     "baseline_probability": 0.55,
     "edge": 0.08,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-12T06:11:55.758940",
     "locked_at": "2026-04-12T06:11:55.758940",
     "resolution_date": "2026-04-14T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_NBA_playoffs",
+    "brier_score": 0.1369,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.4524,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
@@ -11489,7 +11505,8 @@
       "resolution_overdue"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "2026 NBA playoffs R1: higher seeds swept (Thunder 4-0 Suns; Lakers swept; multiple 4-0 series). Higher seed won the game on/around Apr 14."
   },
   {
     "canonical_id": "15dce2b450fa",
@@ -11535,16 +11552,16 @@
     "chorus_probability": 0.05,
     "baseline_probability": 0.45,
     "edge": 0.4,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-14T06:30:11.329901",
     "locked_at": "2026-04-14T06:30:11.329901",
     "resolution_date": "2026-05-26T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:38:27.681600+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.cnbc.com/2026/04/29/fed-interest-rate-decision-april-2026.html",
+    "brier_score": 0.0025,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.99,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
@@ -11556,7 +11573,9 @@
       "event_validation_passed"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Fed held at 3.50-3.75% at Apr 29 and Jun 17 2026 meetings. Upper bound never exceeded 4.00%.",
+    "criterion_note": "Fed funds upper = 3.75% (held Apr 29 + Jun 17 2026); criterion='above 4.00%' -> actual=0"
   },
   {
     "canonical_id": "db77a0ce4dc0",
@@ -11569,16 +11588,16 @@
     "chorus_probability": 0.62,
     "baseline_probability": 0.5,
     "edge": 0.12,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-14T06:30:19.443660",
     "locked_at": "2026-04-14T06:30:19.443660",
     "resolution_date": "2026-05-26T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:38:27.681600+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.cnbc.com/2026/06/16/boj-rate-hike-historic-inflation.html",
+    "brier_score": 0.3844,
+    "baseline_brier": 0.25,
+    "brier_skill_score": -0.5376,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
@@ -11589,7 +11608,9 @@
       "resolution_overdue"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "BOJ raised rates to 1.00% on June 16, 2026 \u2014 did NOT hold. All 'holds at next meeting' = NO.",
+    "criterion_note": "BOJ hiked to 1.00% June 16, 2026; criterion='holds at next meeting'; BOJ did NOT hold -> actual=0"
   },
   {
     "canonical_id": "7e1285bec4e6",
@@ -11635,16 +11656,16 @@
     "chorus_probability": 0.63,
     "baseline_probability": 0.55,
     "edge": 0.08,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-14T06:30:27.323713",
     "locked_at": "2026-04-14T06:30:27.323713",
     "resolution_date": "2026-04-16T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_NBA_playoffs",
+    "brier_score": 0.1369,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.4524,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
@@ -11655,7 +11676,8 @@
       "resolution_overdue"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "2026 NBA playoffs R1: Thunder swept Suns 4-0; Knicks series on track. Higher seed won the game on/around Apr 16."
   },
   {
     "canonical_id": "81a9e4bdda1b",
@@ -11898,16 +11920,16 @@
     "chorus_probability": 0.05,
     "baseline_probability": 0.45,
     "edge": 0.4,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-16T06:22:00.855835",
     "locked_at": "2026-04-16T06:22:00.855835",
     "resolution_date": "2026-05-28T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:38:27.681600+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.cnbc.com/2026/04/29/fed-interest-rate-decision-april-2026.html",
+    "brier_score": 0.0025,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.99,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
@@ -11919,7 +11941,9 @@
       "event_validation_passed"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Fed held at 3.50-3.75% at Apr 29 and Jun 17 2026 meetings. Upper bound never exceeded 4.00%.",
+    "criterion_note": "Fed funds upper = 3.75% (held Apr 29 + Jun 17 2026); criterion='above 4.00%' -> actual=0"
   },
   {
     "canonical_id": "0eba43e4b227",
@@ -11932,16 +11956,16 @@
     "chorus_probability": 0.62,
     "baseline_probability": 0.5,
     "edge": 0.12,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-16T06:22:09.324602",
     "locked_at": "2026-04-16T06:22:09.324602",
     "resolution_date": "2026-05-28T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:38:27.681600+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.cnbc.com/2026/06/16/boj-rate-hike-historic-inflation.html",
+    "brier_score": 0.3844,
+    "baseline_brier": 0.25,
+    "brier_skill_score": -0.5376,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
@@ -11952,7 +11976,9 @@
       "resolution_overdue"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "BOJ raised rates to 1.00% on June 16, 2026 \u2014 did NOT hold. All 'holds at next meeting' = NO.",
+    "criterion_note": "BOJ hiked to 1.00% June 16, 2026; criterion='holds at next meeting'; BOJ did NOT hold -> actual=0"
   },
   {
     "canonical_id": "156bc0d54ec2",
@@ -11998,16 +12024,16 @@
     "chorus_probability": 0.63,
     "baseline_probability": 0.55,
     "edge": 0.08,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-16T06:22:09.331124",
     "locked_at": "2026-04-16T06:22:09.331124",
     "resolution_date": "2026-04-18T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_NBA_playoffs",
+    "brier_score": 0.1369,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.4524,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
@@ -12018,7 +12044,8 @@
       "resolution_overdue"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "2026 NBA playoffs R1: multiple R1 sweeps confirmed. Higher seed won the game on/around Apr 18."
   },
   {
     "canonical_id": "655134749241",
@@ -12162,16 +12189,16 @@
     "chorus_probability": 0.62,
     "baseline_probability": 0.5,
     "edge": 0.12,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-17T06:26:16.305511",
     "locked_at": "2026-04-17T06:26:16.305511",
     "resolution_date": "2026-05-29T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:38:27.681600+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.cnbc.com/2026/06/16/boj-rate-hike-historic-inflation.html",
+    "brier_score": 0.3844,
+    "baseline_brier": 0.25,
+    "brier_skill_score": -0.5376,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
@@ -12182,7 +12209,9 @@
       "resolution_overdue"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "BOJ raised rates to 1.00% on June 16, 2026 \u2014 did NOT hold. All 'holds at next meeting' = NO.",
+    "criterion_note": "BOJ hiked to 1.00% June 16, 2026; criterion='holds at next meeting'; BOJ did NOT hold -> actual=0"
   },
   {
     "canonical_id": "8d08c0c7fc17",
@@ -12228,16 +12257,16 @@
     "chorus_probability": 0.63,
     "baseline_probability": 0.55,
     "edge": 0.08,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-17T06:26:16.312064",
     "locked_at": "2026-04-17T06:26:16.312064",
     "resolution_date": "2026-04-19T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_NBA_playoffs",
+    "brier_score": 0.1369,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.4524,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
@@ -12248,7 +12277,8 @@
       "resolution_overdue"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "2026 NBA playoffs R1: multiple R1 sweeps confirmed (Thunder had 4-0 Suns by early April). Higher seed won game on/around Apr 19."
   },
   {
     "canonical_id": "36d5f3900514",
@@ -12327,16 +12357,16 @@
     "chorus_probability": 0.5,
     "baseline_probability": 0.45,
     "edge": 0.05,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-17T18:12:49.804605",
     "locked_at": "2026-04-17T18:12:49.804605",
     "resolution_date": "2026-05-29T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:38:27.681600+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html",
+    "brier_score": 0.25,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.0,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
@@ -12348,7 +12378,9 @@
       "event_validation_passed"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Fed held at 3.50-3.75% at Apr 29 and Jun 17 2026 meetings. Upper bound never exceeded 4.00%.",
+    "criterion_note": "Fed funds upper = 3.75% (held Apr 29 + Jun 17 2026); criterion='above 4.00%' -> actual=0"
   },
   {
     "canonical_id": "ae3c33d42a64",
@@ -12460,16 +12492,16 @@
     "chorus_probability": 0.3,
     "baseline_probability": 0.45,
     "edge": 0.15,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-18T07:14:16.285151",
     "locked_at": "2026-04-18T07:14:16.285151",
     "resolution_date": "2026-05-30T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:38:27.681600+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html",
+    "brier_score": 0.09,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.64,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
@@ -12481,7 +12513,9 @@
       "event_validation_passed"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Fed held at 3.50-3.75% at Apr 29 and Jun 17 2026 meetings. Upper bound never exceeded 4.00%.",
+    "criterion_note": "Fed funds upper = 3.75% (held Apr 29 + Jun 17 2026); criterion='above 4.00%' -> actual=0"
   },
   {
     "canonical_id": "e7b83ddd9fe9",
@@ -12494,16 +12528,16 @@
     "chorus_probability": 0.62,
     "baseline_probability": 0.5,
     "edge": 0.12,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-18T07:14:16.617567",
     "locked_at": "2026-04-18T07:14:16.617567",
     "resolution_date": "2026-05-30T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:38:27.681600+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.cnbc.com/2026/06/16/boj-rate-hike-historic-inflation.html",
+    "brier_score": 0.3844,
+    "baseline_brier": 0.25,
+    "brier_skill_score": -0.5376,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
@@ -12514,7 +12548,9 @@
       "resolution_overdue"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "BOJ raised rates to 1.00% on June 16, 2026 \u2014 did NOT hold. All 'holds at next meeting' = NO.",
+    "criterion_note": "BOJ hiked to 1.00% June 16, 2026; criterion='holds at next meeting'; BOJ did NOT hold -> actual=0"
   },
   {
     "canonical_id": "10a1bddecce0",
@@ -12560,16 +12596,16 @@
     "chorus_probability": 0.63,
     "baseline_probability": 0.55,
     "edge": 0.08,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-18T07:14:16.620514",
     "locked_at": "2026-04-18T07:14:16.620514",
     "resolution_date": "2026-04-20T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_NBA_playoffs",
+    "brier_score": 0.1369,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.4524,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
@@ -12580,7 +12616,8 @@
       "resolution_overdue"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "2026 NBA playoffs R1: multiple R1 sweeps confirmed. Higher seed won game on/around Apr 20."
   },
   {
     "canonical_id": "28a123d3-ac5",
@@ -12654,16 +12691,16 @@
     "chorus_probability": 0.0989,
     "baseline_probability": 0.1,
     "edge": -0.0011000000000000038,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-19 08:00:29",
     "locked_at": "2026-04-19 08:00:29",
     "resolution_date": "2026-06-17",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:38:27.681600+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html",
+    "brier_score": 0.009781,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.960876,
     "data_sources_used": [
       "fred_fedfunds",
       "fred_cpiaucsl",
@@ -12703,7 +12740,9 @@
       "event_validation_passed"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "FOMC June 17 2026: Fed held at 3.50-3.75%, no rate cut. Unanimous 12-0 decision.",
+    "criterion_note": "Criterion: 'Will the FOMC cut rates at 2026-06-17?' \u2014 Fed did NOT cut -> actual=0"
   },
   {
     "canonical_id": "v1_unknown_4338165888",
@@ -14056,8 +14095,8 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_0b981f2a.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -14140,8 +14179,8 @@
       "segment_means": {},
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_iowa165.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -14179,8 +14218,8 @@
       "segment_means": {},
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_colorado57.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -14222,8 +14261,8 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_0dcd37a0.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -14263,8 +14302,8 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_5af05b85.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -14304,8 +14343,8 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_bac1d486.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -14345,8 +14384,8 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_748edb5e.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -14386,8 +14425,8 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_3a57f9a1.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -14475,8 +14514,8 @@
       "segment_means": {},
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_c467a31b.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -14520,8 +14559,8 @@
       "segment_means": {},
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_1aa0a959.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -14564,8 +14603,8 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_68f66a7c.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -14608,8 +14647,8 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_79aca225.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -14652,8 +14691,8 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_43abd32b.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -14696,8 +14735,8 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_00b397d4.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -14744,8 +14783,8 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_77a6e68f.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -14766,16 +14805,16 @@
     "chorus_probability": 0.92,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-18T20:13:22.736769+00:00",
     "locked_at": "2026-04-18T20:13:22.736769+00:00",
     "resolution_date": "2026-05-07",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "Supersedes pred_583f357d; for calibration, prefer this record over the prior at resolution time.\n[2026-05-12] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:38:27.681600+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.cnbc.com/2026/05/07/fed-interest-rate-decision-may-2026.html",
+    "brier_score": 0.0064,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.9744,
     "data_sources_used": [
       "hand_calibrated_revision"
     ],
@@ -14795,8 +14834,8 @@
       "segment_means": {},
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_e038ee1d.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
@@ -14804,7 +14843,9 @@
       "event_validation_failed:no_fomc_meeting_on_or_near_2026-05-07"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "FOMC May 6-7 2026: Fed held rates unchanged at 3.50-3.75%. No change in target range.",
+    "criterion_note": "Criterion: 'FOMC May 6-7 2026 decision == hold' \u2014 Fed HELD -> actual=1"
   },
   {
     "canonical_id": "pred_11bfa679",
@@ -14885,8 +14926,8 @@
       "segment_means": {},
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_845c44c9.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -14932,8 +14973,8 @@
       "segment_means": {},
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_f29cd5ee.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -16390,8 +16431,8 @@
       "segment_means": {},
       "confidence_label": "DIRECTIONAL"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_dcsd_adopts_phone_policy_fb8a2e4e.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -22183,8 +22224,8 @@
       "segment_means": {},
       "confidence_label": "DIRECTIONAL"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_9b4c1d03.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -22229,8 +22270,8 @@
       "segment_means": {},
       "confidence_label": "RELIABLE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_e85f7c2c.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -22276,8 +22317,8 @@
       "segment_means": {},
       "confidence_label": "DIRECTIONAL"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_3c6d3a1f.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -22322,8 +22363,8 @@
       "segment_means": {},
       "confidence_label": "DIRECTIONAL"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_fbcede49.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -22369,8 +22410,8 @@
       "segment_means": {},
       "confidence_label": "RELIABLE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_f0b1acf4.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -26132,8 +26173,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_d7ff5987.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -26184,8 +26225,8 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_a8248229.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -26236,8 +26277,8 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_225f3f1a.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -26288,8 +26329,8 @@
       "segment_means": null,
       "confidence_label": "DIRECTIONAL"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_df47333b.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -26340,8 +26381,8 @@
       "segment_means": null,
       "confidence_label": "DIRECTIONAL"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_5da18342.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -26392,8 +26433,8 @@
       "segment_means": null,
       "confidence_label": "DIRECTIONAL"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_b46d557f.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -26444,8 +26485,8 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_d9782f7d.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -26496,8 +26537,8 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_3b9ad827.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -26548,8 +26589,8 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_83e3d3d1.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -26601,8 +26642,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_966fdc72.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -26654,8 +26695,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_1b2d8de0.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -26707,8 +26748,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_1ee8af3b.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -26760,8 +26801,8 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_8e84107f.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -26813,8 +26854,8 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_cbbecf82.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -26866,8 +26907,8 @@
       "segment_means": null,
       "confidence_label": "DIRECTIONAL"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_a59dc3e3.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -26919,8 +26960,8 @@
       "segment_means": null,
       "confidence_label": "DIRECTIONAL"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_84d3a403.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -26972,8 +27013,8 @@
       "segment_means": null,
       "confidence_label": "DIRECTIONAL"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_c9ea4848.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -27025,8 +27066,8 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_755ed0e9.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -27078,8 +27119,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_1a2e69dc.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -27131,8 +27172,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_e105ddf1.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -27184,8 +27225,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_59f5b7bb.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -27237,8 +27278,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_ce115a23.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -27290,8 +27331,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_d00c4a13.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -27343,8 +27384,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_ee522a86.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -27396,8 +27437,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_473b2df0.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -27449,8 +27490,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_ade8fa64.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -27502,8 +27543,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_db2ed21b.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -27555,8 +27596,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_d9fef9cf.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -27608,8 +27649,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_95c356f3.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -27661,8 +27702,8 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_1a792e46.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -27714,8 +27755,8 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_992deb81.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -27767,8 +27808,8 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_1abaed91.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -27820,8 +27861,8 @@
       "segment_means": null,
       "confidence_label": "DIRECTIONAL"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_6b800613.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -27873,8 +27914,8 @@
       "segment_means": null,
       "confidence_label": "DIRECTIONAL"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_5caa86b0.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -27926,8 +27967,8 @@
       "segment_means": null,
       "confidence_label": "DIRECTIONAL"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_549b28a7.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -27979,8 +28020,8 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_b8f88e72.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -28032,8 +28073,8 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_54ad964d.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -28085,8 +28126,8 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_f08191ee.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -28138,8 +28179,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_de3e92fe.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -28191,8 +28232,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_fd716a67.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -28244,8 +28285,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_143efc28.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -28297,8 +28338,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_d3f771f5.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -28350,8 +28391,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_1e2ff469.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -28403,8 +28444,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_db7ea18d.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -28462,8 +28503,8 @@
       "segment_means": {},
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_0a9f2252.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
@@ -28522,8 +28563,8 @@
       "segment_means": {},
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_29d3c69e.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
@@ -28582,8 +28623,8 @@
       "segment_means": {},
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_5075cf04.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
@@ -28642,8 +28683,8 @@
       "segment_means": {},
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_5b1821ac.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
@@ -28702,8 +28743,8 @@
       "segment_means": {},
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_48f74eda.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
@@ -34594,16 +34635,16 @@
     "chorus_probability": 0.6738,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-07T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://sports.yahoo.com/soccer/live/world-cup-2026-bracket-schedule-scores-results-live-updates-round-of-16-130000983.html",
+    "brier_score": 0.106406,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.574376,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -34640,14 +34681,15 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_v2pure_spain_R16_or_better.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Spain advanced through R32 (beat Austria) and R16 (beat Sweden) to reach the QF. R16 criterion satisfied."
   },
   {
     "canonical_id": "pred_wc2026_v2pure_argentina_R16_or_better",
@@ -34660,16 +34702,16 @@
     "chorus_probability": 0.6546,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-07T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://sports.yahoo.com/soccer/live/world-cup-2026-bracket-schedule-scores-results-live-updates-round-of-16-130000983.html",
+    "brier_score": 0.119301,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.522796,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -34706,14 +34748,15 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_v2pure_argentina_R16_or_better.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Argentina advanced through R32 (beat Algeria) and R16 (beat Colombia) to reach QF. R16 criterion satisfied."
   },
   {
     "canonical_id": "pred_wc2026_v2pure_france_R16_or_better",
@@ -34726,16 +34769,16 @@
     "chorus_probability": 0.646,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-07T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://sports.yahoo.com/soccer/live/world-cup-2026-bracket-schedule-scores-results-live-updates-round-of-16-130000983.html",
+    "brier_score": 0.125316,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.498736,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -34772,14 +34815,15 @@
       "segment_means": null,
       "confidence_label": "WEAK"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_v2pure_france_R16_or_better.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "France advanced through R32 (beat Senegal) and R16 (beat Netherlands) to reach QF. R16 criterion satisfied."
   },
   {
     "canonical_id": "pred_wc2026_v2pure_spain_R32_or_better",
@@ -34792,16 +34836,16 @@
     "chorus_probability": 0.9575,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-03T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.aljazeera.com/sports/2026/6/28/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32",
+    "brier_score": 0.001806,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.992776,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -34838,14 +34882,15 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_v2pure_spain_R32_or_better.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Spain won Group H (topped group) \u2192 advanced to R32. Beat Austria in R32. Criterion satisfied."
   },
   {
     "canonical_id": "pred_wc2026_v2pure_spain_QF_or_better",
@@ -34858,16 +34903,16 @@
     "chorus_probability": 0.45,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-11T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.fifa.com/en/match-centre/match/17/285023/289289/400021538",
+    "brier_score": 0.3025,
+    "baseline_brier": 0.25,
+    "brier_skill_score": -0.21,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -34904,14 +34949,15 @@
       "segment_means": null,
       "confidence_label": "WEAK"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_v2pure_spain_QF_or_better.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Spain 2-1 Belgium in QF (July 11). Spain reached and won the quarterfinals."
   },
   {
     "canonical_id": "pred_wc2026_v2pure_argentina_QF_or_better",
@@ -34924,16 +34970,16 @@
     "chorus_probability": 0.4436,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-11T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://sports.yahoo.com/soccer/live/world-cup-2026-bracket-schedule-scores-results-live-updates-round-of-16-130000983.html",
+    "brier_score": 0.309581,
+    "baseline_brier": 0.25,
+    "brier_skill_score": -0.238324,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -34970,14 +35016,15 @@
       "segment_means": null,
       "confidence_label": "WEAK"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_v2pure_argentina_QF_or_better.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Argentina 3-1 Switzerland in QF (July 11). Argentina reached and won the quarterfinals."
   },
   {
     "canonical_id": "pred_wc2026_v2pure_germany_R16_or_better",
@@ -34990,16 +35037,16 @@
     "chorus_probability": 0.6065,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-07T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.foxsports.com/stories/soccer/paraguay-knocks-germany-out-2026-world-cup-after-penalty-shootout",
+    "brier_score": 0.367842,
+    "baseline_brier": 0.25,
+    "brier_skill_score": -0.471368,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -35036,14 +35083,15 @@
       "segment_means": null,
       "confidence_label": "WEAK"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_v2pure_germany_R16_or_better.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Germany eliminated by Paraguay in R32 on penalties (1-1 AET, 3-4 pens). Did not reach R16."
   },
   {
     "canonical_id": "pred_wc2026_v2pure_england_R16_or_better",
@@ -35056,16 +35104,16 @@
     "chorus_probability": 0.605,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-07T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.fifa.com/en/match-centre/match/17/285023/289289/400021539",
+    "brier_score": 0.156025,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.3759,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -35102,14 +35150,15 @@
       "segment_means": null,
       "confidence_label": "WEAK"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_v2pure_england_R16_or_better.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "England 2-1 Norway in QF confirms R16 advance. England beat Mexico in R32 and reached the R16 stage. R16 criterion satisfied."
   },
   {
     "canonical_id": "pred_wc2026_v2pure_portugal_R16_or_better",
@@ -35122,16 +35171,16 @@
     "chorus_probability": 0.5995,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-07T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://worldcupwiki.com/2026-fifa-world-cup-quarterfinals/",
+    "brier_score": 0.1604,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.3584,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -35168,14 +35217,15 @@
       "segment_means": null,
       "confidence_label": "WEAK"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_v2pure_portugal_R16_or_better.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Portugal advanced to R16 (beat DR Congo in R32), then lost to Morocco in R16. Criterion = reaches R16 = YES."
   },
   {
     "canonical_id": "pred_wc2026_v2pure_switzerland_R32_or_better",
@@ -35188,16 +35238,16 @@
     "chorus_probability": 0.9328,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-03T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.aljazeera.com/sports/2026/6/28/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32",
+    "brier_score": 0.004516,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.981936,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -35234,14 +35284,15 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_v2pure_switzerland_R32_or_better.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Switzerland advanced from group stage (beat Algeria in R32). Criterion = advances to R32 = YES."
   },
   {
     "canonical_id": "pred_wc2026_blended_spain_R16_or_better",
@@ -35254,16 +35305,16 @@
     "chorus_probability": 0.723,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-07T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://sports.yahoo.com/soccer/live/world-cup-2026-bracket-schedule-scores-results-live-updates-round-of-16-130000983.html",
+    "brier_score": 0.076729,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.693084,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet",
@@ -35282,15 +35333,16 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_blended_spain_R16_or_better.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
       "duplicate_of:pred_wc2026_v2pure_spain_R16_or_better"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Spain advanced through R32 (beat Austria) and R16 (beat Sweden) to reach the QF. R16 criterion satisfied."
   },
   {
     "canonical_id": "pred_wc2026_blended_argentina_R16_or_better",
@@ -35303,16 +35355,16 @@
     "chorus_probability": 0.5107,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-07T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://sports.yahoo.com/soccer/live/world-cup-2026-bracket-schedule-scores-results-live-updates-round-of-16-130000983.html",
+    "brier_score": 0.239414,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.042344,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet",
@@ -35331,15 +35383,16 @@
       "segment_means": null,
       "confidence_label": "WEAK"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_blended_argentina_R16_or_better.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
       "duplicate_of:pred_wc2026_v2pure_argentina_R16_or_better"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Argentina advanced through R32 (beat Algeria) and R16 (beat Colombia) to reach QF. R16 criterion satisfied."
   },
   {
     "canonical_id": "pred_wc2026_blended_france_R16_or_better",
@@ -35352,16 +35405,16 @@
     "chorus_probability": 0.706,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-07T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://sports.yahoo.com/soccer/live/world-cup-2026-bracket-schedule-scores-results-live-updates-round-of-16-130000983.html",
+    "brier_score": 0.086436,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.654256,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet",
@@ -35380,15 +35433,16 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_blended_france_R16_or_better.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
       "duplicate_of:pred_wc2026_v2pure_france_R16_or_better"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "France advanced through R32 (beat Senegal) and R16 (beat Netherlands) to reach QF. R16 criterion satisfied."
   },
   {
     "canonical_id": "pred_wc2026_blended_spain_R32_or_better",
@@ -35401,16 +35455,16 @@
     "chorus_probability": 0.9499,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-03T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.aljazeera.com/sports/2026/6/28/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32",
+    "brier_score": 0.00251,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.98996,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet",
@@ -35429,15 +35483,16 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_blended_spain_R32_or_better.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
       "duplicate_of:pred_wc2026_v2pure_spain_R32_or_better"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Spain won Group H (topped group) \u2192 advanced to R32. Beat Austria in R32. Criterion satisfied."
   },
   {
     "canonical_id": "pred_wc2026_blended_spain_QF_or_better",
@@ -35450,16 +35505,16 @@
     "chorus_probability": 0.5328,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-11T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.fifa.com/en/match-centre/match/17/285023/289289/400021538",
+    "brier_score": 0.218276,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.126896,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet",
@@ -35478,15 +35533,16 @@
       "segment_means": null,
       "confidence_label": "WEAK"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_blended_spain_QF_or_better.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
       "duplicate_of:pred_wc2026_v2pure_spain_QF_or_better"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Spain 2-1 Belgium in QF (July 11). Spain reached and won the quarterfinals."
   },
   {
     "canonical_id": "pred_wc2026_blended_argentina_QF_or_better",
@@ -35499,16 +35555,16 @@
     "chorus_probability": 0.3645,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-11T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://sports.yahoo.com/soccer/live/world-cup-2026-bracket-schedule-scores-results-live-updates-round-of-16-130000983.html",
+    "brier_score": 0.40386,
+    "baseline_brier": 0.25,
+    "brier_skill_score": -0.61544,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet",
@@ -35527,15 +35583,16 @@
       "segment_means": null,
       "confidence_label": "WEAK"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_blended_argentina_QF_or_better.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
       "duplicate_of:pred_wc2026_v2pure_argentina_QF_or_better"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Argentina 3-1 Switzerland in QF (July 11). Argentina reached and won the quarterfinals."
   },
   {
     "canonical_id": "pred_wc2026_blended_germany_R16_or_better",
@@ -35548,16 +35605,16 @@
     "chorus_probability": 0.4092,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-07T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.foxsports.com/stories/soccer/paraguay-knocks-germany-out-2026-world-cup-after-penalty-shootout",
+    "brier_score": 0.167445,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.33022,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet",
@@ -35576,15 +35633,16 @@
       "segment_means": null,
       "confidence_label": "WEAK"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_blended_germany_R16_or_better.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
       "duplicate_of:pred_wc2026_v2pure_germany_R16_or_better"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Germany eliminated by Paraguay in R32 on penalties (1-1 AET, 3-4 pens). Did not reach R16."
   },
   {
     "canonical_id": "pred_wc2026_blended_england_R16_or_better",
@@ -35597,16 +35655,16 @@
     "chorus_probability": 0.5279,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-07T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.fifa.com/en/match-centre/match/17/285023/289289/400021539",
+    "brier_score": 0.222878,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.108488,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet",
@@ -35625,15 +35683,16 @@
       "segment_means": null,
       "confidence_label": "WEAK"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_blended_england_R16_or_better.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
       "duplicate_of:pred_wc2026_v2pure_england_R16_or_better"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "England 2-1 Norway in QF confirms R16 advance. England beat Mexico in R32 and reached the R16 stage. R16 criterion satisfied."
   },
   {
     "canonical_id": "pred_wc2026_blended_portugal_R16_or_better",
@@ -35646,16 +35705,16 @@
     "chorus_probability": 0.561,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-07T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://worldcupwiki.com/2026-fifa-world-cup-quarterfinals/",
+    "brier_score": 0.192721,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.229116,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet",
@@ -35674,15 +35733,16 @@
       "segment_means": null,
       "confidence_label": "WEAK"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_blended_portugal_R16_or_better.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
       "duplicate_of:pred_wc2026_v2pure_portugal_R16_or_better"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Portugal advanced to R16 (beat DR Congo in R32), then lost to Morocco in R16. Criterion = reaches R16 = YES."
   },
   {
     "canonical_id": "pred_wc2026_blended_switzerland_R32_or_better",
@@ -35695,16 +35755,16 @@
     "chorus_probability": 0.4696,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-03T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.aljazeera.com/sports/2026/6/28/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32",
+    "brier_score": 0.281324,
+    "baseline_brier": 0.25,
+    "brier_skill_score": -0.125296,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet",
@@ -35723,15 +35783,16 @@
       "segment_means": null,
       "confidence_label": "WEAK"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_blended_switzerland_R32_or_better.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
       "duplicate_of:pred_wc2026_v2pure_switzerland_R32_or_better"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Switzerland advanced from group stage (beat Algeria in R32). Criterion = advances to R32 = YES."
   },
   {
     "canonical_id": "pred_wc2026_v2pure_klement_netherlands_wins",
@@ -35744,16 +35805,16 @@
     "chorus_probability": 0.0578,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-19T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.leadstory.com/v/netherlands-exit-world-cup-after-penalty-defeat-to-morocco-20267234",
+    "brier_score": 0.003341,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.986636,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -35768,14 +35829,15 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_v2pure_klement_netherlands_wins.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Netherlands eliminated in R32 by Morocco on penalties (1-1 AET, 3-2 pens). Did not win WC."
   },
   {
     "canonical_id": "pred_wc2026_v2pure_klement_japan_qf",
@@ -35788,16 +35850,16 @@
     "chorus_probability": 0.2487,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-11T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.nbcdfw.com/world-cup/japan-ends-2026-world-cup-run-short-of-previous-years-but-with-plenty-of-memories/4042902/",
+    "brier_score": 0.061852,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.752592,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -35812,14 +35874,15 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_v2pure_klement_japan_qf.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Japan lost to Brazil 1-2 in the R16 (Martinelli stoppage-time goal). Did not reach QF."
   },
   {
     "canonical_id": "pred_wc2026_v2pure_klement_top5_book_fav_wins",
@@ -35832,16 +35895,16 @@
     "chorus_probability": 0.4582,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-19T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.cbsnews.com/news/2026-fifa-world-cup-final-spain-argentina-sunday/",
+    "brier_score": 0.293547,
+    "baseline_brier": 0.25,
+    "brier_skill_score": -0.174188,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -35856,14 +35919,15 @@
       "segment_means": null,
       "confidence_label": "WEAK"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_v2pure_klement_top5_book_fav_wins.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Spain won 2026 WC 1-0 vs Argentina (AET). Spain is in the top-5 {Spain,France,Portugal,England,Argentina}."
   },
   {
     "canonical_id": "pred_wc2026_v2pure_klement_latam_in_final",
@@ -35876,16 +35940,16 @@
     "chorus_probability": 0.511,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-19T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_final",
+    "brier_score": 0.239121,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.043516,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -35900,14 +35964,15 @@
       "segment_means": null,
       "confidence_label": "WEAK"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_v2pure_klement_latam_in_final.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Argentina (LatAm) reached the 2026 WC Final (lost to Spain 0-1 AET). Criterion satisfied."
   },
   {
     "canonical_id": "pred_wc2026_blended_klement_netherlands_wins",
@@ -35920,16 +35985,16 @@
     "chorus_probability": 0.0536,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-19T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.leadstory.com/v/netherlands-exit-world-cup-after-penalty-defeat-to-morocco-20267234",
+    "brier_score": 0.002873,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.988508,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet",
@@ -35948,15 +36013,16 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_blended_klement_netherlands_wins.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
       "duplicate_of:pred_wc2026_v2pure_klement_netherlands_wins"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Netherlands eliminated in R32 by Morocco on penalties (1-1 AET, 3-2 pens). Did not win WC."
   },
   {
     "canonical_id": "pred_wc2026_blended_klement_japan_qf",
@@ -35969,16 +36035,16 @@
     "chorus_probability": 0.1235,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-11T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.nbcdfw.com/world-cup/japan-ends-2026-world-cup-run-short-of-previous-years-but-with-plenty-of-memories/4042902/",
+    "brier_score": 0.015252,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.938992,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet",
@@ -35997,15 +36063,16 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_blended_klement_japan_qf.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
       "duplicate_of:pred_wc2026_v2pure_klement_japan_qf"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Japan lost to Brazil 1-2 in the R16 (Martinelli stoppage-time goal). Did not reach QF."
   },
   {
     "canonical_id": "pred_wc2026_blended_klement_top5_book_fav_wins",
@@ -36018,16 +36085,16 @@
     "chorus_probability": 0.5353,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-14T20:05:06.029632+00:00",
     "locked_at": "2026-06-14T20:05:06.029632+00:00",
     "resolution_date": "2026-07-19T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.cbsnews.com/news/2026-fifa-world-cup-final-spain-argentina-sunday/",
+    "brier_score": 0.215946,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.136216,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet",
@@ -36046,15 +36113,16 @@
       "segment_means": null,
       "confidence_label": "WEAK"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_blended_klement_top5_book_fav_wins.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
       "duplicate_of:pred_wc2026_v2pure_klement_top5_book_fav_wins"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Spain won 2026 WC 1-0 vs Argentina (AET). Spain is in the top-5 {Spain,France,Portugal,England,Argentina}."
   },
   {
     "canonical_id": "pred_athlete_marketability_hailey_van_lith_2026_05_25",
@@ -36377,16 +36445,16 @@
     "chorus_probability": 0.9575,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.aljazeera.com/sports/2026/6/28/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32",
+    "brier_score": 0.001806,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.992776,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -36404,14 +36472,15 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_spain.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Spain topped Group H (beat Saudi Arabia 4-0 + Uruguay 1-0). Advanced to R32."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_switzerland",
@@ -36424,16 +36493,16 @@
     "chorus_probability": 0.9328,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.aljazeera.com/sports/2026/6/28/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32",
+    "brier_score": 0.004516,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.981936,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -36451,14 +36520,15 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_switzerland.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Switzerland defeated Canada to clinch first place. Advanced to R32."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_brazil",
@@ -36471,16 +36541,16 @@
     "chorus_probability": 0.9224,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.aljazeera.com/sports/2026/6/28/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32",
+    "brier_score": 0.006022,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.975912,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -36498,14 +36568,15 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_brazil.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Brazil topped Group C (7pts, +6 GD). Advanced to R32."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_france",
@@ -36518,16 +36589,16 @@
     "chorus_probability": 0.9213,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.aljazeera.com/sports/2026/6/28/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32",
+    "brier_score": 0.006194,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.975224,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -36545,14 +36616,15 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_france.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "France won group (9pts, +8 GD). Advanced to R32."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_argentina",
@@ -36565,16 +36637,16 @@
     "chorus_probability": 0.9211,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.aljazeera.com/sports/2026/6/28/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32",
+    "brier_score": 0.006225,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.9751,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -36592,14 +36664,15 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_argentina.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Argentina won Group J (beat Algeria, Austria, Jordan). Advanced to R32."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_germany",
@@ -36612,16 +36685,16 @@
     "chorus_probability": 0.9187,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.aljazeera.com/sports/2026/6/28/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32",
+    "brier_score": 0.00661,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.97356,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -36639,14 +36712,15 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_germany.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Germany won Group E (7-1 Curacao, 2-1 Ivory Coast). Advanced to R32 (eliminated there by Paraguay)."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_belgium",
@@ -36659,16 +36733,16 @@
     "chorus_probability": 0.9137,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.aljazeera.com/sports/2026/6/28/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32",
+    "brier_score": 0.007448,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.970208,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -36686,14 +36760,15 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_belgium.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Belgium advanced from group stage. Advanced to R32 (lost to Spain in QF)."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_mexico",
@@ -36706,16 +36781,16 @@
     "chorus_probability": 0.9093,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.aljazeera.com/sports/2026/6/28/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32",
+    "brier_score": 0.008226,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.967096,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -36733,14 +36808,15 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_mexico.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Mexico topped Group A. Advanced to R32 (eliminated in R16 by England)."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_england",
@@ -36753,16 +36829,16 @@
     "chorus_probability": 0.899,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.aljazeera.com/sports/2026/6/28/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32",
+    "brier_score": 0.010201,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.959196,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -36780,14 +36856,15 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_england.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "England advanced from group (1st in Group L). Advanced to R32 (reached SF)."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_netherlands",
@@ -36800,16 +36877,16 @@
     "chorus_probability": 0.8851,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.aljazeera.com/sports/2026/6/28/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32",
+    "brier_score": 0.013202,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.947192,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -36827,14 +36904,15 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_netherlands.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Netherlands advanced from group. Advanced to R32 (eliminated there by Morocco on penalties)."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_uruguay",
@@ -36847,16 +36925,16 @@
     "chorus_probability": 0.8841,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.si.com/soccer/every-team-eliminated-from-the-2026-world-cup",
+    "brier_score": 0.781633,
+    "baseline_brier": 0.25,
+    "brier_skill_score": -2.126532,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -36874,14 +36952,16 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_uruguay.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Uruguay eliminated in group stage (finished 3rd/4th in Group H behind Spain and Cape Verde). Did NOT advance to R32.",
+    "criterion_note": "Uruguay was one of the 16 group-stage exits confirmed by multiple sources."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_portugal",
@@ -36894,16 +36974,16 @@
     "chorus_probability": 0.8764,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.aljazeera.com/sports/2026/6/28/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32",
+    "brier_score": 0.015277,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.938892,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -36921,14 +37001,15 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_portugal.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Portugal advanced from group (Group K, beat Uzbekistan 5-0). Advanced to R32 (beat DR Congo; lost to Morocco in R16)."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_turkey",
@@ -36941,16 +37022,16 @@
     "chorus_probability": 0.8649,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.si.com/soccer/every-team-eliminated-from-the-2026-world-cup",
+    "brier_score": 0.748052,
+    "baseline_brier": 0.25,
+    "brier_skill_score": -1.992208,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -36968,14 +37049,15 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_turkey.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Turkey eliminated in group stage (16 group-stage exits include Turkey). Did NOT advance."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_morocco",
@@ -36988,16 +37070,16 @@
     "chorus_probability": 0.8622,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.aljazeera.com/sports/2026/6/28/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32",
+    "brier_score": 0.018989,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.924044,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -37015,14 +37097,15 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_morocco.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Morocco finished 2nd in Group C. Advanced to R32 (beat Netherlands in R32, Portugal in R16, then France in QF)."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_ecuador",
@@ -37035,16 +37118,16 @@
     "chorus_probability": 0.8583,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.aljazeera.com/sports/2026/6/28/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32",
+    "brier_score": 0.020079,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.919684,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -37062,14 +37145,15 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_ecuador.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Ecuador upset Germany 2-1 and finished Group E with 4 pts as one of the eight best 3rd-place teams. Advanced to R32."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_iraq",
@@ -37082,16 +37166,16 @@
     "chorus_probability": 0.1958,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.si.com/soccer/every-team-eliminated-from-the-2026-world-cup",
+    "brier_score": 0.038338,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.846648,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -37109,14 +37193,15 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_iraq.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Iraq eliminated in group stage (Senegal 5-0 Iraq; France 3-0 Iraq). Did NOT advance to R32."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_panama",
@@ -37129,16 +37214,16 @@
     "chorus_probability": 0.2306,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.si.com/soccer/every-team-eliminated-from-the-2026-world-cup",
+    "brier_score": 0.053176,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.787296,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -37156,14 +37241,15 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_panama.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Panama eliminated in group stage (England 0-2 Panama, Croatia 2-1 Panama). Did NOT advance to R32."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_jordan",
@@ -37176,16 +37262,16 @@
     "chorus_probability": 0.2613,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.si.com/soccer/every-team-eliminated-from-the-2026-world-cup",
+    "brier_score": 0.068278,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.726888,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -37203,14 +37289,15 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_jordan.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Jordan eliminated in group stage (finished 4th in Group J). Did NOT advance to R32."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_haiti",
@@ -37223,16 +37310,16 @@
     "chorus_probability": 0.3302,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.si.com/soccer/every-team-eliminated-from-the-2026-world-cup",
+    "brier_score": 0.109032,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.563872,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -37250,14 +37337,15 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_haiti.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Haiti eliminated in group stage (first team out after losing first two games). Did NOT advance to R32."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_curacao",
@@ -37270,16 +37358,16 @@
     "chorus_probability": 0.3367,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.si.com/soccer/every-team-eliminated-from-the-2026-world-cup",
+    "brier_score": 0.113367,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.546532,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -37297,14 +37385,15 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_curacao.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Curacao eliminated in group stage (Germany 7-1 Curacao, Ivory Coast 2-0 Curacao). Did NOT advance to R32."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_saudi_arabia",
@@ -37317,16 +37406,16 @@
     "chorus_probability": 0.3457,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.si.com/soccer/every-team-eliminated-from-the-2026-world-cup",
+    "brier_score": 0.119508,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.521968,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -37344,14 +37433,15 @@
       "segment_means": null,
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_saudi_arabia.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Saudi Arabia eliminated in group stage (Spain 4-0 Saudi Arabia). Did NOT advance to R32."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_cape_verde",
@@ -37364,16 +37454,16 @@
     "chorus_probability": 0.3615,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.aljazeera.com/sports/2026/6/28/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32",
+    "brier_score": 0.407682,
+    "baseline_brier": 0.25,
+    "brier_skill_score": -0.630728,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -37391,14 +37481,15 @@
       "segment_means": null,
       "confidence_label": "DIRECTIONAL"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_cape_verde.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Cape Verde clinched 2nd in Group H (3 draws, 2nd place). Advanced to R32 \u2014 smallest-ever nation to reach WC knockouts."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_dr_congo",
@@ -37411,16 +37502,16 @@
     "chorus_probability": 0.3629,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.aljazeera.com/sports/2026/6/28/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32",
+    "brier_score": 0.405896,
+    "baseline_brier": 0.25,
+    "brier_skill_score": -0.623584,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -37438,14 +37529,15 @@
       "segment_means": null,
       "confidence_label": "DIRECTIONAL"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_dr_congo.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "DR Congo beat Uzbekistan 3-1 in final group match to advance to R32. Criterion satisfied."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_ghana",
@@ -37458,16 +37550,16 @@
     "chorus_probability": 0.3931,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.aljazeera.com/sports/2026/6/28/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32",
+    "brier_score": 0.368328,
+    "baseline_brier": 0.25,
+    "brier_skill_score": -0.473312,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -37485,14 +37577,15 @@
       "segment_means": null,
       "confidence_label": "DIRECTIONAL"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_ghana.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Ghana advanced as one of the best 3rd-place teams from Group L. Advanced to R32."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_tunisia",
@@ -37505,16 +37598,16 @@
     "chorus_probability": 0.415,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.si.com/soccer/every-team-eliminated-from-the-2026-world-cup",
+    "brier_score": 0.172225,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.3111,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -37532,14 +37625,15 @@
       "segment_means": null,
       "confidence_label": "DIRECTIONAL"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_tunisia.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Tunisia eliminated in group stage (Sweden 5-1 Tunisia; Netherlands 3-1 Tunisia). Did NOT advance to R32."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_qatar",
@@ -37552,16 +37646,16 @@
     "chorus_probability": 0.4198,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.si.com/soccer/every-team-eliminated-from-the-2026-world-cup",
+    "brier_score": 0.176232,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.295072,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -37579,14 +37673,15 @@
       "segment_means": null,
       "confidence_label": "DIRECTIONAL"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_qatar.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Qatar eliminated in group stage (16 group-stage exits include Qatar). Did NOT advance to R32."
   },
   {
     "canonical_id": "pred_wc2026_group_advance_uzbekistan",
@@ -37599,16 +37694,16 @@
     "chorus_probability": 0.4822,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:00:00+00:00",
     "locked_at": "2026-06-16T18:00:00+00:00",
     "resolution_date": "2026-06-27T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.si.com/soccer/every-team-eliminated-from-the-2026-world-cup",
+    "brier_score": 0.232517,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.069932,
     "data_sources_used": [
       "klement_plus_elo_tm_v2",
       "walk_forward_ratchet"
@@ -37626,14 +37721,15 @@
       "segment_means": null,
       "confidence_label": "DIRECTIONAL"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc2026_group_advance_uzbekistan.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Uzbekistan eliminated in group stage (Portugal 5-0 Uzbekistan; DR Congo 3-1 Uzbekistan). Did NOT advance to R32."
   },
   {
     "canonical_id": "pred_nba_draft_2026_dybantsa_top3",
@@ -37646,16 +37742,16 @@
     "chorus_probability": 0.98,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:30:00+00:00",
     "locked_at": "2026-06-16T18:30:00+00:00",
     "resolution_date": "2026-06-24T00:00:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.cbsnews.com/news/washington-wizards-select-aj-dybantsa-no-1-overall-2026-nba-draft/",
+    "brier_score": 0.0004,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.9984,
     "data_sources_used": [
       "chorus_sports_structural_2026_06_16"
     ],
@@ -37668,15 +37764,16 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_nba_draft_2026_dybantsa_top3.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
       "resolution_overdue"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "AJ Dybantsa selected #1 overall by Washington Wizards on June 23, 2026. Top-3 criterion satisfied."
   },
   {
     "canonical_id": "pred_nba_draft_2026_flagg_not_in_draft",
@@ -37689,16 +37786,16 @@
     "chorus_probability": 0.995,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:30:00+00:00",
     "locked_at": "2026-06-16T18:30:00+00:00",
     "resolution_date": "2026-06-24T00:00:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.nbcdfw.com/news/sports/dallas-mavericks/mavericks-cooper-flagg-no-1-overall-pick-2025-nba-draft/3870375/",
+    "brier_score": 2.5e-05,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.9999,
     "data_sources_used": [
       "chorus_sports_structural_2026_06_16"
     ],
@@ -37711,15 +37808,16 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_nba_draft_2026_flagg_not_in_draft.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
       "resolution_overdue"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Cooper Flagg was drafted #1 by Dallas Mavericks in the 2025 NBA Draft. He was NOT in the 2026 draft. Criterion satisfied."
   },
   {
     "canonical_id": "pred_nba_draft_2026_no_trade_for_pick_1",
@@ -37732,16 +37830,16 @@
     "chorus_probability": 0.88,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:30:00+00:00",
     "locked_at": "2026-06-16T18:30:00+00:00",
     "resolution_date": "2026-06-24T00:00:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.nbcnews.com/sports/nba/live-blog/nba-draft-2026-live-updates-rcna350150",
+    "brier_score": 0.0144,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.9424,
     "data_sources_used": [
       "chorus_sports_structural_2026_06_16"
     ],
@@ -37754,15 +37852,16 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_nba_draft_2026_no_trade_for_pick_1.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
       "resolution_overdue"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Washington Wizards held the #1 pick and selected AJ Dybantsa with it. No pre-draft trade. Criterion = pick NOT traded = YES."
   },
   {
     "canonical_id": "pred_nba_draft_2026_wizards_two_picks_round1",
@@ -37775,16 +37874,16 @@
     "chorus_probability": 0.92,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:30:00+00:00",
     "locked_at": "2026-06-16T18:30:00+00:00",
     "resolution_date": "2026-06-24T00:00:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.nba.com/news/2026-nba-draft-order",
+    "brier_score": 0.0064,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.9744,
     "data_sources_used": [
       "chorus_sports_structural_2026_06_16"
     ],
@@ -37797,15 +37896,16 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_nba_draft_2026_wizards_two_picks_round1.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
       "resolution_overdue"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Wizards held picks #1 (R1), #51 (R2), #60 (R2). 2 picks across 2 rounds. Criterion = >=2 selections across 2 rounds = YES."
   },
   {
     "canonical_id": "pred_nba_draft_2026_intl_player_top10",
@@ -37818,16 +37918,16 @@
     "chorus_probability": 0.9,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T18:30:00+00:00",
     "locked_at": "2026-06-16T18:30:00+00:00",
     "resolution_date": "2026-06-24T00:00:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.nbcsports.com/nba/news/2026-nba-draft-complete-list-of-every-pick-from-round-1-and-round-2",
+    "brier_score": 0.81,
+    "baseline_brier": 0.25,
+    "brier_skill_score": -2.24,
     "data_sources_used": [
       "chorus_sports_structural_2026_06_16"
     ],
@@ -37840,15 +37940,17 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_nba_draft_2026_intl_player_top10.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
       "resolution_overdue"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Top 10: Dybantsa (BYU), Peterson (Kansas), Boozer (Duke), Wilson (UNC), Wagler (Illinois), Brown Jr (Louisville), Acuff Jr (Arkansas), Flemings (Houston), Johnson Jr (Michigan), Burries (Arizona). All US college. No international-developed player in top 10. Criterion = NO.",
+    "criterion_note": "Only 5 international early entrants declared for 2026 draft per NBA.com; none were selected top 10. Historic streak of 1+ intl player in top 10 every year since 2013 ended."
   },
   {
     "canonical_id": "pred_fomc_2026_06_18_holds_rates",
@@ -37885,8 +37987,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_fomc_2026_06_18_holds_rates.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -37931,8 +38033,8 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_fomc_2026_06_18_no_rate_cut.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
@@ -37953,16 +38055,16 @@
     "chorus_probability": 0.99,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T20:00:00+00:00",
     "locked_at": "2026-06-16T20:00:00+00:00",
     "resolution_date": "2026-07-20T00:00:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
-    "baseline_brier": null,
-    "brier_skill_score": null,
+    "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_final",
+    "brier_score": 0.0001,
+    "baseline_brier": 0.25,
+    "brier_skill_score": 0.9996,
     "data_sources_used": [
       "chorus_structural_2026_06_16"
     ],
@@ -37975,14 +38077,15 @@
       "segment_means": null,
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_wc_2026_final_played_on_2026_07_19.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "2026 WC Final played July 19 at MetLife Stadium, Spain 1-0 Argentina (AET). Criterion = match completed."
   },
   {
     "canonical_id": "pred_nba_2026_2027_season_starts_october",
@@ -39167,9 +39270,10 @@
     },
     "schema_version": "manual",
     "audit_flags": [],
-    "ots_anchored": false,
+    "ots_anchored": true,
     "temporal_class": "UNKNOWN",
-    "is_high_conviction": null
+    "is_high_conviction": null,
+    "ots_anchor": "ots_anchors/cocoa_ensemble_test_2026-05-21.json.ots"
   },
   {
     "canonical_id": "ghana_galamsey_promotion_2026-05-21",
@@ -39194,9 +39298,10 @@
     },
     "schema_version": "manual",
     "audit_flags": [],
-    "ots_anchored": false,
+    "ots_anchored": true,
     "temporal_class": "UNKNOWN",
-    "is_high_conviction": null
+    "is_high_conviction": null,
+    "ots_anchor": "ots_anchors/ghana_galamsey_promotion_2026-05-21.json.ots"
   },
   {
     "canonical_id": "refit_2026_with_2025_actuals_2026-05-21",
@@ -39453,9 +39558,10 @@
     },
     "schema_version": "manual",
     "audit_flags": [],
-    "ots_anchored": false,
+    "ots_anchored": true,
     "temporal_class": "UNKNOWN",
-    "is_high_conviction": null
+    "is_high_conviction": null,
+    "ots_anchor": "ots_anchors/backwardation_proxy_challenger_2026-05-21.json.ots"
   },
   {
     "canonical_id": "enso_lag2_annual_challenger_2026-05-21",
@@ -39580,9 +39686,10 @@
     "verdict": "REJECT_GRANGER_LEAD_DOES_NOT_HELP_SHORT_HORIZON",
     "schema_version": "manual",
     "audit_flags": [],
-    "ots_anchored": false,
+    "ots_anchored": true,
     "temporal_class": "UNKNOWN",
-    "is_high_conviction": null
+    "is_high_conviction": null,
+    "ots_anchor": "ots_anchors/t6_coffee_granger_isolated_2026-05-21.json.ots"
   },
   {
     "canonical_id": "gha_saturation_term_2026-05-21",

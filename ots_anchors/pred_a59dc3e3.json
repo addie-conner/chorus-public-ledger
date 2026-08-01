@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.150893,
+  "canonical_id": "pred_a59dc3e3",
+  "chorus_probability": 0.61155,
+  "domain": "inflation_cpi",
+  "in_headline": false,
+  "locked_at": "2026-04-30T13:00:59.967569+00:00",
+  "original_sha": "a59dc3e3f6072517b9537e471265f2134a747d5c0e57841133a2415577ab6064",
+  "question": "CPI MoM change above 0.2pp for April 2026 (BLS release 2026-06-10)",
+  "resolution": 1.0,
+  "resolution_criterion": "Resolves YES if BLS April 2026 CPI MoM change > 0.2%",
+  "resolution_date": "2026-06-10",
+  "resolved_at": "2026-06-25T12:38:50+00:00",
+  "temporal_class": "FWD"
+}

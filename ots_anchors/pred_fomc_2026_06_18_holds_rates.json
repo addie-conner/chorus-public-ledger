@@ -1,10 +1,16 @@
 {
+  "baseline_probability": null,
+  "brier_score": 0.0225,
   "canonical_id": "pred_fomc_2026_06_18_holds_rates",
+  "chorus_probability": 0.85,
   "domain": "macro_fomc",
+  "in_headline": false,
   "locked_at": "2026-06-16T19:00:00+00:00",
-  "predicted_prob": 0.85,
+  "original_sha": "7c926668899895a06593de557b8f8632ec091c930d441885b5f34f4044c52ea2",
   "question": "FOMC holds federal funds rate target at 3.50-3.75% on June 18 2026",
+  "resolution": 1,
   "resolution_criterion": "The FOMC statement released 2026-06-18 at approximately 14:00 ET announces that the target range for the federal funds rate is maintained at 3.50%-3.75% (no cut, no hike).",
   "resolution_date": "2026-06-18T21:00:00+00:00",
-  "sha256": "7c926668899895a06593de557b8f8632ec091c930d441885b5f34f4044c52ea2"
+  "resolved_at": "2026-06-18T22:44:12.465787+00:00",
+  "temporal_class": "FWD"
 }

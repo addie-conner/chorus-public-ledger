@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chorus Public Ledger / Calibration — walk-forward analysis</title>
+<style>
+:root { --fg:#0d1117; --bg:#fafaf7; --accent:#b8472a; --muted:#5a5a55; --rule:#d7d6cf; }
+* { box-sizing: border-box; }
+body { font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text",sans-serif; background:var(--bg); color:var(--fg); margin:0; }
+.wrap { max-width:920px; margin:0 auto; padding:48px 24px 96px; }
+header { padding-bottom:24px; border-bottom:1px solid var(--rule); margin-bottom:32px; }
+header .brand { font-weight:700; font-size:18px; letter-spacing:-0.02em; }
+header .tag { color:var(--muted); font-size:14px; margin-top:4px; }
+h1 { font-size:32px; letter-spacing:-0.02em; margin:8px 0 16px; }
+h2 { font-size:18px; margin:32px 0 8px; }
+.kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:12px; margin:24px 0; }
+.kpi { background:white; padding:16px; border:1px solid var(--rule); border-radius:6px; }
+.kpi .v { font-size:24px; font-weight:700; letter-spacing:-0.02em; color:var(--accent); }
+.kpi .k { font-size:11px; text-transform:uppercase; color:var(--muted); letter-spacing:0.06em; margin-top:4px; }
+table { width:100%; border-collapse:collapse; font-size:13px; margin:12px 0; }
+th, td { text-align:left; padding:6px 10px; border-bottom:1px solid var(--rule); }
+th { background:#f0eee8; font-weight:600; font-size:11px; text-transform:uppercase; letter-spacing:0.04em; color:var(--muted); }
+code { background:rgba(0,0,0,0.05); padding:1px 4px; border-radius:2px; font-size:12px; }
+.muted { color:var(--muted); font-size:13px; }
+.note { background:white; border-left:3px solid var(--accent); padding:14px 18px; margin:16px 0; font-size:14px; }
+footer { margin-top:64px; padding-top:16px; border-top:1px solid var(--rule); font-size:12px; color:var(--muted); }
+a { color:var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="brand"><a href="/" style="text-decoration:none;color:inherit">Chorus Public Ledger</a> / Calibration</div>
+  <div class="tag">Walk-forward analysis · honest, unfiltered, recompiled daily</div>
+</header>
+
+<h1>Walk-forward calibration analysis</h1>
+
+<p class="muted">
+Every Chorus prediction is SHA-locked at creation and OpenTimestamps-anchored to Bitcoin before resolution. The universe below is the strict walk-forward subset:
+predictions where <code>locked_at &lt; resolved_at</code>, both timestamps present, resolution objective.
+No retrospective scoring. No cherry-picking by domain.
+</p>
+
+<div class="kpis">
+  <div class="kpi"><div class="v">80</div><div class="k">walk-forward n</div></div>
+  <div class="kpi"><div class="v">0.152</div><div class="k">mean Brier</div></div>
+  <div class="kpi"><div class="v">0.062</div><div class="k">median Brier</div></div>
+  <div class="kpi"><div class="v">1.64×</div><div class="k">vs coin flip</div></div>
+  <div class="kpi"><div class="v">49</div><div class="k">high-conviction n</div></div>
+  <div class="kpi"><div class="v">0.105</div><div class="k">HC mean Brier</div></div>
+  <div class="kpi"><div class="v">2.38×</div><div class="k">HC vs coin flip</div></div>
+</div>
+
+<div class="note">
+  <strong>Calibration interpretation</strong>: superforecaster tier is Brier ≈ 0.10–0.13 on resolved binary predictions. 538-equivalent on election-specific is ≈ 0.05–0.07.
+  Coin flip is 0.25. Our headline is 0.152; high-conviction subset is 0.105.
+  Honest read: rank-ordering strong, magnitudes slightly compressed toward 0.5 in mid-range — see bucket table.
+</div>
+
+<h2>Calibration by predicted-probability bucket</h2>
+<p class="muted">Does our 0.80 mean 80%? Does 0.30 mean 30%? Each row groups predictions whose <code>chorus_probability</code> fell in the range, then compares average predicted p to actual hit rate.</p>
+<table>
+  <thead><tr><th>Predicted p</th><th>n</th><th>avg p</th><th>actual rate</th><th>delta</th><th>direction</th></tr></thead>
+  <tbody><tr>
+              <td><code>0.0–0.1</code></td>
+              <td>4</td>
+              <td>0.03</td>
+              <td><strong>0.00</strong></td>
+              <td style="color:#0a7d2c">-0.03</td>
+              <td style="position:relative"><div style="background:#0a7d2c;height:8px;width:6.35%;float:left;opacity:0.6"></div></td>
+            </tr>
+<tr>
+              <td><code>0.1–0.2</code></td>
+              <td>4</td>
+              <td>0.13</td>
+              <td><strong>0.50</strong></td>
+              <td style="color:#b8472a">+0.37</td>
+              <td style="position:relative"><div style="background:#b8472a;height:8px;width:74.43335%;float:right;opacity:0.6"></div></td>
+            </tr>
+<tr>
+              <td><code>0.2–0.3</code></td>
+              <td>1</td>
+              <td>0.21</td>
+              <td><strong>0.00</strong></td>
+              <td style="color:#b8472a">-0.21</td>
+              <td style="position:relative"><div style="background:#b8472a;height:8px;width:41.9344%;float:left;opacity:0.6"></div></td>
+            </tr>
+<tr>
+              <td><code>0.3–0.4</code></td>
+              <td>4</td>
+              <td>0.35</td>
+              <td><strong>0.25</strong></td>
+              <td style="color:#b87d2a">-0.10</td>
+              <td style="position:relative"><div style="background:#b87d2a;height:8px;width:19.125349999999997%;float:left;opacity:0.6"></div></td>
+            </tr>
+<tr>
+              <td><code>0.4–0.6</code></td>
+              <td>9</td>
+              <td>0.54</td>
+              <td><strong>0.89</strong></td>
+              <td style="color:#b8472a">+0.35</td>
+              <td style="position:relative"><div style="background:#b8472a;height:8px;width:70.43431111111111%;float:right;opacity:0.6"></div></td>
+            </tr>
+<tr>
+              <td><code>0.6–0.7</code></td>
+              <td>17</td>
+              <td>0.65</td>
+              <td><strong>0.65</strong></td>
+              <td style="color:#0a7d2c">-0.00</td>
+              <td style="position:relative"><div style="background:#0a7d2c;height:8px;width:0.4435294117647093%;float:left;opacity:0.6"></div></td>
+            </tr>
+<tr>
+              <td><code>0.7–0.8</code></td>
+              <td>17</td>
+              <td>0.76</td>
+              <td><strong>0.94</strong></td>
+              <td style="color:#b8472a">+0.19</td>
+              <td style="position:relative"><div style="background:#b8472a;height:8px;width:37.05882352941177%;float:right;opacity:0.6"></div></td>
+            </tr>
+<tr>
+              <td><code>0.8–0.9</code></td>
+              <td>19</td>
+              <td>0.84</td>
+              <td><strong>0.84</strong></td>
+              <td style="color:#0a7d2c">+0.01</td>
+              <td style="position:relative"><div style="background:#0a7d2c;height:8px;width:1.1730842105263095%;float:right;opacity:0.6"></div></td>
+            </tr>
+<tr>
+              <td><code>0.9–1.0</code></td>
+              <td>5</td>
+              <td>0.92</td>
+              <td><strong>1.00</strong></td>
+              <td style="color:#b87d2a">+0.08</td>
+              <td style="position:relative"><div style="background:#b87d2a;height:8px;width:16.203560000000007%;float:right;opacity:0.6"></div></td>
+            </tr></tbody>
+</table>
+
+<div class="note">
+  <strong>Known bias</strong>: in the 0.4–0.8 mid-range, actual outcome rate exceeds predicted probability by 15–35pp. This means our model is <em>underconfident</em> in the middle bands. We're working as we publish — calibration is graded continuously. Documented openly here as a credibility artifact.
+</div>
+
+<h2>Per-domain quality (Tier A &lt; 0.10 / B 0.10–0.20 / C &gt; 0.20)</h2>
+
+<h3 style="margin-top:24px">Tier A — production-grade</h3>
+<table><thead><tr><th>Domain</th><th>n</th><th>mean Brier</th><th>tier</th></tr></thead>
+<tbody><tr><td>labor_claims</td><td>2</td><td><strong>0.0003</strong></td><td style='color:#0a7d2c;font-weight:600'>A</td></tr>
+<tr><td>fda_pdufa_scan</td><td>3</td><td><strong>0.0103</strong></td><td style='color:#0a7d2c;font-weight:600'>A</td></tr>
+<tr><td>politics</td><td>2</td><td><strong>0.0168</strong></td><td style='color:#0a7d2c;font-weight:600'>A</td></tr>
+<tr><td>latam_scan</td><td>1</td><td><strong>0.0400</strong></td><td style='color:#0a7d2c;font-weight:600'>A</td></tr>
+<tr><td>earnings_largecap</td><td>4</td><td><strong>0.0454</strong></td><td style='color:#0a7d2c;font-weight:600'>A</td></tr>
+<tr><td>ism_scan</td><td>1</td><td><strong>0.0484</strong></td><td style='color:#0a7d2c;font-weight:600'>A</td></tr>
+<tr><td>eia_natgas</td><td>3</td><td><strong>0.0579</strong></td><td style='color:#0a7d2c;font-weight:600'>A</td></tr>
+<tr><td>global_latam</td><td>1</td><td><strong>0.0625</strong></td><td style='color:#0a7d2c;font-weight:600'>A</td></tr>
+<tr><td>chorus-reference-class</td><td>2</td><td><strong>0.0644</strong></td><td style='color:#0a7d2c;font-weight:600'>A</td></tr>
+<tr><td>international_political</td><td>2</td><td><strong>0.0794</strong></td><td style='color:#0a7d2c;font-weight:600'>A</td></tr>
+<tr><td>supply_chain_scan</td><td>1</td><td><strong>0.0900</strong></td><td style='color:#0a7d2c;font-weight:600'>A</td></tr>
+<tr><td>energy_scan</td><td>1</td><td><strong>0.0900</strong></td><td style='color:#0a7d2c;font-weight:600'>A</td></tr></tbody></table>
+
+<h3 style="margin-top:24px">Tier B — honest middle</h3>
+<table><thead><tr><th>Domain</th><th>n</th><th>mean Brier</th><th>tier</th></tr></thead>
+<tbody><tr><td>precious_metals_direction</td><td>3</td><td><strong>0.1076</strong></td><td style='color:#b87d2a;font-weight:600'>B</td></tr>
+<tr><td>colorado_phonefree</td><td>1</td><td><strong>0.1128</strong></td><td style='color:#b87d2a;font-weight:600'>B</td></tr>
+<tr><td>jobless_claims</td><td>1</td><td><strong>0.1132</strong></td><td style='color:#b87d2a;font-weight:600'>B</td></tr>
+<tr><td>iowa_shapley_gap_prediction</td><td>1</td><td><strong>0.1225</strong></td><td style='color:#b87d2a;font-weight:600'>B</td></tr>
+<tr><td>labor_payrolls</td><td>9</td><td><strong>0.1282</strong></td><td style='color:#b87d2a;font-weight:600'>B</td></tr>
+<tr><td>earnings_sector_rate</td><td>16</td><td><strong>0.1529</strong></td><td style='color:#b87d2a;font-weight:600'>B</td></tr>
+<tr><td>crypto_weekly</td><td>11</td><td><strong>0.1655</strong></td><td style='color:#b87d2a;font-weight:600'>B</td></tr>
+<tr><td>pricing</td><td>7</td><td><strong>0.1728</strong></td><td style='color:#b87d2a;font-weight:600'>B</td></tr></tbody></table>
+
+<h3 style="margin-top:24px">Tier C — below grade (excluded from headline marketing)</h3>
+<table><thead><tr><th>Domain</th><th>n</th><th>mean Brier</th><th>tier</th></tr></thead>
+<tbody><tr><td>political_calendar</td><td>2</td><td><strong>0.2425</strong></td><td style='color:#b8472a;font-weight:600'>C</td></tr>
+<tr><td>energy</td><td>1</td><td><strong>0.4225</strong></td><td style='color:#b8472a;font-weight:600'>C</td></tr>
+<tr><td>geopolitical_scan</td><td>3</td><td><strong>0.5110</strong></td><td style='color:#b8472a;font-weight:600'>C</td></tr>
+<tr><td>fl01_historical</td><td>1</td><td><strong>0.6724</strong></td><td style='color:#b8472a;font-weight:600'>C</td></tr>
+<tr><td>fl01_cook_rating</td><td>1</td><td><strong>0.7225</strong></td><td style='color:#b8472a;font-weight:600'>C</td></tr></tbody></table>
+
+<h2>Methodology</h2>
+<p class="muted">
+  Walk-forward universe is computed daily from <a href="https://github.com/addieconner/chorus-public-ledger">ledger_canonical.json</a>.
+  Predictions enter the universe only when both <code>locked_at</code> and <code>resolved_at</code> are present and <code>locked_at &lt; resolved_at</code>.
+  No retroactive scoring. No re-grading. Per-prediction Brier = (p − outcome)².
+</p>
+<p class="muted">
+  Source code: <a href="https://github.com/addieconner/chorus/blob/main/scripts/render_calibration_page.py">render_calibration_page.py</a>.
+  Public ledger: <a href="/">chorus-public-ledger</a>. Subscribe to research feeds by vertical at <a href="https://chorus-research.com">chorus-research.com</a>.
+</p>
+
+<footer>
+  <p>Updated 2026-05-25 23:44 UTC · part of <a href="/">Chorus Public Ledger</a></p>
+</footer>
+</div>
+</body>
+</html>

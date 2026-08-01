@@ -1,10 +1,16 @@
 {
+  "baseline_probability": null,
+  "brier_score": 0.004516,
   "canonical_id": "pred_wc2026_group_advance_switzerland",
+  "chorus_probability": 0.9328,
   "domain": "sports_worldcup_2026_group_stage",
+  "in_headline": null,
   "locked_at": "2026-06-16T18:00:00+00:00",
-  "predicted_prob": 0.9328,
+  "original_sha": "4adba322d41855d6d0760ad5bc540490dec4c6d8ad4aead196169376f9477b93",
   "question": "Switzerland advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+  "resolution": 1.0,
   "resolution_criterion": "Switzerland finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
   "resolution_date": "2026-06-27T23:59:00+00:00",
-  "sha256": "4adba322d41855d6d0760ad5bc540490dec4c6d8ad4aead196169376f9477b93"
+  "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+  "temporal_class": "FWD"
 }

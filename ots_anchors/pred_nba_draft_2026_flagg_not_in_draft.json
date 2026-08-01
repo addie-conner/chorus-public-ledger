@@ -1,10 +1,16 @@
 {
+  "baseline_probability": null,
+  "brier_score": 2.5e-05,
   "canonical_id": "pred_nba_draft_2026_flagg_not_in_draft",
+  "chorus_probability": 0.995,
   "domain": "sports_nba_draft_2026",
+  "in_headline": null,
   "locked_at": "2026-06-16T18:30:00+00:00",
-  "predicted_prob": 0.995,
+  "original_sha": "96a3239c0eb6bea9b319d5cf6002ffa1db017e648782636d3bf72ebe2577db16",
   "question": "Cooper Flagg is NOT selected in the 2026 NBA Draft",
+  "resolution": 1.0,
   "resolution_criterion": "Cooper Flagg's name is not called by any team during the 2026 NBA Draft on 2026-06-23.",
   "resolution_date": "2026-06-24T00:00:00+00:00",
-  "sha256": "96a3239c0eb6bea9b319d5cf6002ffa1db017e648782636d3bf72ebe2577db16"
+  "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+  "temporal_class": "FWD"
 }

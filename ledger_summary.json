@@ -1,204 +1,86 @@
 {
-  "generated_at": "2026-05-06T14:02:57.167732Z",
+  "generated_at": "2026-08-01T21:38:32+00:00Z",
   "totals": {
-    "total_entries": 1892,
-    "resolved": 70,
-    "forward_singles": 57,
-    "backward_validation": 3,
-    "backward_logged": 2,
-    "open": 1819,
-    "overdue": 1076,
-    "duplicates_tagged": 1034,
-    "from_v1": 483,
-    "from_v2": 1407,
-    "ots_anchored": 485
+    "total_entries": 990,
+    "resolved": 197,
+    "forward_singles": 142,
+    "backward_validation": 11,
+    "backward_logged": 0,
+    "open": 779,
+    "overdue": 176,
+    "duplicates_tagged": 99,
+    "voided": 12,
+    "pre_registered": 2,
+    "ots_anchored": 436
   },
   "headline_brier_FORWARD_ONLY": {
     "scope": "Forward, single-prediction, deduplicated, in-headline-domain only. Excludes pastcasting/cross-validation/aggregate batch claims and weak/exploratory domains.",
-    "n": 23,
-    "mean_brier": 0.0706,
+    "n": 6,
+    "mean_brier": 0.018,
     "best": 0.0,
-    "worst": 0.4225,
+    "worst": 0.04,
     "interpretation": "Lower=better. 0.05-0.10 = superforecaster tier; 538 elections ~0.05-0.07; coin-flip = 0.25."
   },
   "headline_by_domain": {
     "corporate_earnings": {
-      "n": 14,
-      "mean_brier": 0.0834,
-      "best": 0.0144,
-      "worst": 0.4225,
+      "n": 4,
+      "mean_brier": 0.0269,
+      "best": 0.0225,
+      "worst": 0.04,
       "predictions": [
         {
-          "q": "META beats Q1 2026 EPS consensus",
-          "p": 0.82,
-          "actual": 1.0,
-          "brier": 0.0324
-        },
-        {
-          "q": "MSFT beats Q1 2026 EPS consensus",
-          "p": 0.75,
-          "actual": 1.0,
-          "brier": 0.0625
-        },
-        {
-          "q": "JPM beats Q1 2026 EPS consensus",
-          "p": 0.88,
-          "actual": 1.0,
-          "brier": 0.0144
-        },
-        {
-          "q": "GOOGL beats Q1 2026 EPS consensus",
-          "p": 0.8,
-          "actual": 1.0,
-          "brier": 0.04
-        },
-        {
-          "q": "GS beats Q1 2026 EPS consensus",
-          "p": 0.78,
-          "actual": 1.0,
-          "brier": 0.0484
-        },
-        {
-          "q": "AMZN beats Q1 2026 EPS consensus",
-          "p": 0.68,
-          "actual": 1.0,
-          "brier": 0.1024
-        },
-        {
-          "q": "NFLX beats Q1 2026 revenue consensus",
-          "p": 0.75,
-          "actual": 1.0,
-          "brier": 0.0625
-        },
-        {
-          "q": "BAC beats Q1 2026 EPS consensus",
-          "p": 0.72,
-          "actual": 1.0,
-          "brier": 0.0784
-        },
-        {
-          "q": "SOFI beats Q1 2026 EPS consensus",
-          "p": 0.65,
-          "actual": 0.0,
-          "brier": 0.4225
-        },
-        {
-          "q": "AAPL beats Q1 2026 EPS consensus",
-          "p": 0.65,
-          "actual": 1.0,
-          "brier": 0.1225
-        },
-        {
-          "q": "Citigroup C beats Q1 2026 EPS consensus",
-          "p": 0.75,
-          "actual": 1.0,
-          "brier": 0.0625
-        },
-        {
-          "q": "Wells Fargo WFC beats Q1 2026 EPS consensus",
-          "p": 0.78,
-          "actual": 1.0,
-          "brier": 0.0484
-        },
-        {
-          "q": "Apple AAPL beats Q2 2026 EPS consensus",
+          "q": "CRM beats Q1 FY2026 EPS consensus",
           "p": 0.85,
           "actual": 1.0,
           "brier": 0.0225
         },
         {
-          "q": "Amazon AMZN beats Q1 2026 EPS consensus",
-          "p": 0.78,
+          "q": "COST beats Q3 FY2026 EPS consensus",
+          "p": 0.85,
           "actual": 1.0,
-          "brier": 0.0484
-        }
-      ]
-    },
-    "macro_indicators": {
-      "n": 5,
-      "mean_brier": 0.0389,
-      "best": 0.0,
-      "worst": 0.1132,
-      "predictions": [
-        {
-          "q": "ISM Services PMI above 50 (expansion) for March 2026",
-          "p": 0.78,
-          "actual": 1.0,
-          "brier": 0.0484
+          "brier": 0.0225
         },
         {
-          "q": "Initial jobless claims below 220k for week ending 2026-04-04",
-          "p": 0.6636,
+          "q": "AVGO beats Q2 FY2026 EPS consensus",
+          "p": 0.85,
           "actual": 1.0,
-          "brier": 0.113165
+          "brier": 0.0225
         },
         {
-          "q": "EIA natural gas storage injection (build) for week ending 2026-04-04",
-          "p": 0.82,
-          "actual": 1.0,
-          "brier": 0.0324
-        },
-        {
-          "q": "Weekly initial jobless claims \u2265220K for week ending 2026-04-18 (BLS release 2026-04-23)",
-          "p": 0.025,
-          "actual": 0.0,
-          "brier": 0.000625
-        },
-        {
-          "q": "Weekly initial jobless claims \u2265225K for week ending 2026-04-18 (BLS release 2026-04-23)",
-          "p": 0.002,
-          "actual": 0.0,
-          "brier": 4e-06
-        }
-      ]
-    },
-    "latin_america": {
-      "n": 2,
-      "mean_brier": 0.0513,
-      "best": 0.04,
-      "worst": 0.0625,
-      "predictions": [
-        {
-          "q": "Peru completes scheduled 2026 elections without major disruption",
-          "p": 0.75,
-          "actual": 1.0,
-          "brier": 0.0625
-        },
-        {
-          "q": "Peru holds scheduled 2026 elections on time",
+          "q": "NVDA beats Q1 2026 EPS consensus",
           "p": 0.8,
           "actual": 1.0,
           "brier": 0.04
         }
       ]
     },
-    "international_political": {
+    "macro_indicators": {
       "n": 2,
-      "mean_brier": 0.0794,
-      "best": 0.0144,
-      "worst": 0.1444,
+      "mean_brier": 0.0003,
+      "best": 0.0,
+      "worst": 0.0006,
       "predictions": [
         {
-          "q": "Tisza wins Hungary parliamentary election Apr 12 2026 (popular vote)",
-          "p": 0.88,
-          "actual": 1.0,
-          "brier": 0.0144
+          "q": "Weekly initial jobless claims \u2265220K for week ending 2026-04-18 (BLS release 2026",
+          "p": 0.025,
+          "actual": 0.0,
+          "brier": 0.000625
         },
         {
-          "q": "Tisza popular vote margin > 9% over Fidesz",
-          "p": 0.62,
-          "actual": 1.0,
-          "brier": 0.1444
+          "q": "Weekly initial jobless claims \u2265225K for week ending 2026-04-18 (BLS release 2026",
+          "p": 0.002,
+          "actual": 0.0,
+          "brier": 4e-06
         }
       ]
     }
   },
   "all_forward_brier": {
     "scope": "All forward, single, deduplicated predictions across all domains (full transparency).",
-    "n": 57,
-    "mean_brier": 0.1646,
+    "n": 142,
+    "mean_brier": 0.1517,
     "best": 0.0,
-    "worst": 0.81
+    "worst": 0.948
   },
   "backward_validation": {
     "scope": "Pastcasting / cross-validation / aggregate batch claims. NOT forward predictions. Methodology evidence only.",
@@ -209,6 +91,48 @@
         "n_underlying": 0,
         "brier": 0.0324,
         "notes": "165 predictions, Brier 0.045, 2x superforecasters"
+      },
+      {
+        "question": "ISM Services PMI above 50 (expansion) for March 2026",
+        "domain": "ism_scan",
+        "n_underlying": 0,
+        "brier": 0.0484,
+        "notes": "ISM Report on Business April 3 2026"
+      },
+      {
+        "question": "Will gold close higher on Friday than it opened on Monday?",
+        "domain": "precious_metals_direction",
+        "n_underlying": 0,
+        "brier": 0.157927,
+        "notes": "Gold opened ~$3,124 Mon Mar 31, closed ~$3,115 Fri Apr 3"
+      },
+      {
+        "question": "Initial jobless claims below 220k for week ending 2026-04-04",
+        "domain": "auto_resolved",
+        "n_underlying": 0,
+        "brier": 0.113165,
+        "notes": "auto-resolve sweep 2026-04-09"
+      },
+      {
+        "question": "EIA natural gas storage injection (build) for week ending 2026-04-04",
+        "domain": "auto_resolved",
+        "n_underlying": 0,
+        "brier": 0.0324,
+        "notes": "auto-resolve sweep 2026-04-09"
+      },
+      {
+        "question": "Gold closes higher Friday 2026-04-10 than Monday open",
+        "domain": "precious_metals_direction",
+        "n_underlying": 0,
+        "brier": 0.0625,
+        "notes": "Web search: Gold opened ~$4,650 Mon Apr 6, closed ~$4,690 Fri Apr 10 (+0.86%)"
+      },
+      {
+        "question": "Does in-country (CIV) rainfall correlate with cocoa price-stress signals at 12-24 month lag?",
+        "domain": "climate_signal_validation",
+        "n_underlying": null,
+        "brier": null,
+        "notes": "BORDERLINE \u2014 IC rainfall at r=-0.350 with cocoa price (below standard significance, directionally correct). Used as a candidate-tier signal not a champion-tier signal. The wet-season-anomaly variant (vs raw IC rainfall) is the version that survived Gate 3 for CIV (R\u00b2 0.26 \u2192 0.55 in-sample lift \u2014 though walk-forward later showed the lift didn't survive Gate 4)."
       },
       {
         "question": "Cocoa-to-chocolate-CPI direction (walk-forward backtest)",
@@ -223,71 +147,127 @@
         "n_underlying": null,
         "brier": 0.2463,
         "notes": "Champion AR-momentum: Brier 0.2587, n=93 walk-forward (2018-01 \u2192 2025-09). Challenger B (multi-lag SM: T-3+T-6+T-9 weighted): Brier 0.2463, delta +0.0124, paired t=-2.29, p=0.024. No slice regression in any year 2018-2025. Verdict: PROMOTE."
+      },
+      {
+        "question": "Does adding ENSO ONI lag-2 to the GHA + CIV annual deforestation models improve walk-forward MAPE (validation_summary.md reports +46% in-sample R\u00b2 lift for CIV)?",
+        "domain": "conservation_deforestation",
+        "n_underlying": null,
+        "brier": null,
+        "notes": "REJECT both countries. GHA wf-MAPE 41.3% \u2192 41.1% (\u0394 -0.14pp, p=0.278). CIV wf-MAPE 25.5% \u2192 29.7% (\u0394 +4.23pp, p=0.277). The '+46% adj R\u00b2' lift documented in validation_summary was in-sample fit, NOT walk-forward generalization. ENSO_lag2 doesn't survive the walk-forward gate. Methodology note: in-sample lifts do not transfer to walk-forward; this is exactly the kind of failure mode the 8-gate harness is designed to catch."
+      },
+      {
+        "question": "Does adding price \u00d7 post_2013 INTERACTION term (slope shift) to the CIV annual model improve over the price-only baseline? Per the ICCO agent's diagnosis: 'the fix is an interaction term, not intercept shift.'",
+        "domain": "conservation_deforestation",
+        "n_underlying": null,
+        "brier": null,
+        "notes": "REJECT all 3 variants. v2 baseline wf-MAPE 25.5%. Intercept-only (post_2013 dummy): 36.3% (p=0.970). Slope-only (price \u00d7 post_2013): 36.3% (p=0.970). Both: catastrophic 123.5% \u2014 clear overfit on n=23. The ICCO-agent diagnosis was wrong; the post-2013 regime variable doesn't survive walk-forward in any form. CIV's 2017 spike is sui generis \u2014 the model can't capture it with a binary regime variable."
       }
     ]
   },
   "by_domain_FORWARD_ONLY": {
-    "crypto_weekly": {
-      "n": 11,
-      "mean_brier": 0.1655,
-      "best": 0.0196,
-      "worst": 0.4225,
+    "sports_worldcup_2026_group_stage": {
+      "n": 27,
+      "mean_brier": 0.1452,
+      "best": 0.0018,
+      "worst": 0.7816,
       "in_headline": false
     },
-    "earnings_sector_rate": {
-      "n": 10,
-      "mean_brier": 0.0986,
-      "best": 0.0144,
-      "worst": 0.4225,
-      "in_headline": true
+    "inflation_cpiyoy": {
+      "n": 21,
+      "mean_brier": 0.263,
+      "best": 0.0,
+      "worst": 0.948,
+      "in_headline": false
     },
-    "earnings_largecap": {
-      "n": 4,
-      "mean_brier": 0.0454,
-      "best": 0.0225,
-      "worst": 0.0625,
-      "in_headline": true
+    "sports_worldcup_2026": {
+      "n": 15,
+      "mean_brier": 0.1501,
+      "best": 0.0001,
+      "worst": 0.3678,
+      "in_headline": false
+    },
+    "inflation_cpi": {
+      "n": 14,
+      "mean_brier": 0.0762,
+      "best": 0.0,
+      "worst": 0.4881,
+      "in_headline": false
+    },
+    "labor_payrolls": {
+      "n": 9,
+      "mean_brier": 0.1282,
+      "best": 0.0081,
+      "worst": 0.3781,
+      "in_headline": false
     },
     "pricing": {
-      "n": 4,
-      "mean_brier": 0.2777,
-      "best": 0.1764,
+      "n": 7,
+      "mean_brier": 0.1728,
+      "best": 0.01,
       "worst": 0.3721,
       "in_headline": false
     },
-    "geopolitical_scan": {
-      "n": 3,
-      "mean_brier": 0.511,
-      "best": 0.0004,
+    "monetary_policy": {
+      "n": 6,
+      "mean_brier": 0.0013,
+      "best": 0.0,
+      "worst": 0.0064,
+      "in_headline": false
+    },
+    "sports_attention_short_fuse": {
+      "n": 5,
+      "mean_brier": 0.0592,
+      "best": 0.0144,
+      "worst": 0.1225,
+      "in_headline": false
+    },
+    "sports_nba_draft_2026": {
+      "n": 5,
+      "mean_brier": 0.1662,
+      "best": 0.0,
       "worst": 0.81,
       "in_headline": false
     },
-    "precious_metals_direction": {
+    "earnings_sector_rate": {
       "n": 3,
-      "mean_brier": 0.1076,
-      "best": 0.0625,
-      "worst": 0.1579,
+      "mean_brier": 0.0283,
+      "best": 0.0225,
+      "worst": 0.04,
+      "in_headline": true
+    },
+    "geopolitical_scan": {
+      "n": 3,
+      "mean_brier": 0.2443,
+      "best": 0.0004,
+      "worst": 0.7225,
+      "in_headline": false
+    },
+    "fomc_scan": {
+      "n": 3,
+      "mean_brier": 0.0593,
+      "best": 0.0025,
+      "worst": 0.1024,
       "in_headline": false
     },
     "chorus-reference-class": {
       "n": 2,
-      "mean_brier": 0.0644,
-      "best": 0.0064,
-      "worst": 0.1225,
+      "mean_brier": 0.0762,
+      "best": 0.0625,
+      "worst": 0.09,
       "in_headline": false
     },
-    "international_political": {
+    "primary_scan": {
       "n": 2,
-      "mean_brier": 0.0794,
-      "best": 0.0144,
-      "worst": 0.1444,
-      "in_headline": true
+      "mean_brier": 0.3644,
+      "best": 0.0064,
+      "worst": 0.7225,
+      "in_headline": false
     },
-    "political_calendar": {
+    "fda_pdufa_scan": {
       "n": 2,
-      "mean_brier": 0.2425,
-      "best": 0.0625,
-      "worst": 0.4225,
+      "mean_brier": 0.0324,
+      "best": 0.0324,
+      "worst": 0.0324,
       "in_headline": false
     },
     "labor_claims": {
@@ -297,82 +277,89 @@
       "worst": 0.0006,
       "in_headline": true
     },
-    "iowa_shapley_gap_prediction": {
-      "n": 1,
-      "mean_brier": 0.1225,
-      "best": 0.1225,
-      "worst": 0.1225,
+    "macro_fomc": {
+      "n": 2,
+      "mean_brier": 0.0117,
+      "best": 0.0009,
+      "worst": 0.0225,
       "in_headline": false
     },
-    "fl01_historical": {
+    "iowa_caucus_extrapolation": {
+      "n": 1,
+      "mean_brier": 0.49,
+      "best": 0.49,
+      "worst": 0.49,
+      "in_headline": false
+    },
+    "trump_survival_base_rate": {
+      "n": 1,
+      "mean_brier": 0.0625,
+      "best": 0.0625,
+      "worst": 0.0625,
+      "in_headline": false
+    },
+    "iowa_model_derived": {
       "n": 1,
       "mean_brier": 0.6724,
       "best": 0.6724,
       "worst": 0.6724,
       "in_headline": false
     },
-    "ism_scan": {
+    "iowa_straw_poll_collapse": {
       "n": 1,
-      "mean_brier": 0.0484,
-      "best": 0.0484,
-      "worst": 0.0484,
-      "in_headline": true
+      "mean_brier": 0.0064,
+      "best": 0.0064,
+      "worst": 0.0064,
+      "in_headline": false
     },
-    "global_latam": {
+    "iowa_ensemble_q3b": {
       "n": 1,
       "mean_brier": 0.0625,
       "best": 0.0625,
       "worst": 0.0625,
-      "in_headline": true
-    },
-    "fl01_cook_rating": {
-      "n": 1,
-      "mean_brier": 0.7225,
-      "best": 0.7225,
-      "worst": 0.7225,
       "in_headline": false
     },
-    "latam_scan": {
+    "iowa_ensemble_derived": {
       "n": 1,
-      "mean_brier": 0.04,
-      "best": 0.04,
-      "worst": 0.04,
-      "in_headline": true
+      "mean_brier": 0.8464,
+      "best": 0.8464,
+      "worst": 0.8464,
+      "in_headline": false
     },
-    "supply_chain_scan": {
+    "fed_terminal": {
       "n": 1,
       "mean_brier": 0.09,
       "best": 0.09,
       "worst": 0.09,
       "in_headline": false
     },
-    "energy_scan": {
+    "boj_decision": {
       "n": 1,
-      "mean_brier": 0.09,
-      "best": 0.09,
-      "worst": 0.09,
+      "mean_brier": 0.3844,
+      "best": 0.3844,
+      "worst": 0.3844,
       "in_headline": false
     },
-    "jobless_claims": {
+    "nba_playoff": {
       "n": 1,
-      "mean_brier": 0.1132,
-      "best": 0.1132,
-      "worst": 0.1132,
-      "in_headline": true
-    },
-    "eia_natgas": {
-      "n": 1,
-      "mean_brier": 0.0324,
-      "best": 0.0324,
-      "worst": 0.0324,
-      "in_headline": true
-    },
-    "retail_sales": {
-      "n": 1,
-      "mean_brier": 0.1225,
-      "best": 0.1225,
-      "worst": 0.1225,
+      "mean_brier": 0.1369,
+      "best": 0.1369,
+      "worst": 0.1369,
       "in_headline": false
+    },
+    "fomc_rate_decision": {
+      "n": 1,
+      "mean_brier": 0.0098,
+      "best": 0.0098,
+      "worst": 0.0098,
+      "in_headline": false
+    },
+    "earnings_largecap": {
+      "n": 1,
+      "mean_brier": 0.0225,
+      "best": 0.0225,
+      "worst": 0.0225,
+      "in_headline": true
     },
     "politics": {
       "n": 1,
@@ -398,41 +385,37 @@
   },
   "by_year_FORWARD_ONLY": {
     "2026": {
-      "n": 56,
-      "mean_brier": 0.1653
+      "n": 142,
+      "mean_brier": 0.1517
     }
   },
   "audit_flag_counts": [
     [
       "no_ots_anchor",
-      1407
+      529
     ],
     [
       "resolution_overdue",
-      1076
+      203
     ],
     [
-      "missing_locked_at",
-      1020
+      "event_validation_passed",
+      139
     ],
     [
       "missing_sha256",
-      998
-    ],
-    [
-      "duplicate_of:pred_",
-      914
-    ],
-    [
-      "duplicate_of:pred_b7720131",
-      36
+      43
     ],
     [
       "missing_id",
-      17
+      25
     ],
     [
       "duplicate_of:164377ad2cae",
+      8
+    ],
+    [
+      "duplicate_of:pred_",
       8
     ],
     [
@@ -448,6 +431,10 @@
       5
     ],
     [
+      "duplicate_of:v1_unknown_4338179328",
+      5
+    ],
+    [
       "duplicate_of:pred_fb_da97b7ddfe29",
       5
     ],
@@ -458,6 +445,10 @@
     [
       "duplicate_of:85d2fbc9281a",
       4
+    ],
+    [
+      "event_validation_failed:no_fomc_meeting_on_or_near_2026-05-07",
+      3
     ],
     [
       "duplicate_of:5cf50d5003f6",
@@ -472,15 +463,11 @@
       3
     ],
     [
-      "duplicate_of:92a3e9446875",
+      "event_validation_failed:no_fomc_meeting_on_or_near_2026-11-04",
       2
     ],
     [
-      "duplicate_of:4c268d05f345",
-      2
-    ],
-    [
-      "duplicate_of:55bdb5f3d5ed",
+      "event_validation_failed:no_fomc_meeting_on_or_near_2026-12-16",
       2
     ]
   ]

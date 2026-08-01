@@ -1,10 +1,16 @@
 {
+  "baseline_probability": null,
+  "brier_score": 0.119301,
   "canonical_id": "pred_wc2026_v2pure_argentina_R16_or_better",
+  "chorus_probability": 0.6546,
   "domain": "sports_worldcup_2026",
+  "in_headline": null,
   "locked_at": "2026-06-14T20:05:06.029632+00:00",
-  "predicted_prob": 0.6546,
+  "original_sha": "17aeba28bb9d88cf1388859aa7f6ab370e0a414085864f76cc055be1616f2895",
   "question": "Argentina reaches R16",
+  "resolution": 1.0,
   "resolution_criterion": "Argentina advances to the Round of 16",
   "resolution_date": "2026-07-07T23:59:00+00:00",
-  "sha256": "17aeba28bb9d88cf1388859aa7f6ab370e0a414085864f76cc055be1616f2895"
+  "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+  "temporal_class": "FWD"
 }

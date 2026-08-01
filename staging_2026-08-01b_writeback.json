@@ -1,0 +1,182 @@
+[
+  {
+    "canonical_id": "62f9f4e239d1",
+    "domain": "trump_survival_base_rate",
+    "question": "Trump still president on July 31 2026",
+    "prob": 0.75,
+    "outcome": "resolved",
+    "actual": 1,
+    "brier": 0.0625,
+    "source_url": "https://apnews.com/hub/donald-trump"
+  },
+  {
+    "canonical_id": "fbec98f5399b",
+    "domain": "boj_decision",
+    "question": "Bank of Japan holds rates at next meeting",
+    "prob": 0.62,
+    "outcome": "resolved",
+    "actual": 0,
+    "brier": 0.3844,
+    "source_url": "https://www.cnbc.com/2026/06/16/boj-rate-hike-historic-inflation.html"
+  },
+  {
+    "canonical_id": "7821f470c2f1",
+    "domain": "boj_decision",
+    "question": "Bank of Japan holds rates at next meeting",
+    "prob": 0.62,
+    "outcome": "resolved",
+    "actual": 0,
+    "brier": 0.3844,
+    "source_url": "https://www.cnbc.com/2026/06/16/boj-rate-hike-historic-inflation.html"
+  },
+  {
+    "canonical_id": "db77a0ce4dc0",
+    "domain": "boj_decision",
+    "question": "Bank of Japan holds rates at next meeting",
+    "prob": 0.62,
+    "outcome": "resolved",
+    "actual": 0,
+    "brier": 0.3844,
+    "source_url": "https://www.cnbc.com/2026/06/16/boj-rate-hike-historic-inflation.html"
+  },
+  {
+    "canonical_id": "0eba43e4b227",
+    "domain": "boj_decision",
+    "question": "Bank of Japan holds rates at next meeting",
+    "prob": 0.62,
+    "outcome": "resolved",
+    "actual": 0,
+    "brier": 0.3844,
+    "source_url": "https://www.cnbc.com/2026/06/16/boj-rate-hike-historic-inflation.html"
+  },
+  {
+    "canonical_id": "c2fae00fc838",
+    "domain": "boj_decision",
+    "question": "Bank of Japan holds rates at next meeting",
+    "prob": 0.62,
+    "outcome": "resolved",
+    "actual": 0,
+    "brier": 0.3844,
+    "source_url": "https://www.cnbc.com/2026/06/16/boj-rate-hike-historic-inflation.html"
+  },
+  {
+    "canonical_id": "e7b83ddd9fe9",
+    "domain": "boj_decision",
+    "question": "Bank of Japan holds rates at next meeting",
+    "prob": 0.62,
+    "outcome": "resolved",
+    "actual": 0,
+    "brier": 0.3844,
+    "source_url": "https://www.cnbc.com/2026/06/16/boj-rate-hike-historic-inflation.html"
+  },
+  {
+    "canonical_id": "73dda56e9577",
+    "domain": "fed_terminal",
+    "question": "Fed funds upper above 4.00% at next FOMC decision",
+    "prob": 0.3,
+    "outcome": "resolved",
+    "actual": 0,
+    "brier": 0.09,
+    "source_url": "https://www.cnbc.com/2026/04/29/fed-interest-rate-decision-april-2026.html"
+  },
+  {
+    "canonical_id": "4be5b00af39d",
+    "domain": "fed_terminal",
+    "question": "Fed funds upper above 4.00% at next FOMC decision",
+    "prob": 0.3,
+    "outcome": "resolved",
+    "actual": 0,
+    "brier": 0.09,
+    "source_url": "https://www.cnbc.com/2026/04/29/fed-interest-rate-decision-april-2026.html"
+  },
+  {
+    "canonical_id": "9248c619476e",
+    "domain": "fed_terminal",
+    "question": "Fed funds upper above 4.00% at next FOMC decision",
+    "prob": 0.05,
+    "outcome": "resolved",
+    "actual": 0,
+    "brier": 0.0025,
+    "source_url": "https://www.cnbc.com/2026/04/29/fed-interest-rate-decision-april-2026.html"
+  },
+  {
+    "canonical_id": "cb935523027f",
+    "domain": "fed_terminal",
+    "question": "Fed funds upper above 4.00% at next FOMC decision",
+    "prob": 0.05,
+    "outcome": "resolved",
+    "actual": 0,
+    "brier": 0.0025,
+    "source_url": "https://www.cnbc.com/2026/04/29/fed-interest-rate-decision-april-2026.html"
+  },
+  {
+    "canonical_id": "902b2ea04406",
+    "domain": "fed_terminal",
+    "question": "Fed funds upper above 4.00% at next FOMC decision",
+    "prob": 0.5,
+    "outcome": "resolved",
+    "actual": 0,
+    "brier": 0.25,
+    "source_url": "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html"
+  },
+  {
+    "canonical_id": "2888044d0439",
+    "domain": "fed_terminal",
+    "question": "Fed funds upper above 4.00% at next FOMC decision",
+    "prob": 0.3,
+    "outcome": "resolved",
+    "actual": 0,
+    "brier": 0.09,
+    "source_url": "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html"
+  },
+  {
+    "canonical_id": "aaeb684d2c1a",
+    "domain": "fomc_scan",
+    "question": "FOMC 2026-06-17: Fed cuts 25bp",
+    "prob": 0.27,
+    "outcome": "resolved",
+    "actual": 0,
+    "brier": 0.0729,
+    "source_url": "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html"
+  },
+  {
+    "canonical_id": "c0c9c10c958f",
+    "domain": "fomc_scan",
+    "question": "FOMC 2026-06-17: Fed holds rates at current level",
+    "prob": 0.68,
+    "outcome": "resolved",
+    "actual": 1,
+    "brier": 0.1024,
+    "source_url": "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html"
+  },
+  {
+    "canonical_id": "f33e9dd53858",
+    "domain": "fomc_scan",
+    "question": "FOMC 2026-06-17: Fed cuts 50bp",
+    "prob": 0.05,
+    "outcome": "resolved",
+    "actual": 0,
+    "brier": 0.0025,
+    "source_url": "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html"
+  },
+  {
+    "canonical_id": "81ad935c-383",
+    "domain": "fomc_rate_decision",
+    "question": "Will the FOMC cut rates at the 2026-06-17 meeting?",
+    "prob": 0.0989,
+    "outcome": "resolved",
+    "actual": 0,
+    "brier": 0.009781,
+    "source_url": "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html"
+  },
+  {
+    "canonical_id": "pred_e038ee1d",
+    "domain": "monetary_policy",
+    "question": "FOMC holds rates unchanged at May 6-7, 2026 meeting (SUPERSEDES pred_583f357d at P=0.88)",
+    "prob": 0.92,
+    "outcome": "resolved",
+    "actual": 1,
+    "brier": 0.0064,
+    "source_url": "https://www.cnbc.com/2026/05/07/fed-interest-rate-decision-may-2026.html"
+  }
+]

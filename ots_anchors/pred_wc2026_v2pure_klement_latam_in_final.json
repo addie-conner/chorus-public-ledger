@@ -1,10 +1,16 @@
 {
+  "baseline_probability": null,
+  "brier_score": 0.239121,
   "canonical_id": "pred_wc2026_v2pure_klement_latam_in_final",
+  "chorus_probability": 0.511,
   "domain": "sports_worldcup_2026",
+  "in_headline": null,
   "locked_at": "2026-06-14T20:05:06.029632+00:00",
-  "predicted_prob": 0.511,
+  "original_sha": "69a54fc01d41bf0e19f33f4662d553125a79b7fca549fa2a2cbe54377b88bf07",
   "question": "A LatAm team (BRA/ARG/MEX/URU/COL/ECU) reaches the final",
+  "resolution": 1.0,
   "resolution_criterion": "At least one of {Brazil, Argentina, Mexico, Uruguay, Colombia, Ecuador} reaches the 2026 FIFA World Cup final",
   "resolution_date": "2026-07-19T23:59:00+00:00",
-  "sha256": "69a54fc01d41bf0e19f33f4662d553125a79b7fca549fa2a2cbe54377b88bf07"
+  "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+  "temporal_class": "FWD"
 }

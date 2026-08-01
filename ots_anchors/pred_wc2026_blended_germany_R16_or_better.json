@@ -1,10 +1,16 @@
 {
+  "baseline_probability": null,
+  "brier_score": 0.167445,
   "canonical_id": "pred_wc2026_blended_germany_R16_or_better",
+  "chorus_probability": 0.4092,
   "domain": "sports_worldcup_2026",
+  "in_headline": null,
   "locked_at": "2026-06-14T20:05:06.029632+00:00",
-  "predicted_prob": 0.4092,
+  "original_sha": "b8bb88dcc6aeeb8b6f115330a08b67b394be59ea3edbcab7bc586f1412a3ddc2",
   "question": "Germany reaches R16",
+  "resolution": 0.0,
   "resolution_criterion": "Germany advances to the Round of 16",
   "resolution_date": "2026-07-07T23:59:00+00:00",
-  "sha256": "b8bb88dcc6aeeb8b6f115330a08b67b394be59ea3edbcab7bc586f1412a3ddc2"
+  "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+  "temporal_class": "FWD"
 }

@@ -1,0 +1,150 @@
+[
+  {
+    "_scaffold_note": "STAGING SCAFFOLD — chorus_probability values are STILL pending calibration. AVI v2 panel data and language-Wikipedia baselines have been populated from live sources 2026-06-28. The remaining gap: documented mapping from AVI composite score (or per-language baseline + season-ramp prior) to chorus_probability. Either (a) ground in Polymarket/Kalshi market consensus where it exists, or (b) write up an AVI→P calibration model and reference it here. DO NOT OTS-anchor or commit until probabilities are set + scaffold_note removed.",
+    "_scaffold_status": "DATA_POPULATED_PROBABILITIES_PENDING",
+    "_data_pulled_at": "2026-06-28T19:00:00+00:00"
+  },
+  {
+    "canonical_id": "2027_nba_001",
+    "source_file": "staging_2027_nba_draft_2026-06-28.json",
+    "domain": "nba_draft",
+    "question": "Cameron Boozer selected in top-5 of 2027 NBA Draft",
+    "resolution_criterion": "ESPN draft tracker / NBA.com 2027 NBA Draft official picks 1-5 includes Cameron Boozer",
+    "chorus_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T00:00:00+00:00",
+    "locked_at": null,
+    "resolution_date": "2027-06-25",
+    "model_inputs": {
+      "_TODO_avi_scan": "AVI v2 panel for Cameron Boozer not yet generated. Run batch_wizards_workout_v2_batch3.py-style cohort scanner adapted for 2027 class to produce sports_weather/outputs_noss/AVI_v2_PANEL_*_Cameron_Boozer.json",
+      "_note": "He may be a 2026 draft prospect (already in 2026 staging file p=0.72 for Y1 brand-deal count) — confirm 2027 eligibility before locking this entry",
+      "polymarket_consensus": "TODO: check polymarket.com/markets for Cameron Boozer 2027 NBA Draft top-5"
+    },
+    "audit_flags": ["no_ots_anchor", "probability_pending", "avi_scan_pending", "draft_year_confirmation_pending"],
+    "temporal_class": "FWD",
+    "in_headline": false
+  },
+  {
+    "canonical_id": "2027_nba_002",
+    "source_file": "staging_2027_nba_draft_2026-06-28.json",
+    "domain": "nba_draft",
+    "question": "Darryn Peterson selected in top-10 of 2027 NBA Draft",
+    "resolution_criterion": "ESPN draft tracker / NBA.com 2027 NBA Draft official picks 1-10 includes Darryn Peterson",
+    "chorus_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T00:00:00+00:00",
+    "locked_at": null,
+    "resolution_date": "2027-06-25",
+    "model_inputs": {
+      "avi_v2_panel_source": "sports_weather/outputs_noss/AVI_v2_PANEL_2026-06-26_Darryn_Peterson.json",
+      "avi_v2_composite_score": 27.9495,
+      "avi_v2_fires": true,
+      "first_firing_class": "EN_WIKI",
+      "first_firing_date": "2024-04-29",
+      "en_wiki_max_z": 56.11,
+      "ml_wiki_max_z": 23.10,
+      "_signal_note": "Near-Citron-tier composite (28.18). EN_WIKI z=56.11 is the strongest single-class signal in the AVI v2 portfolio. ML_WIKI also fires at z=23.10 — multi-source confirmation.",
+      "_calibration_TODO": "Map composite=27.95 → P(top-10 of 2027 NBA Draft). Need: (a) Polymarket/Kalshi consensus check, or (b) historical AVI composite → draft-pick conversion rate."
+    },
+    "audit_flags": ["no_ots_anchor", "probability_pending"],
+    "temporal_class": "FWD",
+    "in_headline": false
+  },
+  {
+    "canonical_id": "2027_nba_003",
+    "source_file": "staging_2027_nba_draft_2026-06-28.json",
+    "domain": "nba_draft",
+    "question": "Tyran Stokes selected in top-10 of 2027 NBA Draft",
+    "resolution_criterion": "ESPN draft tracker / NBA.com 2027 NBA Draft official picks 1-10 includes Tyran Stokes",
+    "chorus_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T00:00:00+00:00",
+    "locked_at": null,
+    "resolution_date": "2027-06-25",
+    "model_inputs": {
+      "avi_v2_panel_source": "sports_weather/outputs_noss/AVI_v2_PANEL_2026-06-26_Tyran_Stokes.json",
+      "avi_v2_composite_score": 1.0149,
+      "avi_v2_fires": true,
+      "first_firing_class": "EN_WIKI",
+      "first_firing_date": "2024-05-08",
+      "en_wiki_max_z": 2.76,
+      "ml_wiki_max_z": null,
+      "_signal_note": "Marginal fire — composite barely above 1.0, only EN_WIKI class triggered at z=2.76 (just above the 2.0 threshold). Much weaker signal than Peterson. Possibly too early or too thin a public footprint to support a high-conviction draft-pick lock at this stage.",
+      "_calibration_TODO": "Probability should reflect the weak signal. Consider downgrading question to top-15 or top-20."
+    },
+    "audit_flags": ["no_ots_anchor", "probability_pending", "signal_marginal"],
+    "temporal_class": "FWD",
+    "in_headline": false
+  },
+  {
+    "canonical_id": "2027_wizards_lane_001",
+    "source_file": "staging_2027_nba_draft_2026-06-28.json",
+    "domain": "wizards_cross_portfolio",
+    "question": "Bilal Coulibaly French-Wikipedia 7-day median exceeds 250/day in any week during 2026-27 NBA season",
+    "resolution_criterion": "Wikipedia REST API pageviews for 'Bilal_Coulibaly' on fr.wikipedia.org 7-day median ≥ 250/day at any point 2026-10-22 → 2027-04-15",
+    "chorus_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T00:00:00+00:00",
+    "locked_at": null,
+    "resolution_date": "2027-04-15",
+    "model_inputs": {
+      "avi_v2_class": "ML_WIKI_fr",
+      "baseline_window": "2026-03-30 → 2026-06-28 (90 days, offseason)",
+      "baseline_median_views_per_day": 108,
+      "baseline_max_views_per_day": 323,
+      "days_at_or_above_threshold_in_baseline": 3,
+      "baseline_n_days": 90,
+      "required_ramp_multiplier_vs_baseline_median": 2.31,
+      "_signal_note": "Plausible during season — 2.3× baseline ramp from 108 → 250+/day median. 3 days already at threshold in offseason suggests game-day or trade-news spikes. Resolution is 'ANY week' so a single hot week clears it.",
+      "_calibration_TODO": "Historical comp: Sarr / George multi-lang Wikipedia season ramps. Use to set P."
+    },
+    "audit_flags": ["no_ots_anchor", "probability_pending"],
+    "temporal_class": "FWD",
+    "in_headline": false
+  },
+  {
+    "canonical_id": "2027_wizards_lane_002",
+    "source_file": "staging_2027_nba_draft_2026-06-28.json",
+    "domain": "wizards_cross_portfolio",
+    "question": "Trae Young Spanish-Wikipedia 7-day median exceeds 400/day in any week during 2026-27 NBA season",
+    "resolution_criterion": "Wikipedia REST API pageviews for 'Trae_Young' on es.wikipedia.org 7-day median ≥ 400/day at any point 2026-10-22 → 2027-04-15",
+    "chorus_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T00:00:00+00:00",
+    "locked_at": null,
+    "resolution_date": "2027-04-15",
+    "model_inputs": {
+      "avi_v2_class": "ML_WIKI_es",
+      "baseline_window": "2026-03-30 → 2026-06-28 (90 days, post-trade arrival to Wizards Jan 2026)",
+      "baseline_median_views_per_day": 85,
+      "baseline_max_views_per_day": 363,
+      "days_at_or_above_threshold_in_baseline": 0,
+      "baseline_n_days": 90,
+      "required_ramp_multiplier_vs_baseline_median": 4.71,
+      "_signal_note": "AGGRESSIVE threshold — 4.7× baseline ramp required. 0/90 days at threshold even post-trade. Recommend lowering threshold to 200/day (2.4× ramp) OR setting low P (~0.20) to keep at current threshold."
+    },
+    "audit_flags": ["no_ots_anchor", "probability_pending", "threshold_likely_too_aggressive"],
+    "temporal_class": "FWD",
+    "in_headline": false
+  },
+  {
+    "canonical_id": "2027_wizards_lane_003",
+    "source_file": "staging_2027_nba_draft_2026-06-28.json",
+    "domain": "wizards_cross_portfolio",
+    "question": "Anthony Davis Japanese-Wikipedia 7-day median exceeds 300/day in any week during 2026-27 NBA season",
+    "resolution_criterion": "Wikipedia REST API pageviews for 'Anthony_Davis_(basketball,_born_1993)' on ja.wikipedia.org 7-day median ≥ 300/day at any point 2026-10-22 → 2027-04-15",
+    "chorus_probability": null,
+    "status": "open",
+    "created_at": "2026-06-28T00:00:00+00:00",
+    "locked_at": null,
+    "resolution_date": "2027-04-15",
+    "model_inputs": {
+      "avi_v2_class": "ML_WIKI_ja",
+      "_TODO_slug_fix": "Live ja.wikipedia.org fetch returned no data for 'Anthony_Davis_(basketball,_born_1993)'. The Japanese Wikipedia article title differs from the English. Need to identify the correct ja-Wiki article title (likely uses kanji/katakana) before this prediction is well-defined.",
+      "_alternatives_to_consider": "Could pivot the prediction to another AD signal: en.wikipedia spike in Japan-region pageviews (per-country breakdown), or YouTube Japan video views, or a different Japanese-market athlete on the Wizards roster."
+    },
+    "audit_flags": ["no_ots_anchor", "probability_pending", "slug_resolution_required"],
+    "temporal_class": "FWD",
+    "in_headline": false
+  }
+]

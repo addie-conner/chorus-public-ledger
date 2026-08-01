@@ -1,0 +1,16 @@
+{
+  "baseline_probability": null,
+  "brier_score": 0.154566,
+  "canonical_id": "pred_6b800613",
+  "chorus_probability": 0.606851,
+  "domain": "inflation_cpiyoy",
+  "in_headline": false,
+  "locked_at": "2026-04-30T13:00:59.967811+00:00",
+  "original_sha": "6b8006134d3a32b1f51f9a749a9605ad5e1fba18254b765e15d5bb8b9ff85b6f",
+  "question": "CPI YoY above 3.3% for April 2026 (BLS release 2026-06-10)",
+  "resolution": 1.0,
+  "resolution_criterion": "Resolves YES if BLS April 2026 CPI year-over-year change > 3.3%",
+  "resolution_date": "2026-06-10",
+  "resolved_at": "2026-06-25T12:38:50+00:00",
+  "temporal_class": "FWD"
+}

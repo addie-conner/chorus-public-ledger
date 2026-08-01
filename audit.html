@@ -32,67 +32,85 @@
 <body>
 
 <h1>Audit Detail</h1>
-<div class="subtitle">Full transparency layer for the <a href="index.html">Chorus public prediction ledger</a>. Generated 2026-05-06T14:02:57.167732Z</div>
+<div class="subtitle">Full transparency layer for the <a href="index.html">Chorus public prediction ledger</a>. Generated 2026-08-01T21:39:24.144176Z</div>
 
 <h2>All forward predictions, by raw domain</h2>
 <p>Every resolved forward prediction, including weaker domains excluded from the homepage headline. <code>★</code> marks domains in the headline summary on <a href="index.html">index.html</a>.</p>
-<p class="small">Across all forward predictions: n=57, mean Brier 0.1646, best 0.0000, worst 0.8100.</p>
+<p class="small">Across all forward predictions: n=94, mean Brier 0.1546, best 0.0000, worst 0.9480.</p>
 <table>
   <thead><tr><th>Domain</th><th>n</th><th>Mean Brier</th><th>Best / Worst</th></tr></thead>
   <tbody>
         <tr>
-          <td>crypto_weekly <span class="marker"></span></td>
-          <td class="num">11</td>
-          <td class="num">0.1655</td>
-          <td class="num small">0.0196 / 0.4225</td>
+          <td>inflation_cpiyoy <span class="marker"></span></td>
+          <td class="num">21</td>
+          <td class="num">0.2630</td>
+          <td class="num small">0.0000 / 0.9480</td>
         </tr>
         <tr>
-          <td>earnings_sector_rate <span class="marker">★</span></td>
-          <td class="num">10</td>
-          <td class="num">0.0986</td>
-          <td class="num small">0.0144 / 0.4225</td>
+          <td>inflation_cpi <span class="marker"></span></td>
+          <td class="num">14</td>
+          <td class="num">0.0762</td>
+          <td class="num small">0.0000 / 0.4881</td>
         </tr>
         <tr>
-          <td>earnings_largecap <span class="marker">★</span></td>
-          <td class="num">4</td>
-          <td class="num">0.0454</td>
-          <td class="num small">0.0225 / 0.0625</td>
+          <td>labor_payrolls <span class="marker"></span></td>
+          <td class="num">9</td>
+          <td class="num">0.1282</td>
+          <td class="num small">0.0081 / 0.3781</td>
         </tr>
         <tr>
           <td>pricing <span class="marker"></span></td>
-          <td class="num">4</td>
-          <td class="num">0.2777</td>
-          <td class="num small">0.1764 / 0.3721</td>
+          <td class="num">7</td>
+          <td class="num">0.1728</td>
+          <td class="num small">0.0100 / 0.3721</td>
+        </tr>
+        <tr>
+          <td>sports_attention_short_fuse <span class="marker"></span></td>
+          <td class="num">5</td>
+          <td class="num">0.0592</td>
+          <td class="num small">0.0144 / 0.1225</td>
+        </tr>
+        <tr>
+          <td>monetary_policy <span class="marker"></span></td>
+          <td class="num">5</td>
+          <td class="num">0.0003</td>
+          <td class="num small">0.0000 / 0.0009</td>
+        </tr>
+        <tr>
+          <td>earnings_sector_rate <span class="marker">★</span></td>
+          <td class="num">3</td>
+          <td class="num">0.0283</td>
+          <td class="num small">0.0225 / 0.0400</td>
         </tr>
         <tr>
           <td>geopolitical_scan <span class="marker"></span></td>
           <td class="num">3</td>
-          <td class="num">0.5110</td>
-          <td class="num small">0.0004 / 0.8100</td>
+          <td class="num">0.2443</td>
+          <td class="num small">0.0004 / 0.7225</td>
         </tr>
         <tr>
-          <td>precious_metals_direction <span class="marker"></span></td>
+          <td>fomc_scan <span class="marker"></span></td>
           <td class="num">3</td>
-          <td class="num">0.1076</td>
-          <td class="num small">0.0625 / 0.1579</td>
+          <td class="num">0.0593</td>
+          <td class="num small">0.0025 / 0.1024</td>
         </tr>
         <tr>
           <td>chorus-reference-class <span class="marker"></span></td>
           <td class="num">2</td>
-          <td class="num">0.0644</td>
-          <td class="num small">0.0064 / 0.1225</td>
+          <td class="num">0.0762</td>
+          <td class="num small">0.0625 / 0.0900</td>
         </tr>
         <tr>
-          <td>international_political <span class="marker">★</span></td>
+          <td>primary_scan <span class="marker"></span></td>
           <td class="num">2</td>
-          <td class="num">0.0794</td>
-          <td class="num small">0.0144 / 0.1444</td>
+          <td class="num">0.3644</td>
+          <td class="num small">0.0064 / 0.7225</td>
         </tr>
         <tr>
-          <td>political_calendar <span class="marker"></span></td>
+          <td>fda_pdufa_scan <span class="marker"></span></td>
           <td class="num">2</td>
-          <td class="num">0.2425</td>
-          <td class="num small">0.0625 / 0.4225</td>
+          <td class="num">0.0324</td>
+          <td class="num small">0.0324 / 0.0324</td>
         </tr>
         <tr>
           <td>labor_claims <span class="marker">★</span></td>
@@ -101,70 +119,76 @@
           <td class="num small">0.0000 / 0.0006</td>
         </tr>
         <tr>
-          <td>iowa_shapley_gap_prediction <span class="marker"></span></td>
-          <td class="num">1</td>
-          <td class="num">0.1225</td>
-          <td class="num small">0.1225 / 0.1225</td>
+          <td>macro_fomc <span class="marker"></span></td>
+          <td class="num">2</td>
+          <td class="num">0.0117</td>
+          <td class="num small">0.0009 / 0.0225</td>
         </tr>
         <tr>
-          <td>fl01_historical <span class="marker"></span></td>
+          <td>iowa_caucus_extrapolation <span class="marker"></span></td>
           <td class="num">1</td>
-          <td class="num">0.6724</td>
-          <td class="num small">0.6724 / 0.6724</td>
+          <td class="num">0.4900</td>
+          <td class="num small">0.4900 / 0.4900</td>
         </tr>
         <tr>
-          <td>ism_scan <span class="marker">★</span></td>
-          <td class="num">1</td>
-          <td class="num">0.0484</td>
-          <td class="num small">0.0484 / 0.0484</td>
-        </tr>
-        <tr>
-          <td>global_latam <span class="marker">★</span></td>
+          <td>trump_survival_base_rate <span class="marker"></span></td>
           <td class="num">1</td>
           <td class="num">0.0625</td>
           <td class="num small">0.0625 / 0.0625</td>
         </tr>
         <tr>
-          <td>fl01_cook_rating <span class="marker"></span></td>
+          <td>iowa_model_derived <span class="marker"></span></td>
           <td class="num">1</td>
-          <td class="num">0.7225</td>
-          <td class="num small">0.7225 / 0.7225</td>
+          <td class="num">0.6724</td>
+          <td class="num small">0.6724 / 0.6724</td>
         </tr>
         <tr>
-          <td>latam_scan <span class="marker">★</span></td>
+          <td>iowa_straw_poll_collapse <span class="marker"></span></td>
           <td class="num">1</td>
-          <td class="num">0.0400</td>
-          <td class="num small">0.0400 / 0.0400</td>
+          <td class="num">0.0064</td>
+          <td class="num small">0.0064 / 0.0064</td>
         </tr>
         <tr>
-          <td>supply_chain_scan <span class="marker"></span></td>
+          <td>iowa_ensemble_q3b <span class="marker"></span></td>
+          <td class="num">1</td>
+          <td class="num">0.0625</td>
+          <td class="num small">0.0625 / 0.0625</td>
+        </tr>
+        <tr>
+          <td>iowa_ensemble_derived <span class="marker"></span></td>
+          <td class="num">1</td>
+          <td class="num">0.8464</td>
+          <td class="num small">0.8464 / 0.8464</td>
+        </tr>
+        <tr>
+          <td>fed_terminal <span class="marker"></span></td>
           <td class="num">1</td>
           <td class="num">0.0900</td>
           <td class="num small">0.0900 / 0.0900</td>
         </tr>
         <tr>
-          <td>energy_scan <span class="marker"></span></td>
+          <td>boj_decision <span class="marker"></span></td>
           <td class="num">1</td>
-          <td class="num">0.0900</td>
-          <td class="num small">0.0900 / 0.0900</td>
+          <td class="num">0.3844</td>
+          <td class="num small">0.3844 / 0.3844</td>
         </tr>
         <tr>
-          <td>jobless_claims <span class="marker">★</span></td>
+          <td>nba_playoff <span class="marker"></span></td>
           <td class="num">1</td>
-          <td class="num">0.1132</td>
-          <td class="num small">0.1132 / 0.1132</td>
+          <td class="num">0.1369</td>
+          <td class="num small">0.1369 / 0.1369</td>
         </tr>
         <tr>
-          <td>eia_natgas <span class="marker">★</span></td>
+          <td>fomc_rate_decision <span class="marker"></span></td>
           <td class="num">1</td>
-          <td class="num">0.0324</td>
-          <td class="num small">0.0324 / 0.0324</td>
+          <td class="num">0.0098</td>
+          <td class="num small">0.0098 / 0.0098</td>
         </tr>
         <tr>
-          <td>retail_sales <span class="marker"></span></td>
+          <td>earnings_largecap <span class="marker">★</span></td>
           <td class="num">1</td>
-          <td class="num">0.1225</td>
-          <td class="num small">0.1225 / 0.1225</td>
+          <td class="num">0.0225</td>
+          <td class="num small">0.0225 / 0.0225</td>
         </tr>
         <tr>
           <td>politics <span class="marker"></span></td>
@@ -214,10 +238,10 @@
 </table>
 
 <h2>Open predictions (top domains)</h2>
-<p>1819 predictions are currently locked but not yet resolved. 1076 are past their stated resolution date and pending resolution data ingestion.</p>
+<p>853 predictions are currently locked but not yet resolved. 329 are past their stated resolution date and pending resolution data ingestion.</p>
 <table>
   <thead><tr><th>Domain</th><th>Open count</th></tr></thead>
-  <tbody><tr><td>?</td><td class="num">1020</td></tr><tr><td>forecastbench</td><td class="num">60</td></tr><tr><td>wsl_judging_bias</td><td class="num">49</td></tr><tr><td>sports_valuations</td><td class="num">33</td></tr><tr><td>house_scan</td><td class="num">27</td></tr><tr><td>national_race_model</td><td class="num">25</td></tr><tr><td>2026_senate</td><td class="num">24</td></tr><tr><td>2026_governor</td><td class="num">23</td></tr><tr><td>sports_scan</td><td class="num">22</td></tr><tr><td>inflation_cpiyoy</td><td class="num">21</td></tr></tbody>
+  <tbody><tr><td>forecastbench</td><td class="num">60</td></tr><tr><td>wsl_judging_bias</td><td class="num">49</td></tr><tr><td>sports_valuations</td><td class="num">33</td></tr><tr><td>sports_worldcup_2026</td><td class="num">28</td></tr><tr><td>house_scan</td><td class="num">27</td></tr><tr><td>sports_worldcup_2026_group_stage</td><td class="num">27</td></tr><tr><td>national_race_model</td><td class="num">25</td></tr><tr><td>2026_senate</td><td class="num">24</td></tr><tr><td>2026_governor</td><td class="num">23</td></tr><tr><td>sports_scan</td><td class="num">22</td></tr></tbody>
 </table>
 
 <footer>

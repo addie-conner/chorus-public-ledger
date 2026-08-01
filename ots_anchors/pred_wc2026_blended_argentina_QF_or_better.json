@@ -1,10 +1,16 @@
 {
+  "baseline_probability": null,
+  "brier_score": 0.40386,
   "canonical_id": "pred_wc2026_blended_argentina_QF_or_better",
+  "chorus_probability": 0.3645,
   "domain": "sports_worldcup_2026",
+  "in_headline": null,
   "locked_at": "2026-06-14T20:05:06.029632+00:00",
-  "predicted_prob": 0.3645,
+  "original_sha": "b2b33f06f07767d9d996c5dd7b0b8d2e171414b0ad26362c31f5b5863b2d7876",
   "question": "Argentina reaches QF",
+  "resolution": 1.0,
   "resolution_criterion": "Argentina reaches the quarterfinals",
   "resolution_date": "2026-07-11T23:59:00+00:00",
-  "sha256": "b2b33f06f07767d9d996c5dd7b0b8d2e171414b0ad26362c31f5b5863b2d7876"
+  "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+  "temporal_class": "FWD"
 }

@@ -1,10 +1,16 @@
 {
+  "baseline_probability": null,
+  "brier_score": 0.215946,
   "canonical_id": "pred_wc2026_blended_klement_top5_book_fav_wins",
+  "chorus_probability": 0.5353,
   "domain": "sports_worldcup_2026",
+  "in_headline": null,
   "locked_at": "2026-06-14T20:05:06.029632+00:00",
-  "predicted_prob": 0.5353,
+  "original_sha": "4af634f96cf0230e50c01e89840b6632a2c5e7ed04e98e56e74df07aa114f2c0",
   "question": "A top-5 book favorite (Spain, France, Portugal, England, Argentina) wins 2026 WC",
+  "resolution": 1.0,
   "resolution_criterion": "One of {Spain, France, Portugal, England, Argentina} wins the 2026 FIFA World Cup",
   "resolution_date": "2026-07-19T23:59:00+00:00",
-  "sha256": "4af634f96cf0230e50c01e89840b6632a2c5e7ed04e98e56e74df07aa114f2c0"
+  "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+  "temporal_class": "FWD"
 }

@@ -1,6 +1,6 @@
 {
   "baseline_probability": null,
-  "brier_score": null,
+  "brier_score": 0.0064,
   "canonical_id": "pred_e038ee1d",
   "chorus_probability": 0.92,
   "domain": "monetary_policy",
@@ -8,9 +8,9 @@
   "locked_at": "2026-04-18T20:13:22.736769+00:00",
   "original_sha": "801998fd78adf1b45ece694ea2de5e8933a9c8e9ea584e16cbaa892af166bcbd",
   "question": "FOMC holds rates unchanged at May 6-7, 2026 meeting (SUPERSEDES pred_583f357d at P=0.88)",
-  "resolution": null,
+  "resolution": 1.0,
   "resolution_criterion": "FOMC May 6-7 2026 decision == 'hold' (no change in federal funds target range). Supersedes prior prediction pred_583f357d (P=0.88 locked 2026-04-16); both remain in ledger but this record reflects updated probability given 2026-04-18 signal state (no dissenting speakers, no CPI surprise, analyst_rss quiet).",
   "resolution_date": "2026-05-07",
-  "resolved_at": null,
+  "resolved_at": "2026-08-01T21:38:27.681600+00:00",
   "temporal_class": "FWD"
 }

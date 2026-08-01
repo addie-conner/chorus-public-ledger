@@ -1,10 +1,16 @@
 {
+  "baseline_probability": null,
+  "brier_score": 0.008226,
   "canonical_id": "pred_wc2026_group_advance_mexico",
+  "chorus_probability": 0.9093,
   "domain": "sports_worldcup_2026_group_stage",
+  "in_headline": null,
   "locked_at": "2026-06-16T18:00:00+00:00",
-  "predicted_prob": 0.9093,
+  "original_sha": "5c4ee99c50535b51cb9ff97331c68c3448d80266f296fe68b44b2d82561b3889",
   "question": "Mexico advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+  "resolution": 1.0,
   "resolution_criterion": "Mexico finishes in the top 2 of its group OR qualifies as one of the eight best 3rd-place finishers in the 2026 FIFA World Cup.",
   "resolution_date": "2026-06-27T23:59:00+00:00",
-  "sha256": "5c4ee99c50535b51cb9ff97331c68c3448d80266f296fe68b44b2d82561b3889"
+  "resolved_at": "2026-08-01T21:28:35.814854+00:00",
+  "temporal_class": "FWD"
 }
