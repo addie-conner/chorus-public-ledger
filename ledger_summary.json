@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T21:38:32+00:00Z",
+  "generated_at": "2026-08-14T01:19:40+00:00Z",
   "totals": {
     "total_entries": 990,
     "resolved": 197,
@@ -11,7 +11,7 @@
     "duplicates_tagged": 99,
     "voided": 12,
     "pre_registered": 2,
-    "ots_anchored": 436
+    "ots_anchored": 575
   },
   "headline_brier_FORWARD_ONLY": {
     "scope": "Forward, single-prediction, deduplicated, in-headline-domain only. Excludes pastcasting/cross-validation/aggregate batch claims and weak/exploratory domains.",
