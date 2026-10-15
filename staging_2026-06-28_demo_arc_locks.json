@@ -349,14 +349,14 @@
     "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Kobbie_Mainoo' on en.wikipedia 7-day median over [2026-08-16, 2026-08-22] inclusive \u2265 1586/day",
     "chorus_probability": 0.75,
     "baseline_probability": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-28T19:30:00+00:00",
     "locked_at": "2026-06-28T19:30:00+00:00",
     "resolution_date": "2026-08-22",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "Wikipedia REST API per-article daily pageviews",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T18:19:23.931982+00:00",
+    "resolution": false,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Kobbie_Mainoo/daily/20260816/20260822",
+    "brier_score": 0.5625,
     "data_sources_used": [
       "wikipedia_en_pageviews",
       "gdelt_news",
@@ -391,7 +391,8 @@
     "temporal_class": "FWD",
     "is_high_conviction": true,
     "headline_domain": "athlete_marketability_signal",
-    "in_headline": true
+    "in_headline": true,
+    "resolution_value": "window median 1117/day vs threshold 1586"
   },
   {
     "canonical_id": "demo_arc_2026-06-28_009",
@@ -401,14 +402,14 @@
     "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Hezly_Rivera' on en.wikipedia 7-day median over [2026-08-23, 2026-08-29] inclusive \u2265 130/day",
     "chorus_probability": 0.73,
     "baseline_probability": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-28T19:30:00+00:00",
     "locked_at": "2026-06-28T19:30:00+00:00",
     "resolution_date": "2026-08-29",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "Wikipedia REST API per-article daily pageviews",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T18:19:23.931982+00:00",
+    "resolution": false,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Hezly_Rivera/daily/20260823/20260829",
+    "brier_score": 0.5329,
     "data_sources_used": [
       "wikipedia_en_pageviews"
     ],
@@ -440,7 +441,8 @@
     "temporal_class": "FWD",
     "is_high_conviction": true,
     "headline_domain": "athlete_marketability_signal",
-    "in_headline": true
+    "in_headline": true,
+    "resolution_value": "window median 128/day vs threshold 130"
   },
   {
     "canonical_id": "demo_arc_2026-06-28_010",
@@ -450,14 +452,14 @@
     "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Cade_Klubnik' on en.wikipedia 7-day median over [2026-08-30, 2026-09-05] inclusive \u2265 221/day",
     "chorus_probability": 0.72,
     "baseline_probability": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-28T19:30:00+00:00",
     "locked_at": "2026-06-28T19:30:00+00:00",
     "resolution_date": "2026-09-05",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "Wikipedia REST API per-article daily pageviews",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T18:19:23.931982+00:00",
+    "resolution": true,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Cade_Klubnik/daily/20260830/20260905",
+    "brier_score": 0.0784,
     "data_sources_used": [
       "wikipedia_en_pageviews"
     ],
@@ -483,7 +485,8 @@
     "temporal_class": "FWD",
     "is_high_conviction": true,
     "headline_domain": "athlete_marketability_signal",
-    "in_headline": true
+    "in_headline": true,
+    "resolution_value": "window median 985/day vs threshold 221"
   },
   {
     "canonical_id": "demo_arc_2026-06-28_011",
@@ -493,14 +496,14 @@
     "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Drew_Allar' on en.wikipedia 7-day median over [2026-08-30, 2026-09-05] inclusive \u2265 624/day",
     "chorus_probability": 0.72,
     "baseline_probability": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-28T19:30:00+00:00",
     "locked_at": "2026-06-28T19:30:00+00:00",
     "resolution_date": "2026-09-05",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "Wikipedia REST API per-article daily pageviews",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T18:19:23.931982+00:00",
+    "resolution": true,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Drew_Allar/daily/20260830/20260905",
+    "brier_score": 0.0784,
     "data_sources_used": [
       "wikipedia_en_pageviews"
     ],
@@ -526,7 +529,8 @@
     "temporal_class": "FWD",
     "is_high_conviction": true,
     "headline_domain": "athlete_marketability_signal",
-    "in_headline": true
+    "in_headline": true,
+    "resolution_value": "window median 913/day vs threshold 624"
   },
   {
     "canonical_id": "demo_arc_2026-06-28_012",
@@ -536,14 +540,14 @@
     "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Daria_Kasatkina' on en.wikipedia 7-day median over [2026-08-31, 2026-09-08] inclusive \u2265 224/day",
     "chorus_probability": 0.78,
     "baseline_probability": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-28T19:30:00+00:00",
     "locked_at": "2026-06-28T19:30:00+00:00",
     "resolution_date": "2026-09-08",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "Wikipedia REST API per-article daily pageviews",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T18:19:23.931982+00:00",
+    "resolution": true,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Daria_Kasatkina/daily/20260831/20260908",
+    "brier_score": 0.0484,
     "data_sources_used": [
       "wikipedia_en_pageviews",
       "gdelt_news",
@@ -578,7 +582,8 @@
     "temporal_class": "FWD",
     "is_high_conviction": true,
     "headline_domain": "athlete_marketability_signal",
-    "in_headline": true
+    "in_headline": true,
+    "resolution_value": "window median 521/day vs threshold 224"
   },
   {
     "canonical_id": "demo_arc_2026-06-28_013",
@@ -588,14 +593,14 @@
     "resolution_criterion": "Wikipedia REST API per-article daily pageviews for 'Kyle_Harrison_(baseball)' on en.wikipedia 7-day median over [2026-09-28, 2026-10-04] inclusive \u2265 220/day",
     "chorus_probability": 0.68,
     "baseline_probability": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-28T19:30:00+00:00",
     "locked_at": "2026-06-28T19:30:00+00:00",
     "resolution_date": "2026-10-04",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "Wikipedia REST API per-article daily pageviews",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T18:19:23.931982+00:00",
+    "resolution": false,
+    "resolution_source": "Wikipedia REST API per-article daily pageviews https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Kyle_Harrison/daily/20260928/20261004",
+    "brier_score": 0.4624,
     "data_sources_used": [
       "wikipedia_en_pageviews",
       "gdelt_news",
@@ -630,7 +635,8 @@
     "temporal_class": "FWD",
     "is_high_conviction": false,
     "headline_domain": "athlete_marketability_signal",
-    "in_headline": true
+    "in_headline": true,
+    "resolution_value": "window median 144/day vs threshold 220"
   },
   {
     "canonical_id": "demo_arc_2026-06-28_014",

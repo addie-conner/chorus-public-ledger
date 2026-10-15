@@ -47,24 +47,38 @@
 <body>
 
 <h1>Chorus — Public Prediction Ledger</h1>
-<div class="subtitle">SHA-locked. OpenTimestamps-anchored. Forward predictions only in headline. Generated 2026-08-01 · athlete/draft section updated 2026-08-14</div>
+<div class="subtitle">SHA-locked. OpenTimestamps-anchored. Forward predictions only in headline. Generated 2026-08-01 · sports and macro record rebuilt 2026-10-15</div>
 
 <div class="hero">
-  <div class="brier">0.018</div>
-  <div class="label">Mean Brier · n=6 forward predictions · best 0.0000 / worst 0.0400</div>
-  <div class="meta">Lower=better. 0.05-0.10 = superforecaster tier; 538 elections ~0.05-0.07; coin-flip = 0.25.</div>
+  <div class="brier">0.163</div>
+  <div class="label">Mean Brier · 116 forward sports predictions · naive baselines 0.190 · skill +0.14</div>
+  <div class="meta">Lower=better; coin-flip = 0.25. Without the 41 World Cup predictions locked after the 2026-06-11 kickoff: skill +0.04 (n=75). Where a pre-lock betting market existed (18 predictions), Chorus matched the market and did not beat it: 0.121 vs 0.124. Macro releases (65 predictions on 19 events): 0.146 vs 0.219 in-sample base rate. Full tables and every miss: RESOLUTION_REPORT_2026-10-15.md.</div>
 </div>
 
 <div class="stat-grid">
-  <div class="stat"><div class="v">94</div><div class="l">forward, resolved</div></div>
-  <div class="stat"><div class="v">853</div><div class="l">open, awaiting</div></div>
-  <div class="stat"><div class="v">329</div><div class="l">overdue (resolution backlog)</div></div>
-  <div class="stat"><div class="v">3</div><div class="l">backward validation (separate)</div></div>
-  <div class="stat"><div class="v">446</div><div class="l">of 1003 OTS-anchored</div></div>
+  <div class="stat"><div class="v">225</div><div class="l">forward, resolved (2026-10-15)</div></div>
+  <div class="stat"><div class="v">630</div><div class="l">open, awaiting</div></div>
+  <div class="stat"><div class="v">235</div><div class="l">overdue (resolution backlog)</div></div>
+  <div class="stat"><div class="v">11</div><div class="l">RETRO (outcome public before lock; excluded)</div></div>
+  <div class="stat"><div class="v">575</div><div class="l">of 990 OTS-anchored</div></div>
 </div>
 
 
-<h2>Athlete &amp; draft forward record — updated 2026-08-14</h2>
+<h2>Sports forward record — rebuilt 2026-10-15</h2>
+<p>Forward only: locked before the outcome or its source was public. Skill = 1 − Brier / baseline Brier.</p>
+<table>
+  <thead><tr><th>Type</th><th>n</th><th>Right direction</th><th>Brier</th><th>Baseline</th><th>Skill</th></tr></thead>
+  <tbody>
+    <tr><td class="q">Outcomes and winners (market price where one existed, else base rate)</td><td>70</td><td>56</td><td>0.152</td><td>0.208</td><td>+0.27</td></tr>
+    <tr><td class="q">Athlete attention (Wikipedia pageviews; constant hit-rate baseline)</td><td>23</td><td>15</td><td>0.254</td><td>0.227</td><td>−0.12</td></tr>
+    <tr><td class="q">Sponsorship and media (base rate)</td><td>10</td><td>8</td><td>0.191</td><td>0.160</td><td>−0.19</td></tr>
+    <tr><td class="q">Forbes valuation lists (last-year persistence; matched it exactly)</td><td>13</td><td>12</td><td>0.042</td><td>0.055</td><td>none shown</td></tr>
+    <tr><td class="q"><strong>All</strong></td><td>116</td><td>91</td><td>0.163</td><td>0.190</td><td>+0.14</td></tr>
+  </tbody>
+</table>
+<p>Correction 2026-10-15: the row "AJ Dybantsa selected #1 overall in 2027 NBA Draft" was first committed and anchored on 2026-06-28, after the 2026-06-23 draft. Its 2026-07-01 resolution is withdrawn and it is excluded. The pre-draft call "AJ Dybantsa is selected #1 overall in 2026 NBA Draft" (p 0.95, committed 2026-06-08) is scored instead, together with the two other draft calls in the same commit (Boozer to Utah at #2, p 0.40, did not happen; Peterson to Utah at #2, p 0.40, happened).</p>
+
+<h2>Athlete &amp; draft snapshot — 2026-08-14 (superseded by the table above)</h2>
 <p><strong style="color:#fff">16 of 20 resolved in the predicted direction</strong> · blended Brier 0.161 vs coin-flip 0.25 · every miss published.
 By confidence band: p&nbsp;≥&nbsp;0.78 → Brier 0.098 vs 0.094 calibrated floor (9/10 directional); p&nbsp;0.60–0.75 → 0.224 vs 0.207 floor (7/10).
 The calibrated floor is the Brier a perfectly calibrated forecaster would expect at the stated probabilities. This section spans all athlete/draft cohorts
@@ -85,7 +99,7 @@ The calibrated floor is the Brier a perfectly calibrated forecaster would expect
           <td class="num">0.0004</td>
         </tr>
         <tr>
-          <td class="q">AJ Dybantsa selected #1 overall in 2027 NBA Draft</td>
+          <td class="q"><s>AJ Dybantsa selected #1 overall in 2027 NBA Draft</s> (resolution withdrawn 2026-10-15; see correction above)</td>
           <td class="num">0.95</td>
           <td class="num correct">1</td>
           <td class="num">0.0025</td>

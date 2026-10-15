@@ -48,7 +48,7 @@ Each entry in `ledger_canonical.json` has:
 | `source_file` | Which Chorus internal file the entry originated from |
 | `domain` | Raw domain (e.g. `corporate_earnings`, `labor_claims`) |
 | `headline_domain` | Combined sub-domain for headline reporting (set on forward singles only) |
-| `temporal_class` | `FWD` (forward), `BWD` (logged at resolution time), `AGG` (backward-validation aggregate), `UNKNOWN` |
+| `temporal_class` | `FWD` (forward), `RETRO` (outcome or its source was public before the lock; excluded from forward scoring), `BWD` (logged at resolution time), `AGG` (backward-validation aggregate), `UNKNOWN` |
 | `question`, `resolution_criterion` | What's being predicted, in falsifiable form |
 | `chorus_probability` | The locked probability estimate |
 | `baseline_probability` | Naive baseline used for edge calculation (where applicable) |

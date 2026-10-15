@@ -26,6 +26,7 @@
   },
   {
     "canonical_id": "2027_nba_002",
+    "exclusion_note_2026-10-15": "Excluded: written 2026-06-28, after Peterson was drafted #2 in the 2026 NBA Draft (2026-06-23); premise already false. File is an uncalibrated staging scaffold, not a sealed lock.",
     "source_file": "staging_2027_nba_draft_2026-06-28.json",
     "domain": "nba_draft",
     "question": "Darryn Peterson selected in top-10 of 2027 NBA Draft",

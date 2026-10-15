@@ -1258,24 +1258,27 @@
     "chorus_probability": 0.35,
     "baseline_probability": 0.3,
     "edge": 0.05,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-03-29T15:57:39.036374",
     "locked_at": "2026-03-29T15:57:39.036374",
     "resolution_date": "2026-07-15T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup ; https://www.foxsports.com/stories/soccer/2026-world-cup-bracket-semifinals-final-matchups (published 2026-07-15)",
+    "brier_score": 0.1225,
+    "baseline_brier": 0.09,
     "brier_skill_score": null,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
     "ots_anchored": true,
     "schema_version": "v1",
-    "audit_flags": [],
+    "audit_flags": [
+      "resolved_2026-10-15_sweep"
+    ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Semifinals Spain-France, Argentina-England; no host nation (USA/MEX/CAN) reached the semifinals."
   },
   {
     "canonical_id": "10fa9eee4107",
@@ -2348,24 +2351,27 @@
     "chorus_probability": 0.3,
     "baseline_probability": 0.25,
     "edge": 0.05,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-03-29T15:57:39.047823",
     "locked_at": "2026-03-29T15:57:39.047823",
     "resolution_date": "2026-09-15T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "AO: https://ausopen.com/articles/news/major-milestone-alcaraz-completes-slam-set-ao-2026-title ; RG: https://www.olympics.com/en/news/french-open-2026-mens-singles-final-alexander-zverev-flavio-cobolli-live-updates-results ; W: https://www.olympics.com/en/news/wimbledon-2026-jannik-sinner-alexander-zverev-mens-singles-final-resuls ; USO: https://en.wikipedia.org/wiki/2026_US_Open_%E2%80%93_Men%27s_singles (published 2026-09-13)",
+    "brier_score": 0.09,
+    "baseline_brier": 0.0625,
     "brier_skill_score": null,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
     "ots_anchored": true,
     "schema_version": "v1",
-    "audit_flags": [],
+    "audit_flags": [
+      "resolved_2026-10-15_sweep"
+    ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "2026 men's Slams: Alcaraz (AO), Zverev (RG), Sinner (W), Zverev (USO). Sinner won 1."
   },
   {
     "canonical_id": "340b7c1d3447",
@@ -4313,24 +4319,27 @@
     "chorus_probability": 0.25,
     "baseline_probability": 0.3,
     "edge": -0.05,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-03-29T15:57:39.048487",
     "locked_at": "2026-03-29T15:57:39.048487",
     "resolution_date": "2026-09-15T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "AO: https://ausopen.com/articles/news/major-milestone-alcaraz-completes-slam-set-ao-2026-title ; RG: https://www.olympics.com/en/news/french-open-2026-mens-singles-final-alexander-zverev-flavio-cobolli-live-updates-results ; W: https://www.olympics.com/en/news/wimbledon-2026-jannik-sinner-alexander-zverev-mens-singles-final-resuls ; USO: https://en.wikipedia.org/wiki/2026_US_Open_%E2%80%93_Men%27s_singles (published 2026-09-13)",
+    "brier_score": 0.0625,
+    "baseline_brier": 0.09,
     "brier_skill_score": null,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
     "ots_anchored": true,
     "schema_version": "v1",
-    "audit_flags": [],
+    "audit_flags": [
+      "resolved_2026-10-15_sweep"
+    ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Djokovic won 0 Slams in 2026 (lost AO final, lost USO R1)."
   },
   {
     "canonical_id": "dc013fe5c3de",
@@ -6428,24 +6437,27 @@
     "chorus_probability": 0.15,
     "baseline_probability": 0.166,
     "edge": -0.016,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-03-29T15:57:39.039426",
     "locked_at": "2026-03-29T15:57:39.039426",
     "resolution_date": "2026-07-01T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_NBA_Finals ; https://www.nba.com/news/jalen-brunson-wins-bill-russell-trophy-as-2026-nba-finals-mvp (published 2026-06-13)",
+    "brier_score": 0.0225,
+    "baseline_brier": 0.027556,
     "brier_skill_score": null,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
     "ots_anchored": true,
     "schema_version": "v1",
-    "audit_flags": [],
+    "audit_flags": [
+      "resolved_2026-10-15_sweep"
+    ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Knicks beat Spurs 4-1 (Game 5, 2026-06-13). Spurs did not win."
   },
   {
     "canonical_id": "8491311f2fbc",
@@ -6458,24 +6470,27 @@
     "chorus_probability": 0.35,
     "baseline_probability": 0.365,
     "edge": -0.015,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-03-29T15:57:39.038673",
     "locked_at": "2026-03-29T15:57:39.038673",
     "resolution_date": "2026-07-01T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_NBA_Finals ; https://www.nba.com/news/jalen-brunson-wins-bill-russell-trophy-as-2026-nba-finals-mvp (published 2026-06-13)",
+    "brier_score": 0.1225,
+    "baseline_brier": 0.133225,
     "brier_skill_score": null,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
     "ots_anchored": true,
     "schema_version": "v1",
-    "audit_flags": [],
+    "audit_flags": [
+      "resolved_2026-10-15_sweep"
+    ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Knicks beat Spurs 4-1 (Game 5, 2026-06-13). Thunder did not win."
   },
   {
     "canonical_id": "4fae82a9fda3",
@@ -6518,24 +6533,27 @@
     "chorus_probability": 0.03,
     "baseline_probability": 0.017,
     "edge": 0.013,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-03-29T15:57:39.035493",
     "locked_at": "2026-03-29T15:57:39.035493",
     "resolution_date": "2026-07-19T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup ; https://abcnews.com/GMA/Culture/spain-argentina-win-2026-world-cup/story?id=134824556 (published 2026-07-19)",
+    "brier_score": 0.0009,
+    "baseline_brier": 0.000289,
     "brier_skill_score": null,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
     "ots_anchored": true,
     "schema_version": "v1",
-    "audit_flags": [],
+    "audit_flags": [
+      "resolved_2026-10-15_sweep"
+    ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Spain beat Argentina 1-0 a.e.t. in the final on 2026-07-19. USA did not win."
   },
   {
     "canonical_id": "eb83f40eaeba",
@@ -6670,24 +6688,27 @@
     "chorus_probability": 0.06,
     "baseline_probability": 0.053,
     "edge": 0.007,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-03-29T15:57:39.023258",
     "locked_at": "2026-03-29T15:57:39.023258",
     "resolution_date": "2026-07-19T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup ; https://abcnews.com/GMA/Culture/spain-argentina-win-2026-world-cup/story?id=134824556 (published 2026-07-19)",
+    "brier_score": 0.0036,
+    "baseline_brier": 0.002809,
     "brier_skill_score": null,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
     "ots_anchored": true,
     "schema_version": "v1",
-    "audit_flags": [],
+    "audit_flags": [
+      "resolved_2026-10-15_sweep"
+    ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Spain beat Argentina 1-0 a.e.t. in the final on 2026-07-19. Germany did not win."
   },
   {
     "canonical_id": "bf0768e67ba2",
@@ -6700,24 +6721,27 @@
     "chorus_probability": 0.12,
     "baseline_probability": 0.115,
     "edge": 0.005,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-03-29T15:57:39.043801",
     "locked_at": "2026-03-29T15:57:39.043801",
     "resolution_date": "2026-06-30T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_Stanley_Cup_Final ; https://www.nhl.com/news/carolina-hurricanes-vegas-golden-knights-stanley-cup-final-game-6-recap-june-14-2026 (published 2026-06-14)",
+    "brier_score": 0.7744,
+    "baseline_brier": 0.783225,
     "brier_skill_score": null,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
     "ots_anchored": true,
     "schema_version": "v1",
-    "audit_flags": [],
+    "audit_flags": [
+      "resolved_2026-10-15_sweep"
+    ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Hurricanes beat Golden Knights 4-2, clinched 2026-06-14."
   },
   {
     "canonical_id": "9b65d85094c8",
@@ -6730,24 +6754,27 @@
     "chorus_probability": 0.09,
     "baseline_probability": 0.085,
     "edge": 0.005,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-03-29T15:57:39.040803",
     "locked_at": "2026-03-29T15:57:39.040803",
     "resolution_date": "2026-07-01T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_NBA_Finals ; https://www.nba.com/news/jalen-brunson-wins-bill-russell-trophy-as-2026-nba-finals-mvp (published 2026-06-13)",
+    "brier_score": 0.0081,
+    "baseline_brier": 0.007225,
     "brier_skill_score": null,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
     "ots_anchored": true,
     "schema_version": "v1",
-    "audit_flags": [],
+    "audit_flags": [
+      "resolved_2026-10-15_sweep"
+    ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Knicks beat Spurs 4-1 (Game 5, 2026-06-13). Nuggets did not win."
   },
   {
     "canonical_id": "b28cdd92b045",
@@ -6760,24 +6787,27 @@
     "chorus_probability": 0.09,
     "baseline_probability": 0.086,
     "edge": 0.004,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-03-29T15:57:39.021767",
     "locked_at": "2026-03-29T15:57:39.021767",
     "resolution_date": "2026-07-19T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup ; https://abcnews.com/GMA/Culture/spain-argentina-win-2026-world-cup/story?id=134824556 (published 2026-07-19)",
+    "brier_score": 0.0081,
+    "baseline_brier": 0.007396,
     "brier_skill_score": null,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
     "ots_anchored": true,
     "schema_version": "v1",
-    "audit_flags": [],
+    "audit_flags": [
+      "resolved_2026-10-15_sweep"
+    ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Spain beat Argentina 1-0 a.e.t. in the final on 2026-07-19. Brazil did not win."
   },
   {
     "canonical_id": "75ed41af12fb",
@@ -6790,24 +6820,27 @@
     "chorus_probability": 0.2,
     "baseline_probability": 0.197,
     "edge": 0.003,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-03-29T15:57:39.042312",
     "locked_at": "2026-03-29T15:57:39.042312",
     "resolution_date": "2026-06-30T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_Stanley_Cup_Final ; https://www.nhl.com/news/carolina-hurricanes-vegas-golden-knights-stanley-cup-final-game-6-recap-june-14-2026 (published 2026-06-14)",
+    "brier_score": 0.04,
+    "baseline_brier": 0.038809,
     "brier_skill_score": null,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
     "ots_anchored": true,
     "schema_version": "v1",
-    "audit_flags": [],
+    "audit_flags": [
+      "resolved_2026-10-15_sweep"
+    ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Hurricanes won; Avalanche did not."
   },
   {
     "canonical_id": "90ca2e61f600",
@@ -6820,24 +6853,27 @@
     "chorus_probability": 0.16,
     "baseline_probability": 0.158,
     "edge": 0.002,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-03-29T15:57:39.019462",
     "locked_at": "2026-03-29T15:57:39.019462",
     "resolution_date": "2026-07-19T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup ; https://abcnews.com/GMA/Culture/spain-argentina-win-2026-world-cup/story?id=134824556 (published 2026-07-19)",
+    "brier_score": 0.7056,
+    "baseline_brier": 0.708964,
     "brier_skill_score": null,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
     "ots_anchored": true,
     "schema_version": "v1",
-    "audit_flags": [],
+    "audit_flags": [
+      "resolved_2026-10-15_sweep"
+    ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Spain beat Argentina 1-0 a.e.t. in the final on 2026-07-19. Spain won."
   },
   {
     "canonical_id": "01e8025da9c8",
@@ -6850,24 +6886,27 @@
     "chorus_probability": 0.1,
     "baseline_probability": 0.098,
     "edge": 0.002,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-03-29T15:57:39.022515",
     "locked_at": "2026-03-29T15:57:39.022515",
     "resolution_date": "2026-07-19T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup ; https://abcnews.com/GMA/Culture/spain-argentina-win-2026-world-cup/story?id=134824556 (published 2026-07-19)",
+    "brier_score": 0.01,
+    "baseline_brier": 0.009604,
     "brier_skill_score": null,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
     "ots_anchored": true,
     "schema_version": "v1",
-    "audit_flags": [],
+    "audit_flags": [
+      "resolved_2026-10-15_sweep"
+    ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Spain beat Argentina 1-0 a.e.t. in the final on 2026-07-19. Argentina did not win."
   },
   {
     "canonical_id": "a2f80896aef0",
@@ -6880,24 +6919,27 @@
     "chorus_probability": 0.14,
     "baseline_probability": 0.138,
     "edge": 0.002,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-03-29T15:57:39.043033",
     "locked_at": "2026-03-29T15:57:39.043033",
     "resolution_date": "2026-06-30T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_Stanley_Cup_Final ; https://www.nhl.com/news/carolina-hurricanes-vegas-golden-knights-stanley-cup-final-game-6-recap-june-14-2026 (published 2026-06-14)",
+    "brier_score": 0.0196,
+    "baseline_brier": 0.019044,
     "brier_skill_score": null,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
     "ots_anchored": true,
     "schema_version": "v1",
-    "audit_flags": [],
+    "audit_flags": [
+      "resolved_2026-10-15_sweep"
+    ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Hurricanes won; Lightning did not."
   },
   {
     "canonical_id": "add53d867679",
@@ -6910,24 +6952,27 @@
     "chorus_probability": 0.13,
     "baseline_probability": 0.128,
     "edge": 0.002,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-03-29T15:57:39.020205",
     "locked_at": "2026-03-29T15:57:39.020205",
     "resolution_date": "2026-07-19T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup ; https://abcnews.com/GMA/Culture/spain-argentina-win-2026-world-cup/story?id=134824556 (published 2026-07-19)",
+    "brier_score": 0.0169,
+    "baseline_brier": 0.016384,
     "brier_skill_score": null,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
     "ots_anchored": true,
     "schema_version": "v1",
-    "audit_flags": [],
+    "audit_flags": [
+      "resolved_2026-10-15_sweep"
+    ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Spain beat Argentina 1-0 a.e.t. in the final on 2026-07-19. England did not win."
   },
   {
     "canonical_id": "0271385f0724",
@@ -6940,24 +6985,27 @@
     "chorus_probability": 0.12,
     "baseline_probability": 0.119,
     "edge": 0.001,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-03-29T15:57:39.040110",
     "locked_at": "2026-03-29T15:57:39.040110",
     "resolution_date": "2026-07-01T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_NBA_Finals ; https://www.nba.com/news/jalen-brunson-wins-bill-russell-trophy-as-2026-nba-finals-mvp (published 2026-06-13)",
+    "brier_score": 0.0144,
+    "baseline_brier": 0.014161,
     "brier_skill_score": null,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
     "ots_anchored": true,
     "schema_version": "v1",
-    "audit_flags": [],
+    "audit_flags": [
+      "resolved_2026-10-15_sweep"
+    ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Knicks beat Spurs 4-1 (Game 5, 2026-06-13). Celtics did not win."
   },
   {
     "canonical_id": "0e2aa37658bc",
@@ -6970,24 +7018,27 @@
     "chorus_probability": 0.11,
     "baseline_probability": 0.109,
     "edge": 0.001,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-03-29T15:57:39.020993",
     "locked_at": "2026-03-29T15:57:39.020993",
     "resolution_date": "2026-07-19T00:00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": null,
-    "brier_score": null,
-    "baseline_brier": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup ; https://abcnews.com/GMA/Culture/spain-argentina-win-2026-world-cup/story?id=134824556 (published 2026-07-19)",
+    "brier_score": 0.0121,
+    "baseline_brier": 0.011881,
     "brier_skill_score": null,
     "data_sources_used": [],
     "model_inputs": {},
     "ots_anchor": "static/public_ledger/predictions.json.ots",
     "ots_anchored": true,
     "schema_version": "v1",
-    "audit_flags": [],
+    "audit_flags": [
+      "resolved_2026-10-15_sweep"
+    ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Spain beat Argentina 1-0 a.e.t. in the final on 2026-07-19. France did not win."
   },
   {
     "canonical_id": "1648e5a92e93",
@@ -14995,14 +15046,14 @@
     "chorus_probability": 0.85,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-24T17:24:15+00:00",
     "locked_at": "2026-04-24T17:24:15+00:00",
     "resolution_date": "2026-09-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.forbes.com/sites/justinteitelbaum/2026/03/20/baseballs-most-valuable-teams-2026/ (syndicated https://ca.sports.yahoo.com/news/baseball-most-valuable-teams-2026-103000807.html) (published 2026-03-20)",
+    "brier_score": 0.0225,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -15023,10 +15074,13 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep",
+      "retro:outcome_public_2026-03-20_before_lock_2026-04-24"
     ],
-    "temporal_class": "FWD",
-    "is_high_conviction": true
+    "temporal_class": "RETRO",
+    "is_high_conviction": true,
+    "resolution_value": "Forbes 2026 MLB, published 2026-03-20 (before the 2026-04-24 lock): 1 Yankees $8.5B, 2 Dodgers $7.8B, 3 Red Sox $5.25B, 4 Cubs $5.0B, 5 Giants $4.05B; Mets #6, Phillies #7, Braves #8."
   },
   {
     "canonical_id": "pred_los_angeles_dodgers_finishes_in_top_5_of_53a44aca",
@@ -15039,14 +15093,14 @@
     "chorus_probability": 0.85,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-24T17:24:15+00:00",
     "locked_at": "2026-04-24T17:24:15+00:00",
     "resolution_date": "2026-09-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.forbes.com/sites/justinteitelbaum/2026/03/20/baseballs-most-valuable-teams-2026/ (syndicated https://ca.sports.yahoo.com/news/baseball-most-valuable-teams-2026-103000807.html) (published 2026-03-20)",
+    "brier_score": 0.0225,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -15067,10 +15121,13 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep",
+      "retro:outcome_public_2026-03-20_before_lock_2026-04-24"
     ],
-    "temporal_class": "FWD",
-    "is_high_conviction": true
+    "temporal_class": "RETRO",
+    "is_high_conviction": true,
+    "resolution_value": "Forbes 2026 MLB, published 2026-03-20 (before the 2026-04-24 lock): 1 Yankees $8.5B, 2 Dodgers $7.8B, 3 Red Sox $5.25B, 4 Cubs $5.0B, 5 Giants $4.05B; Mets #6, Phillies #7, Braves #8."
   },
   {
     "canonical_id": "pred_boston_red_sox_finishes_in_top_5_of_mlb__547f180d",
@@ -15083,14 +15140,14 @@
     "chorus_probability": 0.85,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-24T17:24:15+00:00",
     "locked_at": "2026-04-24T17:24:15+00:00",
     "resolution_date": "2026-09-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.forbes.com/sites/justinteitelbaum/2026/03/20/baseballs-most-valuable-teams-2026/ (syndicated https://ca.sports.yahoo.com/news/baseball-most-valuable-teams-2026-103000807.html) (published 2026-03-20)",
+    "brier_score": 0.0225,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -15111,10 +15168,13 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep",
+      "retro:outcome_public_2026-03-20_before_lock_2026-04-24"
     ],
-    "temporal_class": "FWD",
-    "is_high_conviction": true
+    "temporal_class": "RETRO",
+    "is_high_conviction": true,
+    "resolution_value": "Forbes 2026 MLB, published 2026-03-20 (before the 2026-04-24 lock): 1 Yankees $8.5B, 2 Dodgers $7.8B, 3 Red Sox $5.25B, 4 Cubs $5.0B, 5 Giants $4.05B; Mets #6, Phillies #7, Braves #8."
   },
   {
     "canonical_id": "pred_chicago_cubs_finishes_in_top_5_of_mlb_by_27dd3f54",
@@ -15127,14 +15187,14 @@
     "chorus_probability": 0.85,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-24T17:24:15+00:00",
     "locked_at": "2026-04-24T17:24:15+00:00",
     "resolution_date": "2026-09-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.forbes.com/sites/justinteitelbaum/2026/03/20/baseballs-most-valuable-teams-2026/ (syndicated https://ca.sports.yahoo.com/news/baseball-most-valuable-teams-2026-103000807.html) (published 2026-03-20)",
+    "brier_score": 0.0225,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -15155,10 +15215,13 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep",
+      "retro:outcome_public_2026-03-20_before_lock_2026-04-24"
     ],
-    "temporal_class": "FWD",
-    "is_high_conviction": true
+    "temporal_class": "RETRO",
+    "is_high_conviction": true,
+    "resolution_value": "Forbes 2026 MLB, published 2026-03-20 (before the 2026-04-24 lock): 1 Yankees $8.5B, 2 Dodgers $7.8B, 3 Red Sox $5.25B, 4 Cubs $5.0B, 5 Giants $4.05B; Mets #6, Phillies #7, Braves #8."
   },
   {
     "canonical_id": "pred_san_francisco_giants_finishes_in_top_5_o_88449f91",
@@ -15171,14 +15234,14 @@
     "chorus_probability": 0.85,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-24T17:24:15+00:00",
     "locked_at": "2026-04-24T17:24:15+00:00",
     "resolution_date": "2026-09-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.forbes.com/sites/justinteitelbaum/2026/03/20/baseballs-most-valuable-teams-2026/ (syndicated https://ca.sports.yahoo.com/news/baseball-most-valuable-teams-2026-103000807.html) (published 2026-03-20)",
+    "brier_score": 0.0225,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -15199,10 +15262,13 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep",
+      "retro:outcome_public_2026-03-20_before_lock_2026-04-24"
     ],
-    "temporal_class": "FWD",
-    "is_high_conviction": true
+    "temporal_class": "RETRO",
+    "is_high_conviction": true,
+    "resolution_value": "Forbes 2026 MLB, published 2026-03-20 (before the 2026-04-24 lock): 1 Yankees $8.5B, 2 Dodgers $7.8B, 3 Red Sox $5.25B, 4 Cubs $5.0B, 5 Giants $4.05B; Mets #6, Phillies #7, Braves #8."
   },
   {
     "canonical_id": "pred_new_york_mets_finishes_in_top_5_of_mlb_b_76134d83",
@@ -15215,14 +15281,14 @@
     "chorus_probability": 0.15,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-24T17:24:15+00:00",
     "locked_at": "2026-04-24T17:24:15+00:00",
     "resolution_date": "2026-09-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.forbes.com/sites/justinteitelbaum/2026/03/20/baseballs-most-valuable-teams-2026/ (syndicated https://ca.sports.yahoo.com/news/baseball-most-valuable-teams-2026-103000807.html) (published 2026-03-20)",
+    "brier_score": 0.0225,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -15243,10 +15309,13 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep",
+      "retro:outcome_public_2026-03-20_before_lock_2026-04-24"
     ],
-    "temporal_class": "FWD",
-    "is_high_conviction": true
+    "temporal_class": "RETRO",
+    "is_high_conviction": true,
+    "resolution_value": "Forbes 2026 MLB, published 2026-03-20 (before the 2026-04-24 lock): 1 Yankees $8.5B, 2 Dodgers $7.8B, 3 Red Sox $5.25B, 4 Cubs $5.0B, 5 Giants $4.05B; Mets #6, Phillies #7, Braves #8."
   },
   {
     "canonical_id": "pred_philadelphia_phillies_finishes_in_top_5__a97c452e",
@@ -15259,14 +15328,14 @@
     "chorus_probability": 0.15,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-24T17:24:15+00:00",
     "locked_at": "2026-04-24T17:24:15+00:00",
     "resolution_date": "2026-09-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.forbes.com/sites/justinteitelbaum/2026/03/20/baseballs-most-valuable-teams-2026/ (syndicated https://ca.sports.yahoo.com/news/baseball-most-valuable-teams-2026-103000807.html) (published 2026-03-20)",
+    "brier_score": 0.0225,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -15287,10 +15356,13 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep",
+      "retro:outcome_public_2026-03-20_before_lock_2026-04-24"
     ],
-    "temporal_class": "FWD",
-    "is_high_conviction": true
+    "temporal_class": "RETRO",
+    "is_high_conviction": true,
+    "resolution_value": "Forbes 2026 MLB, published 2026-03-20 (before the 2026-04-24 lock): 1 Yankees $8.5B, 2 Dodgers $7.8B, 3 Red Sox $5.25B, 4 Cubs $5.0B, 5 Giants $4.05B; Mets #6, Phillies #7, Braves #8."
   },
   {
     "canonical_id": "pred_atlanta_braves_finishes_in_top_5_of_mlb__c71a2dd7",
@@ -15303,14 +15375,14 @@
     "chorus_probability": 0.15,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-24T17:24:15+00:00",
     "locked_at": "2026-04-24T17:24:15+00:00",
     "resolution_date": "2026-09-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.forbes.com/sites/justinteitelbaum/2026/03/20/baseballs-most-valuable-teams-2026/ (syndicated https://ca.sports.yahoo.com/news/baseball-most-valuable-teams-2026-103000807.html) (published 2026-03-20)",
+    "brier_score": 0.0225,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -15331,10 +15403,13 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep",
+      "retro:outcome_public_2026-03-20_before_lock_2026-04-24"
     ],
-    "temporal_class": "FWD",
-    "is_high_conviction": true
+    "temporal_class": "RETRO",
+    "is_high_conviction": true,
+    "resolution_value": "Forbes 2026 MLB, published 2026-03-20 (before the 2026-04-24 lock): 1 Yankees $8.5B, 2 Dodgers $7.8B, 3 Red Sox $5.25B, 4 Cubs $5.0B, 5 Giants $4.05B; Mets #6, Phillies #7, Braves #8."
   },
   {
     "canonical_id": "pred_golden_state_warriors_finishes_in_top_5__8ad22773",
@@ -15699,14 +15774,14 @@
     "chorus_probability": 0.85,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-24T17:24:15+00:00",
     "locked_at": "2026-04-24T17:24:15+00:00",
     "resolution_date": "2026-09-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.forbes.com/sites/justinteitelbaum/2026/09/09/the-nfls-most-valuable-teams-2026/ (syndicated https://sports.yahoo.com/articles/nfl-most-valuable-teams-2026-103000891.html) (published 2026-09-09)",
+    "brier_score": 0.0225,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -15727,10 +15802,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Forbes 2026 NFL: 1 Cowboys $17B, 2 Rams $13.5B, 3 Giants $12B, 4 Patriots $10.6B, 5 49ers $10.5B; Jets #7, Eagles #9, Bears #12."
   },
   {
     "canonical_id": "pred_los_angeles_rams_finishes_in_top_5_of_nf_9b49cf25",
@@ -15743,14 +15820,14 @@
     "chorus_probability": 0.85,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-24T17:24:15+00:00",
     "locked_at": "2026-04-24T17:24:15+00:00",
     "resolution_date": "2026-09-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.forbes.com/sites/justinteitelbaum/2026/09/09/the-nfls-most-valuable-teams-2026/ (syndicated https://sports.yahoo.com/articles/nfl-most-valuable-teams-2026-103000891.html) (published 2026-09-09)",
+    "brier_score": 0.0225,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -15771,10 +15848,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Forbes 2026 NFL: 1 Cowboys $17B, 2 Rams $13.5B, 3 Giants $12B, 4 Patriots $10.6B, 5 49ers $10.5B; Jets #7, Eagles #9, Bears #12."
   },
   {
     "canonical_id": "pred_new_york_giants_finishes_in_top_5_of_nfl_ff2ae647",
@@ -15787,14 +15866,14 @@
     "chorus_probability": 0.85,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-24T17:24:15+00:00",
     "locked_at": "2026-04-24T17:24:15+00:00",
     "resolution_date": "2026-09-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.forbes.com/sites/justinteitelbaum/2026/09/09/the-nfls-most-valuable-teams-2026/ (syndicated https://sports.yahoo.com/articles/nfl-most-valuable-teams-2026-103000891.html) (published 2026-09-09)",
+    "brier_score": 0.0225,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -15815,10 +15894,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Forbes 2026 NFL: 1 Cowboys $17B, 2 Rams $13.5B, 3 Giants $12B, 4 Patriots $10.6B, 5 49ers $10.5B; Jets #7, Eagles #9, Bears #12."
   },
   {
     "canonical_id": "pred_new_england_patriots_finishes_in_top_5_o_75ddbeb3",
@@ -15831,14 +15912,14 @@
     "chorus_probability": 0.85,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-24T17:24:15+00:00",
     "locked_at": "2026-04-24T17:24:15+00:00",
     "resolution_date": "2026-09-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.forbes.com/sites/justinteitelbaum/2026/09/09/the-nfls-most-valuable-teams-2026/ (syndicated https://sports.yahoo.com/articles/nfl-most-valuable-teams-2026-103000891.html) (published 2026-09-09)",
+    "brier_score": 0.0225,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -15859,10 +15940,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Forbes 2026 NFL: 1 Cowboys $17B, 2 Rams $13.5B, 3 Giants $12B, 4 Patriots $10.6B, 5 49ers $10.5B; Jets #7, Eagles #9, Bears #12."
   },
   {
     "canonical_id": "pred_san_francisco_49ers_finishes_in_top_5_of_3ac98ed3",
@@ -15875,14 +15958,14 @@
     "chorus_probability": 0.85,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-24T17:24:15+00:00",
     "locked_at": "2026-04-24T17:24:15+00:00",
     "resolution_date": "2026-09-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.forbes.com/sites/justinteitelbaum/2026/09/09/the-nfls-most-valuable-teams-2026/ (syndicated https://sports.yahoo.com/articles/nfl-most-valuable-teams-2026-103000891.html) (published 2026-09-09)",
+    "brier_score": 0.0225,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -15903,10 +15986,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Forbes 2026 NFL: 1 Cowboys $17B, 2 Rams $13.5B, 3 Giants $12B, 4 Patriots $10.6B, 5 49ers $10.5B; Jets #7, Eagles #9, Bears #12."
   },
   {
     "canonical_id": "pred_philadelphia_eagles_finishes_in_top_5_of_75a353c7",
@@ -15919,14 +16004,14 @@
     "chorus_probability": 0.15,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-24T17:24:15+00:00",
     "locked_at": "2026-04-24T17:24:15+00:00",
     "resolution_date": "2026-09-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.forbes.com/sites/justinteitelbaum/2026/09/09/the-nfls-most-valuable-teams-2026/ (syndicated https://sports.yahoo.com/articles/nfl-most-valuable-teams-2026-103000891.html) (published 2026-09-09)",
+    "brier_score": 0.0225,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -15947,10 +16032,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Forbes 2026 NFL: 1 Cowboys $17B, 2 Rams $13.5B, 3 Giants $12B, 4 Patriots $10.6B, 5 49ers $10.5B; Jets #7, Eagles #9, Bears #12."
   },
   {
     "canonical_id": "pred_chicago_bears_finishes_in_top_5_of_nfl_b_f190a0ee",
@@ -15963,14 +16050,14 @@
     "chorus_probability": 0.15,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-24T17:24:15+00:00",
     "locked_at": "2026-04-24T17:24:15+00:00",
     "resolution_date": "2026-09-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.forbes.com/sites/justinteitelbaum/2026/09/09/the-nfls-most-valuable-teams-2026/ (syndicated https://sports.yahoo.com/articles/nfl-most-valuable-teams-2026-103000891.html) (published 2026-09-09)",
+    "brier_score": 0.0225,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -15991,10 +16078,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Forbes 2026 NFL: 1 Cowboys $17B, 2 Rams $13.5B, 3 Giants $12B, 4 Patriots $10.6B, 5 49ers $10.5B; Jets #7, Eagles #9, Bears #12."
   },
   {
     "canonical_id": "pred_new_york_jets_finishes_in_top_5_of_nfl_b_9d3cec67",
@@ -16007,14 +16096,14 @@
     "chorus_probability": 0.15,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-24T17:24:15+00:00",
     "locked_at": "2026-04-24T17:24:15+00:00",
     "resolution_date": "2026-09-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.forbes.com/sites/justinteitelbaum/2026/09/09/the-nfls-most-valuable-teams-2026/ (syndicated https://sports.yahoo.com/articles/nfl-most-valuable-teams-2026-103000891.html) (published 2026-09-09)",
+    "brier_score": 0.0225,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -16035,10 +16124,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Forbes 2026 NFL: 1 Cowboys $17B, 2 Rams $13.5B, 3 Giants $12B, 4 Patriots $10.6B, 5 49ers $10.5B; Jets #7, Eagles #9, Bears #12."
   },
   {
     "canonical_id": "pred_toronto_maple_leafs_finishes_in_top_5_of_5882759b",
@@ -20603,14 +20694,14 @@
     "chorus_probability": 0.97,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-28T03:21:48.921858+00:00",
     "locked_at": "2026-04-28T03:21:48.921858+00:00",
     "resolution_date": "2026-09-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.forbes.com/sites/justinteitelbaum/2026/09/09/the-nfls-most-valuable-teams-2026/ (syndicated https://sports.yahoo.com/articles/nfl-most-valuable-teams-2026-103000891.html) (published 2026-09-09)",
+    "brier_score": 0.0009,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -20628,10 +20719,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Cowboys #1 at $17B."
   },
   {
     "canonical_id": "pred_a8249447",
@@ -20685,14 +20778,14 @@
     "chorus_probability": 0.68,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-28T03:21:48.921858+00:00",
     "locked_at": "2026-04-28T03:21:48.921858+00:00",
     "resolution_date": "2026-09-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.forbes.com/sites/justinteitelbaum/2026/03/20/baseballs-most-valuable-teams-2026/ (syndicated https://ca.sports.yahoo.com/news/baseball-most-valuable-teams-2026-103000807.html) (published 2026-03-20)",
+    "brier_score": 0.1024,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -20710,10 +20803,13 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep",
+      "retro:outcome_public_2026-03-20_before_lock_2026-04-28"
     ],
-    "temporal_class": "FWD",
-    "is_high_conviction": false
+    "temporal_class": "RETRO",
+    "is_high_conviction": false,
+    "resolution_value": "Yankees +4% ($8.2B to $8.5B) vs median +12% across 30 teams. List published 2026-03-20, before the 2026-04-28 lock."
   },
   {
     "canonical_id": "pred_5f44f5eb",
@@ -20726,14 +20822,14 @@
     "chorus_probability": 0.92,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-28T03:21:48.921858+00:00",
     "locked_at": "2026-04-28T03:21:48.921858+00:00",
     "resolution_date": "2026-09-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.forbes.com/sites/justinteitelbaum/2026/05/29/the-worlds-most-valuable-soccer-teams-2026/ (republished https://www.forbes.com.au/news/sport/ranking-worlds-most-valuable-soccer-teams-2026/) (published 2026-05-29)",
+    "brier_score": 0.0064,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -20751,10 +20847,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Real Madrid #1 $9.5B vs Manchester United #3 $7.2B."
   },
   {
     "canonical_id": "pred_3406b00f",
@@ -20767,14 +20865,14 @@
     "chorus_probability": 0.78,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-28T03:21:48.921858+00:00",
     "locked_at": "2026-04-28T03:21:48.921858+00:00",
     "resolution_date": "2026-09-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.forbes.com/sites/justinteitelbaum/2026/03/20/baseballs-most-valuable-teams-2026/ (syndicated https://ca.sports.yahoo.com/news/baseball-most-valuable-teams-2026-103000807.html) (published 2026-03-20)",
+    "brier_score": 0.0484,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -20792,10 +20890,13 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep",
+      "retro:outcome_public_2026-03-20_before_lock_2026-04-28"
     ],
-    "temporal_class": "FWD",
-    "is_high_conviction": true
+    "temporal_class": "RETRO",
+    "is_high_conviction": true,
+    "resolution_value": "Dodgers $7.8B. List published 2026-03-20, before the 2026-04-28 lock."
   },
   {
     "canonical_id": "pred_aa330d75",
@@ -20808,14 +20909,14 @@
     "chorus_probability": 0.85,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-28T03:21:48.921858+00:00",
     "locked_at": "2026-04-28T03:21:48.921858+00:00",
     "resolution_date": "2026-06-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.forbes.com/sites/brettknight/2026/05/22/the-worlds-10-highest-paid-athletes-2026/ ; https://www.forbes.com/sites/brettknight/2026/05/22/inside-the-41-billion-haul-by-2026s-50-highest-paid-athletes/ (published 2026-05-22)",
+    "brier_score": 0.0225,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -20833,10 +20934,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Ronaldo #1 at $300M."
   },
   {
     "canonical_id": "pred_9430cff3",
@@ -20849,14 +20952,14 @@
     "chorus_probability": 0.82,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-28T03:21:48.921858+00:00",
     "locked_at": "2026-04-28T03:21:48.921858+00:00",
     "resolution_date": "2026-06-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.forbes.com/sites/brettknight/2026/05/22/the-worlds-10-highest-paid-athletes-2026/ ; https://www.forbes.com/sites/brettknight/2026/05/22/inside-the-41-billion-haul-by-2026s-50-highest-paid-athletes/ (published 2026-05-22)",
+    "brier_score": 0.0324,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -20874,10 +20977,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "NBA in top 10: LeBron James #4, Stephen Curry #6, Kevin Durant #9 (3)."
   },
   {
     "canonical_id": "pred_9df9e26d",
@@ -20890,14 +20995,14 @@
     "chorus_probability": 0.55,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-28T03:21:48.921858+00:00",
     "locked_at": "2026-04-28T03:21:48.921858+00:00",
     "resolution_date": "2026-06-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://www.forbes.com/sites/brettknight/2026/05/22/the-worlds-10-highest-paid-athletes-2026/ ; https://www.forbes.com/sites/brettknight/2026/05/22/inside-the-41-billion-haul-by-2026s-50-highest-paid-athletes/ (published 2026-05-22)",
+    "brier_score": 0.3025,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -20915,10 +21020,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Saquon Barkley not in the top 50 (#50 = Jannik Sinner, $54.6M)."
   },
   {
     "canonical_id": "pred_db2096e5",
@@ -21557,14 +21664,14 @@
     "chorus_probability": 0.55,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-28T13:40:48.725993+00:00",
     "locked_at": "2026-04-28T13:40:48.725993+00:00",
     "resolution_date": "2026-07-15",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://espnpressroom.com/press-release/espn-delivers-most-watched-stanley-cup-final-since-2019-capping-its-most-watched-stanley-cup-playoffs-ever/ (published 2026-06-16)",
+    "brier_score": 0.2025,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -21585,10 +21692,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "2026 Stanley Cup Final on ABC averaged 5.2M over six games."
   },
   {
     "canonical_id": "pred_f4c3cc99",
@@ -22432,14 +22541,14 @@
     "chorus_probability": 0.55,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-28T23:58:22.411466+00:00",
     "locked_at": "2026-04-28T23:58:22.411466+00:00",
     "resolution_date": "2026-08-15",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://sports.yahoo.com/articles/knicks-spurs-finals-begins-red-220701887.html (Sportico) (published 2026-06-05)",
+    "brier_score": 0.2025,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -22461,10 +22570,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Average in-game unit about $800,000 per 30-second spot."
   },
   {
     "canonical_id": "pred_7b9ad2f2",
@@ -22523,14 +22634,14 @@
     "chorus_probability": 0.45,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-28T23:58:22.411693+00:00",
     "locked_at": "2026-04-28T23:58:22.411693+00:00",
     "resolution_date": "2026-10-01",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://bleacherreport.com/articles/25445663-warriors-reportedly-land-record-jersey-patch-sponsorship-agreement-ahead-2026-27-nba-season ; https://www.sportico.com/business/sponsorship/2026/warriors-sign-record-jersey-patch-deal-with-iren-1234937113/ (published 2026-06-25)",
+    "brier_score": 0.3025,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -22552,10 +22663,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Warriors x Iren patch for 2026-27 at more than $50M/yr."
   },
   {
     "canonical_id": "pred_9d8ac31d",
@@ -22568,14 +22681,14 @@
     "chorus_probability": 0.95,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-28T23:58:22.411703+00:00",
     "locked_at": "2026-04-28T23:58:22.411703+00:00",
     "resolution_date": "2026-06-26",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_NBA_draft ; https://www.aljazeera.com/sports/2026/6/24/nba-draft-2026-aj-dybantsa-no-1-pick-washington-wizards (published 2026-06-23)",
+    "brier_score": 0.9025,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -22597,10 +22710,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "No. 1 pick 2026 = AJ Dybantsa (Washington). Cooper Flagg was the 2025 No. 1 pick and was not in the 2026 draft (premise error in the lock)."
   },
   {
     "canonical_id": "pred_e78785dc",
@@ -22613,14 +22728,14 @@
     "chorus_probability": 0.92,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-28T23:58:22.411711+00:00",
     "locked_at": "2026-04-28T23:58:22.411711+00:00",
     "resolution_date": "2026-07-05",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Jalen_Brunson/daily/20260613/20260620 (published 2026-06-14)",
+    "brier_score": 0.0064,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -22642,10 +22757,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Finals MVP Jalen Brunson; daily views 2026-06-14 = 1,350,798 (>= 50,000 on 7 of 8 days 06-13..06-20)."
   },
   {
     "canonical_id": "pred_0a3efc39",
@@ -22703,14 +22820,14 @@
     "chorus_probability": 0.62,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-28T23:58:22.411728+00:00",
     "locked_at": "2026-04-28T23:58:22.411728+00:00",
     "resolution_date": "2026-07-05",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://pr.nba.com/2026-nba-finals-viewership (published 2026-06-16)",
+    "brier_score": 0.1444,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -22732,10 +22849,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Series average 20.6M (Nielsen Big Data + Panel)."
   },
   {
     "canonical_id": "pred_5e27e088",
@@ -22883,14 +23002,14 @@
     "chorus_probability": 0.88,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-29T00:00:38.016487+00:00",
     "locked_at": "2026-04-29T00:00:38.016487+00:00",
     "resolution_date": "2026-06-26",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_NBA_draft (published 2026-06-23)",
+    "brier_score": 0.0144,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -22912,10 +23031,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "No. 2 pick = Darryn Peterson (Utah)."
   },
   {
     "canonical_id": "pred_0f65936b",
@@ -22928,14 +23049,14 @@
     "chorus_probability": 0.93,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-29T00:00:38.016837+00:00",
     "locked_at": "2026-04-29T00:00:38.016837+00:00",
     "resolution_date": "2026-06-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Cooper_Flagg/daily/20260620/20260630 (published 2026-06-26)",
+    "brier_score": 0.8649,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -22957,10 +23078,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Cooper_Flagg views on 2026-06-25 = 4,238 (window max 8,323 on 06-24)."
   },
   {
     "canonical_id": "pred_e91d9ef2",
@@ -22973,14 +23096,14 @@
     "chorus_probability": 0.99,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-29T00:00:38.016849+00:00",
     "locked_at": "2026-04-29T00:00:38.016849+00:00",
     "resolution_date": "2026-06-15",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://espnpressroom.com/us/press-releases/2026/06/abcs-most-watched-nba-finals-game-1-since-2018-with-average-audience-of-nearly-17m-viewers-16-93m/ (published 2026-06-04)",
+    "brier_score": 0.0001,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -23003,10 +23126,11 @@
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
-      "resolution_overdue"
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "ABC aired Game 1 (2026-06-03)."
   },
   {
     "canonical_id": "pred_60303dca",
@@ -23019,14 +23143,14 @@
     "chorus_probability": 0.94,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-29T00:00:38.016859+00:00",
     "locked_at": "2026-04-29T00:00:38.016859+00:00",
     "resolution_date": "2026-05-10",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "[2026-05-12] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.nba.com/news/suns-thunder-2026-playoffs-game-4-takeaways (published 2026-04-28)",
+    "brier_score": 0.0036,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -23049,10 +23173,12 @@
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
-      "resolution_overdue"
+      "resolved_2026-10-15_sweep",
+      "retro:outcome_public_2026-04-28_before_lock_2026-04-29"
     ],
-    "temporal_class": "FWD",
-    "is_high_conviction": true
+    "temporal_class": "RETRO",
+    "is_high_conviction": true,
+    "resolution_value": "Only sweep: Thunder 4-0 Suns, Game 4 on 2026-04-27, before the 2026-04-29 lock."
   },
   {
     "canonical_id": "pred_e2333d1e",
@@ -23065,14 +23191,14 @@
     "chorus_probability": 0.91,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-29T00:00:38.016867+00:00",
     "locked_at": "2026-04-29T00:00:38.016867+00:00",
     "resolution_date": "2026-06-25",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.nba.com/news/2025-26-all-nba-teams-announced ; https://en.wikipedia.org/wiki/2026_NBA_Finals (published 2026-05-24)",
+    "brier_score": 0.0081,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -23094,10 +23220,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "All-NBA First Team includes Victor Wembanyama (Spurs, 2026 finalist). Announced 2026-05-24, after lock."
   },
   {
     "canonical_id": "pred_4969ec96",
@@ -23110,14 +23238,14 @@
     "chorus_probability": 0.91,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-29T00:00:38.016875+00:00",
     "locked_at": "2026-04-29T00:00:38.016875+00:00",
     "resolution_date": "2026-05-25",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Caitlin_Clark/daily/20260501/20260531 ; opener date https://www.thehoosiernetwork.com/article/2026/05/indiana-fever-dallas-wings-caitlin-clark-returns-paige-bueckers (published 2026-05-10)",
+    "brier_score": 0.8281,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -23140,10 +23268,11 @@
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
-      "resolution_overdue"
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Fever opener (home) 2026-05-09 vs Dallas; Caitlin_Clark views that day = 11,427 (May max 11,908)."
   },
   {
     "canonical_id": "pred_7d8d18b2",
@@ -23156,14 +23285,14 @@
     "chorus_probability": 0.85,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-29T00:00:38.016883+00:00",
     "locked_at": "2026-04-29T00:00:38.016883+00:00",
     "resolution_date": "2026-06-08",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review\n[2026-06-25] attempted: pending_manual: domain requires human review",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.nba.com/news/nba-finals-2026-spurs-knicks-game-1-viewership (published 2026-06-06)",
+    "brier_score": 0.0225,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -23186,10 +23315,11 @@
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
-      "resolution_overdue"
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Game 1 16.93M."
   },
   {
     "canonical_id": "pred_d837d5f2",
@@ -23202,14 +23332,14 @@
     "chorus_probability": 0.88,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-29T00:00:38.016890+00:00",
     "locked_at": "2026-04-29T00:00:38.016890+00:00",
     "resolution_date": "2026-07-26",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://bleacherreport.com/articles/25508133-cooper-flagg-unveils-signature-logo-new-balance-new-photo-ahead-2026-27-nba-season (published 2026-10)",
+    "brier_score": 0.7744,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -23231,10 +23361,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Flagg remains a New Balance athlete (deal signed 2024); no Nike or Adidas deal reported 2026-06-25..07-25."
   },
   {
     "canonical_id": "pred_c545859d",
@@ -23247,14 +23379,14 @@
     "chorus_probability": 0.92,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-29T00:00:38.016899+00:00",
     "locked_at": "2026-04-29T00:00:38.016899+00:00",
     "resolution_date": "2026-07-05",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_NBA_Finals (attendance from page wikitext) (published 2026-06-13)",
+    "brier_score": 0.0064,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -23276,10 +23408,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Attendance G1 18,835, G2 19,014, G3 19,812, G4 19,812, G5 18,984; every game >= 18,000."
   },
   {
     "canonical_id": "pred_ba9e973e",
@@ -23723,14 +23857,14 @@
     "chorus_probability": 0.55,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-29T00:08:15.535632+00:00",
     "locked_at": "2026-04-29T00:08:15.535632+00:00",
     "resolution_date": "2026-10-15",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://bleacherreport.com/articles/25445663-warriors-reportedly-land-record-jersey-patch-sponsorship-agreement-ahead-2026-27-nba-season (published 2026-06-25)",
+    "brier_score": 0.2025,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -23750,10 +23884,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "resolution_value": "Iren >$50M/yr, reported as a record; prior Warriors/Rakuten deal ~$20M/yr; Knicks deal reported >$20M/yr. >=1.10x is inferred from reported values, not a published comparison."
   },
   {
     "canonical_id": "pred_ef23c54e",
@@ -24753,14 +24889,14 @@
     "chorus_probability": 0.22,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-04-29T01:13:05.025005+00:00",
     "locked_at": "2026-04-29T01:13:05.025005+00:00",
     "resolution_date": "2026-09-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=ICSA ; https://pr.nba.com/2026-nba-finals-viewership (published 2026-10-01)",
+    "brier_score": 0.0484,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -24780,10 +24916,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Joint event false: ICSA Q3 2026 average 203,462 (< 250K) and Finals average 20.6M (> 11.0M)."
   },
   {
     "canonical_id": "pred_9648335e",
@@ -34455,14 +34593,14 @@
     "chorus_probability": 0.95,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-08T18:00:00+00:00",
     "locked_at": "2026-06-08T18:00:00+00:00",
-    "resolution_date": "2027-04-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolution_date": "2026-06-23",
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_NBA_draft (draft held 2026-06-23; #1 Dybantsa WAS, #2 Peterson UTA, #3 Boozer MEM)",
+    "brier_score": 0.0025,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -34484,7 +34622,8 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolution_date_corrected_to_criterion:2027-04-30->2026-06-23"
     ],
     "temporal_class": "FWD",
     "is_high_conviction": true
@@ -34500,14 +34639,14 @@
     "chorus_probability": 0.4,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-08T18:00:00+00:00",
     "locked_at": "2026-06-08T18:00:00+00:00",
-    "resolution_date": "2027-04-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolution_date": "2026-06-23",
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 0.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_NBA_draft (draft held 2026-06-23; #1 Dybantsa WAS, #2 Peterson UTA, #3 Boozer MEM)",
+    "brier_score": 0.16,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -34529,7 +34668,8 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolution_date_corrected_to_criterion:2027-04-30->2026-06-23"
     ],
     "temporal_class": "FWD",
     "is_high_conviction": false
@@ -34545,14 +34685,14 @@
     "chorus_probability": 0.4,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-08T18:00:00+00:00",
     "locked_at": "2026-06-08T18:00:00+00:00",
-    "resolution_date": "2027-04-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolution_date": "2026-06-23",
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_NBA_draft (draft held 2026-06-23; #1 Dybantsa WAS, #2 Peterson UTA, #3 Boozer MEM)",
+    "brier_score": 0.36,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -34574,7 +34714,8 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolution_date_corrected_to_criterion:2027-04-30->2026-06-23"
     ],
     "temporal_class": "FWD",
     "is_high_conviction": false
@@ -38140,14 +38281,14 @@
     "chorus_probability": 0.99,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T20:00:00+00:00",
     "locked_at": "2026-06-16T20:00:00+00:00",
     "resolution_date": "2026-09-16T00:00:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.nfl.com/news/seahawks-to-kick-off-2026-nfl-regular-season-on-wednesday-sept-9-in-seattle (published 2026-09-09)",
+    "brier_score": 0.0001,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -38166,10 +38307,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Kickoff 2026-09-09."
   },
   {
     "canonical_id": "pred_wnba_2026_finals_in_2026",
@@ -38224,14 +38367,14 @@
     "chorus_probability": 0.98,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T20:00:00+00:00",
     "locked_at": "2026-06-16T20:00:00+00:00",
     "resolution_date": "2026-07-18T00:00:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_Major_League_Baseball_All-Star_Game (published 2026-07-14)",
+    "brier_score": 0.0004,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -38250,10 +38393,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Played 2026-07-14."
   },
   {
     "canonical_id": "pred_us_open_tennis_2026_starts_aug",
@@ -38266,14 +38411,14 @@
     "chorus_probability": 0.97,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T20:00:00+00:00",
     "locked_at": "2026-06-16T20:00:00+00:00",
     "resolution_date": "2026-09-02T00:00:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_US_Open_%E2%80%93_Men%27s_singles (published 2026-08-30)",
+    "brier_score": 0.0009,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -38292,10 +38437,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Main draw began 2026-08-30."
   },
   {
     "canonical_id": "pred_fomc_july_2026_meeting_held",
@@ -38686,14 +38833,14 @@
     "chorus_probability": 0.98,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T20:00:00+00:00",
     "locked_at": "2026-06-16T20:00:00+00:00",
     "resolution_date": "2026-07-14T00:00:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.aljazeera.com/sports/2026/7/11/noskova-defeats-muchova-in-wimbledon-final-to-record-first-grand-slam-title (published 2026-07-12)",
+    "brier_score": 0.0004,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -38712,10 +38859,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Ladies' final 07-11, Gentlemen's final 07-12."
   },
   {
     "canonical_id": "pred_tour_de_france_2026_starts_july",
@@ -38728,14 +38877,14 @@
     "chorus_probability": 0.98,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T20:00:00+00:00",
     "locked_at": "2026-06-16T20:00:00+00:00",
     "resolution_date": "2026-08-01T00:00:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.barcelona.cat/mobilitat/en/mobility-impacts-tour-france-2026/4-july-stage-1-time-trial (published 2026-07-04)",
+    "brier_score": 0.0004,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -38754,10 +38903,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Stage 1 TTT Barcelona 2026-07-04."
   },
   {
     "canonical_id": "pred_open_championship_golf_2026_july",
@@ -38770,14 +38921,14 @@
     "chorus_probability": 0.98,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T20:00:00+00:00",
     "locked_at": "2026-06-16T20:00:00+00:00",
     "resolution_date": "2026-07-31T23:59:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://en.wikipedia.org/wiki/2026_Open_Championship (published 2026-07-19)",
+    "brier_score": 0.0004,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -38796,10 +38947,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Final round 2026-07-19."
   },
   {
     "canonical_id": "pred_nba_summer_league_2026_held",
@@ -38812,14 +38965,14 @@
     "chorus_probability": 0.98,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-16T20:00:00+00:00",
     "locked_at": "2026-06-16T20:00:00+00:00",
     "resolution_date": "2026-07-23T00:00:00+00:00",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-15T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.nba.com/news/2026-nba-summer-league-what-to-watch-key-dates (published 2026-07-19)",
+    "brier_score": 0.0004,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -38838,10 +38991,12 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-15_sweep"
     ],
     "temporal_class": "FWD",
-    "is_high_conviction": true
+    "is_high_conviction": true,
+    "resolution_value": "Las Vegas Summer League 2026-07-09..07-19."
   },
   {
     "canonical_id": "pred_btc_above_10k_through_july",
