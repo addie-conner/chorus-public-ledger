@@ -14,7 +14,7 @@ Backup of the pre-sweep ledger: `ledger_canonical.json.bak.2026-10-15`.
   - Brier 0.1631 against 0.1903 for the stated naive baselines, a skill score of +0.14.
   - Where a pre-lock market price exists (18 rows), Chorus scores 0.1206 against the market's 0.1236, which is no meaningful edge.
   - Without the 41 World Cup rows locked after the tournament kicked off on 2026-06-11, skill falls to +0.04 (n=75, 59 right, 0.170 against 0.177).
-- Commodities: the 9/06 figure (64 rows, 0.1511 against 0.2256) reproduces. However, it is mostly a macro record, not a commodities record. Only 5 forward rows are commodity-price questions, and they score 0.2242 against 0.2400.
+- Commodities: the 9/06 figure, whose "commodities" wording is now withdrawn (canon CH6), reproduces (64 rows, 0.1511 against 0.2256). However, it is mostly a macro record, not a commodities record. Only 5 forward rows are commodity-price questions, and they score 0.2242 against 0.2400.
 
 ## How each subset is scored (forward only)
 
@@ -83,7 +83,7 @@ Misses (forward, calendar excluded), 25 in total:
 
 | set | n | hits | Brier | in-sample base-rate Brier | skill |
 |---|---|---|---|---|---|
-| 9/06 snapshot reproduced (`~/chorus/data/chorus_track_record.jsonl`, category commodities_macro) | 64 | n/a | 0.1511 | 0.2256 | +0.33 |
+| 9/06 snapshot reproduced (`~/chorus/data/chorus_track_record.jsonl`, category commodities_macro; "commodities" wording withdrawn, see CH6) | 64 | n/a | 0.1511 | 0.2256 | +0.33 |
 | ledger, same domain map, all resolved | 68 | 52 | 0.1435 | 0.2189 | +0.34 |
 | ledger, forward only (BWD rows dropped: ISM 04-03 and two gold weekly calls locked on or after resolution) | 65 | 49 | 0.1460 | 0.2187 | +0.33 |
 | forward, threshold ladders removed (CPI MoM/YoY, payrolls, FOMC, claims) | 13 | 10 | 0.1339 | 0.1775 | +0.25 |
@@ -188,7 +188,7 @@ The number holds, but the label does not. 52 of the 65 forward rows are threshol
 2. `staging_2027_nba_draft_2026-06-28.json` includes "Darryn Peterson selected in top-10 of 2027 NBA Draft". Peterson went #2 in the 2026 draft, so this is the same premise error.
 3. Three 2026-04-28/29 locks assume Cooper Flagg is a 2026 draftee: #1 pick, draft-night views, and a Nike/Adidas deal. All three missed, at p 0.95, 0.93 and 0.88. The stored rationale cites "Polymarket Flagg #1 = 0.96 (2026-04-28)", which cannot be right for a 2026 draft he was not in.
 4. `~/chorus/chorus_predictions.jsonl` still shows these rows as open. Only the public ledger and the staging file were updated.
-5. The 9/06 sports figure (34 rows, 0.0657 against 0.0804) mostly comes from 29 market-calibrated NBA and NHL title rows in `chorus_predictions.jsonl` that are not in the public ledger. That figure and this report measure different sets.
+5. The 9/06 sports figure, now withdrawn in canon C1l (34 rows, 0.0657 against 0.0804), mostly comes from 29 market-calibrated NBA and NHL title rows in `chorus_predictions.jsonl` that are not in the public ledger. That figure and this report measure different sets.
 6. `README.md` lists FWD/BWD/AGG/UNKNOWN for `temporal_class`. RETRO is new and should be added there before Addie publishes. `ledger_summary.json` was not regenerated.
 
 ## Addendum (later 2026-10-15)
