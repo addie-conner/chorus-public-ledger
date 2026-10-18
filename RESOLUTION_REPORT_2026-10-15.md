@@ -10,10 +10,10 @@ Backup of the pre-sweep ledger: `ledger_canonical.json.bak.2026-10-15`.
 - Lock text, probabilities, thresholds and lock dates are unchanged. I checked this against the backup: 0 protected-field differences, and exactly 64 rows changed.
 - 41 overdue sports rows stay open. They are listed at the end with the reason for each.
 - Forward sports record, all resolved sports rows to date with calendar checks excluded:
-  - Directional hits: 89 of 113.
-  - Brier 0.1628 against 0.1897 for the stated naive baselines, a skill score of +0.14.
+  - Directional hits: 91 of 116. This includes the three 2026 NBA draft calls locked 2026-06-08 and resolved 2026-10-15 (see the addendum).
+  - Brier 0.1631 against 0.1903 for the stated naive baselines, a skill score of +0.14.
   - Where a pre-lock market price exists (18 rows), Chorus scores 0.1206 against the market's 0.1236, which is no meaningful edge.
-  - Without the World Cup group-stage rows, which were locked after the tournament started, skill falls to +0.05.
+  - Without the 41 World Cup rows locked after the tournament kicked off on 2026-06-11, skill falls to +0.04 (n=75, 59 right, 0.170 against 0.177).
 - Commodities: the 9/06 figure (64 rows, 0.1511 against 0.2256) reproduces. However, it is mostly a macro record, not a commodities record. Only 5 forward rows are commodity-price questions, and they score 0.2242 against 0.2400.
 
 ## How each subset is scored (forward only)
@@ -32,22 +32,23 @@ Backup of the pre-sweep ledger: `ledger_canonical.json.bak.2026-10-15`.
 |---|---|---|---|---|---|---|
 | attention (Wikipedia pageview calls) | 23 | 15 | 0.2542 | 0.2268 | constant hit-rate 0.652 | -0.12 |
 | Forbes valuations / pay lists | 13 | 12 | 0.0419 | 0.0546 | persistence | +0.23 (see note) |
-| outcomes / winners | 67 | 54 | 0.1507 | 0.2076 | market on 18, base rate on 49 | +0.27 |
+| outcomes / winners | 70 | 56 | 0.1517 | 0.2079 | market on 18, base rate on 52 | +0.27 |
 | sponsorship / media | 10 | 8 | 0.1906 | 0.1600 | base rate 0.80 | -0.19 |
-| **pooled, calendar excluded** | **113** | **89** | **0.1628** | **0.1897** | n-weighted subset baselines | **+0.14** |
+| **pooled, calendar excluded** | **116** | **91** | **0.1631** | **0.1903** | n-weighted subset baselines | **+0.14** |
 | calendar checks (separate) | 8 | 8 | 0.0004 | n/a | n/a | n/a |
-| pooled including calendar | 121 | 97 | 0.1521 | | | |
+| pooled including calendar | 124 | 99 | 0.1526 | | | |
 
 Sensitivity checks:
 
 - **Forbes.** On the 11 rows where last year's list was checked, every Chorus direction matches persistence. Brier is 0.0191 for both, so skill is 0. All of the +0.23 comes from the two rows scored against 0.5 (one hit, one miss: Barkley).
 - **Outcomes against the market.** On the 18 market-priced rows Chorus scores 0.1206 and the market scores 0.1236. Both get 16 of 18 directionally right. Chorus's probabilities sat within 0.01 to 0.05 of market on every row.
-- **World Cup group stage.** These 27 rows were locked 2026-06-16, after the tournament began on 2026-06-11. That makes them in-play locks, though not RETRO. They score 0.1452 against a base rate of 0.2414. Without them:
-  - outcomes: n=40, 0.1545 against 0.1931.
-  - pooled: n=86, 67 hits, 0.1683 against 0.1774, skill +0.05.
-- **Date ranges.** Locks run from 2026-03-29 to 2026-06-28. Resolution dates run from 2026-04-14 to 2026-10-04.
+- **World Cup rows locked after kickoff.** 41 World Cup rows were locked after the tournament began on 2026-06-11: 27 group-stage advance calls locked 2026-06-16 and 14 knockout and title calls locked 2026-06-14. That makes them in-play locks, though not RETRO. Together they score 0.1505 against an in-sample base rate of 0.2249 (32 of 41 right). The 8 World Cup title rows locked 2026-03-29 stay in. Without the 41:
+  - outcomes: n=29, 0.1534 against 0.1979.
+  - pooled: n=75, 59 hits, 0.1700 against 0.1769, skill +0.04.
+  - An earlier draft of this report dropped only the 27 rows locked 2026-06-16 (n=86, skill +0.05). The 14 rows locked 2026-06-14 are also post-kickoff, so 41 is the correct exclusion.
+- **Date ranges.** Locks run from 2026-03-29 to 2026-06-28. Resolution dates run from 2026-04-14 to 2026-10-15.
 
-Misses (forward, calendar excluded), 24 in total:
+Misses (forward, calendar excluded), 25 in total:
 
 - **Attention (8):**
   - Flagg draft-night views (p 0.93)
@@ -59,7 +60,7 @@ Misses (forward, calendar excluded), 24 in total:
   - Rivera (0.73; 128 against a threshold of 130)
   - K. Harrison (0.68)
 - **Forbes (1):** Barkley top-50 (0.55).
-- **Outcomes (13):**
+- **Outcomes (14):**
   - Hurricanes Cup (0.12)
   - Spain wins WC (0.16)
   - Flagg #1 in the 2026 draft (0.95). This is a premise error: he was the 2025 #1 pick.
@@ -73,6 +74,7 @@ Misses (forward, calendar excluded), 24 in total:
   - DR Congo advance (0.36)
   - Ghana advance (0.39)
   - International player in draft top 10 (0.90)
+  - Peterson to Utah at #2 (0.40)
 - **Media (2):**
   - $50M+ jersey patch (0.45)
   - Flagg Nike/Adidas deal (0.88)
