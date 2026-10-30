@@ -13331,9 +13331,9 @@
     "in_headline": false
   },
   {
-    "canonical_id": "v1_unknown_4378993792",
+    "canonical_id": "v1_unknown_4343129216",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4378993792",
+    "original_id": "v1_unknown_4343129216",
     "original_sha": null,
     "domain": "eia_gasoline",
     "question": "EIA gasoline inventories build (increase) for week ending 2026-04-20",
@@ -13364,9 +13364,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4378994752",
+    "canonical_id": "v1_unknown_4343130176",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4378994752",
+    "original_id": "v1_unknown_4343130176",
     "original_sha": null,
     "domain": "eia_distillate",
     "question": "EIA distillate inventories build (increase) for week ending 2026-04-20",
@@ -13397,9 +13397,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4378995136",
+    "canonical_id": "v1_unknown_4343130560",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4378995136",
+    "original_id": "v1_unknown_4343130560",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-04-24 than Monday open",
@@ -13430,9 +13430,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4378995328",
+    "canonical_id": "v1_unknown_4343130752",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4378995328",
+    "original_id": "v1_unknown_4343130752",
     "original_sha": null,
     "domain": "spr_level",
     "question": "SPR level higher in 4 weeks than current",
@@ -13463,9 +13463,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4378996288",
+    "canonical_id": "v1_unknown_4343131712",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4378996288",
+    "original_id": "v1_unknown_4343131712",
     "original_sha": null,
     "domain": "existing_home_sales",
     "question": "Existing home sales higher MoM for March",
@@ -13496,9 +13496,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4378996480",
+    "canonical_id": "v1_unknown_4343131904",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4378996480",
+    "original_id": "v1_unknown_4343131904",
     "original_sha": null,
     "domain": "fed_terminal",
     "question": "Fed funds upper above 4.00% at next FOMC decision",
@@ -13530,9 +13530,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4378996864",
+    "canonical_id": "v1_unknown_4343132288",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4378996864",
+    "original_id": "v1_unknown_4343132288",
     "original_sha": null,
     "domain": "boj_decision",
     "question": "Bank of Japan holds rates at next meeting",
@@ -13563,9 +13563,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4378997120",
+    "canonical_id": "v1_unknown_4343132544",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4378997120",
+    "original_id": "v1_unknown_4343132544",
     "original_sha": null,
     "domain": "ez_cpi",
     "question": "Eurozone CPI hotter than consensus for April",
@@ -13596,9 +13596,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4378997248",
+    "canonical_id": "v1_unknown_4343132672",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4378997248",
+    "original_id": "v1_unknown_4343132672",
     "original_sha": null,
     "domain": "political_calendar",
     "question": "BOJ April rate decision \u2014 our lean: hold_likely",
@@ -13629,9 +13629,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4378998016",
+    "canonical_id": "v1_unknown_4343133440",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4378998016",
+    "original_id": "v1_unknown_4343133440",
     "original_sha": null,
     "domain": "nba_playoff",
     "question": "NBA playoff higher seed wins next game (1st round)",
@@ -13662,9 +13662,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4378998272",
+    "canonical_id": "v1_unknown_4343133696",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4378998272",
+    "original_id": "v1_unknown_4343133696",
     "original_sha": null,
     "domain": "eia_distillate",
     "question": "EIA distillate inventories build (increase) for week ending 2026-05-04",
@@ -13690,15 +13690,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378994752"
+      "duplicate_of:v1_unknown_4343130176"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4378998656",
+    "canonical_id": "v1_unknown_4343134080",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4378998656",
+    "original_id": "v1_unknown_4343134080",
     "original_sha": null,
     "domain": "fed_terminal",
     "question": "Fed funds upper above 4.00% at next FOMC decision",
@@ -13724,16 +13724,16 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378996480",
+      "duplicate_of:v1_unknown_4343131904",
       "event_validation_passed"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4378998976",
+    "canonical_id": "v1_unknown_4343134400",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4378998976",
+    "original_id": "v1_unknown_4343134400",
     "original_sha": null,
     "domain": "boj_decision",
     "question": "Bank of Japan holds rates at next meeting",
@@ -13759,15 +13759,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378996864"
+      "duplicate_of:v1_unknown_4343132288"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4378999232",
+    "canonical_id": "v1_unknown_4343134656",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4378999232",
+    "original_id": "v1_unknown_4343134656",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-05-02",
@@ -13798,9 +13798,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4378999744",
+    "canonical_id": "v1_unknown_4343135168",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4378999744",
+    "original_id": "v1_unknown_4343135168",
     "original_sha": null,
     "domain": "jobless_claims",
     "question": "Initial jobless claims below 220k for week ending 2026-05-09",
@@ -13954,9 +13954,9 @@
     "in_headline": true
   },
   {
-    "canonical_id": "v1_unknown_4379051840",
+    "canonical_id": "v1_unknown_4343187264",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379051840",
+    "original_id": "v1_unknown_4343187264",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-05-16",
@@ -13982,15 +13982,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379052288",
+    "canonical_id": "v1_unknown_4343187712",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379052288",
+    "original_id": "v1_unknown_4343187712",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-05-23",
@@ -14016,15 +14016,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379052736",
+    "canonical_id": "v1_unknown_4343188160",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379052736",
+    "original_id": "v1_unknown_4343188160",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-05-29 than Monday open",
@@ -14055,9 +14055,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379052928",
+    "canonical_id": "v1_unknown_4343188352",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379052928",
+    "original_id": "v1_unknown_4343188352",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-06-05 than Monday open",
@@ -14088,9 +14088,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379053120",
+    "canonical_id": "v1_unknown_4343188544",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379053120",
+    "original_id": "v1_unknown_4343188544",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-05-30",
@@ -14116,15 +14116,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379053632",
+    "canonical_id": "v1_unknown_4343189056",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379053632",
+    "original_id": "v1_unknown_4343189056",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-06-12 than Monday open",
@@ -14155,9 +14155,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379053824",
+    "canonical_id": "v1_unknown_4343189248",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379053824",
+    "original_id": "v1_unknown_4343189248",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-06-13",
@@ -14183,15 +14183,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379054336",
+    "canonical_id": "v1_unknown_4343189760",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379054336",
+    "original_id": "v1_unknown_4343189760",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-06-19 than Monday open",
@@ -14222,9 +14222,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379054528",
+    "canonical_id": "v1_unknown_4343189952",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379054528",
+    "original_id": "v1_unknown_4343189952",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-06-20",
@@ -14250,15 +14250,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379055040",
+    "canonical_id": "v1_unknown_4343190464",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379055040",
+    "original_id": "v1_unknown_4343190464",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-06-26 than Monday open",
@@ -14289,9 +14289,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379055232",
+    "canonical_id": "v1_unknown_4343190656",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379055232",
+    "original_id": "v1_unknown_4343190656",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-07-03 than Monday open",
@@ -14322,9 +14322,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379055424",
+    "canonical_id": "v1_unknown_4343190848",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379055424",
+    "original_id": "v1_unknown_4343190848",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-06-27",
@@ -14350,15 +14350,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379055936",
+    "canonical_id": "v1_unknown_4343191360",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379055936",
+    "original_id": "v1_unknown_4343191360",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-07-04",
@@ -14384,15 +14384,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379056448",
+    "canonical_id": "v1_unknown_4343191872",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379056448",
+    "original_id": "v1_unknown_4343191872",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-07-10 than Monday open",
@@ -14423,9 +14423,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379056640",
+    "canonical_id": "v1_unknown_4343192064",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379056640",
+    "original_id": "v1_unknown_4343192064",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-07-11",
@@ -14451,15 +14451,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379057152",
+    "canonical_id": "v1_unknown_4343192576",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379057152",
+    "original_id": "v1_unknown_4343192576",
     "original_sha": null,
     "domain": "precious_metals_direction",
     "question": "Gold closes higher Friday 2026-07-17 than Monday open",
@@ -14490,9 +14490,9 @@
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379057344",
+    "canonical_id": "v1_unknown_4343192768",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379057344",
+    "original_id": "v1_unknown_4343192768",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-07-18",
@@ -14518,15 +14518,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379057856",
+    "canonical_id": "v1_unknown_4343193280",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379057856",
+    "original_id": "v1_unknown_4343193280",
     "original_sha": null,
     "domain": "jobless_claims",
     "question": "Initial jobless claims below 220k for week ending 2026-07-25",
@@ -14552,15 +14552,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999744"
+      "duplicate_of:v1_unknown_4343135168"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379058368",
+    "canonical_id": "v1_unknown_4343193792",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379058368",
+    "original_id": "v1_unknown_4343193792",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-07-25",
@@ -14586,15 +14586,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379058880",
+    "canonical_id": "v1_unknown_4343194304",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379058880",
+    "original_id": "v1_unknown_4343194304",
     "original_sha": null,
     "domain": "jobless_claims",
     "question": "Initial jobless claims below 220k for week ending 2026-08-01",
@@ -14620,15 +14620,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999744"
+      "duplicate_of:v1_unknown_4343135168"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379059392",
+    "canonical_id": "v1_unknown_4343194816",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379059392",
+    "original_id": "v1_unknown_4343194816",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-08-01",
@@ -14654,15 +14654,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379059904",
+    "canonical_id": "v1_unknown_4343195328",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379059904",
+    "original_id": "v1_unknown_4343195328",
     "original_sha": null,
     "domain": "jobless_claims",
     "question": "Initial jobless claims below 220k for week ending 2026-08-08",
@@ -14688,15 +14688,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999744"
+      "duplicate_of:v1_unknown_4343135168"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379060288",
+    "canonical_id": "v1_unknown_4343195712",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379060288",
+    "original_id": "v1_unknown_4343195712",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-08-08",
@@ -14722,15 +14722,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379060800",
+    "canonical_id": "v1_unknown_4343196224",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379060800",
+    "original_id": "v1_unknown_4343196224",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-08-15",
@@ -14756,15 +14756,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379061312",
+    "canonical_id": "v1_unknown_4343196736",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379061312",
+    "original_id": "v1_unknown_4343196736",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-08-22",
@@ -14790,15 +14790,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379061824",
+    "canonical_id": "v1_unknown_4343197248",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379061824",
+    "original_id": "v1_unknown_4343197248",
     "original_sha": null,
     "domain": "jobless_claims",
     "question": "Initial jobless claims below 220k for week ending 2026-08-29",
@@ -14824,15 +14824,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999744"
+      "duplicate_of:v1_unknown_4343135168"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379062208",
+    "canonical_id": "v1_unknown_4343197632",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379062208",
+    "original_id": "v1_unknown_4343197632",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-08-29",
@@ -14858,15 +14858,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379062720",
+    "canonical_id": "v1_unknown_4343198144",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379062720",
+    "original_id": "v1_unknown_4343198144",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-09-05",
@@ -14892,15 +14892,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379063232",
+    "canonical_id": "v1_unknown_4343198656",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379063232",
+    "original_id": "v1_unknown_4343198656",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-09-12",
@@ -14926,15 +14926,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379063744",
+    "canonical_id": "v1_unknown_4343199168",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379063744",
+    "original_id": "v1_unknown_4343199168",
     "original_sha": null,
     "domain": "jobless_claims",
     "question": "Initial jobless claims below 220k for week ending 2026-09-19",
@@ -14960,15 +14960,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999744"
+      "duplicate_of:v1_unknown_4343135168"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379064256",
+    "canonical_id": "v1_unknown_4343199680",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379064256",
+    "original_id": "v1_unknown_4343199680",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-09-19",
@@ -14994,15 +14994,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379064768",
+    "canonical_id": "v1_unknown_4343200192",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379064768",
+    "original_id": "v1_unknown_4343200192",
     "original_sha": null,
     "domain": "jobless_claims",
     "question": "Initial jobless claims below 220k for week ending 2026-09-26",
@@ -15028,15 +15028,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999744"
+      "duplicate_of:v1_unknown_4343135168"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379065280",
+    "canonical_id": "v1_unknown_4343200704",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379065280",
+    "original_id": "v1_unknown_4343200704",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-09-26",
@@ -15062,15 +15062,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379065792",
+    "canonical_id": "v1_unknown_4343201216",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379065792",
+    "original_id": "v1_unknown_4343201216",
     "original_sha": null,
     "domain": "jobless_claims",
     "question": "Initial jobless claims below 220k for week ending 2026-10-03",
@@ -15096,15 +15096,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999744"
+      "duplicate_of:v1_unknown_4343135168"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379066304",
+    "canonical_id": "v1_unknown_4343201728",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379066304",
+    "original_id": "v1_unknown_4343201728",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-10-03",
@@ -15130,15 +15130,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379132416",
+    "canonical_id": "v1_unknown_4343267840",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379132416",
+    "original_id": "v1_unknown_4343267840",
     "original_sha": null,
     "domain": "jobless_claims",
     "question": "Initial jobless claims below 220k for week ending 2026-10-10",
@@ -15164,15 +15164,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999744"
+      "duplicate_of:v1_unknown_4343135168"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379132928",
+    "canonical_id": "v1_unknown_4343268352",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379132928",
+    "original_id": "v1_unknown_4343268352",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-10-10",
@@ -15198,15 +15198,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379133504",
+    "canonical_id": "v1_unknown_4343268928",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379133504",
+    "original_id": "v1_unknown_4343268928",
     "original_sha": null,
     "domain": "jobless_claims",
     "question": "Initial jobless claims below 220k for week ending 2026-10-17",
@@ -15232,15 +15232,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999744"
+      "duplicate_of:v1_unknown_4343135168"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379134016",
+    "canonical_id": "v1_unknown_4343269440",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379134016",
+    "original_id": "v1_unknown_4343269440",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-10-17",
@@ -15266,15 +15266,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379134528",
+    "canonical_id": "v1_unknown_4343269952",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379134528",
+    "original_id": "v1_unknown_4343269952",
     "original_sha": null,
     "domain": "jobless_claims",
     "question": "Initial jobless claims below 220k for week ending 2026-10-24",
@@ -15300,15 +15300,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999744"
+      "duplicate_of:v1_unknown_4343135168"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379135040",
+    "canonical_id": "v1_unknown_4343270464",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379135040",
+    "original_id": "v1_unknown_4343270464",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-10-24",
@@ -15334,15 +15334,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379135424",
+    "canonical_id": "v1_unknown_4343270848",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379135424",
+    "original_id": "v1_unknown_4343270848",
     "original_sha": null,
     "domain": "jobless_claims",
     "question": "Initial jobless claims below 220k for week ending 2026-10-31",
@@ -15368,15 +15368,15 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999744"
+      "duplicate_of:v1_unknown_4343135168"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
   },
   {
-    "canonical_id": "v1_unknown_4379135808",
+    "canonical_id": "v1_unknown_4343271232",
     "source_file": "static/public_ledger/predictions.json",
-    "original_id": "v1_unknown_4379135808",
+    "original_id": "v1_unknown_4343271232",
     "original_sha": null,
     "domain": "eia_natgas",
     "question": "EIA natural gas storage injection (build) for week ending 2026-10-31",
@@ -15402,7 +15402,7 @@
     "audit_flags": [
       "missing_sha256",
       "missing_id",
-      "duplicate_of:v1_unknown_4378999232"
+      "duplicate_of:v1_unknown_4343134656"
     ],
     "temporal_class": "UNKNOWN",
     "is_high_conviction": null
@@ -35988,12 +35988,15 @@
       "segment_means": {},
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_nba26_nba26_3.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
+    "anchored_by": "bitcoin block 953697 (2026-06-14T21:49:28Z)",
+    "ots_attestations": "Receipt carries three Bitcoin attestations, each checked 2026-10-30 against the block merkle root: block 953687 (2026-06-14T20:19:15Z), 953697 (21:49:28Z), 953699 (22:00:24Z).",
+    "ots_anchor_note": "The anchored file ots_anchors/pred_nba26_nba26_3.json matches this row (question, probability, lock time, criterion, original_sha). It was stamped 2026-06-14, six days after locked_at and before the 2026-06-23/24 draft.",
     "temporal_class": "FWD",
     "is_high_conviction": true
   },
@@ -36213,12 +36216,15 @@
       "segment_means": {},
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_nba26_nba26_d3.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
+    "anchored_by": "bitcoin block 953697 (2026-06-14T21:49:28Z)",
+    "ots_attestations": "Receipt carries three Bitcoin attestations, each checked 2026-10-30 against the block merkle root: block 953687 (2026-06-14T20:19:15Z), 953697 (21:49:28Z), 953699 (22:00:24Z).",
+    "ots_anchor_note": "The anchored file ots_anchors/pred_nba26_nba26_d3.json matches this row (question, probability, lock time, criterion, original_sha). It was stamped 2026-06-14, six days after locked_at and before the 2026-06-23/24 draft.",
     "temporal_class": "FWD",
     "is_high_conviction": true
   },
@@ -36233,7 +36239,7 @@
     "chorus_probability": 0.85,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "voided",
     "created_at": "2026-06-08T18:00:00+00:00",
     "locked_at": "2026-06-08T18:00:00+00:00",
     "resolution_date": "2027-04-30",
@@ -36258,12 +36264,21 @@
       "segment_means": {},
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_nba26_nba26_d4.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "voided_2026-10-31:V4_defunct_rights_holder"
     ],
+    "anchored_by": "bitcoin block 953697 (2026-06-14T21:49:28Z)",
+    "ots_attestations": "Receipt carries three Bitcoin attestations, each checked 2026-10-30 against the block merkle root: block 953687 (2026-06-14T20:19:15Z), 953697 (21:49:28Z), 953699 (22:00:24Z).",
+    "ots_anchor_note": "The anchored file ots_anchors/pred_nba26_nba26_d4.json matches this row (question, probability, lock time, criterion, original_sha). It was stamped 2026-06-14, six days after locked_at and before the 2026-06-23/24 draft.",
+    "criterion_note": "Would likely have resolved YES on intent (10+ national games per Yahoo Sports 2026-08-13 / 2026-09-03); voided rather than scored on a reinterpreted criterion.",
+    "void_rule": "V4_defunct_rights_holder",
+    "void_reason": "criterion references a broadcaster that no longer holds the rights; unresolvable as written",
+    "voided_at": "2026-10-31T00:00:00Z",
+    "void_prereg": "PREREG_resolution_run_2026-10-30_addendum_2026-10-31.json sha256:f7d4ea016f6cb2479b4551c59044151967411b943071cbf7f7383c85426f4491",
     "temporal_class": "FWD",
     "is_high_conviction": true
   },
@@ -36303,12 +36318,15 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_nba26_nba26_w1_lopez.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
+    "anchored_by": "bitcoin block 953697 (2026-06-14T21:49:28Z)",
+    "ots_attestations": "Receipt carries three Bitcoin attestations, each checked 2026-10-30 against the block merkle root: block 953687 (2026-06-14T20:19:15Z), 953697 (21:49:28Z), 953699 (22:00:24Z).",
+    "ots_anchor_note": "The anchored file ots_anchors/pred_nba26_nba26_w1_lopez.json matches this row (question, probability, lock time, criterion, original_sha). It was stamped 2026-06-14, six days after locked_at and before the 2026-06-23/24 draft.",
     "temporal_class": "FWD",
     "is_high_conviction": true
   },
@@ -36348,12 +36366,15 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_nba26_nba26_w2_suigo.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
+    "anchored_by": "bitcoin block 953697 (2026-06-14T21:49:28Z)",
+    "ots_attestations": "Receipt carries three Bitcoin attestations, each checked 2026-10-30 against the block merkle root: block 953687 (2026-06-14T20:19:15Z), 953697 (21:49:28Z), 953699 (22:00:24Z).",
+    "ots_anchor_note": "The anchored file ots_anchors/pred_nba26_nba26_w2_suigo.json matches this row (question, probability, lock time, criterion, original_sha). It was stamped 2026-06-14, six days after locked_at and before the 2026-06-23/24 draft.",
     "temporal_class": "FWD",
     "is_high_conviction": true
   },
@@ -36393,12 +36414,15 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_nba26_nba26_w3_delarrea.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
+    "anchored_by": "bitcoin block 953697 (2026-06-14T21:49:28Z)",
+    "ots_attestations": "Receipt carries three Bitcoin attestations, each checked 2026-10-30 against the block merkle root: block 953687 (2026-06-14T20:19:15Z), 953697 (21:49:28Z), 953699 (22:00:24Z).",
+    "ots_anchor_note": "The anchored file ots_anchors/pred_nba26_nba26_w3_delarrea.json matches this row (question, probability, lock time, criterion, original_sha). It was stamped 2026-06-14, six days after locked_at and before the 2026-06-23/24 draft.",
     "temporal_class": "FWD",
     "is_high_conviction": true
   },
@@ -36438,12 +36462,15 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_nba26_nba26_w4_fland.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
+    "anchored_by": "bitcoin block 953697 (2026-06-14T21:49:28Z)",
+    "ots_attestations": "Receipt carries three Bitcoin attestations, each checked 2026-10-30 against the block merkle root: block 953687 (2026-06-14T20:19:15Z), 953697 (21:49:28Z), 953699 (22:00:24Z).",
+    "ots_anchor_note": "The anchored file ots_anchors/pred_nba26_nba26_w4_fland.json matches this row (question, probability, lock time, criterion, original_sha). It was stamped 2026-06-14, six days after locked_at and before the 2026-06-23/24 draft.",
     "temporal_class": "FWD",
     "is_high_conviction": true
   },
@@ -36483,12 +36510,15 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_nba26_nba26_w5_karaban.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
+    "anchored_by": "bitcoin block 953697 (2026-06-14T21:49:28Z)",
+    "ots_attestations": "Receipt carries three Bitcoin attestations, each checked 2026-10-30 against the block merkle root: block 953687 (2026-06-14T20:19:15Z), 953697 (21:49:28Z), 953699 (22:00:24Z).",
+    "ots_anchor_note": "The anchored file ots_anchors/pred_nba26_nba26_w5_karaban.json matches this row (question, probability, lock time, criterion, original_sha). It was stamped 2026-06-14, six days after locked_at and before the 2026-06-23/24 draft.",
     "temporal_class": "FWD",
     "is_high_conviction": true
   },
@@ -36528,12 +36558,15 @@
       "segment_means": {},
       "confidence_label": "WEAK"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_nba26_nba26_w6_kayil.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
+    "anchored_by": "bitcoin block 953697 (2026-06-14T21:49:28Z)",
+    "ots_attestations": "Receipt carries three Bitcoin attestations, each checked 2026-10-30 against the block merkle root: block 953687 (2026-06-14T20:19:15Z), 953697 (21:49:28Z), 953699 (22:00:24Z).",
+    "ots_anchor_note": "The anchored file ots_anchors/pred_nba26_nba26_w6_kayil.json matches this row (question, probability, lock time, criterion, original_sha). It was stamped 2026-06-14, six days after locked_at and before the 2026-06-23/24 draft.",
     "temporal_class": "FWD",
     "is_high_conviction": true
   },
@@ -36573,12 +36606,15 @@
       "segment_means": {},
       "confidence_label": "MODERATE"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_nba26_nba26_w7_saunders.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
+    "anchored_by": "bitcoin block 953697 (2026-06-14T21:49:28Z)",
+    "ots_attestations": "Receipt carries three Bitcoin attestations, each checked 2026-10-30 against the block merkle root: block 953687 (2026-06-14T20:19:15Z), 953697 (21:49:28Z), 953699 (22:00:24Z).",
+    "ots_anchor_note": "The anchored file ots_anchors/pred_nba26_nba26_w7_saunders.json matches this row (question, probability, lock time, criterion, original_sha). It was stamped 2026-06-14, six days after locked_at and before the 2026-06-23/24 draft.",
     "temporal_class": "FWD",
     "is_high_conviction": true
   },
@@ -36618,12 +36654,15 @@
       "segment_means": {},
       "confidence_label": "WEAK"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_nba26_nba26_w8_onyenso.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
+    "anchored_by": "bitcoin block 953697 (2026-06-14T21:49:28Z)",
+    "ots_attestations": "Receipt carries three Bitcoin attestations, each checked 2026-10-30 against the block merkle root: block 953687 (2026-06-14T20:19:15Z), 953697 (21:49:28Z), 953699 (22:00:24Z).",
+    "ots_anchor_note": "The anchored file ots_anchors/pred_nba26_nba26_w8_onyenso.json matches this row (question, probability, lock time, criterion, original_sha). It was stamped 2026-06-14, six days after locked_at and before the 2026-06-23/24 draft.",
     "temporal_class": "FWD",
     "is_high_conviction": true
   },
@@ -36663,12 +36702,15 @@
       "segment_means": {},
       "confidence_label": "WEAK"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_nba26_nba26_w9_okpara.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor"
     ],
+    "anchored_by": "bitcoin block 953697 (2026-06-14T21:49:28Z)",
+    "ots_attestations": "Receipt carries three Bitcoin attestations, each checked 2026-10-30 against the block merkle root: block 953687 (2026-06-14T20:19:15Z), 953697 (21:49:28Z), 953699 (22:00:24Z).",
+    "ots_anchor_note": "The anchored file ots_anchors/pred_nba26_nba26_w9_okpara.json matches this row (question, probability, lock time, criterion, original_sha). It was stamped 2026-06-14, six days after locked_at and before the 2026-06-23/24 draft.",
     "temporal_class": "FWD",
     "is_high_conviction": true
   },
@@ -36708,8 +36750,8 @@
       "segment_means": {},
       "confidence_label": "STRONG"
     },
-    "ots_anchor": null,
-    "ots_anchored": false,
+    "ots_anchor": "ots_anchors/pred_nba26_nba26_draft_1.json.ots",
+    "ots_anchored": true,
     "schema_version": "v2",
     "audit_flags": [
       "no_ots_anchor",
@@ -36717,6 +36759,9 @@
     ],
     "resolution_date_corrected": "2026-06-23",
     "resolution_date_correction_note": "Locked resolution_date 2027-04-30 is kept unchanged (hashed lock field). The sealed criterion date is 2026-06-23; see RESOLUTION_REPORT_2026-10-15.md addendum.",
+    "anchored_by": "bitcoin block 953697 (2026-06-14T21:49:28Z)",
+    "ots_attestations": "Receipt carries three Bitcoin attestations, each checked 2026-10-30 against the block merkle root: block 953687 (2026-06-14T20:19:15Z), 953697 (21:49:28Z), 953699 (22:00:24Z).",
+    "ots_anchor_note": "The anchored file ots_anchors/pred_nba26_nba26_draft_1.json matches this row (question, probability, lock time, criterion, original_sha). It was stamped 2026-06-14, six days after locked_at and before the 2026-06-23/24 draft.",
     "temporal_class": "FWD",
     "is_high_conviction": true,
     "headline_domain": "sports_affinity",
@@ -36833,14 +36878,14 @@
     "chorus_probability": 0.3,
     "baseline_probability": null,
     "edge": null,
-    "status": "open",
+    "status": "resolved",
     "created_at": "2026-06-08T18:00:00+00:00",
     "locked_at": "2026-06-08T18:00:00+00:00",
     "resolution_date": "2027-04-30",
-    "resolved_at": null,
-    "resolution": null,
-    "resolution_source": "",
-    "brier_score": null,
+    "resolved_at": "2026-10-31T00:00:00+00:00",
+    "resolution": 1.0,
+    "resolution_source": "https://www.nba.com/news/magic-wizards-bucks-trade-2026-nba-draft (updated 2026-06-25) and https://en.wikipedia.org/wiki/2026_NBA_draft (second round held 2026-06-24); checked 2026-10-30",
+    "brier_score": 0.49,
     "baseline_brier": null,
     "brier_skill_score": null,
     "data_sources_used": [
@@ -36862,10 +36907,17 @@
     "ots_anchored": false,
     "schema_version": "v2",
     "audit_flags": [
-      "no_ots_anchor"
+      "no_ots_anchor",
+      "resolved_2026-10-31",
+      "resolution_date_corrected_to_criterion:2027-04-30->2026-06-24"
     ],
+    "resolution_value": "Washington traded #51 (to Orlando) and #60 (to Milwaukee) in a three-team trade and received #46, Felix Okpara, one of the four named players. Criterion met by the trade-up branch.",
+    "resolution_date_corrected": "2026-06-24",
+    "resolution_date_correction_note": "Locked resolution_date 2027-04-30 is kept unchanged (hashed lock field). The criterion is settled by the 2026 draft's second round, held 2026-06-24; same treatment as the three draft-order rows (RESOLUTION_REPORT_2026-10-15.md addendum).",
     "temporal_class": "FWD",
-    "is_high_conviction": false
+    "is_high_conviction": false,
+    "headline_domain": "sports_affinity",
+    "in_headline": false
   },
   {
     "canonical_id": "pred_wc2026_v2pure_spain_R16_or_better",

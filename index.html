@@ -47,32 +47,33 @@
 <body>
 
 <h1>Chorus — Public Prediction Ledger</h1>
-<div class="subtitle">SHA-locked. OpenTimestamps-anchored. Forward predictions only in headline. Generated 2026-10-30T01:19:34.399426Z</div>
+<div class="subtitle">SHA-locked. OpenTimestamps-anchored. Forward predictions only in headline. Generated 2026-10-30T01:55:03.579316Z</div>
 
 <div class="hero">
-  <div class="brier">0.153</div>
-  <div class="label">Mean Brier · 126 forward sports predictions · naive baselines 0.178 · skill +0.14 · as of 2026-10-30</div>
-  <div class="meta">Lower=better; coin-flip = 0.25. Without the 41 World Cup predictions locked after the 2026-06-11 kickoff: skill +0.04 (n=85). Full tables and every miss: RESOLUTION_REPORT_2026-10-30.md.</div>
+  <div class="brier">0.156</div>
+  <div class="label">Mean Brier · 127 forward sports predictions · naive baselines 0.177 · skill +0.12 · as of 2026-10-31</div>
+  <div class="meta">Lower=better; coin-flip = 0.25. Without the 41 World Cup predictions locked after the 2026-06-11 kickoff: skill +0.02 (n=86). Full tables and every miss: RESOLUTION_REPORT_2026-10-31.md.</div>
 </div>
 
 <div class="stat-grid">
-  <div class="stat"><div class="v">208</div><div class="l">forward, resolved</div></div>
-  <div class="stat"><div class="v">617</div><div class="l">open, awaiting</div></div>
+  <div class="stat"><div class="v">209</div><div class="l">forward, resolved</div></div>
+  <div class="stat"><div class="v">615</div><div class="l">open, awaiting</div></div>
   <div class="stat"><div class="v">197</div><div class="l">awaiting resolution (reasons below)</div></div>
   <div class="stat"><div class="v">3</div><div class="l">backward validation (separate)</div></div>
   <div class="stat"><div class="v">11</div><div class="l">RETRO (outcome public before lock; excluded)</div></div>
-  <div class="stat"><div class="v">616</div><div class="l">of 1034 OTS-anchored</div></div>
+  <div class="stat"><div class="v">629</div><div class="l">of 1034 OTS-anchored</div></div>
 </div>
 
 
-<h2>Sports forward record, as of 2026-10-30</h2>
-<p>Forward only: locked before the outcome or its source was public. Skill = 1 − Brier / baseline Brier. Computed by <code>scripts/sports_forward_record_2026_10_30.py</code>.</p>
+<h2>Sports forward record, as of 2026-10-31</h2>
+<p>Forward only: locked before the outcome or its source was public. Skill = 1 − Brier / baseline Brier. Computed by <code>scripts/sports_forward_record_2026_10_31.py</code>.</p>
 <table>
   <thead><tr><th>Type</th><th>n</th><th>Right direction</th><th>Brier</th><th>Baseline</th><th>Skill</th></tr></thead>
-  <tbody><tr><td class="q">Outcomes and winners (market price where one existed, else base rate)</td><td>71</td><td>57</td><td>0.152</td><td>0.207</td><td>+0.27</td></tr><tr><td class="q">Athlete attention (Wikipedia pageviews; constant hit-rate baseline)</td><td>23</td><td>15</td><td>0.254</td><td>0.227</td><td>−0.12</td></tr><tr><td class="q">Sponsorship and media (base rate)</td><td>10</td><td>8</td><td>0.191</td><td>0.160</td><td>−0.19</td></tr><tr><td class="q">Forbes valuation lists (last-year persistence)</td><td>22</td><td>21</td><td>0.034</td><td>0.041</td><td>+0.18 (0 on the 20 rows with a checked prior-year list)</td></tr><tr><td class="q"><strong>All (calendar checks excluded)</strong></td><td>126</td><td>101</td><td>0.153</td><td>0.178</td><td>+0.14</td></tr></tbody>
+  <tbody><tr><td class="q">Outcomes and winners (market price where one existed, else base rate)</td><td>72</td><td>57</td><td>0.156</td><td>0.205</td><td>+0.24</td></tr><tr><td class="q">Athlete attention (Wikipedia pageviews; constant hit-rate baseline)</td><td>23</td><td>15</td><td>0.254</td><td>0.227</td><td>−0.12</td></tr><tr><td class="q">Sponsorship and media (base rate)</td><td>10</td><td>8</td><td>0.191</td><td>0.160</td><td>−0.19</td></tr><tr><td class="q">Forbes valuation lists (last-year persistence)</td><td>22</td><td>21</td><td>0.034</td><td>0.041</td><td>+0.18 (0 on the 20 rows with a checked prior-year list)</td></tr><tr><td class="q"><strong>All (calendar checks excluded)</strong></td><td>127</td><td>101</td><td>0.156</td><td>0.177</td><td>+0.12</td></tr></tbody>
 </table>
-<p>Without the 41 World Cup predictions locked after the 2026-06-11 kickoff: n=85, 69 right, 0.154 vs 0.161, skill +0.04. Where a pre-lock betting market existed (18 predictions), Chorus matched the market and did not beat it: 0.121 vs 0.124. Calendar checks (8, p 0.97-0.99) are shown separately and kept out of the pooled figure. RETRO rows (outcome or its source list public before the lock) are kept and scored but never counted as forward.</p>
+<p>Without the 41 World Cup predictions locked after the 2026-06-11 kickoff: n=86, 69 right, 0.158 vs 0.161, skill +0.02. Where a pre-lock betting market existed (18 predictions), Chorus matched the market and did not beat it: 0.121 vs 0.124. Calendar checks (8, p 0.97-0.99) are shown separately and kept out of the pooled figure. RETRO rows (outcome or its source list public before the lock) are kept and scored but never counted as forward.</p>
 <p>Macro releases, as of 2026-10-15 (not recomputed in this run): on 65 forward forecasts about scheduled macro releases (CPI, payrolls, claims, FOMC, plus a few prices), covering 19 distinct events, Chorus scored a Brier of 0.146 against 0.219 for an in-sample base rate (skill +0.33). 52 of the 65 are threshold-ladder rungs on 5 releases; the base rate is a weak comparator for ladders, and no pre-lock consensus baseline is stored. Full table: RESOLUTION_REPORT_2026-10-15.md.</p>
+<p>2026-10-31: "Wizards use R2 pick #51 to draft Nigerian-heritage OR DMV-local prospect" (p 0.30) resolved YES: Washington traded #51 and #60 for #46, Felix Okpara (Brier 0.49). "Wizards 8+ nationally televised regular-season games" (p 0.85) is voided under a pre-registered addendum because its criterion names TNT, which no longer carries NBA games; it would likely have resolved YES on intent and is not scored on a reinterpreted criterion. Thirteen 2026 NBA draft rows now carry upgraded per-row OpenTimestamps receipts confirmed in Bitcoin blocks 953687-953699 (2026-06-14), before the draft.</p>
 <p>Correction 2026-10-15: the row "AJ Dybantsa selected #1 overall in 2027 NBA Draft" was first committed and anchored on 2026-06-28, after the 2026-06-23 draft. Its 2026-07-01 resolution is withdrawn and it is excluded. The pre-draft call "AJ Dybantsa is selected #1 overall in 2026 NBA Draft" (p 0.95, committed 2026-06-08) is scored instead, together with the two other draft calls in the same commit. Their locked resolution date is kept; the sealed criterion date is recorded separately as <code>resolution_date_corrected</code>.</p>
 
 <h2>Awaiting resolution</h2>
@@ -80,7 +81,7 @@
 <table>
   <thead><tr><th>Reason</th><th>Predictions</th></tr></thead>
   <tbody><tr><td class="q">Not yet checked in a resolution run</td><td class="num">166</td></tr><tr><td class="q">Computed by a Chorus script on Chorus data; resolver has not run</td><td class="num">10</td></tr><tr><td class="q">Criterion ambiguous; owner decision needed</td><td class="num">8</td></tr><tr><td class="q">Searched; no public report found (absence is not scored as NO)</td><td class="num">7</td></tr><tr><td class="q">Resolvable from public data; data not assembled yet</td><td class="num">6</td></tr></tbody>
-</table><p>Voided under the pre-registered rule (<code>PREREG_resolution_run_2026-10-30.json</code>, hashed and OpenTimestamps-stamped before any void): 35 duplicate, 5 ill-formed question, 1 unresolvable source. Voided rows keep every locked field and are excluded from Brier. Each one is listed on <a href="audit.html">audit.html</a>.</p>
+</table><p>Voided under pre-registered rules (<code>PREREG_resolution_run_2026-10-30.json</code>, <code>PREREG_resolution_run_2026-10-30_addendum_2026-10-31.json</code>, each hashed and OpenTimestamps-stamped before the voids it covers): 35 duplicate; 5 ill-formed question; 1 unresolvable source; 1 criterion references a broadcaster that no longer holds the rights; unresolvable as written. Voided rows keep every locked field and are excluded from Brier. Each one is listed on <a href="audit.html">audit.html</a>.</p>
 
 <h2>Headline forward predictions, by sub-domain</h2>
 <p>Single-prediction forward calls only — locked strictly before the resolution event, deduplicated across source files, in publishable sub-domains.</p>
@@ -140,7 +141,7 @@
 <h2>Verification protocol</h2>
 <ol style="color:#aaa; font-size:0.85rem; padding-left:1.5rem; margin:0.5rem 0;">
   <li>Each entry has a <code>sha256</code> field hashing the immutable prediction fields.</li>
-  <li>The full ledger file is anchored to the Bitcoin blockchain via <a href="https://opentimestamps.org/">OpenTimestamps</a>. Run <code>ots verify ledger_canonical.json.ots</code> against the file to confirm when this version existed (stamped 2026-10-30, sha256 a68739d2…a577; Bitcoin confirmation follows within hours). Each prediction also carries its own per-row anchor, made at lock time, which is what shows the lock predates the outcome. The previous whole-file stamp (2026-05-06) is kept as <code>ledger_canonical.json.ots.2026-05-06</code> and matches the file as it was then, not now.</li>
+  <li>The full ledger file is anchored to the Bitcoin blockchain via <a href="https://opentimestamps.org/">OpenTimestamps</a>. Run <code>ots verify ledger_canonical.json.ots</code> against the file to confirm when this version existed (whole-file stamp 2026-10-30 UTC, sha256 53de16c0…c49d; Bitcoin confirmation follows within hours). Each prediction also carries its own per-row anchor in <code>ots_anchors/</code>, which is what shows the lock predates the outcome. Earlier whole-file stamps are kept as dated copies and match the file as it was then, not now.</li>
   <li>Resolution sources are named per-entry. Cross-check against the cited public source (FRED, BLS, ICE, ESPN, government release, etc.) — never against Chorus's own data.</li>
   <li>Entries with audit flags (<code>missing_sha256</code>, <code>no_ots_anchor</code>, <code>duplicate_of:</code>, <code>resolution_overdue</code>) are explicitly tagged. The headline number includes only entries clean on all flags.</li>
 </ol>

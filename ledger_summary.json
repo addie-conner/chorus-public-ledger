@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-30T01:19:34.399426Z",
+  "generated_at": "2026-10-30T01:55:03.579316Z",
   "totals": {
     "total_entries": 1034,
-    "resolved": 346,
-    "forward_singles": 208,
+    "resolved": 347,
+    "forward_singles": 209,
     "backward_validation": 3,
     "backward_logged": 37,
-    "open": 617,
+    "open": 615,
     "overdue": 198,
     "duplicates_tagged": 129,
     "from_v1": 467,
     "from_v2": 540,
-    "ots_anchored": 616
+    "ots_anchored": 629
   },
   "headline_brier_FORWARD_ONLY": {
     "scope": "Forward, single-prediction, deduplicated, in-headline-domain only. Excludes pastcasting/cross-validation/aggregate batch claims and weak/exploratory domains.",
@@ -77,8 +77,8 @@
   },
   "all_forward_brier": {
     "scope": "All forward, single, deduplicated predictions across all domains (full transparency).",
-    "n": 208,
-    "mean_brier": 0.142,
+    "n": 209,
+    "mean_brier": 0.1436,
     "best": 0.0,
     "worst": 0.948
   },
@@ -200,6 +200,13 @@
       "worst": 0.81,
       "in_headline": false
     },
+    "sports_affinity": {
+      "n": 4,
+      "mean_brier": 0.2531,
+      "best": 0.0025,
+      "worst": 0.49,
+      "in_headline": false
+    },
     "earnings_sector_rate": {
       "n": 3,
       "mean_brier": 0.0283,
@@ -233,13 +240,6 @@
       "mean_brier": 0.1191,
       "best": 0.0225,
       "worst": 0.3025,
-      "in_headline": false
-    },
-    "sports_affinity": {
-      "n": 3,
-      "mean_brier": 0.1742,
-      "best": 0.0025,
-      "worst": 0.36,
       "in_headline": false
     },
     "chorus-reference-class": {
@@ -455,8 +455,8 @@
   },
   "by_year_FORWARD_ONLY": {
     "2026": {
-      "n": 208,
-      "mean_brier": 0.142
+      "n": 209,
+      "mean_brier": 0.1436
     }
   },
   "audit_flag_counts": [
@@ -489,11 +489,11 @@
       35
     ],
     [
-      "duplicate_of:v1_unknown_4378999232",
+      "duplicate_of:v1_unknown_4343134656",
       24
     ],
     [
-      "duplicate_of:v1_unknown_4378999744",
+      "duplicate_of:v1_unknown_4343135168",
       11
     ],
     [
