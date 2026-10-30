@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-14T01:19:40+00:00Z",
+  "generated_at": "2026-10-30T01:19:34.399426Z",
   "totals": {
-    "total_entries": 990,
-    "resolved": 197,
-    "forward_singles": 142,
-    "backward_validation": 11,
-    "backward_logged": 0,
-    "open": 779,
-    "overdue": 176,
-    "duplicates_tagged": 99,
-    "voided": 12,
-    "pre_registered": 2,
-    "ots_anchored": 575
+    "total_entries": 1034,
+    "resolved": 346,
+    "forward_singles": 208,
+    "backward_validation": 3,
+    "backward_logged": 37,
+    "open": 617,
+    "overdue": 198,
+    "duplicates_tagged": 129,
+    "from_v1": 467,
+    "from_v2": 540,
+    "ots_anchored": 616
   },
   "headline_brier_FORWARD_ONLY": {
     "scope": "Forward, single-prediction, deduplicated, in-headline-domain only. Excludes pastcasting/cross-validation/aggregate batch claims and weak/exploratory domains.",
@@ -29,6 +29,12 @@
       "worst": 0.04,
       "predictions": [
         {
+          "q": "NVDA beats Q1 2026 EPS consensus",
+          "p": 0.8,
+          "actual": 1.0,
+          "brier": 0.04
+        },
+        {
           "q": "CRM beats Q1 FY2026 EPS consensus",
           "p": 0.85,
           "actual": 1.0,
@@ -45,12 +51,6 @@
           "p": 0.85,
           "actual": 1.0,
           "brier": 0.0225
-        },
-        {
-          "q": "NVDA beats Q1 2026 EPS consensus",
-          "p": 0.8,
-          "actual": 1.0,
-          "brier": 0.04
         }
       ]
     },
@@ -61,13 +61,13 @@
       "worst": 0.0006,
       "predictions": [
         {
-          "q": "Weekly initial jobless claims \u2265220K for week ending 2026-04-18 (BLS release 2026",
+          "q": "Weekly initial jobless claims \u2265220K for week ending 2026-04-18 (BLS release 2026-04-23)",
           "p": 0.025,
           "actual": 0.0,
           "brier": 0.000625
         },
         {
-          "q": "Weekly initial jobless claims \u2265225K for week ending 2026-04-18 (BLS release 2026",
+          "q": "Weekly initial jobless claims \u2265225K for week ending 2026-04-18 (BLS release 2026-04-23)",
           "p": 0.002,
           "actual": 0.0,
           "brier": 4e-06
@@ -77,8 +77,8 @@
   },
   "all_forward_brier": {
     "scope": "All forward, single, deduplicated predictions across all domains (full transparency).",
-    "n": 142,
-    "mean_brier": 0.1517,
+    "n": 208,
+    "mean_brier": 0.142,
     "best": 0.0,
     "worst": 0.948
   },
@@ -93,48 +93,6 @@
         "notes": "165 predictions, Brier 0.045, 2x superforecasters"
       },
       {
-        "question": "ISM Services PMI above 50 (expansion) for March 2026",
-        "domain": "ism_scan",
-        "n_underlying": 0,
-        "brier": 0.0484,
-        "notes": "ISM Report on Business April 3 2026"
-      },
-      {
-        "question": "Will gold close higher on Friday than it opened on Monday?",
-        "domain": "precious_metals_direction",
-        "n_underlying": 0,
-        "brier": 0.157927,
-        "notes": "Gold opened ~$3,124 Mon Mar 31, closed ~$3,115 Fri Apr 3"
-      },
-      {
-        "question": "Initial jobless claims below 220k for week ending 2026-04-04",
-        "domain": "auto_resolved",
-        "n_underlying": 0,
-        "brier": 0.113165,
-        "notes": "auto-resolve sweep 2026-04-09"
-      },
-      {
-        "question": "EIA natural gas storage injection (build) for week ending 2026-04-04",
-        "domain": "auto_resolved",
-        "n_underlying": 0,
-        "brier": 0.0324,
-        "notes": "auto-resolve sweep 2026-04-09"
-      },
-      {
-        "question": "Gold closes higher Friday 2026-04-10 than Monday open",
-        "domain": "precious_metals_direction",
-        "n_underlying": 0,
-        "brier": 0.0625,
-        "notes": "Web search: Gold opened ~$4,650 Mon Apr 6, closed ~$4,690 Fri Apr 10 (+0.86%)"
-      },
-      {
-        "question": "Does in-country (CIV) rainfall correlate with cocoa price-stress signals at 12-24 month lag?",
-        "domain": "climate_signal_validation",
-        "n_underlying": null,
-        "brier": null,
-        "notes": "BORDERLINE \u2014 IC rainfall at r=-0.350 with cocoa price (below standard significance, directionally correct). Used as a candidate-tier signal not a champion-tier signal. The wet-season-anomaly variant (vs raw IC rainfall) is the version that survived Gate 3 for CIV (R\u00b2 0.26 \u2192 0.55 in-sample lift \u2014 though walk-forward later showed the lift didn't survive Gate 4)."
-      },
-      {
         "question": "Cocoa-to-chocolate-CPI direction (walk-forward backtest)",
         "domain": "commodity_cpi_transmission",
         "n_underlying": null,
@@ -147,20 +105,6 @@
         "n_underlying": null,
         "brier": 0.2463,
         "notes": "Champion AR-momentum: Brier 0.2587, n=93 walk-forward (2018-01 \u2192 2025-09). Challenger B (multi-lag SM: T-3+T-6+T-9 weighted): Brier 0.2463, delta +0.0124, paired t=-2.29, p=0.024. No slice regression in any year 2018-2025. Verdict: PROMOTE."
-      },
-      {
-        "question": "Does adding ENSO ONI lag-2 to the GHA + CIV annual deforestation models improve walk-forward MAPE (validation_summary.md reports +46% in-sample R\u00b2 lift for CIV)?",
-        "domain": "conservation_deforestation",
-        "n_underlying": null,
-        "brier": null,
-        "notes": "REJECT both countries. GHA wf-MAPE 41.3% \u2192 41.1% (\u0394 -0.14pp, p=0.278). CIV wf-MAPE 25.5% \u2192 29.7% (\u0394 +4.23pp, p=0.277). The '+46% adj R\u00b2' lift documented in validation_summary was in-sample fit, NOT walk-forward generalization. ENSO_lag2 doesn't survive the walk-forward gate. Methodology note: in-sample lifts do not transfer to walk-forward; this is exactly the kind of failure mode the 8-gate harness is designed to catch."
-      },
-      {
-        "question": "Does adding price \u00d7 post_2013 INTERACTION term (slope shift) to the CIV annual model improve over the price-only baseline? Per the ICCO agent's diagnosis: 'the fix is an interaction term, not intercept shift.'",
-        "domain": "conservation_deforestation",
-        "n_underlying": null,
-        "brier": null,
-        "notes": "REJECT all 3 variants. v2 baseline wf-MAPE 25.5%. Intercept-only (post_2013 dummy): 36.3% (p=0.970). Slope-only (price \u00d7 post_2013): 36.3% (p=0.970). Both: catastrophic 123.5% \u2014 clear overfit on n=23. The ICCO-agent diagnosis was wrong; the post-2013 regime variable doesn't survive walk-forward in any form. CIV's 2017 spike is sui generis \u2014 the model can't capture it with a binary regime variable."
       }
     ]
   },
@@ -177,6 +121,20 @@
       "mean_brier": 0.263,
       "best": 0.0,
       "worst": 0.948,
+      "in_headline": false
+    },
+    "sports_scan": {
+      "n": 17,
+      "mean_brier": 0.1196,
+      "best": 0.0009,
+      "worst": 0.7744,
+      "in_headline": false
+    },
+    "sports_valuations": {
+      "n": 16,
+      "mean_brier": 0.0225,
+      "best": 0.0225,
+      "worst": 0.0225,
       "in_headline": false
     },
     "sports_worldcup_2026": {
@@ -214,11 +172,25 @@
       "worst": 0.0064,
       "in_headline": false
     },
+    "nba_athlete_marketability": {
+      "n": 6,
+      "mean_brier": 0.5868,
+      "best": 0.0064,
+      "worst": 0.9025,
+      "in_headline": false
+    },
     "sports_attention_short_fuse": {
       "n": 5,
       "mean_brier": 0.0592,
       "best": 0.0144,
       "worst": 0.1225,
+      "in_headline": false
+    },
+    "nba_audience_trajectory": {
+      "n": 5,
+      "mean_brier": 0.0363,
+      "best": 0.0001,
+      "worst": 0.1444,
       "in_headline": false
     },
     "sports_nba_draft_2026": {
@@ -249,6 +221,27 @@
       "worst": 0.1024,
       "in_headline": false
     },
+    "sports_valuation": {
+      "n": 3,
+      "mean_brier": 0.0099,
+      "best": 0.0009,
+      "worst": 0.0225,
+      "in_headline": false
+    },
+    "athlete_valuation": {
+      "n": 3,
+      "mean_brier": 0.1191,
+      "best": 0.0225,
+      "worst": 0.3025,
+      "in_headline": false
+    },
+    "sports_affinity": {
+      "n": 3,
+      "mean_brier": 0.1742,
+      "best": 0.0025,
+      "worst": 0.36,
+      "in_headline": false
+    },
     "chorus-reference-class": {
       "n": 2,
       "mean_brier": 0.0762,
@@ -277,11 +270,25 @@
       "worst": 0.0006,
       "in_headline": true
     },
+    "nba_sponsorship_valuation": {
+      "n": 2,
+      "mean_brier": 0.2525,
+      "best": 0.2025,
+      "worst": 0.3025,
+      "in_headline": false
+    },
     "macro_fomc": {
       "n": 2,
       "mean_brier": 0.0117,
       "best": 0.0009,
       "worst": 0.0225,
+      "in_headline": false
+    },
+    "sports_tennis": {
+      "n": 2,
+      "mean_brier": 0.0006,
+      "best": 0.0004,
+      "worst": 0.0009,
       "in_headline": false
     },
     "iowa_caucus_extrapolation": {
@@ -381,22 +388,85 @@
       "best": 0.1128,
       "worst": 0.1128,
       "in_headline": false
+    },
+    "nhl_upfront": {
+      "n": 1,
+      "mean_brier": 0.2025,
+      "best": 0.2025,
+      "worst": 0.2025,
+      "in_headline": false
+    },
+    "nba_draft": {
+      "n": 1,
+      "mean_brier": 0.0144,
+      "best": 0.0144,
+      "worst": 0.0144,
+      "in_headline": false
+    },
+    "forward_qi_media_value": {
+      "n": 1,
+      "mean_brier": 0.2025,
+      "best": 0.2025,
+      "worst": 0.2025,
+      "in_headline": false
+    },
+    "macro_conditional_sponsorship": {
+      "n": 1,
+      "mean_brier": 0.0484,
+      "best": 0.0484,
+      "worst": 0.0484,
+      "in_headline": false
+    },
+    "sports_nfl": {
+      "n": 1,
+      "mean_brier": 0.0001,
+      "best": 0.0001,
+      "worst": 0.0001,
+      "in_headline": false
+    },
+    "sports_mlb": {
+      "n": 1,
+      "mean_brier": 0.0004,
+      "best": 0.0004,
+      "worst": 0.0004,
+      "in_headline": false
+    },
+    "sports_cycling": {
+      "n": 1,
+      "mean_brier": 0.0004,
+      "best": 0.0004,
+      "worst": 0.0004,
+      "in_headline": false
+    },
+    "sports_golf": {
+      "n": 1,
+      "mean_brier": 0.0004,
+      "best": 0.0004,
+      "worst": 0.0004,
+      "in_headline": false
+    },
+    "sports_nba": {
+      "n": 1,
+      "mean_brier": 0.0004,
+      "best": 0.0004,
+      "worst": 0.0004,
+      "in_headline": false
     }
   },
   "by_year_FORWARD_ONLY": {
     "2026": {
-      "n": 142,
-      "mean_brier": 0.1517
+      "n": 208,
+      "mean_brier": 0.142
     }
   },
   "audit_flag_counts": [
     [
       "no_ots_anchor",
-      529
+      532
     ],
     [
       "resolution_overdue",
-      203
+      198
     ],
     [
       "event_validation_passed",
@@ -404,14 +474,34 @@
     ],
     [
       "missing_sha256",
-      43
+      76
+    ],
+    [
+      "resolved_2026-10-15_sweep",
+      64
     ],
     [
       "missing_id",
-      25
+      58
+    ],
+    [
+      "voided_2026-10-30:V1_duplicate",
+      35
+    ],
+    [
+      "duplicate_of:v1_unknown_4378999232",
+      24
+    ],
+    [
+      "duplicate_of:v1_unknown_4378999744",
+      11
     ],
     [
       "duplicate_of:164377ad2cae",
+      8
+    ],
+    [
+      "retro:outcome_public_2026-03-20_before_lock_2026-04-24",
       8
     ],
     [
@@ -423,15 +513,15 @@
       7
     ],
     [
+      "voided_2026-10-30:V2_ill_formed_question",
+      5
+    ],
+    [
       "duplicate_of:73dda56e9577",
       5
     ],
     [
       "duplicate_of:fbec98f5399b",
-      5
-    ],
-    [
-      "duplicate_of:v1_unknown_4338179328",
       5
     ],
     [
@@ -449,26 +539,6 @@
     [
       "event_validation_failed:no_fomc_meeting_on_or_near_2026-05-07",
       3
-    ],
-    [
-      "duplicate_of:5cf50d5003f6",
-      3
-    ],
-    [
-      "duplicate_of:pred_fb_6d639f5ead40",
-      3
-    ],
-    [
-      "duplicate_of:pred_fb_29b22e9758d9",
-      3
-    ],
-    [
-      "event_validation_failed:no_fomc_meeting_on_or_near_2026-11-04",
-      2
-    ],
-    [
-      "event_validation_failed:no_fomc_meeting_on_or_near_2026-12-16",
-      2
     ]
   ]
 }

@@ -1,0 +1,390 @@
+{
+ "attention": {
+  "n": 23,
+  "hits": 15,
+  "brier": 0.2542217391304348,
+  "base": 0.22684310018903592,
+  "bss": -0.12069416666666655,
+  "label": "constant hit-rate (in-sample)",
+  "rate": 0.6521739130434783
+ },
+ "forbes": {
+  "n": 22,
+  "hits": 21,
+  "brier": 0.03396363636363637,
+  "base": 0.04146818181818182,
+  "bss": 0.18097117176367417,
+  "label": "persistence (prior-year list; 0.5 where unchecked)",
+  "rate": 0.6818181818181818
+ },
+ "outcomes": {
+  "n": 71,
+  "hits": 57,
+  "brier": 0.15161039887323943,
+  "base": 0.20658797425058184,
+  "bss": 0.2661218571738213,
+  "label": "market price on 18 rows, in-sample base rate on 53",
+  "rate": 0.5492957746478874
+ },
+ "media": {
+  "n": 10,
+  "hits": 8,
+  "brier": 0.19061999999999998,
+  "base": 0.15999999999999998,
+  "bss": -0.19137500000000007,
+  "label": "in-sample base rate",
+  "rate": 0.8
+ },
+ "calendar": {
+  "n": 8,
+  "hits": 8,
+  "brier": 0.0003875000000000007,
+  "base": 0.0,
+  "bss": null,
+  "label": "in-sample base rate",
+  "rate": 1.0
+ },
+ "pooled_ex_calendar": {
+  "n": 126,
+  "hits": 101,
+  "brier": 0.1528955422222222,
+  "base": 0.17775744028681856,
+  "bss": 0.13986417684953556,
+  "label": "n-weighted subset baselines"
+ },
+ "pooled_incl_calendar": {
+  "n": 134,
+  "brier": 0.14379058447761192
+ },
+ "market_priced_only": {
+  "n": 18,
+  "brier": 0.12058888888888888,
+  "market": 0.1236428888888889
+ },
+ "lock_range": [
+  "2026-03-29",
+  "2026-06-28"
+ ],
+ "resolution_range": [
+  "2026-04-14",
+  "2027-04-30"
+ ],
+ "excluded": [
+  [
+   "9c9a57555fdf",
+   "NBA playoff higher seed wins next game (1st round)",
+   "duplicate"
+  ],
+  [
+   "3dd9e6fb50d7",
+   "NBA playoff higher seed wins next game (1st round)",
+   "duplicate"
+  ],
+  [
+   "fba1bfcd00ec",
+   "NBA playoff higher seed wins next game (1st round)",
+   "duplicate"
+  ],
+  [
+   "c6350f8ea605",
+   "NBA playoff higher seed wins next game (1st round)",
+   "duplicate"
+  ],
+  [
+   "pred_new_york_yankees_finishes_in_top_5_of_ml_9903b60e",
+   "New York Yankees finishes in top 5 of MLB by valuation on the 2026 For",
+   "temporal_class=RETRO"
+  ],
+  [
+   "pred_los_angeles_dodgers_finishes_in_top_5_of_53a44aca",
+   "Los Angeles Dodgers finishes in top 5 of MLB by valuation on the 2026 ",
+   "temporal_class=RETRO"
+  ],
+  [
+   "pred_boston_red_sox_finishes_in_top_5_of_mlb__547f180d",
+   "Boston Red Sox finishes in top 5 of MLB by valuation on the 2026 Forbe",
+   "temporal_class=RETRO"
+  ],
+  [
+   "pred_chicago_cubs_finishes_in_top_5_of_mlb_by_27dd3f54",
+   "Chicago Cubs finishes in top 5 of MLB by valuation on the 2026 Forbes ",
+   "temporal_class=RETRO"
+  ],
+  [
+   "pred_san_francisco_giants_finishes_in_top_5_o_88449f91",
+   "San Francisco Giants finishes in top 5 of MLB by valuation on the 2026",
+   "temporal_class=RETRO"
+  ],
+  [
+   "pred_new_york_mets_finishes_in_top_5_of_mlb_b_76134d83",
+   "New York Mets finishes in top 5 of MLB by valuation on the 2026 Forbes",
+   "temporal_class=RETRO"
+  ],
+  [
+   "pred_philadelphia_phillies_finishes_in_top_5__a97c452e",
+   "Philadelphia Phillies finishes in top 5 of MLB by valuation on the 202",
+   "temporal_class=RETRO"
+  ],
+  [
+   "pred_atlanta_braves_finishes_in_top_5_of_mlb__c71a2dd7",
+   "Atlanta Braves finishes in top 5 of MLB by valuation on the 2026 Forbe",
+   "temporal_class=RETRO"
+  ],
+  [
+   "pred_b9794481",
+   "N.Y. Yankees Forbes 2026 valuation grows below MLB-team median growth ",
+   "temporal_class=RETRO"
+  ],
+  [
+   "pred_3406b00f",
+   "L.A. Dodgers Forbes valuation exceeds $6.0B in 2026 refresh",
+   "temporal_class=RETRO"
+  ],
+  [
+   "pred_60303dca",
+   "2026 NBA Playoffs Round 1 has at least one 4-0 sweep among 8 series",
+   "temporal_class=RETRO"
+  ],
+  [
+   "pred_wc2026_blended_spain_R16_or_better",
+   "Spain reaches R16",
+   "duplicate"
+  ],
+  [
+   "pred_wc2026_blended_argentina_R16_or_better",
+   "Argentina reaches R16",
+   "duplicate"
+  ],
+  [
+   "pred_wc2026_blended_france_R16_or_better",
+   "France reaches R16",
+   "duplicate"
+  ],
+  [
+   "pred_wc2026_blended_spain_R32_or_better",
+   "Spain R32 advance",
+   "duplicate"
+  ],
+  [
+   "pred_wc2026_blended_spain_QF_or_better",
+   "Spain reaches QF",
+   "duplicate"
+  ],
+  [
+   "pred_wc2026_blended_argentina_QF_or_better",
+   "Argentina reaches QF",
+   "duplicate"
+  ],
+  [
+   "pred_wc2026_blended_germany_R16_or_better",
+   "Germany reaches R16",
+   "duplicate"
+  ],
+  [
+   "pred_wc2026_blended_england_R16_or_better",
+   "England reaches R16",
+   "duplicate"
+  ],
+  [
+   "pred_wc2026_blended_portugal_R16_or_better",
+   "Portugal reaches R16",
+   "duplicate"
+  ],
+  [
+   "pred_wc2026_blended_switzerland_R32_or_better",
+   "Switzerland R32 advance",
+   "duplicate"
+  ],
+  [
+   "pred_wc2026_blended_klement_netherlands_wins",
+   "Netherlands wins 2026 WC",
+   "duplicate"
+  ],
+  [
+   "pred_wc2026_blended_klement_japan_qf",
+   "Japan reaches QF",
+   "duplicate"
+  ],
+  [
+   "pred_wc2026_blended_klement_top5_book_fav_wins",
+   "A top-5 book favorite (Spain, France, Portugal, England, Argentina) wi",
+   "duplicate"
+  ]
+ ],
+ "misses": [
+  [
+   "attention",
+   "Cooper Flagg Wikipedia daily pageviews on 2026-06-25 (NBA Draft night) exceed 100,000",
+   0.93,
+   0.0
+  ],
+  [
+   "attention",
+   "Caitlin Clark Wikipedia daily pageviews on Indiana Fever 2026 opening game date exceed 30,",
+   0.91,
+   0.0
+  ],
+  [
+   "attention",
+   "RJ Luis Jr. Wikipedia 7-day median exceeds 174/day during 2026 NBA Draft Week (2026-06-23 ",
+   0.7,
+   0.0
+  ],
+  [
+   "attention",
+   "Bryce Eldridge Wikipedia 7-day median exceeds 187/day during MLB All-Star Week 2026 (Futur",
+   0.75,
+   0.0
+  ],
+  [
+   "attention",
+   "Anthony Volpe Wikipedia 7-day median exceeds 540/day during MLB All-Star Week 2026 (2026-0",
+   0.72,
+   0.0
+  ],
+  [
+   "attention",
+   "Kobbie Mainoo Wikipedia 7-day median exceeds 1586/day during 2026-27 Premier League openin",
+   0.75,
+   0.0
+  ],
+  [
+   "attention",
+   "Hezly Rivera Wikipedia 7-day median exceeds 130/day during U.S. Gymnastics Championships 2",
+   0.73,
+   0.0
+  ],
+  [
+   "attention",
+   "Kyle Harrison Wikipedia 7-day median exceeds 220/day during MLB postseason / Wild Card rac",
+   0.68,
+   0.0
+  ],
+  [
+   "forbes",
+   "Saquon Barkley breaks into Forbes 2026 Highest-Paid Athletes top-50",
+   0.55,
+   0.0
+  ],
+  [
+   "outcomes",
+   "Hurricanes Stanley Cup",
+   0.12,
+   1.0
+  ],
+  [
+   "outcomes",
+   "Spain wins WC 2026",
+   0.16,
+   1.0
+  ],
+  [
+   "outcomes",
+   "Cooper Flagg selected #1 overall in 2026 NBA Draft",
+   0.95,
+   0.0
+  ],
+  [
+   "outcomes",
+   "Peterson to UTA at #2 (revised down from initial 0.55)",
+   0.4,
+   1.0
+  ],
+  [
+   "outcomes",
+   "Spain reaches QF",
+   0.45,
+   1.0
+  ],
+  [
+   "outcomes",
+   "Argentina reaches QF",
+   0.4436,
+   1.0
+  ],
+  [
+   "outcomes",
+   "Germany reaches R16",
+   0.6065,
+   0.0
+  ],
+  [
+   "outcomes",
+   "A top-5 book favorite (Spain, France, Portugal, England, Argentina) wins 2026 WC",
+   0.4582,
+   1.0
+  ],
+  [
+   "outcomes",
+   "Uruguay advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+   0.8841,
+   0.0
+  ],
+  [
+   "outcomes",
+   "Turkey advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+   0.8649,
+   0.0
+  ],
+  [
+   "outcomes",
+   "Cape Verde advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+   0.3615,
+   1.0
+  ],
+  [
+   "outcomes",
+   "DR Congo advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+   0.3629,
+   1.0
+  ],
+  [
+   "outcomes",
+   "Ghana advances to the Round of 32 (top-2 from group OR best-eight 3rd place)",
+   0.3931,
+   1.0
+  ],
+  [
+   "outcomes",
+   "At least 1 international-developed player selected in the top 10 of the 2026 NBA Draft",
+   0.9,
+   0.0
+  ],
+  [
+   "media",
+   "At least one NBA team announces a 2026-27 jersey patch sponsorship deal valued at \u2265$50M/ye",
+   0.45,
+   1.0
+  ],
+  [
+   "media",
+   "Cooper Flagg Nike OR Adidas signature/footwear endorsement announced within 30 days of 202",
+   0.88,
+   0.0
+  ]
+ ],
+ "ex_worldcup_post_kickoff": {
+  "n_excluded": 41,
+  "n": 85,
+  "hits": 69,
+  "brier": 0.15404970588235295,
+  "base": 0.1608854506393862,
+  "bss": 0.0424882718099544,
+  "outcomes": {
+   "n": 30,
+   "hits": 25,
+   "brier": 0.15312416666666667,
+   "base": 0.19818573333333334,
+   "bss": 0.22737038589390557,
+   "label": "market price on 18 rows, in-sample base rate on 12",
+   "rate": 0.4
+  }
+ },
+ "forbes_persistence_checked": {
+  "n": 20,
+  "chorus": 0.020615,
+  "persistence": 0.020615000000000005,
+  "same_direction": 20
+ },
+ "as_of": "2026-10-30"
+}

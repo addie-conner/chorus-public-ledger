@@ -1,0 +1,43 @@
+{
+ "prereg_id": "chorus-resolution-run-2026-10-30",
+ "created_at": "2026-10-30T03:30:00Z",
+ "scope": "Open rows in the rebuilt ledger_canonical.json (pipeline build of 2026-10-30 from predictions.json + chorus_predictions.jsonl + manual_entries.json + public_curations.json) whose resolution_date is at least 2 days in the past.",
+ "never": [
+  "Never change chorus_probability, locked_at, created_at, question, resolution_criterion, resolution_date, sha256/original_sha or any OTS anchor.",
+  "Never void a row that is already resolved, or a row whose resolution_date has not passed.",
+  "Never void a row because of its outcome or its Brier score. Rules below look only at the question text, the criterion and the lock metadata.",
+  "Never resolve without a verifiable source (URL or named data source plus publication date) recorded on the row. If an outcome cannot be verified, the row stays open with a reason category."
+ ],
+ "void_rules": [
+  {
+   "rule": "V1_duplicate",
+   "definition": "An open row whose domain, full question text and resolution_date (day) are identical to another row locked earlier (the keeper). The later copy is voided with void_reason 'duplicate' and void_duplicate_of = keeper canonical_id. The keeper is kept and resolved or left open on its own merits.",
+   "selection": "exact string equality on (domain, question, resolution_date[:10]); keeper = earliest locked_at, ties broken by canonical_id"
+  },
+  {
+   "rule": "V2_ill_formed_question",
+   "definition": "An open row whose question names no resolvable subject because a template placeholder was never filled: the token 'TBD' standing in for the subject, or a curly-brace placeholder. ForecastBench's own placeholders {resolution_date} and {forecast_due_date} are NOT ill-formed, because ForecastBench defines them in its question metadata.",
+   "selection": "regex \\bTBD\\b on question, or regex \\{[a-z_]+\\} on question after removing {resolution_date} and {forecast_due_date}"
+  },
+  {
+   "rule": "V3_unresolvable_source",
+   "definition": "An open row whose resolution criterion depends on a reference set or data that the lock did not define, so no public source can settle it without choices made after the outcome is known. Applied only to the rows listed here, each with its reason, fixed before any outcome lookup in this run.",
+   "items": {
+    "pred_fa72db63": "Criterion divides by 'all 100 most-viewed NBA-player articles' for May 2026. The lock does not define the set of NBA-player articles, so the denominator cannot be built reproducibly (same finding as RESOLUTION_REPORT_2026-10-15.md)."
+   }
+  }
+ ],
+ "labeling": "Voided rows keep every locked field, get status 'voided', void_reason, void_rule, voided_at, void_prereg (this file name and its sha256) and an audit flag 'voided_2026-10-30:<rule>'. They are excluded from Brier and listed openly on the public page and in RESOLUTION_REPORT_2026-10-30.md with their reason.",
+ "awaiting_categories": {
+  "source_not_yet_published": "The source named in the criterion has not published the figure yet.",
+  "criterion_needs_owner_decision": "The criterion is ambiguous between two readings; the ledger owner must choose before resolution.",
+  "no_public_report_found": "Searched, nothing found; absence of a report is not treated as a NO.",
+  "internal_computation_pending": "The criterion is computed by a Chorus script on Chorus data; that resolver has not produced an outcome.",
+  "data_assembly_pending": "Resolvable from public data, but the data has not been assembled in this run.",
+  "not_checked_this_run": "Not examined in this run."
+ },
+ "commitments": [
+  "Apply V1-V3 to every row they select; report the counts whatever they are.",
+  "Report the recomputed sports forward record with scripts/sports_forward_record (existing method, as-of date stated) whichever direction it moves."
+ ]
+}
