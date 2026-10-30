@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T01:55:03.579316Z",
+  "generated_at": "2026-10-30T02:04:02.427822Z",
   "totals": {
     "total_entries": 1034,
     "resolved": 347,
@@ -90,7 +90,7 @@
         "domain": "politics",
         "n_underlying": 0,
         "brier": 0.0324,
-        "notes": "165 predictions, Brier 0.045, 2x superforecasters"
+        "notes": "165 predictions, Brier 0.045 (superforecaster comparison withdrawn 2026-10-18: never scored on the same questions)"
       },
       {
         "question": "Cocoa-to-chocolate-CPI direction (walk-forward backtest)",
@@ -489,11 +489,11 @@
       35
     ],
     [
-      "duplicate_of:v1_unknown_4343134656",
+      "duplicate_of:v1_unknown_4380129536",
       24
     ],
     [
-      "duplicate_of:v1_unknown_4343135168",
+      "duplicate_of:v1_unknown_4380130048",
       11
     ],
     [

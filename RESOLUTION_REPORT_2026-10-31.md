@@ -47,12 +47,15 @@ Backups of every file written carry the suffix `.bak.20261031T195329`.
    - The anchors were made 2026-06-14, six days after the 2026-06-08 lock and before the 2026-06-23 draft.
    - `wiz_r2` has no per-row anchor.
 
+5. **Withdrawn wording removed:** `pred_iowa165` (a backward-validation aggregate, not forward) carried the resolution note "165 predictions, Brier 0.045, 2x superforecasters". That superforecaster comparison was withdrawn on 2026-10-18 because no Chorus result was ever scored against superforecasters on the same questions. The note now reads "165 predictions, Brier 0.045 (superforecaster comparison withdrawn 2026-10-18: never scored on the same questions)". Only that resolution note changed, in `chorus_predictions.jsonl`, and no locked field was touched. audit.html shows the first 80 characters of it. The frozen 2026-07-02 snapshot keeps the old wording as a dated record.
+
 ## Checks
 
 - `check_curations_preserved.py` comparing the rebuild against the 2026-10-30 public file: 32 differences, all expected. They are wiz_r2 resolved, d4 voided with its note, and ots_anchor/ots_anchored on the 13 rows. No resolution or curated field was lost.
 - A field-by-field diff over all 1,034 rows found changes only on those 14 rows. After the copy, the check against the rebuild exits 0.
 - Locked fields (question, probability, locked_at, original_sha, resolution_date) are unchanged.
-- The whole-file stamp `ledger_canonical.json.ots` covers sha256 `53de16c0…c49d`. The prior receipt is kept as `ledger_canonical.json.ots.2026-10-30`.
+- The whole-file stamp `ledger_canonical.json.ots` covers sha256 `f2c44d34…46cd`. Earlier receipts are kept as `ledger_canonical.json.ots.2026-10-30` and `ledger_canonical.json.ots.2026-10-31-superseded` (sha256 `53de16c0…c49d`, before the iowa165 note change).
+- After the iowa165 change, check_curations_preserved found one difference (that field), as expected. Against the rebuild, it exits 0.
 - The renderer now produces the macro-release line and the verification text that were hand-edited into the 2026-10-30 page, so they survive a re-render.
 
 ## Canon edits needed (not made)

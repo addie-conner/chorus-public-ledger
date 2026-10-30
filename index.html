@@ -47,7 +47,7 @@
 <body>
 
 <h1>Chorus — Public Prediction Ledger</h1>
-<div class="subtitle">SHA-locked. OpenTimestamps-anchored. Forward predictions only in headline. Generated 2026-10-30T01:55:03.579316Z</div>
+<div class="subtitle">SHA-locked. OpenTimestamps-anchored. Forward predictions only in headline. Generated 2026-10-30T02:04:02.427822Z</div>
 
 <div class="hero">
   <div class="brier">0.156</div>
@@ -141,7 +141,7 @@
 <h2>Verification protocol</h2>
 <ol style="color:#aaa; font-size:0.85rem; padding-left:1.5rem; margin:0.5rem 0;">
   <li>Each entry has a <code>sha256</code> field hashing the immutable prediction fields.</li>
-  <li>The full ledger file is anchored to the Bitcoin blockchain via <a href="https://opentimestamps.org/">OpenTimestamps</a>. Run <code>ots verify ledger_canonical.json.ots</code> against the file to confirm when this version existed (whole-file stamp 2026-10-30 UTC, sha256 53de16c0…c49d; Bitcoin confirmation follows within hours). Each prediction also carries its own per-row anchor in <code>ots_anchors/</code>, which is what shows the lock predates the outcome. Earlier whole-file stamps are kept as dated copies and match the file as it was then, not now.</li>
+  <li>The full ledger file is anchored to the Bitcoin blockchain via <a href="https://opentimestamps.org/">OpenTimestamps</a>. Run <code>ots verify ledger_canonical.json.ots</code> against the file to confirm when this version existed (whole-file stamp 2026-10-30 UTC, sha256 f2c44d34…46cd; Bitcoin confirmation follows within hours). Each prediction also carries its own per-row anchor in <code>ots_anchors/</code>, which is what shows the lock predates the outcome. Earlier whole-file stamps are kept as dated copies and match the file as it was then, not now.</li>
   <li>Resolution sources are named per-entry. Cross-check against the cited public source (FRED, BLS, ICE, ESPN, government release, etc.) — never against Chorus's own data.</li>
   <li>Entries with audit flags (<code>missing_sha256</code>, <code>no_ots_anchor</code>, <code>duplicate_of:</code>, <code>resolution_overdue</code>) are explicitly tagged. The headline number includes only entries clean on all flags.</li>
 </ol>
